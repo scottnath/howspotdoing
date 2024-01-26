@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config"
 
 // Astro integration imports
+import partytown from '@astrojs/partytown';
 import sitemap from "@astrojs/sitemap"
 import compress from "astro-compress"
 import { VitePWA } from "vite-plugin-pwa"
@@ -12,7 +13,13 @@ export default defineConfig({
 	site: seoConfig.baseURL,
 	integrations: [
 		sitemap(),
-		compress()
+		compress(),
+    partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ['dataLayer.push'],
+      },
+    }),
 	],
 	vite: {
 		plugins: [

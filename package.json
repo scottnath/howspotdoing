@@ -9,10 +9,10 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"locations": "npx tsx utils/airtable.ts",
-    "404file": "cp ./404.html ./dist/404.html",
-    "jekyllfile": "touch ./dist/.nojekyll",
-    "cname": "echo \"howspotdoing.com\" >>  ./dist/CNAME",
-    "postbuild": "npm run 404file && npm run jekyllfile && npm run cname"
+		"404file": "cp ./404.html ./dist/404.html",
+		"jekyllfile": "touch ./dist/.nojekyll",
+		"cname": "echo \"howspotdoing.com\" >>  ./dist/CNAME",
+		"postbuild": "npm run 404file && npm run jekyllfile && npm run cname"
 	},
 	"devDependencies": {
 		"@astrojs/sitemap": "^3.0.5",
@@ -33,6 +33,7 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.4.1",
+		"@astrojs/partytown": "^2.0.4",
 		"@colinaut/action-table": "^2.4.1"
 	}
 }
