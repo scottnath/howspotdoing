@@ -1,10 +1,23 @@
 ---
-import { Layout } from "@globals"
-import { Locations } from "@components/Locations";
----
+import { getCollection } from 'astro:content';
 
-<Layout title="How's Pot Doing in...">
-	<section>
-		<Locations />
-	</section>
-</Layout>
+const locations = await getCollection('locations');
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>How's Pot Doing</title>
+  </head>
+  <body>
+    <h1>How's Pot Doing</h1>
+    <nav>
+      {locations.map((entry) => {
+        const slug = entry.id.replace(/^hpd-/, '');
+        return (
+          <a href={`/locations/${slug}`}>{entry.data.location}</a>
+        );
+      })}
+    </nav>
+  </body>
+</html>
