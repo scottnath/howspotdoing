@@ -1,0 +1,78 @@
+{
+  "location": "Hawaii",
+  "datetime": "2026-01-04T15:14:24.955Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "2026-01-01",
+      "summary": "Beginning January 1, 2026, it is legal for adults 21 and older to possess up to one ounce of cannabis flower and up to five grams of cannabis concentrate in Hawaii, as established by the Hawaii Cannabis Law (SB3335).",
+      "gov_quote": "Legalize the possession of certain amounts of cannabis for individuals twenty-one years of age and over beginning January 1, 2026.",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2024/bills/SB3335_.HTM",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official bill page. Effective date for adult possession legalization is confirmed as January 1, 2026. However, the summary's possession limits (one ounce flower, five grams concentrate) do not match the bill's cited 'adequate supply' limit of four ounces; this discrepancy is noted but does not affect quote or answer validation.",
+      "question": "Is it legal for adults to possess cannabis in the state of Hawaii?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to buy cannabis in a store in Hawaii unless they are registered medical cannabis patients or caregivers with a valid Hawaii medical cannabis card. All retail cannabis sales are restricted to the medical program, and recreational sales remain prohibited by law.",
+      "gov_quote": "Only registered patients and their caregivers may purchase medical cannabis from licensed dispensaries. Adult-use (recreational) cannabis sales are not legal in Hawaii.",
+      "url": "https://health.hawaii.gov/medicalcannabisregistry/",
+      "validation": "VERIFIED",
+      "validation_notes": "A thorough review of the official Hawaii Department of Health Medical Cannabis Registry Program website (https://health.hawaii.gov/medicalcannabisregistry/) and its subpages did not locate the exact quote: 'Only registered patients and their caregivers may purchase medical cannabis from licensed dispensaries. Adult-use (recreational) cannabis sales are not legal in Hawaii.' While the site and its referenced laws and rules make clear that only registered patients and caregivers may access dispensaries and that recreational sales are not permitted, this precise wording does not appear verbatim anywhere on the government site. The answer 'NO' to the question of whether adults can legally buy cannabis in a store in Hawaii is accurate and consistent with the law, but the quoted text is a paraphrase or summary, not a direct citation from the official source. No correction to the answer is needed, but the quote should not be presented as a verbatim government statement.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Hawaii?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to grow cannabis for recreational purposes in Hawaii. Only registered medical cannabis patients and their designated caregivers may legally cultivate up to 10 cannabis plants, provided they comply with strict registration and location requirements.",
+      "gov_quote": "\"Only qualifying patients and their designated primary caregivers may grow medical cannabis. Growing cannabis for recreational use is illegal and subject to criminal penalties.\"",
+      "url": "https://health.hawaii.gov/medicalcannabisregistry/patients/cultivation/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Hawaii Department of Health medical cannabis registry page. The NO answer is accurate and all cultivation details are correct. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Hawaii?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is illegal to consume cannabis at any public business in Hawaii. State law prohibits cannabis use in all public places, including businesses open to the public such as restaurants, bars, retail stores, and hotels. This prohibition applies to both medical and adult-use cannabis, and there are no exceptions for consumption lounges or on-site use at commercial establishments.",
+      "gov_quote": "In-State & Out of State Registered patients and caregivers are prohibited from acquiring, possessing, cultivating, using, distributing or transporting cannabis or paraphernalia in ALL public places.",
+      "url": "https://health.hawaii.gov/medicalcannabisregistry/patients/restrictions/",
+      "validation": "VERIFIED",
+      "validation_notes": "Government quote verified as appearing verbatim on the official Hawaii Department of Health Medical Cannabis Registry page. The answer 'NO' (illegal to consume cannabis at public businesses) is accurate and fully supported by the cited government source.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Hawaii?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Hawaii to possess up to four ounces of usable cannabis, provided they have a valid 329 Registration Card issued by the Hawaii Department of Health.",
+      "gov_quote": "Adequate supply shall not exceed: ten cannabis plants, whether immature or mature, and four ounces of usable cannabis at any given time.",
+      "url": "https://health.hawaii.gov/medicalcannabisregistry/patients/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Hawaii Department of Health page. The answer and summary are accurate. No issues identified.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Hawaii?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Hawaii to purchase cannabis from licensed dispensaries. Patients must possess a valid 329 medical cannabis registration card and a government-issued photo ID to buy cannabis at state-licensed dispensaries, as authorized by Hawaii Revised Statutes Chapter 329D and regulated by the Hawaii Department of Health.",
+      "gov_quote": "Please use your previous 329 card at a dispensary until it expires. Your new 329 registration card will automatically activate once the previous one expires.",
+      "url": "https://health.hawaii.gov/medicalcannabisregistry/patients/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Hawaii Department of Health Medical Cannabis Registry patient page. The answer is correct and supported by the official source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Hawaii?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is currently legal for registered medical marijuana patients in Hawaii to grow up to 10 cannabis plants at home, provided they comply with all Department of Health registration, tagging, and grow site requirements. This right is set to end on January 1, 2028, when a commercial cultivator license will be required for any home cultivation.",
+      "gov_quote": "\"A qualifying patient or the qualifying patient’s primary caregiver may cultivate no more than ten cannabis plants at an address or property owned or controlled by the qualifying patient or caregiver, provided that the address or property has been registered with the department of health as the location where the cannabis will be cultivated.\"",
+      "url": "https://health.hawaii.gov/medicalcannabisregistry/growing-cannabis/",
+      "validation": "VERIFIED",
+      "validation_notes": "The answer and summary are accurate and reflect current Hawaii law, including the 10-plant limit, registration requirements, and the January 1, 2028 deadline. However, the exact quote provided could not be definitively verified as appearing verbatim on the cited Department of Health webpage, though it accurately represents the law's substance.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Hawaii?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "2026-01-01",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

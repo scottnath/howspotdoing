@@ -1,0 +1,72 @@
+{
+  "location": "West Virginia",
+  "datetime": "2026-01-04T15:46:59.660Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis for recreational purposes in West Virginia. State law classifies cannabis as a Schedule I controlled substance, and possession by adults outside the medical cannabis program is a misdemeanor offense punishable by jail time and fines. Only registered medical cannabis patients and their caregivers may legally possess cannabis, and only in forms and amounts authorized by the Medical Cannabis Act.",
+      "gov_quote": "\"Except as authorized by this act, it is unlawful for any person to manufacture, deliver, or possess with intent to manufacture or deliver a controlled substance.\" (West Virginia Code §60A-4-401)",
+      "url": "https://code.wvlegislature.gov/60A-4-401/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official West Virginia Code website. The legal answer is correct and supported by the statute. No corrections needed.",
+      "question": "Is it legal for adults to possess cannabis in the state of West Virginia?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of West Virginia?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of West Virginia?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of West Virginia?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in West Virginia to possess cannabis, provided they have a valid medical cannabis identification card and comply with all program requirements, including possession limits and approved forms.",
+      "gov_quote": "​​​​​​​​​​​Senate Bill 386, signed into law on April 19, 2017, by Governor Jim Justice, created the Medical Cannabis Act that allows for cannabis to be used for certified medical use by a West Virginia resident with a serious medical condition and is limited by law to the following forms: pill; oil; topical forms including gels, creams or ointments; a form medically appropriate for administration by vaporization or nebulization, dry leaf or plant form; tincture; liquid; or dermal patch.",
+      "url": "https://omc.wv.gov/rules/Pages/default.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of West Virginia?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for certified medical marijuana patients in West Virginia to purchase cannabis from licensed retail dispensaries. Patients must be registered with the Office of Medical Cannabis, possess a valid medical cannabis card, and buy only from state-approved dispensaries.",
+      "gov_quote": "Medical cannabis can be purchased through operational, licensed retail dispensaries approved by the Office of Medical Cannabis throughout the state.",
+      "url": "https://omc.wv.gov/Pages/FAQ.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official West Virginia Office of Medical Cannabis FAQ page. The answer is accurate and supported by the source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of West Virginia?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to grow cannabis in West Virginia. The West Virginia Medical Cannabis Act and its regulations do not authorize home cultivation by patients or caregivers; all medical cannabis must be purchased from licensed dispensaries.",
+      "gov_quote": "Medical cannabis can only be purchased by patients/caregivers who have been issued a certification by a registered physician and who possess an approved medical cannabis identification card from the Office of Medical Cannabis. Medical cannabis can be purchased through operational, licensed retail dispensaries approved by the Office of Medical Cannabis throughout the state.",
+      "url": "https://omc.wv.gov/Pages/Patients-Caregivers.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official West Virginia Office of Medical Cannabis website. The answer 'NO' is accurate and fully supported by the official source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of West Virginia?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

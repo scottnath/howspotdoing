@@ -1,0 +1,65 @@
+{
+  "location": "Alabama",
+  "datetime": "2026-01-04T15:03:34.283Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is illegal for adults to possess cannabis in Alabama. State law classifies marijuana as a Schedule I controlled substance, and possession for personal use is a Class A misdemeanor punishable by up to one year in jail and a $6,000 fine. There is no exception for adult recreational possession; only registered medical cannabis patients may possess certain non-smokable forms of medical cannabis.",
+      "gov_quote": "\"A person commits the crime of unlawful possession of marijuana in the second degree if, except as otherwise authorized, he or she possesses marijuana for his or her personal use only.\"",
+      "validation": "VERIFIED",
+      "url": "https://alisondb.legislature.state.al.us/alison/codeofalabama/1975/13A-12-214.htm",
+      "question": "Is it legal for adults to possess cannabis in the state of Alabama?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Alabama?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Alabama?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Alabama?"
+    },
+    "MEDICAL": {
+      "answer": "NO",
+      "summary": "no answer found",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Alabama?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Alabama?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Alabama?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "NO",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

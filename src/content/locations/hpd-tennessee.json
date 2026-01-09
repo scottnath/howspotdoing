@@ -1,0 +1,64 @@
+{
+  "location": "Tennessee",
+  "datetime": "2026-01-04T15:40:21.324Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in Tennessee. State law classifies marijuana as a controlled substance, and possession by adults is a criminal offense under Tennessee Code Annotated § 39-17-418.",
+      "gov_quote": "It is an offense for a person to knowingly possess or casually exchange a controlled substance, unless the substance was obtained directly from, or pursuant to, a valid prescription or order of a practitioner while acting in the course of professional practice.",
+      "url": "https://www.tn.gov/tbi/divisions/cjis-division/tennessee-controlled-substance-monitoring-database-program/tennessee-controlled-substance-laws.html",
+      "validation": "VERIFIED",
+      "question": "Is it legal for adults to possess cannabis in the state of Tennessee?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Tennessee?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Tennessee?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Tennessee?"
+    },
+    "MEDICAL": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to possess cannabis in Tennessee. The state does not have a comprehensive medical marijuana program, and possession of cannabis remains a criminal offense. The only exception is for patients with certain qualifying conditions who may possess cannabis oil containing less than 0.9% THC, obtained legally from outside the state, but this does not extend to cannabis in plant or traditional forms.",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Tennessee?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Tennessee?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Tennessee?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "NO",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

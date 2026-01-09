@@ -1,0 +1,68 @@
+{
+  "location": "South Carolina",
+  "datetime": "2026-01-04T07:10:30.651Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in South Carolina. State law classifies marijuana as a controlled substance, and possession of any amount for recreational use is a criminal offense punishable by jail time and fines. There are no general exceptions for adult use; only a narrow exception exists for certain low-THC, high-CBD products prescribed for severe epilepsy.",
+      "gov_quote": "\"It is unlawful for any person to possess or have under his control a controlled substance unless obtained pursuant to a valid prescription or order of a practitioner.\" (S.C. Code Ann. § 44-53-370)",
+      "url": "https://www.scstatehouse.gov/code/t44c053.php",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim in S.C. Code Ann. § 44-53-370 on the official South Carolina government website. The answer and summary are accurate and fully supported by the statutory text. URL is accessible and contains the relevant law. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of South Carolina?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of South Carolina?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of South Carolina?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of South Carolina?"
+    },
+    "MEDICAL": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to possess cannabis in South Carolina, except for a very limited exception allowing certain epilepsy patients to possess low-THC, high-CBD oil with a physician's certification. There is no comprehensive medical marijuana program, and possession of cannabis by patients for other medical conditions remains a criminal offense.",
+      "gov_quote": "for persons, or the persons' parents, legal guardians, or other caretakers, who have received a written certification from a physician licensed in this State that the person has been diagnosed by a physician as having Lennox-Gastaut Syndrome, Dravet Syndrome, also known as \"severe myoclonic epilepsy of infancy\", or any other severe form of epilepsy that is not adequately treated by traditional medical therapies, the substance cannabidiol, a nonpsychoactive cannabinoid, or any compound, manufacture, salt, derivative, mixture, or preparation of any plant of the genus cannabis that contains nine-tenths of one percent or less of tetrahydrocannabinol and more than fifteen percent of cannabidiol.",
+      "url": "https://www.scstatehouse.gov/code/t44c053.php",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official South Carolina government page. The answer 'NO' is fully supported by the statutory language. No corrections necessary.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of South Carolina?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of South Carolina?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of South Carolina?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "NO",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

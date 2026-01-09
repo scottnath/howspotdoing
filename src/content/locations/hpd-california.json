@@ -1,0 +1,76 @@
+{
+  "location": "California",
+  "datetime": "2026-01-04T15:04:46.437Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in California. State law allows possession of up to 28.5 grams of cannabis plant material and up to 8 grams of concentrated cannabis for personal use.",
+      "gov_quote": "Adults 21 or older can possess and consume cannabis in California. Under this law, it is legal for adults 21 and older to have: Up to 28.5 grams (about one ounce) of marijuana plant material; Up to 8 grams of concentrated cannabis (like oils or wax).",
+      "url": "https://www.cannabis.ca.gov/consumers/whats-legal/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official California government page. URL is accessible. The answer 'YES' is fully supported by the page content. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of California?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis from licensed retail stores in California. State law, established by Proposition 64 and the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA), allows adults to buy up to 28.5 grams of non-concentrated cannabis, 8 grams of concentrated cannabis, and 6 immature plants per day from state-licensed dispensaries, provided the purchase occurs in a jurisdiction that permits retail cannabis sales.",
+      "gov_quote": "\"Adults 21 or older can legally buy cannabis from licensed retailers in California. You can buy up to 28.5 grams of non-concentrated cannabis, 8 grams of concentrated cannabis, and 6 immature cannabis plants per day.\"",
+      "url": "https://cannabis.ca.gov/consumers/where-to-buy-cannabis/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official California cannabis website. Legal status and purchase limits confirmed as accurate. No changes made.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of California?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in California for personal use, subject to a strict limit of six living plants per private residence. Cultivation must occur at the adult's private residence, in a locked space, and not be visible from a public place. No state license or registration is required for personal cultivation, but local governments may impose additional restrictions or permit requirements. Exceeding the six-plant limit is a misdemeanor, and only adults 21+ may legally cultivate for recreational use.",
+      "gov_quote": "\"You can grow up to 6 cannabis plants at home if you’re at least 21 years old.\"",
+      "url": "https://cannabis.ca.gov/cannabis-laws/personal-use/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official California government cannabis webpage. The answer and summary are fully supported by the source. No changes required.",
+      "question": "Is it legal for adults to grow cannabis in the state of California?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is generally illegal to consume cannabis at a public business in California. State law prohibits cannabis consumption in public places and businesses open to the public, such as restaurants, bars, and retail stores, under Health and Safety Code Section 11362.3. The only exception is for licensed cannabis retailers or microbusinesses that have received both state and local approval to operate a cannabis consumption lounge or café, as allowed by Assembly Bill 1775 and local ordinances. Outside of these specifically licensed venues, cannabis consumption at public businesses remains prohibited.",
+      "gov_quote": "\"Section 11362.3. (a) Nothing in Section 11362.1 shall be construed to permit any person to... (2) Smoke or ingest cannabis or cannabis products in a public place, except as provided in Section 26200 of the Business and Professions Code.\"",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11362.3.&lawCode=HSC",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on official California Health and Safety Code website. Answer 'NO' is legally accurate - cannabis consumption is prohibited at public businesses except for specifically licensed consumption lounges under Section 26200 of the Business and Professions Code.",
+      "question": "Is it legal to consume cannabis at a public business in the state of California?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for qualified medical marijuana patients to possess cannabis in California, provided they have a valid physician’s recommendation. Patients may possess up to eight ounces of dried cannabis and cultivate up to six mature or twelve immature plants, or more if their physician determines it is medically necessary.",
+      "gov_quote": "A qualified patient or primary caregiver may possess no more than eight ounces of dried marijuana per qualified patient. If a qualified patient or primary caregiver has a doctor’s recommendation that this quantity does not meet the patient’s medical needs, the patient or primary caregiver may possess an amount of marijuana consistent with the patient’s needs.",
+      "url": "https://cannabis.ca.gov/cannabis-laws/medical-cannabis-patients/",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of California?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in California to buy cannabis in a store, provided they have a valid physician’s recommendation or a state-issued Medical Marijuana Identification Card (MMIC). Licensed dispensaries with a medicinal (M) or both (A&M) designation are authorized to sell cannabis to qualified medical patients aged 18 or older. Patients must present the required documentation at the point of sale, and stores must verify eligibility. Most dispensaries in California are dual-licensed and can serve both adult-use and medical customers, but only those with the appropriate license designation can legally sell to medical patients, especially those under 21.",
+      "gov_quote": "\"You can buy cannabis for medicinal use if you are 18 or older and have either a physician’s recommendation, a valid county-issued medical marijuana identification card (MMIC), or be a primary caregiver for a qualified patient. You can buy cannabis for adult use if you are 21 or older. You can buy cannabis at licensed retail stores or by delivery.\"",
+      "url": "https://cannabis.ca.gov/consumers/whats-legal/",
+      "validation": "VERIFIED",
+      "validation_notes": "Both the government quote and answer were verified against the official California cannabis website. The quote appears verbatim on the source page with only minor formatting differences (bullet points and line breaks). The YES answer is accurate based on official government information confirming that medical marijuana patients can legally purchase cannabis in licensed retail stores in California.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of California?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for qualified medical marijuana patients in California to cultivate cannabis for their own medical use, provided they have a valid physician’s recommendation. State law allows patients to grow up to six mature or twelve immature plants per patient, or more if a physician recommends a higher amount. Local governments may impose additional restrictions or bans, so patients must comply with local ordinances. Medical cultivation rights are broader than those for recreational users, who are strictly limited to six plants per residence.",
+      "gov_quote": "\"A qualified patient or primary caregiver may possess no more than eight ounces of dried marijuana per qualified patient. In addition, a qualified patient or primary caregiver may also maintain no more than six mature or 12 immature marijuana plants per qualified patient. If a qualified patient or primary caregiver has a doctor's recommendation that this quantity does not meet the patient's medical needs, the patient or primary caregiver may possess an amount of marijuana consistent with the patient's needs.\"",
+      "url": "https://cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of California?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

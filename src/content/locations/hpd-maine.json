@@ -1,0 +1,77 @@
+{
+  "location": "Maine",
+  "datetime": "2026-01-04T15:17:10.069Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Maine. State law allows possession of up to 2.5 ounces of cannabis or a combination of cannabis and cannabis concentrate that includes no more than 10 grams of concentrate.",
+      "gov_quote": "A person 21 years of age or older may... Use, possess or transport at any one time up to 2 1/2 ounces of cannabis or 2 1/2 ounces of a combination of cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate.",
+      "url": "https://legislature.maine.gov/statutes/28-b/title28-Bsec1501.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Maine government website. The answer is correct and consistent with current law. No issues or corrections required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Maine?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in licensed retail stores in Maine. State law allows adults to purchase up to 2.5 ounces of cannabis or a combination of cannabis and concentrate (with no more than 10 grams of concentrate) from state-licensed and municipally authorized cannabis stores.",
+      "gov_quote": "A person 21 years of age or older may... purchase up to 2 1/2 ounces of adult use cannabis or 2 1/2 ounces of a combination of adult use cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate from a cannabis store.",
+      "url": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim (with ellipsis for omitted words) on the official Maine statute page. The answer is correct and supported by the statute. No changes required.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Maine?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Maine for personal use. State law allows each adult to cultivate up to 6 mature cannabis plants, 12 immature plants, and an unlimited number of seedlings, provided all tagging, security, and visibility requirements are met.",
+      "gov_quote": "A person 21 years of age or older may cultivate up to 6 mature marijuana plants, 12 immature marijuana plants and an unlimited number of seedlings for personal use at that person's place of residence or at a location owned by that person, or, with written permission, at a location owned by another person.",
+      "url": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1502.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Maine statute page. The answer regarding adult cannabis cultivation legality is accurate and supported by the cited law. No changes required.",
+      "question": "Is it legal for adults to grow cannabis in the state of Maine?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Maine. State law prohibits cannabis consumption in any public place, which includes public businesses such as restaurants, bars, retail stores, and other commercial properties open to the public. Consumption is only allowed in private residences or on private property not generally accessible by the public, with the explicit permission of the property owner. There are currently no exceptions or special permits for public businesses to allow on-site cannabis consumption.",
+      "gov_quote": "Cannabis use in any form, including smoking, eating, or vaping, is prohibited in public places.",
+      "url": "https://www.maine.gov/dafs/ocp/resources/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Maine government FAQ page. The NO answer is accurate and fully supported by the source. No changes made.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Maine?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients to possess cannabis in Maine. Qualifying patients may possess up to eight pounds of harvested cannabis and cultivate up to six mature plants, provided they have a valid written certification from a medical provider and comply with state law.",
+      "gov_quote": "\"A qualifying patient may possess up to 8 pounds of harvested cannabis... A qualifying patient may cultivate up to 6 mature cannabis plants, 12 immature cannabis plants and an unlimited number of seedlings.\"",
+      "url": "https://legislature.maine.gov/legis/statutes/22/title22sec2423-A.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Maine statute page. The answer YES is correct and supported by the statute. No changes made.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Maine?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients to purchase cannabis from licensed dispensaries and caregiver retail stores in Maine. Patients must present a valid medical marijuana certification from a licensed provider and government-issued photo ID at the point of sale. Maine law explicitly authorizes dispensaries to dispense cannabis to qualifying patients, and the Office of Cannabis Policy oversees licensing and compliance.",
+      "gov_quote": "\"A registered dispensary may dispense up to 2 1/2 ounces of harvested cannabis to the qualifying patient in one transaction.\"",
+      "url": "https://www.maine.gov/dafs/ocp/medical-use/rules-statutes",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Maine?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Maine to grow cannabis at home. Patients may cultivate up to 6 mature cannabis plants, 12 immature plants, and unlimited seedlings for personal medical use, provided the plants are kept in a designated cultivation area and the patient is properly registered. These rights are established by the Maine Medical Use of Cannabis Act and enforced by the Office of Cannabis Policy.",
+      "gov_quote": "A qualifying patient may possess up to 8 pounds of harvested cannabis. A qualifying patient may cultivate, or designate a caregiver or dispensary to cultivate on the qualifying patient's behalf, up to a total of 6 mature cannabis plants, 12 immature cannabis plants and an unlimited number of seedlings.",
+      "url": "https://www.maine.gov/dafs/ocp/medical-use/rules-statutes",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote did not appear verbatim on the referenced Maine government page. The statutory language from Title 22, §2423-A, which is linked from the page, provides the correct wording. The answer 'YES' is accurate and supported by the corrected quote.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Maine?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

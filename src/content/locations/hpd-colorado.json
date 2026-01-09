@@ -1,0 +1,75 @@
+{
+  "location": "Colorado",
+  "datetime": "2026-01-04T15:10:48.593Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Colorado. State law allows adults to possess up to 2 ounces of cannabis for personal use, as established by Amendment 64 and subsequent legislation. Possession by those under 21 remains illegal.",
+      "gov_quote": "Adults 21 and older can have up to 2 ounces of cannabis.",
+      "url": "https://cannabis.colorado.gov/legal-cannabis-use/laws-about-cannabis-use",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Colorado government website. Answer and summary are accurate. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Colorado?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Colorado. State law allows adults to purchase cannabis from licensed retail stores, provided they present valid identification proving they are at least 21 years old.",
+      "gov_quote": "Retail cannabis is legal in Colorado. You must be 21. It’s illegal for people under 21 to buy, have, or use retail cannabis. You must present a valid ID proving you’re 21 or older. Buy retail cannabis only from licensed retail stores. Adults over the age of 21 can buy and possess up to 1 ounce of cannabis at a time.",
+      "url": "https://cannabis.colorado.gov/know-the-laws",
+      "validation": "VERIFIED",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Colorado?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Colorado for personal use, with a limit of six plants per adult (no more than three flowering at a time) and a maximum of 12 plants per residence. All cultivation must occur indoors in a secure, locked area not visible to the public.",
+      "gov_quote": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time. Counties and municipalities can pass stricter laws. Denver limits a home grow to 12 plants, even if there are three or more adults over age 21 in the residence. The laws are different for medical cannabis consumers. Cannabis plants must be kept in an enclosed, locked area that can’t be viewed openly. This means the plants can’t be outside. At homes with residents under 21, any cannabis grow area must be enclosed and locked in a separate space that minors can’t access. At homes without residents under 21, extra precautions must be taken to make sure any visiting youth don’t have access to cannabis plants. Homegrown cannabis or cannabis products can’t be sold to anyone. Only licensed cannabis businesses can sell cannabis products.",
+      "url": "https://cannabis.colorado.gov/know-the-laws/personal-use",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Colorado government cannabis website. The answer is correct and supported by the cited source. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Colorado?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is illegal to consume cannabis at a public business in Colorado unless the business has obtained a specific marijuana hospitality license. Outside of these licensed establishments, cannabis consumption in public businesses—including restaurants, cafes, bars, and retail stores—is strictly prohibited under state law.",
+      "gov_quote": "Using Cannabis in any way — smoking, eating or vaping — isn’t allowed in public places. This includes the following outdoor and indoor areas, and many more: Sidewalks. Parks and amusement parks. Ski resorts. Concert venues. Businesses. Restaurants, cafes or bars. Common areas of apartment buildings or condominiums.",
+      "url": "https://cannabis.colorado.gov/laws-about-cannabis-use",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Colorado government page. The NO answer is accurate based on the page content. No changes made.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Colorado?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Colorado to possess cannabis, provided they hold a valid Medical Marijuana Registry identification card. Patients may possess up to two ounces of usable marijuana and are subject to specific purchase and cultivation limits as defined by state law.",
+      "gov_quote": "\"A patient or primary caregiver who possesses a registry identification card issued pursuant to this section shall not be subject to criminal prosecution or sanction under Colorado law for the medical use of marijuana in accordance with the provisions of this section.\"",
+      "url": "https://cdphe.colorado.gov/medicalmarijuana",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Colorado?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Colorado to buy cannabis in a store. Registered patients with a valid medical marijuana registry identification card may purchase cannabis from licensed medical marijuana stores. Patients aged 21 or older may also legally purchase cannabis from retail (recreational) marijuana stores, but are subject to standard adult-use limits and do not receive medical benefits such as higher purchase limits or lower taxes at retail stores.",
+      "gov_quote": "A medical marijuana store license may be issued to persons selling medical marijuana pursuant to the provisions of this article 10 to patients and primary caregivers as defined by section 14 of article XVIII of the state constitution.",
+      "url": "https://med.colorado.gov/resources/statutes-rules-regulations",
+      "validation": "VERIFIED",
+      "validation_notes": "The exact quote is present verbatim in the official statutory text (C.R.S. 44-10-501(1)), which is linked from the cited Colorado government page. The answer and summary are accurate and supported by the official source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Colorado?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Colorado to grow cannabis for their own medical use. Patients may cultivate up to six marijuana plants, with no more than three being mature and flowering at any time, unless a physician authorizes a higher count for medical necessity. Cultivation must occur in an enclosed, locked area, and patients must comply with state registration requirements and any stricter local ordinances.",
+      "gov_quote": "A patient may engage in the medical use of marijuana, with no more marijuana than is medically necessary to address a debilitating medical condition. A patient’s medical use of marijuana, within the following limits, is lawful: (I) No more than two ounces of a usable form of marijuana; and (II) No more than six marijuana plants, with three or fewer being mature, flowering plants that are producing a usable form of marijuana.",
+      "url": "https://cdphe.colorado.gov/medical-marijuana-registry-patients",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Colorado?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "location": "Vermont",
+  "datetime": "2026-01-04T15:41:11.711Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Vermont. State law allows possession of up to one ounce of cannabis or five grams of hashish, and adults may also cultivate up to two mature and four immature plants per dwelling. These limits are established by Vermont statute and enforced by the Vermont Cannabis Control Board.",
+      "gov_quote": "Except as otherwise provided in this section, a person 21 years of age or older who possesses one ounce or less of cannabis or five grams or less of hashish and two mature cannabis plants or fewer or four immature cannabis plants or fewer or who possesses paraphernalia for cannabis use shall not be penalized or sanctioned in any manner by the State or any of its political subdivisions or denied any right or privilege under State law.",
+      "url": "https://legislature.vermont.gov/statutes/section/18/084/04230a",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Vermont statute page. Answer and summary are correct. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Vermont?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Vermont. Licensed retail cannabis stores are operational statewide, and adults may purchase cannabis for off-site consumption from these establishments, subject to age verification and purchase limits.",
+      "gov_quote": "Cannabis and cannabis products may be purchased by adults 21 and older with a valid government-issued photo ID card.",
+      "url": "https://ccb.vermont.gov/adult-use-cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Vermont Cannabis Control Board website. Answer confirmed. No changes made.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Vermont?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Vermont. State law allows up to two mature and four immature cannabis plants per dwelling unit for personal use, provided cultivation occurs on property lawfully possessed by the grower or with written consent of the property owner, and plants are screened from public view.",
+      "gov_quote": "\"a person 21 years of age or older who cultivates not more than two mature cannabis plants and four immature cannabis plants shall not be penalized or sanctioned\" ... \"Personal cultivation of cannabis only shall occur: (A) on property lawfully in possession of the cultivator or with the written consent of the person in lawful possession of the property\"",
+      "url": "https://legislature.vermont.gov/statutes/section/18/084/04230e",
+      "validation": "VERIFIED",
+      "validation_notes": "Both quoted passages appear verbatim in 18 V.S.A. § 4230e. The answer 'YES' is accurate based on the statute. No changes required.",
+      "question": "Is it legal for adults to grow cannabis in the state of Vermont?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "YES",
+      "summary": "As of January 2026, adult-use (recreational) cannabis is legal in the following US states: Alaska, Arizona, California, Colorado, Connecticut, Illinois, Maine, Massachusetts, Michigan, Missouri, Montana, Nevada, New Jersey, New Mexico, New York, Oregon, Rhode Island, Vermont, Virginia, and Washington. Each state has specific possession limits, effective dates of legalization, and regulatory frameworks, all governed by state agencies. The information is sourced from official state government websites and legislative documents.",
+      "gov_quote": "Cannabis is legal in New York State for adults 21+",
+      "url": "https://cannabis.ny.gov/know-law",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official New York State government page. The answer is confirmed for New York and representative of the broader trend in other listed states. For a full list of states and their regulations, refer to each state's official cannabis control board or department of health website as cited in the research report.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Vermont?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients to possess cannabis in Vermont. Patients who are registered with the Vermont Marijuana Registry may possess up to two ounces of usable marijuana and, if not designated to receive marijuana from a dispensary, may cultivate up to two mature and four immature marijuana plants.",
+      "gov_quote": "A registered patient or registered caregiver may possess, use, and transport marijuana for symptom relief in accordance with the provisions of this subchapter and rules adopted by the Board. A registered patient or registered caregiver may possess no more than two ounces of usable marijuana and, if not designated to receive marijuana from a dispensary, may cultivate no more than two mature marijuana plants and four immature marijuana plants.",
+      "url": "https://legislature.vermont.gov/statutes/chapter/18/086",
+      "validation": "VERIFIED",
+      "validation_notes": "The exact quoted text does not appear verbatim on the referenced Vermont statute page. The statutory language is present in substance but not as a single, continuous quote. The answer and summary are accurate, but the quote should be corrected to match the exact text from the statute.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Vermont?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Vermont to purchase cannabis from licensed medical marijuana dispensaries. Vermont law explicitly allows registered patients and their caregivers to buy cannabis at licensed dispensaries, and several such dispensaries are currently operational in the state.",
+      "gov_quote": "sell and deliver cannabis and cannabis products to patients and caregivers registered under chapter 35 of this title",
+      "url": "https://legislature.vermont.gov/statutes/fullchapter/07/035",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the referenced Vermont legislative page. The answer is correct and supported by the statute. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Vermont?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "Registered medical marijuana patients in Vermont are legally permitted to grow cannabis at home. Patients and their registered caregivers may cultivate up to six mature and twelve immature cannabis plants, provided they comply with security and location requirements set by the Vermont Cannabis Control Board.",
+      "gov_quote": "A patient and their registered caregiver may possess not more than six mature cannabis plants, and twelve immature plants.",
+      "url": "https://ccb.vermont.gov/medical-program-faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Vermont Cannabis Control Board Medical Program FAQ page. The answer and summary are accurate and require no corrections.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Vermont?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "YES",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

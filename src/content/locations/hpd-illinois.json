@@ -1,0 +1,78 @@
+{
+  "location": "Illinois",
+  "datetime": "2026-01-04T06:20:22.866Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Illinois. The Cannabis Regulation and Tax Act, effective January 1, 2020, allows Illinois residents to possess up to 30 grams of cannabis flower, 5 grams of cannabis concentrate, and 500 milligrams of THC in cannabis-infused products.",
+      "gov_quote": "For a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 30 grams of cannabis flower; (2) no more than 500 milligrams of THC contained in cannabis-infused product; (3) 5 grams of cannabis concentrate.",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/041007050K10-10.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "Quote appears verbatim in Illinois statute 410 ILCS 705/10-10. Legal status correctly reported as legal for adults 21+ with specified possession limits. No discrepancies found between report and current law.",
+      "question": "Is it legal for adults to possess cannabis in the state of Illinois?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Illinois. The Cannabis Regulation and Tax Act, effective January 1, 2020, allows adults to purchase cannabis from licensed dispensaries, provided they present valid government-issued identification and comply with purchase limits.",
+      "gov_quote": "\"Adults 21 and older with a valid identification can purchase cannabis at any Illinois dispensary.\"",
+      "url": "https://cannabis.illinois.gov/about/faqs.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Illinois cannabis FAQ page. The answer is correct and supported by the source. No changes required.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Illinois?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "Home cultivation of cannabis is illegal for adults in Illinois unless they are registered medical cannabis patients who may grow up to 5 plants under strict conditions.",
+      "gov_quote": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home",
+      "url": "https://cannabis.illinois.gov",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Illinois cannabis website. The answer is correct and the URL is accessible. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Illinois?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Illinois. State law prohibits cannabis use in any public place, which includes businesses open to the public such as restaurants, bars, and retail stores, unless a local government has specifically authorized an on-site consumption lounge at a licensed dispensary or tobacco store.",
+      "gov_quote": "\"This Act does not permit any person to engage in, and does not prevent the imposition of any civil, criminal, or other penalties for engaging in, any of the following conduct: ... (F) using cannabis in any public place; ... As used in this Section, 'public place' means any place where a person could reasonably be expected to be observed by others. ... 'Public place' does not include a private residence unless the private residence is used to provide licensed child care, foster care, or other similar social service care on the premises.\"",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=3992&ChapterID=35",
+      "validation": "VERIFIED",
+      "validation_notes": "Quote found verbatim in Illinois statute 410 ILCS 705/10-35 with minor formatting differences. Legal answer 'NO' confirmed correct - cannabis use prohibited in public places including public businesses.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Illinois?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Illinois to possess cannabis. The Compassionate Use of Medical Cannabis Program Act allows qualifying patients to possess up to 2.5 ounces of usable cannabis in a 14-day period, with the possibility of a waiver for higher amounts if medically necessary.",
+      "gov_quote": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board, for the medical use of cannabis in accordance with this Act, if the registered qualifying patient possesses an amount of cannabis that does not exceed an adequate supply as defined in subsection (a) of Section 10 of this Act of usable cannabis…",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3503&ChapterID=35",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the Illinois General Assembly website. The answer 'YES' is correct and the summary accurately reflects the law and possession limits. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Illinois?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Illinois to purchase cannabis from licensed medical dispensaries. The Compassionate Use of Medical Cannabis Program Act and its implementing regulations authorize qualifying patients to buy cannabis at state-licensed dispensaries, provided they present a valid medical cannabis registry card and comply with possession limits.",
+      "gov_quote": "\"Registered qualifying patients and designated caregivers may purchase medical cannabis from a licensed medical cannabis dispensary in Illinois. Patients are no longer required to designate a single dispensary and may purchase from any licensed medical dispensary in the state.\"",
+      "url": "https://idfpr.illinois.gov/profs/adultusecan.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Illinois Department of Financial and Professional Regulation (IDFPR) website. Answer confirmed. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Illinois?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "Registered medical marijuana patients in Illinois who are 21 or older may legally cultivate up to five cannabis plants at their primary residence, provided the plants are grown in a locked, enclosed space not visible to the public. Cultivation is not allowed in federally subsidized housing, and landlords may prohibit it in rental properties. Distribution or gifting of homegrown cannabis is prohibited.",
+      "gov_quote": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home.",
+      "url": "https://cannabis.illinois.gov/about/faqs.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Illinois government FAQ page. The YES answer is accurate and fully supported by the cited source. No corrections needed.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Illinois?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

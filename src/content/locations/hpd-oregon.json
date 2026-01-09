@@ -1,0 +1,78 @@
+{
+  "location": "Oregon",
+  "datetime": "2026-01-04T15:33:51.301Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Oregon. State law allows adults to possess up to 2 ounces of usable marijuana in public and up to 8 ounces in private, as well as limited amounts of other cannabis products and up to four plants per household.",
+      "gov_quote": "You can possess, use and buy recreational marijuana if you are 21 and older.",
+      "url": "https://www.oregon.gov/olcc/marijuana/pages/faqs-personal-use.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Oregon.gov page. The answer and possession limits are accurate. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Oregon?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in licensed retail stores in Oregon. State law and official agencies confirm that adults meeting the age requirement may purchase cannabis products from OLCC-licensed retailers.",
+      "gov_quote": "You can possess, use and buy recreational marijuana if you are 21 and older.",
+      "url": "https://whatslegaloregon.com/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote 'You can possess, use and buy recreational marijuana if you are 21 and older.' found verbatim on the official What's Legal Oregon website. The answer is correct and supported by the source. No changes required.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Oregon?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Oregon for personal use, with a limit of four plants per household. No license is required for recreational home cultivation, but all plants must be kept out of public view and local ordinances may impose additional restrictions.",
+      "gov_quote": "As of July 1, 2015, Oregonians are allowed to grow up to four plants on their property. Oregonians can home grow up to four plants per residence, regardless of how many people live in the residence. Four adults in one residence does not mean 16 plants. The limit is four per residence.",
+      "url": "https://www.oregon.gov/olcc/marijuana/pages/faqs-personal-use.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official OLCC website. The answer and summary are accurate and fully supported by the cited government source. No changes required.",
+      "question": "Is it legal for adults to grow cannabis in the state of Oregon?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Oregon. State law prohibits the use of cannabis in any public place, which includes businesses open to the public such as bars, restaurants, hotels, and cannabis retailers. There are no exceptions or special permits that allow on-site consumption at any business under current Oregon law.",
+      "gov_quote": "You can’t use recreational marijuana in public places. Public places are places to which the general public has access.",
+      "url": "https://www.oregon.gov/olcc/marijuana/pages/faqs-personal-use.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "The quote appears verbatim on the OLCC FAQ page. The NO answer is accurate and supported by the source. Web verification confirmed the exact text match.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Oregon?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Oregon to possess cannabis. Patients with a valid Oregon Medical Marijuana Program (OMMP) registry identification card may possess up to 24 ounces of usable marijuana and cultivate up to 6 mature plants, provided they comply with all statutory and regulatory requirements.",
+      "gov_quote": "An Oregon medical marijuana patient (and their caregiver, if applicable) may possess up to 6 mature plants, which must be grown at a registered grow site address, and up to 24 ounces of usable marijuana. ... A Person Responsible for a Medical Grow Site (PRMG) may grow 6 mature plants, 12 immature plants that are 24 inches or more in height and 36 immature plants that are less than 24 inches in height per patient.",
+      "url": "https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/CHRONICDISEASE/MEDICALMARIJUANAPROGRAM/Pages/faqs.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "The government quote was found verbatim on the official Oregon Health Authority Medical Marijuana Program FAQ page. The YES answer about medical marijuana legality for registered OMMP patients is confirmed. All possession limits and requirements are accurately stated.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Oregon?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Oregon to buy cannabis in a store. Registered patients with a valid Oregon Medical Marijuana Program (OMMP) card may purchase cannabis from licensed retail dispensaries and OLCC-licensed retail stores, with higher purchase limits and tax exemptions compared to recreational customers.",
+      "gov_quote": "OLCC retailers selling marijuana for medical purposes can sell medical marijuana to OMMP patients 18 years of age or older.",
+      "url": "https://www.oregon.gov/olcc/marijuana/pages/faqs-medical-marijuana.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official OLCC FAQ page. The answer is correct and supported by the cited government source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Oregon?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Oregon to grow cannabis under the Oregon Medical Marijuana Program (OMMP). Patients may cultivate up to six mature plants and twelve immature plants (24 inches or taller), plus thirty-six immature plants under 24 inches, per patient at a registered grow site. Patients growing only for themselves at their own residence are exempt from the grow site registration fee and tracking requirements, but must comply with all OMMP rules and plant limits.",
+      "gov_quote": "A patient may designate themselves as their own grower or designate another person to grow for them as their designated grower.",
+      "url": "https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/CHRONICDISEASE/MEDICALMARIJUANAPROGRAM/Pages/grow.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Oregon Health Authority page. Plant limits and growing regulations are accurately summarized and supported by the cited source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Oregon?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

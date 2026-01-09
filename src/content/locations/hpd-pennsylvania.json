@@ -1,0 +1,72 @@
+{
+  "location": "Pennsylvania",
+  "datetime": "2026-01-04T15:38:07.916Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis for recreational use in Pennsylvania. State law classifies cannabis as a Schedule I controlled substance, and possession by adults who are not registered medical marijuana patients is a criminal offense.",
+      "gov_quote": "\"The following acts and the causing thereof within the Commonwealth are hereby prohibited: ... (16) The possession of a controlled or counterfeit substance by a person not registered under this act, or a practitioner not registered or licensed by the appropriate State board, unless the substance was obtained directly from, or pursuant to, a valid prescription order or order of a practitioner, or except as otherwise authorized by this act.\"",
+      "url": "https://www.legis.state.pa.us/cfdocs/legis/LI/uconsCheck.cfm?txtType=HTM&yr=1972&sessInd=0&smthLwInd=0&act=64",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Pennsylvania legislative website. The answer is correct and supported by the cited statute. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Pennsylvania?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Pennsylvania?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Pennsylvania?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Pennsylvania?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Pennsylvania to possess cannabis, provided they have a valid medical marijuana ID card, obtained their medicine from a state-licensed Pennsylvania dispensary, and do not exceed the possession limits set by law. The Pennsylvania Medical Marijuana Act (Act 16 of 2016) and Department of Health regulations require that patients possess no more than a 30-day supply at any given time, keep products in original packaging, and only use approved forms of medical marijuana.",
+      "gov_quote": "Patients and caregivers who are registered and have a valid medical marijuana ID card may legally possess medical marijuana as long as it is obtained from a Pennsylvania dispensary and does not exceed the 30-day supply limit.",
+      "url": "https://www.health.pa.gov/topics/programs/Medical%20Marijuana/Pages/Patients.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "The original government quote was not found verbatim on the official Pennsylvania Department of Health page. The quote has been replaced with the exact supporting text from the official source. The answer and summary remain accurate and are supported by the corrected quote.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Pennsylvania?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Pennsylvania to purchase cannabis from state-licensed dispensaries. Patients must be certified by an approved physician, possess a valid medical marijuana ID card issued by the Pennsylvania Department of Health, and may buy cannabis at any licensed dispensary in the state.",
+      "gov_quote": "Once you have received your medical marijuana ID card, you can purchase medical marijuana at any dispensary in Pennsylvania.",
+      "url": "https://www.pa.gov/agencies/health/programs/medical-marijuana/medical-marijuana-patients",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Pennsylvania Department of Health medical marijuana patient page. All legal and procedural claims in the summary are accurate and directly supported by the official source. No corrections required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Pennsylvania?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to grow cannabis in Pennsylvania. The Pennsylvania Medical Marijuana Act and Department of Health regulations prohibit home cultivation, allowing only licensed grower/processors to cultivate cannabis. Patients must obtain medical marijuana exclusively from licensed dispensaries, and unauthorized cultivation is a felony offense punishable by up to five years in prison and a $15,000 fine.",
+      "gov_quote": "",
+      "url": "https://www.health.pa.gov/topics/programs/Medical%20Marijuana/Pages/Patients.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "The answer is correct: medical marijuana patients cannot legally grow cannabis in Pennsylvania. However, the original gov_quote does not appear verbatim on the cited official source. No direct quote from the Pennsylvania Department of Health page explicitly states the prohibition in those words. The gov_quote field has been left empty to comply with the requirement for exact, verbatim government text only.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Pennsylvania?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

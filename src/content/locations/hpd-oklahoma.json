@@ -1,0 +1,72 @@
+{
+  "location": "Oklahoma",
+  "datetime": "2026-01-04T15:31:37.459Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in Oklahoma unless they have a valid medical marijuana patient license. Recreational cannabis possession remains illegal for all adults, and unlicensed possession is subject to criminal penalties under state law.",
+      "gov_quote": "\"Possession of marijuana without a valid medical marijuana patient license remains illegal in Oklahoma. Only licensed patients and caregivers may legally possess medical marijuana within the limits set by state law.\"",
+      "url": "https://oklahoma.gov/omma/patients-caregivers.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Both sentences of the quoted text appear verbatim as consecutive statements on the official Oklahoma government page. The NO answer is accurate and supported by the source. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Oklahoma?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Oklahoma?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Oklahoma?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Oklahoma?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Oklahoma to possess cannabis, provided they hold a valid state-issued medical marijuana patient license and remain within the statutory possession limits set by Oklahoma law.",
+      "gov_quote": "A medical marijuana minor patient license allows an Oklahoma resident under the age of 18 to legally possess, use and grow medical marijuana and medical marijuana products in Oklahoma.",
+      "url": "https://omma.ok.gov/patients-caregivers",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the OMMA website. The answer 'YES' is accurate and supported by official government text. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Oklahoma?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for licensed medical marijuana patients to purchase cannabis from state-licensed dispensaries in Oklahoma. Patients must present a valid OMMA-issued medical marijuana patient license at the point of sale, and dispensaries are required to verify the license before completing any transaction.",
+      "gov_quote": "Licensed dispensaries may only sell medical marijuana and medical marijuana products to a patient, the patient’s caregiver, a research license holder, or the parent or legal guardian named on a minor patient’s license. The patient, caregiver, or parent/legal guardian must present a valid, unexpired medical marijuana license at the point of sale.",
+      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official OMMA website. The answer is correct and supported by the cited legal language. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Oklahoma?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for licensed medical marijuana patients in Oklahoma to grow cannabis at home. State law allows each patient to cultivate up to six mature marijuana plants and six seedlings for personal medical use, provided the plants are grown at the patient's residence or with the property owner's written permission, are not visible from adjacent streets, and are secured from public access. These rights are established by Oklahoma statutes and OMMA regulations and remain in effect as of January 2026.",
+      "gov_quote": "Patient-grown marijuana must be on real property owned by the patient or the patient must have the written permission of the real property owner to grow marijuana. Cannot be visible by someone with 20/20 vision from any street adjacent to the property.",
+      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-responsibilities.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official OMMA page. The answer and plant limits are confirmed by the government source. No corrections required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Oklahoma?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

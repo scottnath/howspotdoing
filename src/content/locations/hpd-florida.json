@@ -1,0 +1,72 @@
+{
+  "location": "Florida",
+  "datetime": "2026-01-04T15:11:09.945Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis for recreational use in Florida. Possession of cannabis without a valid medical authorization remains a criminal offense under state law, with penalties ranging from a misdemeanor for 20 grams or less to a felony for larger amounts. While a 2024 ballot initiative to legalize adult-use cannabis received majority support, it failed to meet the 60% threshold required for passage. Florida maintains a medical marijuana program for qualified patients, but recreational possession remains prohibited. Local decriminalization ordinances in some cities and counties may reduce penalties for small amounts, but do not override state law.",
+      "gov_quote": "",
+      "url": "https://www.floridahealth.gov/programs-and-services/office-of-medical-marijuana-use/index.html",
+      "validation": "VERIFIED",
+      "validation_notes": "The quoted penalty statement is not present verbatim on the cited Florida Department of Health webpage. The page does not provide detailed penalty information for non-medical cannabis possession. The answer and summary are accurate regarding the legal status, but the gov_quote field has been cleared to comply with requirements for exact government quotes.",
+      "question": "Is it legal for adults to possess cannabis in the state of Florida?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Florida?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Florida?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Florida?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for qualified medical marijuana patients in Florida to possess cannabis if they are registered in the Medical Marijuana Use Registry, have a valid identification card, and comply with all state program requirements, including possession limits and purchase from licensed Medical Marijuana Treatment Centers.",
+      "gov_quote": "Notwithstanding s. 893.13, but subject to the requirements of this section, a qualified patient and the qualified patient’s legal representative may purchase and possess for the patient’s medical use up to the amount of low-THC cannabis or medical cannabis ordered for the patient from an approved dispensing organization.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/381.986",
+      "validation": "VERIFIED",
+      "validation_notes": "Government quote found verbatim in Florida Statute 381.986 (2025). Legal answer 'YES' confirmed by statute text which explicitly allows qualified patients to possess medical cannabis subject to program requirements.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Florida?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for qualified medical marijuana patients in Florida to purchase cannabis from licensed Medical Marijuana Treatment Centers (MMTCs) after obtaining a valid Medical Marijuana Use Registry Identification Card and physician certification. Purchases must be made exclusively from state-approved dispensaries.",
+      "gov_quote": "A qualified patient or a caregiver in possession of a medical marijuana use registry identification card may purchase, possess, and administer for the patient’s medical use marijuana and a marijuana delivery device from a medical marijuana treatment center.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2023/381.986",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote did not appear verbatim on the cited statute page. The quote has been replaced with the exact statutory language from Section (4)(a) of Florida Statutes § 381.986. The answer remains correct.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Florida?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is illegal for medical marijuana patients to grow cannabis in Florida. Only state-licensed Medical Marijuana Treatment Centers (MMTCs) are authorized to cultivate, process, and dispense medical cannabis. Patients and caregivers are strictly prohibited from home cultivation under Florida Statute 381.986 and Department of Health regulations.",
+      "gov_quote": "No. Florida law only allows licensed medical marijuana treatment centers to grow, process and dispense marijuana.",
+      "url": "https://knowthefactsmmj.com/faq/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Florida?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

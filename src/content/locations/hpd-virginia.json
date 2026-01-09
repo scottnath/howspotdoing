@@ -1,0 +1,78 @@
+{
+  "location": "Virginia",
+  "datetime": "2026-01-04T07:21:45.097Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess up to one ounce of cannabis in Virginia. This law has been in effect since July 1, 2021, under Title 4.1, Chapter 11 of the Code of Virginia.",
+      "gov_quote": "A. Except as otherwise provided in this subtitle and notwithstanding any other provision of law, a person 21 years of age or older may lawfully possess on his person or in any public place not more than one ounce of marijuana or an equivalent amount of marijuana product as determined by regulation promulgated by the Board.",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1100/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Virginia Code page. The legal answer is correct and fully supported by the statutory language. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Virginia?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to buy cannabis in a store in Virginia. While adults 21 and over may possess and cultivate limited amounts of cannabis for personal use, the retail sale of cannabis for recreational use remains prohibited. Only registered medical patients may purchase cannabis from licensed dispensaries.",
+      "gov_quote": "Currently, there is no legal way to buy or sell recreational cannabis in Virginia.",
+      "url": "https://cca.virginia.gov/laws/popupshops",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Virginia Cannabis Control Authority website. The 'NO' answer for adult retail cannabis purchases is accurate according to the current law. No changes needed to the original report content.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Virginia?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Virginia for personal use, with a limit of four plants per household, provided the plants are grown at the main place of residence, are not visible from public ways, are inaccessible to those under 21, and are properly tagged. No license is required for personal cultivation within these limits, but manufacturing concentrates from home-grown cannabis is prohibited and exceeding plant limits can result in civil or criminal penalties.",
+      "gov_quote": "A person 21 years of age or older may cultivate up to four marijuana plants for personal use at their place of residence; however, at no point shall a household contain more than four marijuana plants. A person may only cultivate marijuana plants pursuant to this section at such person's main place of residence. Each marijuana plant must have a legible tag that includes the person's name, driver's license or identification number, and a notation that the marijuana plant is being grown for personal use as authorized under this section. No marijuana plant shall be visible from a public way without the use of aircraft, binoculars, or other optical aids. Precautions must be taken to prevent unauthorized access by persons younger than 21 years of age. A person shall not manufacture marijuana concentrate from home-cultivated marijuana.",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found in substance and nearly verbatim on the official Virginia Law website. All key legal provisions are accurately reported: adults 21+ can legally cultivate up to 4 marijuana plants per household for personal use at their main residence, with proper tagging, visibility restrictions, access controls for minors, and prohibition on manufacturing concentrates. The summary and answer are correct based on current Virginia state law.",
+      "question": "Is it legal for adults to grow cannabis in the state of Virginia?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is illegal to consume cannabis at any public business in Virginia. State law prohibits cannabis consumption in all public places, which includes businesses open to the public such as restaurants, bars, hotels, and retail establishments.",
+      "gov_quote": "\"No person shall consume marijuana or a marijuana product or offer marijuana or a marijuana product to another, whether accepted or not, at or in any public place.\"",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1108/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited page (section 4.1-1108). The answer 'NO' is correct and supported by the statute. No changes required.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Virginia?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Virginia to possess cannabis if they have a valid written certification from a licensed practitioner and possess only the amounts lawfully dispensed to them by a licensed pharmaceutical processor or cannabis dispensing facility, within the program's possession limits.",
+      "gov_quote": "To be eligible to purchase medical cannabis, you must obtain a written certification from a licensed medical practitioner.",
+      "url": "https://cca.virginia.gov/medical-cannabis-program/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the Virginia Cannabis Control Authority website. The answer and summary are accurate and supported by the official source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Virginia?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Virginia to purchase cannabis at state-licensed dispensaries, provided they have a valid written certification from a registered practitioner and present a government-issued ID. Registration with the state is optional and not required for purchase.",
+      "gov_quote": "Patients with a valid written certification from a registered practitioner may purchase medical cannabis products from a permitted pharmaceutical processor or cannabis dispensing facility. Registration with the Board of Pharmacy is no longer required for patients to obtain medical cannabis products.",
+      "url": "https://cca.virginia.gov/medical-cannabis-patients/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Virginia government page. The answer and summary are accurate and fully supported by the cited source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Virginia?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "Medical marijuana patients in Virginia may grow cannabis at home, but only under the same rules as all adults 21 and older: up to four plants per household for personal use. There are no special or expanded cultivation rights for medical patients; all home cultivation is subject to the general adult-use limit and requirements.",
+      "gov_quote": "A person 21 years of age or older may cultivate up to four marijuana plants for personal use at their place of residence. At no point shall a household contain more than four marijuana plants.",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/",
+      "validation": "VERIFIED",
+      "validation_notes": "The quoted text appears verbatim on the cited government page. The answer 'YES' is accurate: Medical marijuana patients in Virginia may grow cannabis at home, but only under the same rules as all adults 21 and older—up to four plants per household for personal use. There are no special or expanded cultivation rights for medical patients in the law. No contradictory or additional rights for medical patients were found in the cited statute or related legal sections.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Virginia?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

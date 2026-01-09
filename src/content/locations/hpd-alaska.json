@@ -1,0 +1,77 @@
+{
+  "location": "Alaska",
+  "datetime": "2026-01-04T15:03:26.320Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Alaska. Alaska Statute 17.38.020 allows adults to possess up to one ounce of marijuana in public, and up to four ounces in a private residence, as well as limited amounts of concentrates and edibles.",
+      "gov_quote": "Notwithstanding any other provision of law, except as otherwise provided in this chapter, the following acts, by persons 21 years of age or older, are lawful and are not criminal or civil offenses under Alaska law or the law of any political subdivision of Alaska or bases for seizure or forfeiture of assets under Alaska law: (1) possessing, using, displaying, purchasing, or transporting marijuana accessories or one ounce or less of marijuana;",
+      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim in official regulatory materials. Answer confirmed. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Alaska?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis in licensed retail stores in Alaska. State law, established by Ballot Measure 2 and codified in AS 17.38, allows adults to buy up to one ounce of cannabis or seven grams of concentrate per day from state-licensed retailers.",
+      "gov_quote": "AS 17.38.010 made the use of marijuana legal only for persons 21 years of age or older.",
+      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Alaska government FAQ page. The answer is correct and fully supported by the source. No corrections needed.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Alaska?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Alaska for personal use. Alaska law allows each adult to cultivate up to six marijuana plants, with no more than three being mature and flowering at any time. In a single residence with multiple adults, the maximum is 12 plants, with no more than six mature. No license is required for personal-use home cultivation, but all activity must remain non-commercial and property owners may prohibit cultivation on their premises.",
+      "gov_quote": "Notwithstanding any other provision of law, the following acts are lawful for persons 21 years of age or older: possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown.",
+      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the Alaska Alcohol & Marijuana Control Office (AMCO) Marijuana FAQs page. All legal information regarding cultivation limits (6 plants per adult, 3 mature; 12 plants per household, 6 mature) is correctly stated and confirmed by the official FAQ page. The legal status for adults 21+ to grow cannabis is accurately described.",
+      "question": "Is it legal for adults to grow cannabis in the state of Alaska?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Alaska, except at licensed marijuana retail stores that have obtained a specific onsite consumption endorsement from the Alaska Marijuana Control Board. All other public businesses, including restaurants, bars, and non-cannabis retail stores, are prohibited from allowing cannabis consumption on their premises.",
+      "gov_quote": "AS 17.38.040 bans public consumption. 'In public' means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence. On November 20, 2015, the Marijuana Control Board amended the definition to exclude marijuana retail stores that have a consumption endorsement issued by the board.",
+      "url": "https://www.commerce.alaska.gov/web/amco/marijuanafaqs.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Alaska Alcohol & Marijuana Control Office FAQ page. The answer is accurate and directly supported by the cited government source. No changes made.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Alaska?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Alaska to possess cannabis, provided they comply with the same possession limits as recreational users: up to one ounce of marijuana and up to six plants (with no more than three mature or flowering at a time).",
+      "gov_quote": "The Alaska Medical Marijuana Registry is a private program for people with certain medical conditions. It gives patients a special ID card that allows them to legally use medical marijuana.",
+      "url": "https://health.alaska.gov/en/education/drugs-and-alcohol/marijuana/medical-marijuana/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Alaska Department of Health page. Legal status and possession limits are accurate and supported by the source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Alaska?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients aged 21 and over to buy cannabis in a store in Alaska. Alaska law does not provide a separate system of medical-only dispensaries; all adults 21+ (including medical marijuana patients) may purchase cannabis at licensed retail stores. Patients under 21 cannot purchase cannabis in stores, regardless of medical status.",
+      "gov_quote": "Retail marijuana stores may not sell any products to people under the age of 21, even if they hold an AK state medical marijuana card.",
+      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Alaska government page. The answer and summary are accurate and supported by the source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Alaska?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Alaska to grow cannabis at home. Patients may cultivate up to six plants, with no more than three mature at any time, for personal medical use. No separate cultivation license is required beyond the medical marijuana registry identification card.",
+      "gov_quote": "\"A patient or a primary caregiver may not possess more than one ounce of usable marijuana, or cultivate more than six marijuana plants, with no more than three mature, flowering plants at any one time.\"",
+      "url": "https://dhss.alaska.gov/health/dph/VitalStats/Pages/marijuana.aspx",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Alaska?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

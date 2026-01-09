@@ -1,0 +1,78 @@
+{
+  "location": "Connecticut",
+  "datetime": "2026-01-03T18:52:18.147Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Connecticut. As of July 1, 2021, adults may possess up to 1.5 ounces of cannabis in public and up to 5 ounces in a locked container at home or in a vehicle.",
+      "gov_quote": "As of July 1, 2021, possession and use of up to 1.5 oz of cannabis is legal. Connecticut residents may also store up to 5 oz in a locked container at home or transport it in a locked glovebox or trunk.",
+      "url": "https://portal.ct.gov/cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Connecticut state cannabis website. All legal facts confirmed. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Connecticut?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Connecticut. Retail sales to adults began in January 2023, and adults may purchase cannabis from licensed retailers, hybrid retailers, or delivery services, subject to state regulations on purchase limits and product types.",
+      "gov_quote": "Adult-use sales have started in connecticut at licensed retailers. Consumer protection reminds adults 21+ who purchase cannabis to use products responsibly.",
+      "url": "https://portal.ct.gov/cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "The government quote was found verbatim on the official Connecticut government cannabis website at https://portal.ct.gov/cannabis. The quote accurately reflects that adult-use sales have started and adults 21+ can purchase cannabis responsibly. The answer YES is confirmed accurate based on multiple government sources stating adults 21+ can legally purchase cannabis from licensed retailers, hybrid retailers, and delivery services.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Connecticut?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis at home in Connecticut. As of July 1, 2023, adults may cultivate up to three mature and three immature cannabis plants per person, with a maximum of 12 plants per household, provided all plants are grown indoors, secured, and not visible from the street.",
+      "gov_quote": "Medical marijuana patients 18 years and older and adults 21 years of age and older are able to grow up to 3 mature and 3 immature plants in their home, with a cap of 12 total plants per household.",
+      "url": "https://portal.ct.gov/cannabis/Knowledge-Base/Articles/Growing-cannabis-at-home",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Connecticut government website. All legal information is accurate and confirmed. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Connecticut?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "Cannabis consumption at public businesses is prohibited in Connecticut under state law. Connecticut General Statutes Section 21a-279a prohibits the use of cannabis in any public place, which is defined broadly to include any area used by the public whether owned or operated by public or private interests. This includes all businesses open to the public such as restaurants, bars, retail stores, and other commercial establishments. The Department of Consumer Protection reinforces this prohibition, stating that cannabis cannot be consumed anywhere tobacco use is banned. No licenses exist for on-site consumption at businesses, and municipalities have authority to impose additional restrictions.",
+      "gov_quote": "Except as provided in subsection (b) of this section, use or possession of cannabis by a person in any public place, as defined in section 21a-240, is prohibited. Public place means any area that is used or held out for use by the public whether owned or operated by public or private interests.",
+      "url": "https://www.cga.ct.gov/current/pub/chap_420h.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Connecticut?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Connecticut to possess cannabis. Patients may possess up to 5 ounces of usable cannabis per month, provided they are registered with the Department of Consumer Protection and comply with all program requirements.",
+      "gov_quote": "Registered medical marijuana patients may have up to 5 ounces of medical marijuana per month.",
+      "url": "https://portal.ct.gov/DCP/Medical-Marijuana-Program/Medical-Marijuana-Program",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Connecticut government page. The answer and summary are accurate. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Connecticut?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "Registered medical marijuana patients in Connecticut can legally purchase cannabis from licensed dispensary facilities and hybrid retailers under state law. The Department of Consumer Protection oversees a network of licensed locations serving patients, and patients must present a valid medical marijuana registration certificate to buy cannabis products.",
+      "gov_quote": "Qualifying patients and caregivers who are registered with the Department of Consumer Protection may purchase medical marijuana from a licensed dispensary facility or hybrid retailer in Connecticut.",
+      "url": "https://portal.ct.gov/DCP/Medical-Marijuana-Program/Medical-Marijuana-Program",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Connecticut Department of Consumer Protection Medical Marijuana Program webpage. The answer 'YES' is accurate and supported by the source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Connecticut?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients 18 years and older in Connecticut to grow cannabis at home. Patients may cultivate up to three mature and three immature plants, with a maximum of twelve plants per household, provided the plants are kept indoors, in a secure, locked area, and are not accessible to anyone other than the patient or their caregiver.",
+      "gov_quote": "Any qualifying patient who is eighteen years of age or older may cultivate up to three mature cannabis plants and three immature cannabis plants in the patient's primary residence at any given time, provided such plants are secure from access by any individual other than the patient or patient's caregiver and no more than twelve cannabis plants may be grown per household.",
+      "url": "https://www.cga.ct.gov/2023/pub/chap_420f.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "The exact quoted language regarding cultivation by medical marijuana patients appears verbatim in the official Connecticut law as published at the provided URL. The answer 'YES' is fully supported by the current legal text: medical marijuana patients 18 and older may cultivate cannabis in Connecticut, subject to the specified limits and security requirements.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Connecticut?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

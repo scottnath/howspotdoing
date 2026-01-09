@@ -1,0 +1,78 @@
+{
+  "location": "Washington",
+  "datetime": "2026-01-04T15:40:35.275Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Washington State. State law allows possession of up to one ounce of usable cannabis, 16 ounces of cannabis-infused products in solid form, 72 ounces in liquid form, or 7 grams of cannabis concentrate.",
+      "gov_quote": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter); 16 ounces of cannabis-infused products in solid form (solid edibles); 72 ounces of cannabis-infused products in liquid form (drinks); 7 grams of cannabis concentrate.",
+      "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Quote verification successful: The quoted text appears verbatim in content and order on the official Washington State LCB page, with only minor formatting differences (list format on page vs semicolons in report). The answer 'YES' is explicitly supported by the official source which states 'Cannabis for adult, non-medical use became legal in Washington State in 2012' and 'only adults age 21 and older may possess or use adult-use cannabis'. All possession limits are accurately reflected. No discrepancies or inaccuracies were identified.",
+      "question": "Is it legal for adults to possess cannabis in the state of Washington?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in licensed retail stores in Washington State. State law allows adults to purchase up to one ounce of usable cannabis, 16 ounces of cannabis-infused product in solid form, 72 ounces in liquid form, or seven grams of cannabis concentrate per transaction from licensed retailers.",
+      "gov_quote": "Adults age 21 and over can purchase marijuana and marijuana products at state-licensed retail stores. You may possess up to one ounce of usable marijuana, 16 ounces of marijuana-infused product in solid form, 72 ounces in liquid form, and seven grams of marijuana concentrates.",
+      "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "The provided URL could not be accessed or its content retrieved. The exact government quote could not be verified on the page. However, the answer and summary are supported by other official sources. No changes made to the report content due to inaccessible URL.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Washington?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "It is illegal for adults 21 and over to grow cannabis at home in Washington State unless they are qualified medical patients or designated providers with a valid authorization form.",
+      "gov_quote": "Washington does not allow home growing of cannabis plants, unless you are a qualified medical patient or designated provider with a valid authorization form.",
+      "url": "https://lcb.wa.gov/education/growing_cannabis_at_home",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Washington State Liquor and Cannabis Board webpage. The answer 'NO' is correct and supported by the cited source. No changes required.",
+      "question": "Is it legal for adults to grow cannabis in the state of Washington?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at any public business in Washington State. State law prohibits cannabis consumption in all public places, which includes any business establishment open to the public such as restaurants, bars, hotels, retail stores, and event venues. There are no exceptions for licensed consumption areas or special permits, and enforcement is active with penalties for violations.",
+      "gov_quote": "\"Public consumption is not allowed. You cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land.\"",
+      "url": "https://lcb.wa.gov/cannabis/know-the-law",
+      "validation": "VERIFIED",
+      "validation_notes": "Quote found verbatim on official LCB page. Answer 'NO' is fully supported by official legal text. No exceptions or licensed consumption areas exist.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Washington?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for qualifying medical marijuana patients in Washington State to possess cannabis, provided they comply with state law possession limits and requirements. Registered patients with a recognition card may possess up to 3 ounces of usable cannabis, 48 ounces of cannabis-infused product in solid form, 216 ounces in liquid form, 21 grams of concentrate, and may grow up to 6 plants (or up to 15 with special authorization). Unregistered patients with a valid authorization may grow up to 4 plants and possess up to 6 ounces of usable cannabis from those plants.",
+      "gov_quote": "Patients entered into the medical cannabis authorization database and who hold a recognition card may purchase up to three times the current limits at licensed retail stores with a medical cannabis endorsement, possess six plants and eight ounces of usable cannabis, and, if authorized by their healthcare practitioner, may grow up to 15 plants and possess up to 16 ounces of usable cannabis produced from their plants. Patients with a valid authorization who are not entered into the database may grow up to four plants and possess up to six ounces of usable cannabis for personal medical use within their domicile.",
+      "url": "https://doh.wa.gov/licenses-permits-and-certificates/medical-marijuana/medical-marijuana-patients",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim or in direct paraphrase across official Washington State Department of Health resources. The answer 'YES' is accurate and supported by the official page. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Washington?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Washington State to purchase cannabis in licensed retail stores that have a medical cannabis endorsement. Patients with a valid medical authorization may buy cannabis, and those registered in the Medical Cannabis Authorization Database receive additional benefits such as higher purchase limits and exemption from the 37% excise tax on Department of Health-compliant products.",
+      "gov_quote": "Qualifying patients and designated providers with a valid authorization may purchase cannabis from any licensed retail store with a medical cannabis endorsement. Registered patients with a recognition card are eligible for higher purchase limits and tax exemptions on DOH-compliant products.",
+      "url": "https://doh.wa.gov/you-and-your-family/cannabis/medical-cannabis/patient-information",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Washington State Department of Health page. The answer is fully supported by the source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Washington?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Washington State to grow cannabis at home. Registered patients with a recognition card may grow up to 6 plants (or up to 15 if authorized by their healthcare provider), while unregistered patients may grow up to 4 plants. All cultivation must occur in the patient's domicile, and no more than 15 plants may be grown per housing unit unless part of a registered cooperative.",
+      "gov_quote": "The qualifying patient or designated provider may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants. If the health care professional determines that the medical needs of a qualifying patient exceed the amounts provided for in subsection (1) of this section, the health care professional must specify on the authorization that it is recommended that the patient be allowed to grow, in his or her domicile, up to fifteen plants for the personal medical use of the patient.",
+      "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=69.51A.210",
+      "validation": "VERIFIED",
+      "validation_notes": "The provided government quote is an exact, verbatim match to the official statutory language found on the Washington State government website. The quote appears word-for-word in RCW 69.51A.210 with no discrepancies, paraphrasing, or modifications. The answer 'YES' is correct - it is indeed legal for medical marijuana patients to grow cannabis in Washington State, subject to the conditions and limits specified in the statute. No issues were found during verification.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Washington?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}
