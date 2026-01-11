@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+import '@colinaut/action-table/dist/action-table.css';
+
+const locations = (await getCollection('locations')).sort((a, b) =>
+  a.data.location.localeCompare(b.data.location)
+);
+
+/**
+ * Convert answer to display class
+ */
+const answerClass = (answer: string | null): string => {
+  switch (answer) {
+    case 'YES':
+      return 'yes';
+    case 'N/A':
+    case 'NO':
+    case null:
+    default:
+      return 'no';
+  }
+};
+
+/**
+ * Get slug from entry id (remove hpd- prefix)
+ */
+const getSlug = (id: string): string => id.replace(/^hpd-/, '');
+---
+
+<script
+  type="module"
+  src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
+
+<action-table class="tbl" sort="legality" direction="descending" store>
+  <table>
+    <thead>
+      <tr>
+        <th>Location</th>
+        <th>Recreational</th>
+        <th>Rec Store</th>
+        <th>Rec Grow</th>
+        <th>Medical</th>
+        <th>Med Store</th>
+        <th>Med Grow</th>
+        <th>Legality</th>
+        <th no-sort>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        locations.map((location) => (
+          <tr>
+            <td>
+              <a href={`/locations/${getSlug(location.id)}/`}>
+                {location.data.location}
+              </a>
+            </td>
+            <td class={answerClass(location.data.answers.RECREATIONAL)}>
+              {location.data.answers.RECREATIONAL}
+            </td>
+            <td class={answerClass(location.data.answers.RECREATIONAL_STORE)}>
+              {location.data.answers.RECREATIONAL_STORE}
+            </td>
+            <td class={answerClass(location.data.answers.RECREATIONAL_GROW)}>
+              {location.data.answers.RECREATIONAL_GROW}
+            </td>
+            <td class={answerClass(location.data.answers.MEDICAL)}>
+              {location.data.answers.MEDICAL}
+            </td>
+            <td class={answerClass(location.data.answers.MEDICAL_STORE)}>
+              {location.data.answers.MEDICAL_STORE}
+            </td>
+            <td class={answerClass(location.data.answers.MEDICAL_GROW)}>
+              {location.data.answers.MEDICAL_GROW}
+            </td>
+            <td class="legality">{location.data.legality}</td>
+            <td class="report">
+              <a href={`/locations/${getSlug(location.id)}/`}>LEARN MORE</a>
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</action-table>
+
+<style>
+  code {
+    font-size: 1em;
+  }
+  .tbl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .legality::after {
+    content: '%';
+  }
+  .yes {
+    background-color: #00bf00;
+    color: #000;
+    font-weight: bold;
+  }
+  .no {
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: bold;
+  }
+  .na {
+    background-color: #888;
+    color: #fff;
+    font-weight: bold;
+  }
+</style>

@@ -1,13 +1,35 @@
+* {
+  font-family: sans-serif;
+}
+
+#global-header {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+p {
+  span {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--bs-dark);
+  }
+}
 
 main {
-	text-align: center;
+  text-align: center;
 }
+
 .meow {
-	max-width: 85%;
-	margin: 0 auto;
-	text-align: left;
+  max-width: 85%;
+  margin: 0 auto;
+  text-align: left;
 }
+
 .howsit {
-	font-size: 1.5em;
-	margin-bottom: 1.5em;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
 }

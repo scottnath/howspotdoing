@@ -1,0 +1,15 @@
+---
+const { location } = Astro.props;
+import Question from './Question.astro';
+---
+
+<article itemscope itemtype="https://schema.org/FAQPage" class="meow">
+  <h1 itemprop="name">{location.data.title}</h1>
+  <p itemprop="description">{location.data.answer}</p>
+  <Question report={location.data.results.RECREATIONAL} />
+  <Question report={location.data.results.RECREATIONAL_STORE} />
+  <Question report={location.data.results.RECREATIONAL_GROW} />
+  <Question report={location.data.results.MEDICAL} />
+  <Question report={location.data.results.MEDICAL_STORE} />
+  <Question report={location.data.results.MEDICAL_GROW} />
+</article>

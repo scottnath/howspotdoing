@@ -10,7 +10,6 @@
 		"baseUrl": ".",
 		"allowSyntheticDefaultImports": true,
 		"paths": {
-			"@globals": ["src/components/global"],
 			"@components/*": ["src/components/*"],
 			"@styles/*": ["src/styles/*"],
 			"@util/*": ["utils/*"],

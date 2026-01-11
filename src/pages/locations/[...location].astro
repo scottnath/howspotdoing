@@ -1,9 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
-
+import Layout from '@components/Layout.astro';
+import Location from '@components/Location.astro';
+import { seoConfig } from '@util/seoConfig';
+import { getEntry } from 'astro:content';
 export async function getStaticPaths() {
   const locations = await getCollection('locations');
-  
+
   return locations.map((entry) => {
     // Convert hpd-new-york to new-york (remove hpd- prefix)
     const slug = entry.id.replace(/^hpd-/, '');
@@ -15,28 +18,10 @@ export async function getStaticPaths() {
 }
 
 const { location } = Astro.params;
-const { entry } = Astro.props;
-
-// Format location name for display
-const displayName = entry?.data.location ?? location?.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-const hasData = !!entry?.data;
+const content = await getEntry('locations', `hpd-${location}`);
+const title = `${content.data.answer} - ${seoConfig.siteNickname}`;
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{displayName} - How's Pot Doing</title>
-  </head>
-  <body>
-    <h1>{displayName}</h1>
-    {hasData ? (
-      <pre>{JSON.stringify(entry.data, null, 2)}</pre>
-    ) : (
-      <p>Info not available</p>
-    )}
-    <nav>
-      <a href="/">← Back to home</a>
-    </nav>
-  </body>
-</html>
 
+<Layout title={title}>
+  <Location location={content} />
+</Layout>

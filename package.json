@@ -1,39 +1,43 @@
 {
-	"name": "astro-pwa-starter",
-	"version": "0.0.0",
-	"private": false,
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro",
-		"locations": "npx tsx utils/airtable.ts",
-		"404file": "cp ./404.html ./dist/404.html",
-		"jekyllfile": "touch ./dist/.nojekyll",
-		"cname": "echo \"howspotdoing.com\" >>  ./dist/CNAME",
-		"postbuild": "npm run 404file && npm run jekyllfile && npm run cname"
-	},
-	"devDependencies": {
-		"@astrojs/sitemap": "^3.0.5",
-		"@typescript-eslint/eslint-plugin": "^6.19.1",
-		"@typescript-eslint/parser": "^6.19.1",
-		"airtable": "^0.12.2",
-		"astro": "4.2.4",
-		"astro-compress": "^2.2.8",
-		"astro-seo": "^0.8.0",
-		"dotenv": "^16.4.1",
-		"eslint": "^8.56.0",
-		"eslint-plugin-astro": "^0.31.3",
-		"eslint-plugin-jsx-a11y": "^6.8.0",
-		"prettier": "^3.2.4",
-		"prettier-plugin-astro": "^0.13.0",
-		"typescript": "^5.3.3",
-		"vite-plugin-pwa": "^0.17.5"
-	},
-	"dependencies": {
-		"@astrojs/check": "^0.4.1",
-		"@astrojs/partytown": "^2.0.4",
-		"@colinaut/action-table": "^2.4.1"
-	}
+  "name": "howspotdoing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --import tsx test.config.js",
+    "test:coverage": "node --import tsx test.config.js --coverage",
+    "help": "node --import tsx src/cli/index.ts --help",
+    "research:run": "node --env-file=.env --import tsx src/cli/index.ts run",
+    "research:rerun": "node --env-file=.env --import tsx src/cli/index.ts rerun",
+    "incompletes": "node --env-file=.env --import tsx src/cli/index.ts incompletes",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+		"prep": "npm run format && npm run lint",
+		"start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@astrojs/partytown": "^2.1.4",
+    "@colinaut/action-table": "^2.4.22",
+    "@youdotcom-oss/sdk": "^0.10.21",
+    "astro": "^5.16.8",
+    "astro-seo": "^0.8.4",
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-astro": "^1.5.0",
+    "globals": "^17.0.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "tsx": "^4.21.0",
+    "typescript-eslint": "^8.52.0"
+  }
 }
