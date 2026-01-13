@@ -1,7 +1,0 @@
-How's Pot Doing? is created by Scott Nath
-
-GitHub: https://github.com/scottnath
-Mastodon: https://mastodon.social/scottnath
-Personal: https://scottnath.com
-
-Checkout the https://humanstxt.org/ protocol to see how you should format your humans.txt file!
