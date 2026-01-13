@@ -68,7 +68,7 @@ export const calculateLegality = (
       rating += 10;
     }
   } else if (answers.MEDICAL?.toString().toLowerCase() === 'yes') {
-    rating = 10;
+    rating = 30;
     if (answers.MEDICAL_STORE?.toString().toLowerCase() === 'yes') {
       rating += 10;
     }
@@ -98,11 +98,13 @@ const locationsCollection = defineCollection({
     })
     .transform((data) => {
       const legality = calculateLegality(data.answers);
+      const datetime = new Date(data.datetime).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
       return {
         ...data,
         title: `How's Pot Doing in ${data.location}?`,
         legality,
         answer: `Cannabis is ${legality}% legal in ${data.location}`,
+        datetime,
       };
     }),
 });

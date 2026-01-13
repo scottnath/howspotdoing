@@ -24,9 +24,28 @@ main {
 }
 
 .meow {
-  max-width: 85%;
+  max-width: 90%;
   margin: 0 auto;
   text-align: left;
+}
+
+.location-page {
+  #global-header-title {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .meow {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .meow {
+    max-width: 100%;
+  }
 }
 
 .howsit {

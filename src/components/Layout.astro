@@ -3,6 +3,7 @@ import '@styles/global.css';
 // Component imports
 import { SEO } from 'astro-seo';
 import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
 
 // Helper imports
 import { seoConfig } from '@util/seoConfig';
@@ -26,6 +27,8 @@ export interface Props {
 
   /** Whether or not to disable indexing */
   disableIndexing?: boolean;
+
+  bodyClass?: string;
 }
 
 const {
@@ -34,6 +37,7 @@ const {
   description,
   image,
   disableIndexing = false,
+  bodyClass = '',
 } = Astro.props as Props;
 ---
 
@@ -168,11 +172,12 @@ const {
       data-domain="howspotdoing.com"
       src="https://plausible.io/js/script.outbound-links.js"></script>
   </head>
-  <body>
+  <body class={bodyClass}>
     <Header />
     <main>
       <slot />
     </main>
+    <Footer />
 
     <script>
       // This is a hack to get vite-plugin-pwa to generate a sw.js file.
