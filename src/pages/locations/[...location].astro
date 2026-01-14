@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@components/Layout.astro';
+import Location from '@components/Location.astro';
+import { seoConfig } from '@util/seoConfig';
+import { getEntry } from 'astro:content';
+export async function getStaticPaths() {
+  const locations = await getCollection('locations');
+
+  return locations.map((entry) => {
+    // Convert hpd-new-york to new-york (remove hpd- prefix)
+    const slug = entry.id.replace(/^hpd-/, '');
+    return {
+      params: { location: slug },
+      props: { entry },
+    };
+  });
+}
+
+const { location } = Astro.params;
+const content = await getEntry('locations', `hpd-${location}`);
+const title = `${content.data.answer} - ${seoConfig.siteNickname}`;
+---
+
+<Layout title={title} bodyClass="location-page">
+  <Location location={content} />
+</Layout>
+

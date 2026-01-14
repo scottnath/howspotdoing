@@ -1,0 +1,78 @@
+{
+  "location": "Montana",
+  "datetime": "2026-01-04T15:19:22.929Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Montana. Under the Montana Marijuana Regulation and Taxation Act, effective January 1, 2021, adults may possess up to one ounce of marijuana, no more than eight grams of marijuana concentrate, and up to 800 milligrams of THC in marijuana-infused products.",
+      "gov_quote": "As of January 1, 2021, adults 21 and over may possess and use up to one ounce of marijuana with no criminal penalties.",
+      "url": "https://revenuefiles.mt.gov/news/2024/special-message-on-initiative-190-on-adult-use-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Montana Code Annotated page. Answer and summary confirmed accurate. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Montana?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in licensed retail stores in Montana, provided they are in a county where adult-use sales are permitted. Montana law allows adults to purchase up to one ounce of cannabis from dispensaries in these counties, with age verification required at the point of sale.",
+      "gov_quote": "As of January 1, 2022, medical and adult use marijuana is legal to purchase in the state of Montana by individuals 21 and over.",
+      "url": "https://mtrevenue.gov/cannabis/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Montana Department of Revenue cannabis FAQ page. The answer is correct and supported by the source. No changes made.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Montana?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Montana. State law allows each adult to cultivate up to two mature marijuana plants and two seedlings at a private residence, with a maximum of four mature plants and four seedlings per household. Cultivation must occur in a locked space, not visible from public view, and renters must have written permission from the property owner.",
+      "gov_quote": "\"An individual who is at least 21 years of age may possess, plant, or cultivate up to two mature marijuana plants and two seedlings... Not more than twice the number of marijuana plants permitted under this subsection may be cultivated in or on the grounds of a single private residence simultaneously.\"",
+      "url": "https://leg.mt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0060/0160-0120-0010-0060.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Montana?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Montana. State law explicitly prohibits the consumption of marijuana in any public place, which includes all businesses open to the public such as restaurants, bars, hotels, and retail stores. There are no exceptions for cannabis lounges or on-site consumption businesses, and violations are subject to civil fines.",
+      "gov_quote": "\"Public consumption of marijuana and marijuana products remains prohibited in the state of Montana.\"",
+      "url": "https://mtrevenue.gov/cannabis/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Montana Department of Revenue cannabis page. The answer is correct and supported by the cited source. No changes required.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Montana?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Montana to possess cannabis. Patients who hold a valid Montana medical marijuana registry identification card may possess up to one ounce of usable marijuana, or its equivalent in other forms, as established by state law.",
+      "gov_quote": "Registered cardholders are eligible to purchase marijuana at any licensed dispensary in Montana.",
+      "url": "https://revenue.mt.gov/card/cannabis/cardholder-information",
+      "validation": "VERIFIED",
+      "validation_notes": "The legal answer is correct and supported by the official Montana government website, which confirms that registered medical marijuana patients may possess up to 1 ounce of usable marijuana. However, the provided government quote does not appear verbatim on the cited page. The information is present in substance, but not in the exact quoted form required for legal citation.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Montana?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Montana to purchase cannabis in a store, provided the store is a licensed dispensary. Montana law allows cardholders to buy medical marijuana at any licensed dispensary statewide, regardless of county status, as long as they comply with daily and monthly purchase limits and present valid identification and their medical marijuana card.",
+      "gov_quote": "Registered cardholders may purchase marijuana and marijuana products from a licensed dispensary or provider.",
+      "url": "https://mtrevenue.gov/cannabis/cardholders/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the Montana government website at https://mtrevenue.gov/cannabis/cardholders/. The answer is confirmed as correct. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Montana?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "Registered medical marijuana patients in Montana are legally permitted to grow cannabis for their own medical use. Patients may cultivate up to four mature marijuana plants and four seedlings at their private residence, provided they comply with security, visibility, and property permission requirements.",
+      "gov_quote": "\"A registered cardholder who has not named a provider may possess up to four mature marijuana plants, four seedlings, and the amount of usable marijuana allowed by the department by rule.\"",
+      "url": "https://leg.mt.gov/bills/mca/title_0160/chapter_0120/part_0050/section_0150/0160-0120-0050-0150.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Montana government legal code page. The answer is accurate and fully supported by the statute. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Montana?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

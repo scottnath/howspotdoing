@@ -1,0 +1,136 @@
+---
+import Layout from '@components/Layout.astro';
+---
+
+<Layout title="About - How's Pot Doing?">
+  <article class="about">
+    <h1>How the Legality of cannabis is calculated</h1>
+
+    <p>Each state gets a <strong>0-100%</strong> legality score based on cannabis access.</p>
+
+    <div class="scoring">
+      <div class="score-item rec">
+        <span class="points">80%</span>
+        <span class="label">Recreational legal</span>
+      </div>
+      <div class="score-item bonus">
+        <span class="points">+10%</span>
+        <span class="label">Can buy in stores</span>
+      </div>
+      <div class="score-item bonus">
+        <span class="points">+10%</span>
+        <span class="label">Can grow at home</span>
+      </div>
+    </div>
+
+    <p class="divider">— or if recreational isn't legal —</p>
+
+    <div class="scoring med-only">
+      <div class="score-item med">
+        <span class="points">30%</span>
+        <span class="label">Medical only</span>
+      </div>
+      <div class="score-item bonus">
+        <span class="points">+10%</span>
+        <span class="label">Patients can buy</span>
+      </div>
+      <div class="score-item bonus">
+        <span class="points">+10%</span>
+        <span class="label">Patients can grow</span>
+      </div>
+    </div>
+
+    <p class="note">
+      <strong>100%</strong> = full recreational access<br />
+      <strong>50%</strong> = best medical-only<br />
+      <strong>0%</strong> = fully illegal
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .about {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-wrap-style: balance;
+  }
+
+  p {
+    margin: 0.75rem 0;
+  }
+
+  .scoring {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+
+  .score-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+  }
+
+  .points {
+    font-weight: bold;
+    font-size: 1.1rem;
+    min-width: 50px;
+  }
+
+  .label {
+    text-align: left;
+  }
+
+  .rec {
+    background: #d4edda;
+  }
+
+  .rec .points {
+    color: #00bf00;
+  }
+
+  .med {
+    background: #e6e6f3;
+  }
+
+  .med .points {
+    color: #6666ff;
+  }
+
+  .bonus {
+    background: #f5f5f5;
+    margin-left: 1rem;
+  }
+
+  .divider {
+    color: #888;
+    font-size: 0.9rem;
+    margin: 1.25rem 0;
+  }
+
+  .note {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1.5rem;
+  }
+
+  .back-link {
+    margin-top: 1.5rem;
+  }
+
+  .back-link a {
+    color: #00bf00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+</style>

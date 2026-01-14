@@ -1,0 +1,78 @@
+{
+  "location": "Michigan",
+  "datetime": "2026-01-04T15:20:51.504Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Michigan. The Michigan Regulation and Taxation of Marihuana Act (MRTMA), effective December 6, 2018, allows adults to possess up to 2.5 ounces of cannabis in public and up to 10 ounces at home, with additional requirements for secure storage of amounts over 2.5 ounces.",
+      "gov_quote": "An initiation of legislation to allow under state law the personal possession and use of marihuana by persons 21 years of age or older; to provide for the lawful cultivation and sale of marihuana and industrial hemp by persons 21 years of age or older…",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-333-27955",
+      "validation": "VERIFIED",
+      "validation_notes": "Complete verification successful. URL accessible at Michigan Legislature website. Government quote found verbatim in official legislative text. All factual claims verified: adults 21+ legal possession, 2.5 ounces public limit, 10 ounces home limit, effective date December 6, 2018. No discrepancies or corrections needed.",
+      "question": "Is it legal for adults to possess cannabis in the state of Michigan?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis from licensed retail stores in Michigan. The Michigan Regulation and Taxation of Marihuana Act (MRTMA) authorizes licensed retailers to sell cannabis to individuals aged 21 or older.",
+      "gov_quote": "The use, possession, and sale of adult-use marihuana to individuals over 21 years of age became legal in Michigan following voter approval of a 2018 ballot initiative which became the Michigan Regulation and Taxation of Marihuana Act (“MRTMA”).",
+      "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/notice-to-taxpayers-regarding-the-wholesale-tax-on-adult-use-marihuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the Michigan Treasury website. The answer is correct and fully supported by the cited government source.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Michigan?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow up to 12 cannabis plants per household for personal use in Michigan under the Michigan Regulation and Taxation of Marihuana Act (MRTMA), effective December 6, 2018. No state license is required for personal cultivation within these limits. Plants must be grown in a secure, enclosed area not visible to the public. Local governments may regulate but cannot prohibit home cultivation.",
+      "gov_quote": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older.",
+      "url": "https://www.michigan.gov/cra/resources/consumer-connection",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for adults to grow cannabis in the state of Michigan?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Michigan unless the business has obtained a Designated Consumption Establishment license or a Temporary Marijuana Event license from the Michigan Cannabis Regulatory Agency and is located in a municipality that permits such establishments. All other public businesses, including restaurants, bars, and retail stores, are prohibited from allowing on-site cannabis consumption.",
+      "gov_quote": "\"(1) This act does not authorize and does not permit any of the following: ... (d) Consuming marihuana in a public place or on the premises of a business or land open to the public.\"",
+      "url": "https://www.legislature.mi.gov/(S(0w2k3k2w2k1k1k1k1k1k1k1k))/mileg.aspx?page=getObject&objectName=mcl-333-27954",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact statutory language from MCL 333.27954 is quoted verbatim. The legal conclusion that cannabis consumption is not permitted at public businesses in Michigan (except for licensed and municipally approved consumption establishments) is fully supported by the statute. No changes required.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Michigan?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "Medical marijuana patients in Michigan can legally possess cannabis if they are registered with the Michigan Medical Marijuana Program and possess a valid registry identification card. Patients may possess up to 2.5 ounces of usable marijuana and cultivate up to 12 plants for personal medical use.",
+      "gov_quote": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers.",
+      "url": "https://www.michigan.gov/cra/resources/consumer-connection",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote was not found verbatim on the Michigan government page. The quote has been replaced with the exact text from the page that supports the answer. The answer remains correct.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Michigan?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Michigan to purchase cannabis from licensed provisioning centers (medical dispensaries) if they present a valid Michigan Medical Marijuana Program (MMMP) registry identification card and a government-issued photo ID at the time of purchase.",
+      "gov_quote": "Patients who wish to acquire medical marijuana or medical marijuana-infused products from licensed provisioning centers must first present a valid registry identification card at the time of purchase.",
+      "url": "https://www.michigan.gov/cra/medical-marijuana-program",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the Michigan government page. The answer is correct and supported by the official source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Michigan?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Michigan to grow up to 12 cannabis plants for their own medical use, provided the plants are kept in an enclosed, locked facility and the patient is registered with the Michigan Medical Marijuana Program.",
+      "gov_quote": "A qualifying patient who has been issued and possesses a registry identification card may cultivate up to 12 marijuana plants in an enclosed, locked facility if the patient has not specified that a primary caregiver will cultivate marijuana for him or her.",
+      "url": "https://www.michigan.gov/cra/sections/mmmp",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Michigan government webpage. The answer and summary are accurate and fully supported by the cited source.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Michigan?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

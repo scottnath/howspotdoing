@@ -1,0 +1,180 @@
+---
+import { getCollection } from 'astro:content';
+import '@colinaut/action-table/dist/action-table.css';
+
+const locations = (await getCollection('locations')).sort((a, b) =>
+  a.data.location.localeCompare(b.data.location)
+);
+
+/**
+ * Convert answer to display class
+ */
+const answerClass = (answer: string | null): string => {
+  switch (answer) {
+    case 'YES':
+      return 'yes';
+    case 'N/A':
+    case 'NO':
+    case null:
+    default:
+      return 'no';
+  }
+};
+
+/**
+ * Get slug from entry id (remove hpd- prefix)
+ */
+const getSlug = (id: string): string => id.replace(/^hpd-/, '');
+---
+
+<script
+  type="module"
+  src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
+
+<action-table class="tbl" sort="legality" direction="descending" store>
+  <table>
+    <colgroup span="1"></colgroup>
+    <colgroup span="3" class="recreational-group"></colgroup>
+    <colgroup span="3" class="medical-group"></colgroup>
+    <colgroup span="2"></colgroup>
+    <thead>
+      <tr class="group-row">
+        <td></td>
+        <td colspan="3" class="group-label rec-label">Recreational</td>
+        <td colspan="3" class="group-label med-label">Medical</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Location</th>
+        <th no-sort class="rec-col rec-first">Legal</th>
+        <th no-sort class="rec-col">Store</th>
+        <th no-sort class="rec-col rec-last">Grow</th>
+        <th no-sort class="med-col med-first">Legal</th>
+        <th no-sort class="med-col">Store</th>
+        <th no-sort class="med-col med-last">Grow</th>
+        <th>Legality</th>
+        <th no-sort>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        locations.map((location) => (
+          <tr>
+            <td>
+              <a href={`/locations/${getSlug(location.id)}/`}>
+                {location.data.location}
+              </a>
+            </td>
+            <td class={answerClass(location.data.answers.RECREATIONAL)}>
+              {location.data.answers.RECREATIONAL}
+            </td>
+            <td class={answerClass(location.data.answers.RECREATIONAL_STORE)}>
+              {location.data.answers.RECREATIONAL_STORE}
+            </td>
+            <td class={answerClass(location.data.answers.RECREATIONAL_GROW)}>
+              {location.data.answers.RECREATIONAL_GROW}
+            </td>
+            <td class={answerClass(location.data.answers.MEDICAL)}>
+              {location.data.answers.MEDICAL}
+            </td>
+            <td class={answerClass(location.data.answers.MEDICAL_STORE)}>
+              {location.data.answers.MEDICAL_STORE}
+            </td>
+            <td class={answerClass(location.data.answers.MEDICAL_GROW)}>
+              {location.data.answers.MEDICAL_GROW}
+            </td>
+            <td class="legality">{location.data.legality}</td>
+            <td class="report">
+              <a href={`/locations/${getSlug(location.id)}/`}>LEARN MORE</a>
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</action-table>
+
+<style>
+  code {
+    font-size: 1em;
+  }
+  .tbl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .group-row td {
+    border: none;
+    background: transparent;
+    padding: 0.25rem 0.5rem;
+  }
+  .group-row td:empty {
+    padding: 0;
+  }
+  .group-label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .rec-label {
+    background-color: #e6f3e6;
+    border-left: 3px solid #00bf00;
+    border-right: 3px solid #00bf00;
+    border-top: 3px solid #00bf00;
+  }
+  .med-label {
+    background-color: #e6e6f3;
+    border-left: 3px solid #6666ff;
+    border-right: 3px solid #6666ff;
+    border-top: 3px solid #6666ff;
+  }
+  .rec-col {
+    background-color: #e6f3e6;
+  }
+  .rec-first {
+    border-left: 3px solid #00bf00;
+    border-top: none;
+  }
+  .rec-last {
+    border-right: 3px solid #00bf00;
+    border-top: none;
+  }
+  .med-col {
+    background-color: #e6e6f3;
+  }
+  .med-first {
+    border-left: 3px solid #6666ff;
+    border-top: none;
+  }
+  .med-last {
+    border-right: 3px solid #6666ff;
+    border-top: none;
+  }
+  .recreational-group {
+    background-color: #f5faf5;
+  }
+  .medical-group {
+    background-color: #f5f5fa;
+  }
+  .legality::after {
+    content: '%';
+  }
+  .yes {
+    background-color: #00bf00;
+    color: #000;
+    font-weight: bold;
+  }
+  .no {
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: bold;
+  }
+  .na {
+    background-color: #888;
+    color: #fff;
+    font-weight: bold;
+  }
+</style>

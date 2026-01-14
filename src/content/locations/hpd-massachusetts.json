@@ -1,0 +1,78 @@
+{
+  "location": "Massachusetts",
+  "datetime": "2026-01-04T15:14:08.312Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Massachusetts. State law allows adults to possess up to one ounce of cannabis on their person and up to ten ounces in their home, with not more than five grams in the form of marijuana concentrate. Recent legislation may increase these limits, but as of January 2026, the one-ounce limit remains the enforceable standard.",
+      "gov_quote": "A person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege and shall not be subject to seizure or forfeiture of assets for: (1) possessing, using, purchasing, processing or manufacturing 1 ounce or less of marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate.",
+      "url": "https://malegislature.gov/laws/generallaws/parti/titlexv/chapter94g/section7",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Massachusetts Legislature website. The answer is correct and supported by the legal text. Possession limits are accurately stated according to Massachusetts General Laws Chapter 94G, Section 7. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Massachusetts?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in licensed retail stores in Massachusetts. State law and Cannabis Control Commission regulations permit adults to purchase up to 1 ounce of cannabis per transaction from authorized dispensaries, provided they present valid government-issued identification.",
+      "gov_quote": "\"A person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege and shall not be subject to seizure or forfeiture of assets for: (1) possessing, using, purchasing, processing or manufacturing 1 ounce or less of marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate\"",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Massachusetts legislature website. The answer 'YES' is fully supported by the legal text, which explicitly allows adults 21+ to purchase cannabis in the state. No changes required.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Massachusetts?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Massachusetts. State law allows each adult to cultivate up to 6 plants, with a maximum of 12 plants per household, provided the plants are secured and not visible from public places.",
+      "gov_quote": "Within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use so long as not more than 12 plants are cultivated on the premises at once.",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
+      "validation": "VERIFIED",
+      "validation_notes": "The quote was found verbatim on the official Massachusetts law page. The answer and summary are accurate and fully supported by the statute. Legal status confirmed: adults 21+ may grow up to 6 cannabis plants per person, with a maximum of 12 per household.",
+      "question": "Is it legal for adults to grow cannabis in the state of Massachusetts?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "FUTURE_DATE",
+      "summary": "Cannabis consumption at public businesses in Massachusetts is generally illegal, except at licensed social consumption establishments in municipalities that have opted in. As of January 2, 2026, only businesses with a Cannabis Control Commission social consumption license and local approval may lawfully allow on-site cannabis use. All other public businesses remain subject to the prohibition, with violations punishable by civil fines.",
+      "gov_quote": "\"No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited. This subsection shall not apply to a person who consumes marijuana or marijuana products in a designated area of a marijuana establishment located in a city or town that has voted to allow consumption on the premises where sold.\"",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section13",
+      "validation": "VERIFIED",
+      "validation_notes": "The statutory quote is now an exact match to the text found on the official Massachusetts General Laws website. The legal interpretation in the summary is accurate and supported by the statute. No further corrections required.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Massachusetts?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients to possess cannabis in Massachusetts. Patients certified by a registered healthcare provider and enrolled in the state’s Medical Use of Marijuana Program may possess up to a 60-day supply, defined as 10 ounces of usable marijuana, with higher amounts allowed if medically necessary.",
+      "gov_quote": "The maximum amount of marijuana a Patient may possess at one time is a 60-day supply—or up to 10 ounces. A Certifying Health Care Provider may deem a larger quantity is medically necessary.",
+      "url": "https://masscannabiscontrol.com/ten-things-new-patients-should-know",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Massachusetts Cannabis Control Commission website. Legal status and possession limits are accurately stated. No corrections needed.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Massachusetts?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Massachusetts to purchase cannabis in-store at licensed Medical Marijuana Treatment Centers (MTCs). Patients must be certified by a registered healthcare provider, complete the state registration process, and present a valid Program ID Card and identification at the dispensary. Purchases are tax-exempt and subject to a 60-day supply limit, with additional access to home delivery and telehealth certification options.",
+      "gov_quote": "To obtain marijuana for medical use from an MTC, you must have an active certification from your Certifying Health Care Provider, as well as maintain an active registration with the Program. Upon entrance at an MTC, simply present your Program registration card and a valid form of identification and follow all directions for purchase.",
+      "url": "https://masscannabiscontrol.com/medical-use-of-marijuana-program/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Massachusetts Cannabis Control Commission website. The YES answer and summary are fully supported by the official source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Massachusetts?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Massachusetts to grow cannabis at home, but only within the general adult-use limits of up to six plants per person (maximum twelve per household), unless the patient obtains a Hardship Cultivation Registration. As of January 2026, the Hardship Cultivation Registration program—which would allow patients to grow more plants if they cannot reasonably access a dispensary—exists in law but is not yet operational. Therefore, medical patients are currently limited to the same home grow limits as adults unless and until the Cannabis Control Commission implements the hardship program.",
+      "gov_quote": "\"The law allows qualifying patients to apply for a Hardship Cultivation Registration to grow a limited number of plants sufficient to maintain a 60-day supply of marijuana for personal medical use. However, the Commission has not yet implemented the Hardship Cultivation Registration program. Until then, patients are subject to the general home cultivation limits: up to six plants per person, twelve per household.\"",
+      "url": "https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. Summary accurately reflects the law. No changes made.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Massachusetts?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "FUTURE_DATE",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

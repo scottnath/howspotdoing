@@ -1,0 +1,68 @@
+{
+  "location": "Wisconsin",
+  "datetime": "2026-01-04T07:19:03.679Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in Wisconsin. State law classifies marijuana as a Schedule I controlled substance, and possession of any amount by adults remains a criminal offense.",
+      "gov_quote": "Possessing illegal drugs, including cannabis, is against Wisconsin law. Penalties may include large fines and jail time (even for a first offense), suspension of driver's license, and more.",
+      "url": "https://www.dhs.wisconsin.gov/small-talks/beyond-alcohol.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Wisconsin?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Wisconsin?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Wisconsin?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Wisconsin?"
+    },
+    "MEDICAL": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to possess cannabis in Wisconsin. State law prohibits the possession of marijuana for any purpose, including medical use, and there is no medical marijuana program or patient registry in effect. The only exception is for non-psychoactive CBD products with a valid physician’s certification.",
+      "gov_quote": "Purchase, prescribe, or provide marijuana or treatment using marijuana. [is prohibited]",
+      "url": "https://www.dhs.wisconsin.gov/marijuana/index.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Wisconsin DHS page. The answer and summary are fully supported by the government source, which confirms that medical marijuana possession is illegal in Wisconsin and there is no medical marijuana program. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Wisconsin?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Wisconsin?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Wisconsin?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "NO",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "location": "Iowa",
+  "datetime": "2026-01-04T19:16:28.032Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in Iowa for recreational purposes. All non-medical possession of cannabis is a criminal offense under Iowa law, punishable by jail time and fines. The only exception is for registered medical cannabidiol patients, who may possess limited forms and quantities of cannabis-derived products as authorized by the state's medical program.",
+      "gov_quote": "\"Except as authorized by this chapter, it is unlawful for any person knowingly or intentionally to possess a controlled substance unless such substance was obtained directly from, or pursuant to, a valid prescription or order of a practitioner while acting in the course of the practitioner's professional practice, or except as otherwise authorized by this chapter.\"",
+      "url": "https://www.legis.iowa.gov/docs/code/124.401.pdf",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited Iowa legal code. The answer and summary are accurate. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Iowa?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Iowa?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Iowa?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Iowa?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Iowa to possess medical cannabidiol products, but only in specific forms (such as tablets, capsules, tinctures, topicals, and certain vaporized products) and within a strict limit of 4.5 grams of total THC over a 90-day period, unless a higher amount is authorized by a healthcare practitioner. Possession of raw cannabis flower, edibles containing food, or products not purchased from a state-licensed dispensary is not permitted.",
+      "gov_quote": "\"It is an affirmative and complete defense to the prosecution that the patient has been diagnosed with a debilitating medical condition, used or possessed medical cannabidiol pursuant to a certification by a health care practitioner, and possessed no more than the amount of tetrahydrocannabinol authorized to be purchased in a ninety-day period.\"",
+      "url": "https://www.legis.iowa.gov/docs/code/124E.12.pdf",
+      "validation": "VERIFIED",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Iowa?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Iowa to purchase cannabis products from state-licensed dispensaries. Patients must have a valid Iowa medical cannabidiol registration card and may only buy approved forms and quantities of medical cannabis at these licensed stores.",
+      "gov_quote": "Medical CBD is only sold at facilities licensed and regulated by the Iowa Department of Health and Human Services (HHS). To purchase medical cannabis (CBD) products, a medical card is required.",
+      "url": "https://hhs.iowa.gov/programs/programs-and-services/medical-cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Iowa?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is illegal for medical marijuana patients to grow cannabis in Iowa. State law reserves all cultivation rights to licensed manufacturers operating in secured, state-approved facilities, and there are no exceptions for patients or caregivers. All medical cannabis products must be obtained from licensed dispensaries.",
+      "gov_quote": "\"All manufacturing, cultivating, harvesting, packaging, and processing of medical cannabidiol shall take place in an enclosed, locked facility at a physical address provided to the department during the licensure process.\"",
+      "url": "https://www.legis.iowa.gov/docs/code/124E.7.pdf",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim in the cited Iowa Code section. The law clearly prohibits medical marijuana patients and caregivers from cultivating cannabis. No exceptions are provided. The answer and summary are accurate and require no changes.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Iowa?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

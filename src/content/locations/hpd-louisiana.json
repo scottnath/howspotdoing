@@ -1,0 +1,72 @@
+{
+  "location": "Louisiana",
+  "datetime": "2026-01-04T06:34:03.835Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis for recreational purposes in Louisiana. Possession of up to 14 grams is decriminalized and punishable by a $100 fine, but all non-medical possession remains illegal under Louisiana law.",
+      "gov_quote": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978. Any person who violates this Subsection with respect to: ... (2) A substance classified in Schedule I that is marijuana, tetrahydrocannabinol, or chemical derivatives thereof, shall be punished as follows: (a)(i) On a first conviction or any subsequent conviction, wherein the offender possesses fourteen grams or less, the offender shall be fined not more than one hundred dollars.",
+      "url": "https://www.legis.la.gov/Legis/Law.aspx?d=98880",
+      "validation": "VERIFIED",
+      "validation_notes": "Government quote is accurate and matches statutory language. Answer confirmed correct - cannabis possession remains illegal in Louisiana with $100 fine for up to 14 grams.",
+      "question": "Is it legal for adults to possess cannabis in the state of Louisiana?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Louisiana?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Louisiana?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Louisiana?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Louisiana to possess cannabis, provided they have a valid recommendation from a licensed physician and obtain their medication from a state-licensed pharmacy. Patients may possess up to 71 grams of marijuana flower every 14 days. As of January 1, 2022, patients may also possess raw or crude marijuana for inhalation in addition to other approved forms such as tinctures, oils, capsules, and topicals. The legal foundation is established in Louisiana Revised Statutes 40:1046, and patients who comply with state regulations are protected from criminal prosecution or civil penalty for possession and use.",
+      "gov_quote": "Patients remain restricted to 71g of marijuana flower per 14-day period",
+      "url": "https://ldh.la.gov/page/medical-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Louisiana?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Louisiana to purchase cannabis in licensed retail stores (formerly called pharmacies, now officially 'retailers') as long as they have a valid recommendation from an authorized clinician. Patients do not need a state-issued card; the clinician's recommendation is sent directly to the dispensary, where the patient can buy cannabis products within state-defined limits.",
+      "gov_quote": "Retailers may provide medical marijuana in an approved dosage form to any patient with a valid recommendation from a board-certified Louisiana physician.",
+      "url": "https://ldh.la.gov/page/medical-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Louisiana Department of Health page. The answer is correct and fully supported by the source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Louisiana?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to grow cannabis in Louisiana. State law restricts cultivation to two licensed production facilities, and there is no provision for patient or caregiver home cultivation. All medical cannabis must be obtained from state-licensed dispensaries.",
+      "gov_quote": "There are two licensed medical marijuana manufacturers in the state of Louisiana--Advanced Biomedics LLC dba Ilera Holistic Healthcare and Good Day Farm Louisiana LLC.",
+      "url": "https://ldh.la.gov/page/medical-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Louisiana Department of Health page. The answer is correct: only licensed manufacturers may grow medical marijuana, and there is no provision for patient or caregiver cultivation. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Louisiana?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

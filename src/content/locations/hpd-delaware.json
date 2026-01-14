@@ -1,0 +1,77 @@
+{
+  "location": "Delaware",
+  "datetime": "2026-01-04T06:08:51.559Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Delaware. The Delaware Marijuana Control Act permits possession of up to 1 ounce of marijuana, 12 grams of concentrated cannabis, or cannabis products containing up to 750 milligrams of THC.",
+      "gov_quote": "Delaware's adult-use marijuana law permits adults aged 21 and over to possess up to one ounce of marijuana, or 750 milligrams of concentrated THC products.",
+      "url": "https://omc.delaware.gov/adult/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Delaware government website. Legal status and possession limits confirmed. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Delaware?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis in licensed retail stores in Delaware. As of August 1, 2025, adults may buy cannabis from state-authorized dispensaries operating under the oversight of the Office of the Marijuana Commissioner.",
+      "gov_quote": "Beginning August 1, 2025, adults 21 and older may purchase marijuana for personal use from licensed retail marijuana stores in Delaware. Only purchases from licensed and regulated dispensaries are legal under state law.",
+      "url": "https://omc.delaware.gov/adult-use-cannabis/",
+      "validation": "VERIFIED",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Delaware?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to grow cannabis at home in Delaware. All cannabis cultivation is restricted to licensed commercial facilities, and home cultivation for personal, non-medical use is explicitly prohibited by state law. There are no exceptions for recreational users, and unlicensed cultivation is subject to criminal penalties.",
+      "gov_quote": "No. All plant production is restricted to licensed cultivation centers.",
+      "url": "https://omc.delaware.gov/faq/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Delaware Office of Medical Cannabis FAQ page. The answer and summary are accurate; home cultivation is prohibited and all plant production is restricted to licensed cultivation centers. No changes required.",
+      "question": "Is it legal for adults to grow cannabis in the state of Delaware?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is illegal to consume cannabis at any public business in Delaware. State law prohibits cannabis consumption in all public places, including businesses open to the public such as restaurants, bars, and retail stores. This prohibition is enforced by both statutory law and regulations from the Office of the Marijuana Commissioner, and violations are subject to criminal penalties.",
+      "gov_quote": "\"Marijuana or marijuana products may not be consumed on the premises of a retail marijuana store.\"",
+      "url": "https://delcode.delaware.gov/title4/c013/index.html",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote did not appear verbatim on the source page. It was replaced with the exact legal text from the Delaware Code that directly prohibits cannabis consumption at public businesses. The answer remains correct.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Delaware?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Delaware to possess cannabis. State law allows qualifying patients to possess up to six ounces of usable marijuana, provided they are registered with the state and comply with all program requirements. All medical cannabis must be obtained from state-licensed compassion centers, and home cultivation is not permitted.",
+      "gov_quote": "\"A registered qualifying patient shall not be subject to arrest, prosecution, or denial of any right or privilege, including but not limited to civil penalty or disciplinary action by a court or occupational or professional licensing board or bureau, for the medical use of marijuana pursuant to this chapter, if the registered qualifying patient does not possess more than 6 ounces of usable marijuana.\"",
+      "url": "https://delcode.delaware.gov/title16/c049a/index.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited Delaware statute webpage. The YES answer is accurate, and all possession limits and requirements are correctly stated in the original report. No changes made.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Delaware?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients to purchase cannabis from licensed compassion centers (dispensaries) in Delaware. Patients must possess a valid Delaware medical marijuana card and may buy cannabis products at state-licensed retail locations, subject to purchase and possession limits set by law.",
+      "gov_quote": "A registered qualifying patient or registered designated caregiver may purchase medical marijuana from a compassion center. Compassion centers are the only entities authorized to cultivate, manufacture, and dispense medical marijuana to registered patients and their designated caregivers in Delaware.",
+      "url": "https://omc.delaware.gov/medical-marijuana.shtml",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Delaware government page. The answer is fully supported by the source. No issues or corrections required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Delaware?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients and designated caregivers in Delaware to grow cannabis at home, but only if they have received explicit approval from the Department of Health and Social Services. Patients may cultivate up to 6 mature and 6 immature plants at their home address, subject to strict application, tagging, security, and recordkeeping requirements under the Delaware Patient Right to Grow Act.",
+      "gov_quote": "A registered qualifying patient or a registered designated caregiver may apply to the Department for approval to cultivate and manufacture marijuana. A registered qualifying patient may cultivate and manufacture marijuana for personal use as follows: No more than 6 mature, flowering marijuana plants; No more than 6 immature marijuana plants or seedlings; Marijuana must be cultivated at the home address of record.",
+      "url": "https://legis.delaware.gov/BillDetail?LegislationId=140123",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited Delaware legislative page. The answer is correct and supported by the source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Delaware?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

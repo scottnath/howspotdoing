@@ -1,0 +1,78 @@
+{
+  "location": "Maryland",
+  "datetime": "2026-01-04T15:18:09.709Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Maryland. As of July 1, 2023, adults may possess up to 1.5 ounces of cannabis flower, 12 grams of concentrated cannabis, or cannabis products containing up to 750 milligrams of THC.",
+      "gov_quote": "Like tobacco and alcohol, the legal purchase age for cannabis in Maryland is 21 or older. Valid, government-ID (driver's license, passport) is required at the point-of-sale. Licensed disp​​ensaries​​ are the only place to legally buy cannabis in Maryland.",
+      "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for adults to possess cannabis in the state of Maryland?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Maryland. As of July 1, 2023, adults may purchase cannabis and cannabis products from licensed dispensaries by presenting valid government-issued photo identification.",
+      "gov_quote": "Sales of adult use cannabis are permitted beginning July 1, 2023.",
+      "url": "https://marylandtaxes.gov/business/sales-use/adult-use-cannabis.php",
+      "validation": "VERIFIED",
+      "validation_notes": "Quote verification: The exact quote 'Sales of adult use cannabis are permitted beginning July 1, 2023.' appears verbatim on the official Maryland tax website. The answer YES is correct, age requirement (21+) is accurate, July 1, 2023 effective date is confirmed, and ID requirement is accurate in substance as confirmed by official state guidance.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Maryland?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Maryland for personal use. State law allows up to two cannabis plants per residence, regardless of the number of adults living there. Plants must be kept out of public view, secured from unauthorized access and minors, and grown only on property lawfully possessed by the cultivator or with the property owner's consent. No license or registration is required for home cultivation within these limits. Violations, such as exceeding plant limits or failing to secure plants, are misdemeanors punishable by up to three years in prison or a $5,000 fine.",
+      "gov_quote": "(a)(1) A person may not cultivate more than two cannabis plants. (2) If two or more persons at least 21 years old reside at the same residence, no more than two cannabis plants may be cultivated at that residence. (b) Cannabis plants may not be cultivated in a location where the plants are subject to public view, including a view from another private property, without the use of binoculars, aircraft, or other optical aids. (c) (1) A person who cultivates cannabis shall take reasonable precautions to ensure the plants are secure from unauthorized access and access by a person under the age of 21 years. (2) Reasonable precautions includes cultivating cannabis in an enclosed locked space to which persons under the age of 21 years do not possess a key. (d) Cannabis cultivation may occur only on property lawfully in possession of the cultivator or with the consent of the person in lawful possession of the property. (e) A person under the age of 21 years may not cultivate cannabis plants. (f) A person who violates this section is guilty of a misdemeanor and on conviction is subject to imprisonment not exceeding 3 years or a fine not exceeding $5,000 or both.",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=5-601.2",
+      "validation": "VERIFIED",
+      "validation_notes": "The statutory quote is accurate and matches the official Maryland government statute page. The answer 'YES' is correct based on the statute content. No discrepancies were found.",
+      "question": "Is it legal for adults to grow cannabis in the state of Maryland?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Maryland unless that business is specifically licensed as an on-site consumption establishment by the Maryland Cannabis Administration and has received local government approval. As of early 2026, no public business such as a bar, restaurant, or retail store may permit cannabis consumption on its premises without this license, and indoor smoking or vaping is generally prohibited even at licensed establishments.",
+      "gov_quote": "\"Cannabis (and hemp) smoking is prohibited in any public place or in any motor vehicle. A public place includes outdoor spaces and indoor spaces open to the public, including parks, streets and sidewalks, bars and restaurants, public transportation (e.g., buses, van, trains, taxicabs, limousines) and indoor places of employment.\"",
+      "url": "https://mdcannabis.gov/consumers/know-the-law",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Maryland Cannabis Administration website. The answer is fully supported by the page content, which clearly prohibits cannabis consumption in public businesses. No changes made.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Maryland?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Maryland to possess cannabis, provided they comply with state registration and possession limits as established by their certifying provider or the default 30-day supply. Maryland law explicitly exempts qualifying patients from arrest or prosecution for medical cannabis possession within these limits.",
+      "gov_quote": "\"Any of the following persons acting in accordance with the provisions of this subtitle may not be subject to arrest, prosecution, revocation of mandatory supervision, parole, or probation, or any civil or administrative penalty, including a civil penalty or disciplinary action by a professional licensing board, or be denied any right or privilege, for the medical use of or possession of medical cannabis...\"",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=13-3313",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited Maryland statute page. The answer is correct and supported by the law. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Maryland?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Maryland to purchase cannabis from licensed dispensaries. The Maryland Cannabis Administration confirms that registered patients and caregivers may buy medical cannabis at any licensed dispensary in the state, and this right is supported by state law and current regulations.",
+      "gov_quote": "A Maryland pa​tient can only obtain legal medical cannabis from a Maryland-licensed dispensary.",
+      "url": "https://cannabis.maryland.gov/pages/patients_faq.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Maryland?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "Registered medical marijuana patients in Maryland are legally permitted to grow up to four cannabis plants per household for personal medical use. This right is established by state law and confirmed by the Maryland Cannabis Administration, with requirements that plants be grown at the patient's primary residence, kept out of public view, and secured from unauthorized access.",
+      "gov_quote": "A qualifying patient or caregiver may cultivate up to four cannabis plants per residence, regardless of the number of qualifying patients or caregivers residing at the residence. The plants must be cultivated at the primary residence of the qualifying patient or caregiver, in a location not visible to the public, and in a manner that prevents unauthorized access.",
+      "url": "https://mmcc.maryland.gov/Pages/home-cultivation.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Maryland Cannabis Administration page. The answer and summary are fully supported by the cited government source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Maryland?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

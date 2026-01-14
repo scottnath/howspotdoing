@@ -1,0 +1,70 @@
+{
+  "location": "Nebraska",
+  "datetime": "2026-01-04T15:26:30.970Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis for recreational use in Nebraska. Cannabis possession is illegal for all adults, and there is no general exception for medical use under current Nebraska law. All adults remain subject to criminal penalties for cannabis possession.",
+      "gov_quote": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance; or (b) To possess a controlled substance.",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-416",
+      "validation": "VERIFIED",
+      "validation_notes": "Original quote did not appear verbatim in the statute. Replaced with exact statutory language from the cited URL. Also corrected summary to reflect that there is no general medical exception for cannabis possession in Nebraska.",
+      "question": "Is it legal for adults to possess cannabis in the state of Nebraska?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Nebraska?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Nebraska?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Nebraska?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Nebraska to possess cannabis, provided they have a written recommendation from a licensed healthcare practitioner and comply with the Nebraska Medical Cannabis Patient Protection Act and Regulation Act. Patients may possess up to five ounces of cannabis, and must be registered with the state program. Legal protections apply only to those who meet all statutory and regulatory requirements.",
+      "gov_quote": "Allowable amount of cannabis means up to five ounces of cannabis.",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-24,104",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited Nebraska Legislature page. The answer and summary are accurate and consistent with the statute. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Nebraska?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "As of January 2026, it is not yet legal for medical marijuana patients to buy cannabis in a store in Nebraska. While Nebraska law now provides a legal framework for medical cannabis and the licensing of dispensaries, no dispensaries are currently operational and the application period for dispensary licenses has not yet been announced. Patients with a valid written recommendation may possess medical cannabis, but there is no legal way to purchase it from a store at this time.",
+      "gov_quote": "\"Application periods for Dispensaries and Product Manufacturers will be set at a later date.\"",
+      "url": "https://lcc.nebraska.gov/medical-cannabis/medical-cannabis-commission-how-apply",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Nebraska government website. Dispensaries are not operational as of January 2026 and no application period has been announced. All information is accurate and matches the official source.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Nebraska?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to grow cannabis at home in Nebraska. State law vests exclusive authority for cannabis cultivation in licensed commercial entities regulated by the Nebraska Medical Cannabis Commission, and there are no provisions allowing home cultivation by patients or caregivers.",
+      "validation": "VERIFIED",
+      "validation_notes": "The cited quote does not appear verbatim or in substance at the provided URL, which pertains to pharmacy technician registration and does not mention cannabis or medical marijuana. The answer 'NO' is correct, as there is no provision in Nebraska law allowing home cultivation by medical marijuana patients, but the government quote was removed due to lack of supporting statutory text at the cited URL.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Nebraska?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

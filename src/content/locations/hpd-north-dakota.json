@@ -1,0 +1,72 @@
+{
+  "location": "North Dakota",
+  "datetime": "2026-01-04T15:31:40.502Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis for recreational use in North Dakota. State law classifies marijuana as a Schedule I controlled substance, and possession by adults outside the medical marijuana program is a criminal offense. The most recent attempt to legalize adult-use cannabis, Measure 5 (2024), was rejected by voters, and no subsequent legislative changes have altered the prohibition.",
+      "gov_quote": "\"Any person who willfully violates this subsection with respect to: a. Possession of less than one-half ounce [14.175 grams] of marijuana is guilty of a criminal infraction punishable by a fine of up to one thousand dollars.\"",
+      "url": "https://www.ndlegis.gov/cencode/t19c03-1.pdf#page=23",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote did not appear verbatim on the cited page. The quote has been replaced with the actual statutory language from North Dakota Century Code 19-03.1-23, which accurately describes the penalty for possession of less than one-half ounce of marijuana. The answer and summary remain correct.",
+      "question": "Is it legal for adults to possess cannabis in the state of North Dakota?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of North Dakota?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of North Dakota?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of North Dakota?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in North Dakota to possess cannabis, provided they hold a valid North Dakota Medical Marijuana Registry Identification Card, have a qualifying medical condition, and comply with strict possession limits and product requirements. Patients must purchase cannabis exclusively from state-licensed dispensaries, may not cultivate at home, and must adhere to limits such as up to 3 ounces of dried flower (with higher limits for certain conditions) and specified THC limits for concentrates and edibles.",
+      "gov_quote": "\"A registered qualifying patient or registered designated caregiver is not subject to arrest or prosecution, penalty, or denial of any right or privilege for the purchase, use, or possession of usable marijuana for medical purposes, provided the patient or caregiver is in compliance with this chapter.\"",
+      "url": "https://www.hhs.nd.gov/mm",
+      "validation": "VERIFIED",
+      "validation_notes": "All information verified as accurate. The government quote was found verbatim on the official North Dakota Department of Health and Human Services medical marijuana page. Legal status, possession limits, dispensary requirements, and all other details in the summary are confirmed to be correct as of the verification date.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of North Dakota?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in North Dakota to purchase cannabis from state-licensed dispensaries. Patients must hold a valid North Dakota medical marijuana card and may only buy cannabis from one of the eight registered dispensaries in the state.",
+      "gov_quote": "An individual with a North Dakota medical marijuana card is only authorized to purchase and possess medical marijuana from one of the eight registered dispensaries in the state. State law has no protections for individuals in North Dakota with marijuana or marijuana products not purchased from an in-state registered dispensary.",
+      "url": "https://www.hhs.nd.gov/mm/patients",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official North Dakota Department of Health and Human Services website. Answer confirmed. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of North Dakota?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to grow cannabis in North Dakota. State law prohibits home cultivation by patients or caregivers, and all medical cannabis must be purchased from licensed dispensaries.",
+      "gov_quote": "An individual with a North Dakota medical marijuana card is only authorized to purchase and possess medical marijuana from one of the eight registered dispensaries in the state. State law has no protections for individuals in North Dakota with marijuana or marijuana products not purchased from an in-state registered dispensary.",
+      "url": "https://www.hhs.nd.gov/mm",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official North Dakota Department of Health and Human Services medical marijuana page. The answer and summary are accurate and supported by the official source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of North Dakota?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

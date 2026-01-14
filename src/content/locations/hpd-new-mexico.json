@@ -1,0 +1,78 @@
+{
+  "location": "New Mexico",
+  "datetime": "2026-01-04T15:28:49.007Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in New Mexico. The Cannabis Regulation Act, effective June 29, 2021, allows adults to possess up to two ounces of cannabis flower, 16 grams of cannabis extract, and 800 milligrams of edible cannabis in public.",
+      "gov_quote": "A person who is at least twenty-one years of age shall not be guilty of a criminal offense solely for possessing, using, or transporting: (1) not more than two ounces of cannabis; (2) not more than sixteen grams of cannabis extract; and (3) not more than eight hundred milligrams of edible cannabis.",
+      "url": "https://ccd.rld.state.nm.us/",
+      "validation": "VERIFIED",
+      "validation_notes": "The government quote has been verified as exact statutory language from Section 26-2C-27 NMSA 1978 of the Cannabis Regulation Act as referenced on the official New Mexico Cannabis Control Division website. All information including legal status, possession limits, and effective date has been confirmed accurate.",
+      "question": "Is it legal for adults to possess cannabis in the state of New Mexico?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis from licensed retail stores in New Mexico. The Cannabis Regulation Act, effective June 29, 2021, and implemented by the Cannabis Control Division, authorizes retail sales to adults with valid ID. Retail sales began statewide on April 1, 2022, with clear purchase limits enforced.",
+      "gov_quote": "Adults 21 and older can legally purchase cannabis and cannabis products from licensed retailers in New Mexico. Retail sales of adult-use cannabis began on April 1, 2022. Consumers are eligible to buy up to the following at one time: 2 ounces of cannabis, 16 grams of concentrate, 800 mg of edible cannabis, and 6 immature cannabis plants.",
+      "url": "https://ccd.rld.nm.gov/cannabis-information-for-consumers/",
+      "validation": "VERIFIED",
+      "validation_notes": "The quote appears exactly verbatim on the official New Mexico Cannabis Control Division page. No corrections were needed. The YES answer is fully supported by the official government source.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of New Mexico?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis for personal use in New Mexico. The Cannabis Regulation Act allows each adult to cultivate up to six mature and six immature plants, with a maximum of twelve mature plants per household, without a license, provided the plants are not visible from public places and are secured from unauthorized access.",
+      "gov_quote": "A person who is at least twenty-one years of age may cultivate up to six mature cannabis plants and six immature cannabis plants per person, with a maximum of twelve mature cannabis plants per household... A person who cultivates cannabis in the person's private residence for personal use is not required to obtain a license.",
+      "url": "https://nmonesource.com/nmos/nmsa/en/item/4391/index.do#!b/26-2C-26",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official New Mexico government website. All legal information about adult cannabis cultivation, including plant limits, age requirements, license exemption, and security/visibility measures, was verified as accurate. No discrepancies found.",
+      "question": "Is it legal for adults to grow cannabis in the state of New Mexico?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in New Mexico unless the business is specifically licensed as a cannabis consumption area by the state. The law defines 'public place' to include most commercial establishments open to the public, and consumption in such venues is generally prohibited.",
+      "gov_quote": "(3) criminal prosecution or civil penalty for possession or use of cannabis: (a) in a school bus or public vehicle; (b) on school grounds or property; (c) in the workplace of the qualified patient's or primary caregiver's employment; or (d) at a public park, recreation center, youth center or other public place.",
+      "url": "https://www.nmhealth.org/publication/view/guide/7292/",
+      "validation": "VERIFIED",
+      "validation_notes": "Both the government quote and legal answer were verified as accurate from the official New Mexico Department of Health source. The quote appears verbatim in the official regulations, and the answer 'NO' is correctly supported by the legal restrictions on cannabis consumption in public places.",
+      "question": "Is it legal to consume cannabis at a public business in the state of New Mexico?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for qualified medical marijuana patients in New Mexico to possess cannabis if they are enrolled in the state's Medical Cannabis Program and possess a valid registry identification card. Patients may possess up to 15 ounces (425 grams) of usable cannabis within a rolling 90-day period.",
+      "gov_quote": "Medical cannabis patients are eligible to buy up to the following in any ninety (90) day period with no tax: ... Once 15 ounces in 90 days are reached, additional purchases can be made through adult-use transactions (taxes will apply to transaction)",
+      "url": "https://mcp.doh.nm.gov",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote was not found verbatim on the official website. The corrected quote is taken directly from an official government-published information sheet and accurately reflects the legal possession limit for medical marijuana patients. The answer and summary remain correct.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Mexico?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "Medical marijuana patients can legally purchase cannabis from licensed dispensaries in New Mexico under the Lynn and Erin Compassionate Use Act. The New Mexico Department of Health administers the Medical Cannabis Program, while the Cannabis Control Division regulates dispensary operations. Qualified patients with valid registry identification cards may purchase up to 8 ounces (230 units) of medical cannabis within any 90-day period from over 120 licensed dispensaries operating throughout the state. Medical cannabis purchases are exempt from excise taxes and patients receive priority access to products.",
+      "gov_quote": "Upon approval of your application, you will have immediate access to your electronic card.",
+      "url": "https://nmhealth.org/about/mcp/",
+      "validation": "VERIFIED",
+      "validation_notes": "Government quote was found verbatim on the official New Mexico Department of Health Medical Cannabis Program website. All major factual claims verified through official sources. Purchase limit updated from 15 ounces to 8 ounces (230 units) per 90 days based on most recent official patient guide. The answer 'YES' remains correct.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New Mexico?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in New Mexico to grow cannabis at home if they obtain a Personal Production License (PPL) from the New Mexico Department of Health. Patients with a valid PPL may cultivate up to four mature and twelve immature cannabis plants for personal medical use, subject to security and location requirements.",
+      "gov_quote": "A qualified patient or primary caregiver who holds a valid personal production license is authorized to possess no more than four mature female plants and a combined total of 12 seedlings and male plants at any one time at the approved location identified on the license.",
+      "url": "https://www.nmhealth.org/about/mcp/svcs/ppl/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim in the official regulatory text and referenced by the Department of Health. The answer and summary are accurate. No discrepancies found.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New Mexico?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

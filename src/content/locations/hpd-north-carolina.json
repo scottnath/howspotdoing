@@ -1,0 +1,68 @@
+{
+  "location": "North Carolina",
+  "datetime": "2026-01-04T06:59:45.335Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in North Carolina. State law classifies marijuana as a Schedule VI controlled substance, and possession of any amount is a criminal offense, with penalties ranging from a Class 3 misdemeanor for up to 0.5 ounces to a Class I felony for more than 1.5 ounces. There are no provisions legalizing or decriminalizing adult-use cannabis possession outside of limited exceptions for hemp-derived products and tribal lands of the Eastern Band of Cherokee Indians.",
+      "gov_quote": "\"Except as provided in subsections (h) and (i) of this section, any person who violates G.S. 90-95(a)(3) with respect to: ... (4) A controlled substance classified in Schedule VI shall be guilty of a Class 3 misdemeanor, but any sentence of imprisonment imposed must be suspended and the judge may not require at the time of sentencing that the defendant serve a period of imprisonment as a special condition of probation. If the quantity of the controlled substance exceeds one-half of an ounce (avoirdupois) of marijuana or one-twentieth of an ounce (avoirdupois) of the extracted resin of marijuana, commonly known as hashish, the violation shall be punishable as a Class 1 misdemeanor. If the quantity of the controlled substance exceeds one and one-half ounces (avoirdupois) of marijuana, or three-twentieths of an ounce (avoirdupois) of the extracted resin of marijuana, commonly known as hashish, or if the controlled substance consists of any quantity of synthetic tetrahydrocannabinols or tetrahydrocannabinols isolated from the resin of marijuana, the violation shall be punishable as a Class I felony.\"",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html",
+      "validation": "VERIFIED",
+      "validation_notes": "The statutory quote from G.S. 90-95 was verified as accurate, appearing verbatim in the official North Carolina statute with only minor formatting differences. Marijuana is confirmed to be classified as a Schedule VI controlled substance under G.S. 90-94. The legal interpretation that adult possession of cannabis is illegal in North Carolina is correct, with criminal penalties ranging from Class 3 misdemeanor to Class I felony based on quantity as stated in the report. All key facts in the report have been independently verified against the official statutory sources.",
+      "question": "Is it legal for adults to possess cannabis in the state of North Carolina?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of North Carolina?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of North Carolina?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of North Carolina?"
+    },
+    "MEDICAL": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to possess cannabis in North Carolina under state law. North Carolina does not have a statewide medical marijuana program, and all forms of cannabis possession remain illegal except for a very limited exception for low-THC hemp extracts for intractable epilepsy. The only legal possession of cannabis for medical purposes is on tribal land of the Eastern Band of Cherokee Indians (EBCI), but this protection does not extend elsewhere in the state.",
+      "gov_quote": "Nothing in this section shall be construed to allow the smoking or vaporization of hemp extract, or to allow the possession or use of marijuana as defined in G.S. 90-87(16).",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_90/GS_90-94.1.pdf",
+      "validation": "VERIFIED",
+      "validation_notes": "The quoted statutory language appears verbatim in the cited statute. The answer is correct: North Carolina does not allow medical marijuana possession except for a very limited low-THC hemp extract exception for intractable epilepsy. The summary is accurate. Note: The statute does not mention tribal land exceptions; this detail is not supported by the cited law but does not affect the main legal conclusion.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of North Carolina?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of North Carolina?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of North Carolina?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "NO",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

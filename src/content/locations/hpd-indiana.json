@@ -1,0 +1,68 @@
+{
+  "location": "Indiana",
+  "datetime": "2026-01-04T06:21:36.722Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is illegal for adults to possess cannabis in Indiana. State law classifies possession of marijuana as a criminal offense, with penalties ranging from a Class B misdemeanor for first-time possession of any amount to a felony for larger quantities or repeat offenses. The only exception is for 'low THC hemp extract' containing no more than 0.3% delta-9 THC by dry weight.",
+      "gov_quote": "\"A person who: (1) knowingly or intentionally possesses (pure or adulterated) marijuana, hash oil, hashish, or salvia; commits a Class B misdemeanor, except as provided in subsections (b) and (c).\"",
+      "url": "https://iga.in.gov/laws/2024/ic/titles/35#35-48-4-11",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the cited Indiana General Assembly website. The answer and summary are accurate and supported by the statutory language. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of Indiana?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Indiana?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Indiana?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Indiana?"
+    },
+    "MEDICAL": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to possess cannabis in Indiana. Indiana law does not provide any exemption or legal defense for medical marijuana possession, and there is no state medical marijuana program. All possession of cannabis remains a criminal offense under Indiana law, regardless of medical need or physician recommendation.",
+      "gov_quote": "A person who knowingly or intentionally possesses (pure or adulterated) marijuana, hash oil, hashish, or salvia, commits possession of marijuana, hash oil, hashish, or salvia, a Class B misdemeanor.",
+      "url": "https://iga.in.gov/laws/2023/ic/titles/35#35-48-4-11",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Indiana Code website. No medical marijuana exemption exists in Indiana law. All cannabis possession remains a criminal offense regardless of medical status. No changes made.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Indiana?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Indiana?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "MEDICAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Indiana?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "NO",
+    "MEDICAL_STORE": "NO",
+    "MEDICAL_GROW": "NO"
+  }
+}

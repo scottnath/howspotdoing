@@ -1,0 +1,70 @@
+{
+  "location": "Utah",
+  "datetime": "2026-01-04T15:42:27.575Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is illegal for adults to possess cannabis in Utah unless they are registered medical cannabis cardholders in compliance with the state's medical cannabis program. Recreational possession remains a criminal offense under Utah law.",
+      "gov_quote": "\"Except as authorized by this chapter, it is unlawful for a person knowingly and intentionally to possess or use a controlled substance, unless it was obtained under a valid prescription or order, directly from a practitioner while acting in the course of the person's professional practice, or as otherwise authorized by law.\"",
+      "url": "https://le.utah.gov/xcode/Title58/Chapter37/58-37-S8.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Web verification confirmed the quoted text appears verbatim in Utah Code Section 58-37-8. Cannabis is classified as a Schedule I controlled substance under Utah law. The answer 'NO' is confirmed accurate; recreational cannabis possession remains illegal in Utah except for registered medical cannabis cardholders. URL is accessible and contains the referenced statute.",
+      "question": "Is it legal for adults to possess cannabis in the state of Utah?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Utah?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Utah?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Utah?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Utah to possess cannabis if they hold a valid medical cannabis card, possess only approved forms, and do not exceed the legal possession limits of up to 113 grams of unprocessed cannabis flower or 20 grams of total THC in other forms within a 30-day period. Patients must comply with all Utah Medical Cannabis Program requirements, including registration and documentation.",
+      "gov_quote": "You can buy medical cannabis at any licensed medical cannabis pharmacy in Utah.",
+      "url": "https://medicalcannabis.utah.gov/patients/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Utah medical cannabis website. The answer is accurate and supported by the cited source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Utah?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Utah to purchase cannabis in a store, known as a licensed medical cannabis pharmacy. Patients must have a valid Utah medical cannabis card and may only buy approved cannabis products from these state-licensed pharmacies, subject to purchase limits and product restrictions.",
+      "gov_quote": "You can buy medical cannabis at any licensed medical cannabis pharmacy in Utah.",
+      "url": "https://medicalcannabis.utah.gov/patients/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Utah medical cannabis website. The answer is accurate and supported by the cited source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Utah?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is illegal for medical marijuana patients to grow cannabis in Utah. State law prohibits home cultivation for all patients, requiring that all medical cannabis be purchased from licensed Utah medical cannabis pharmacies.",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Utah?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

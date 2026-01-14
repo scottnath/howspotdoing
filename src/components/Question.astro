@@ -1,0 +1,49 @@
+---
+const { report } = Astro.props;
+---
+
+<section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h2 itemprop="name">{report.question}</h2>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">{report.answer}</p>
+    <div
+      itemprop="answerExplanation"
+      itemscope
+      itemtype="https://schema.org/WebContent"
+    >
+      {
+        report.gov_quote && (
+          <blockquote itemprop="text">
+            "{report.gov_quote}" -{' '}
+            <cite itemprop="citation">
+              <a href="{report.url}">{report.url}</a>
+            </cite>
+          </blockquote>
+        )
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  [itemtype="https://schema.org/Question"] {
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    >[itemprop="name"] {
+      text-wrap-style: balance;
+      text-align: center;
+    }
+  }
+  [itemprop="acceptedAnswer"]>[itemprop="text"] {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+  }
+  blockquote {
+    color: #666;
+    font-style: italic;
+  }
+</style>

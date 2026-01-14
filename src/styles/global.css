@@ -1,13 +1,54 @@
+* {
+  font-family: sans-serif;
+}
+
+#global-header {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+p {
+  span {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--bs-dark);
+  }
+}
 
 main {
-	text-align: center;
+  text-align: center;
 }
+
 .meow {
-	max-width: 85%;
-	margin: 0 auto;
-	text-align: left;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: left;
 }
+
+.location-page {
+  #global-header-title {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .meow {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .meow {
+    max-width: 100%;
+  }
+}
+
 .howsit {
-	font-size: 1.5em;
-	margin-bottom: 1.5em;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
 }

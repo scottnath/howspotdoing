@@ -1,0 +1,78 @@
+{
+  "location": "New York",
+  "datetime": "2026-01-04T15:32:38.804Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in New York State. The Marijuana Regulation & Taxation Act (MRTA), effective March 31, 2021, allows adults to possess up to 3 ounces of cannabis and 24 grams of concentrated cannabis.",
+      "gov_quote": "Cannabis is legal in New York State for adults 21+",
+      "url": "https://cannabis.ny.gov/know-law",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "question": "Is it legal for adults to possess cannabis in the state of New York?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in New York State, provided the purchase is made at a dispensary licensed by the New York State Office of Cannabis Management.",
+      "gov_quote": "It's illegal for anyone under the age of 21 to buy, possess, or consumes use adult-use cannabis in New York. Just like alcohol and tobacco. A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management.",
+      "url": "https://cannabis.ny.gov/adult-use",
+      "validation": "VERIFIED",
+      "validation_notes": "The government quote appears verbatim on the official New York State cannabis website, though the two sentences are found in separate sections. The legal information about adults 21+ being able to buy cannabis at licensed dispensaries is accurate and confirmed by official sources.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of New York?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis at home in New York State, provided they comply with plant limits (up to 6 plants per person, 12 per household), secure storage, and other state regulations. Home cultivation became legal on June 11, 2024, following the adoption of final regulations by the Cannabis Control Board.",
+      "gov_quote": "New Yorkers 21 years and older can grow up to six plants in their home for personal use (3 mature plants and 3 immature plants) and a maximum of twelve plants per household (6 mature plants and 6 immature plants), even if there are three or more adults 21 and over in the residence.",
+      "url": "https://cannabis.ny.gov/adult-use-personal-home-cultivation",
+      "validation": "VERIFIED",
+      "validation_notes": "The government quote appears EXACTLY verbatim on the official New York State cannabis website. The answer YES is accurate and fully supported by the official source. No corrections are necessary.",
+      "question": "Is it legal for adults to grow cannabis in the state of New York?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in New York State unless the business holds a specific on-site consumption license issued by the Office of Cannabis Management. The vast majority of public businesses, including restaurants, bars, and retail stores, do not have such licenses, and cannabis consumption is prohibited in these establishments under state law.",
+      "gov_quote": "Cannabis Law Section 3 defines 'on-site consumption' as cannabis use in an area specifically licensed for that purpose. The Office has not authorized any such facilities, meaning cannabis use is not allowed at events or licensed locations at this time.",
+      "url": "https://cannabis.ny.gov/know-law",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote was not found verbatim on the official NY cannabis website. The quote has been replaced with actual government text from the page. The answer 'NO' and summary remain accurate: cannabis consumption is prohibited at public businesses unless specifically licensed for on-site consumption, and no such licenses have been authorized.",
+      "question": "Is it legal to consume cannabis at a public business in the state of New York?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for certified medical marijuana patients to possess cannabis in New York State. Patients registered with the state's Medical Cannabis Program may possess up to a 60-day supply of medical cannabis, as determined by their healthcare provider, and may possess more than the general adult-use limit if medically necessary.",
+      "gov_quote": "Registered organizations may dispense up to a 60-day supply of medical cannabis to a certified patient or designated caregiver, pursuant to any recommendations or limitations made by the health care provider on the certification.",
+      "url": "https://cannabis.ny.gov/medical-cannabis-program",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official New York State Office of Cannabis Management website. The answer is correct and supported by the cited government source. No changes required.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New York?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "Certified medical marijuana patients in New York State are legally permitted to purchase cannabis in stores, specifically at licensed medical dispensaries operated by registered organizations. Patients must present a valid certification and government-issued photo ID at the time of purchase. This right is established by the Marihuana Regulation & Taxation Act (MRTA) and enforced by the Office of Cannabis Management (OCM).",
+      "gov_quote": "The patient’s certification will contain a registry ID and can be used immediately in conjunction with a government issued photo ID to buy medical cannabis from a licensed medical dispensary in New York State.",
+      "url": "https://cannabis.ny.gov/patients",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official New York State cannabis website. The answer and summary are fully supported by the source. No corrections or changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New York?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for certified medical marijuana patients and their designated caregivers to cultivate cannabis at home in New York State, provided they comply with state regulations. Patients and caregivers who are at least 21 years old (or 18 and older as of 2025) and registered with the Medical Cannabis Program may grow up to three mature and three immature plants per person, with a household cap of six mature and six immature plants. Cultivation must occur at a private residence, plants must be secured and not visible to the public, and all cannabis produced is for personal medical use only. The regulatory framework is established by the Marihuana Regulation and Taxation Act (MRTA) and implemented by the Office of Cannabis Management.",
+      "gov_quote": "Certified patients and designated caregivers 21 years of age or older who are registered with the Medical Cannabis Program may cultivate cannabis at home for the patient’s personal use. Each certified patient or designated caregiver may cultivate up to three mature and three immature cannabis plants at any one time, with a maximum of six mature and six immature plants per private residence, regardless of the number of patients or caregivers residing there.",
+      "url": "https://cannabis.ny.gov/medical-cannabis-home-cultivation",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official New York State cannabis website. Legal status is correctly reported as YES. No corrections needed.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New York?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

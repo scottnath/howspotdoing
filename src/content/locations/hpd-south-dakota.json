@@ -1,0 +1,72 @@
+{
+  "location": "South Dakota",
+  "datetime": "2026-01-04T15:38:02.613Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in South Dakota for recreational purposes. State law prohibits possession of any amount of cannabis unless the individual is a registered medical cannabis patient with a valid card, and penalties for unauthorized possession range from a misdemeanor to serious felonies depending on the amount.",
+      "gov_quote": "\"No person may knowingly possess marijuana. It is a Class 1 misdemeanor to possess two ounces of marijuana or less. It is a Class 6 felony to possess more than two ounces of marijuana but less than one-half pound of marijuana. It is a Class 5 felony to possess one-half pound but less than one pound of marijuana. It is a Class 4 felony to possess one to ten pounds of marijuana. It is a Class 3 felony to possess more than ten pounds of marijuana.\"",
+      "url": "https://sdlegislature.gov/Statutes/Codified_Laws/22-42-6",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official South Dakota legislature website. The answer and summary are correct; adult recreational cannabis possession remains illegal. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of South Dakota?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of South Dakota?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of South Dakota?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of South Dakota?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients to possess cannabis in South Dakota. State law allows qualifying patients with a valid registry identification card to possess up to three ounces of cannabis and, if authorized, to cultivate a limited number of plants for personal medical use.",
+      "gov_quote": "A cardholder is not subject to arrest, prosecution, or penalty of any kind, or denial of any right or privilege, including any civil penalty or disciplinary action by a court or occupational or professional licensing board or bureau, for the medical use of cannabis in accordance with this chapter, if the cardholder does not possess more than the allowable amount of cannabis, and if any cannabis plant is either cultivated in an enclosed, locked facility or is being transported",
+      "url": "https://sdlegislature.gov/Statutes/34-20G-2",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of South Dakota?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in South Dakota to purchase cannabis from licensed dispensaries. The South Dakota medical cannabis program, established by Initiated Measure 26 and codified in state law, allows qualifying patients with a valid registry identification card to buy cannabis at state-licensed dispensaries. Dispensaries have been operational since January 2022 and are regulated by the South Dakota Department of Health.",
+      "gov_quote": "Any sale or purchase of medical cannabis must comply with SDCL 34-20G and ARSD 44:90. Any sale or purchase of cannabis outside of the regulated medical cannabis establishments is illegal.",
+      "url": "https://medcannabis.sd.gov/",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of South Dakota?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in South Dakota to grow cannabis at home. Patients with a registry identification card authorizing cultivation may grow up to two flowering and two non-flowering cannabis plants at their residence, provided they comply with security and registration requirements.",
+      "gov_quote": "As part of the application process to obtain a registry identification card for the South Dakota Medical Cannabis Program, applicants may also apply to cultivate no more than two flowering cannabis plants and two cannabis plants that are not flowering plants in their home.",
+      "url": "https://medcannabis.sd.gov/faq.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of South Dakota?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

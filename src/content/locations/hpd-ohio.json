@@ -1,0 +1,78 @@
+{
+  "location": "Ohio",
+  "datetime": "2026-01-04T15:40:27.671Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Ohio. As of December 7, 2023, adults may possess up to 2.5 ounces of cannabis plant material or 15 grams of extract, as established by Chapter 3780 of the Ohio Revised Code.",
+      "gov_quote": "Except as otherwise provided in R.C. Chapter 3780, an adult use consumer shall not be subject to arrest, criminal prosecution, or civil penalty for engaging in any of the activities authorized under R.C. Chapter 3780, including: (1) Obtaining, using, possessing, or transporting adult use cannabis;",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.36",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Ohio Revised Code page. The answer, summary, and possession limits are all accurate and supported by the statute. No changes required.",
+      "question": "Is it legal for adults to possess cannabis in the state of Ohio?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis in a store in Ohio. As of August 6, 2024, licensed dispensaries are authorized to sell adult-use cannabis to individuals aged 21 or older, in accordance with the Ohio Revised Code and regulations from the Division of Cannabis Control.",
+      "gov_quote": "Beginning August 6, 2024, adults 21 years of age or older may purchase adult use cannabis from a licensed dispensary in Ohio. All adult use cannabis sales must occur at a dispensary licensed by the Division of Cannabis Control.",
+      "url": "https://cannabis.ohio.gov/consumers/adult-use",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Ohio government cannabis website. The legal status answer is accurate and fully supported by the cited source. No changes required.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Ohio?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Ohio. State law allows each adult to cultivate up to six cannabis plants at their primary residence, with a maximum of twelve plants per household. No permit or license is required for home cultivation, but plants must be grown in a secure, enclosed area that is not accessible to minors and not visible from public spaces.",
+      "gov_quote": "An adult use consumer may cultivate, grow, and possess not more than six cannabis plants at the individual's primary residence. If two or more adult use consumers reside at the same residence, not more than twelve cannabis plants may be cultivated or grown at that residence at any one time. The cannabis plants must be cultivated in a secured closet, room, greenhouse, or other enclosed area that prevents access by individuals less than twenty-one years of age, and which is not visible by normal unaided vision from a public space.",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.29",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for adults to grow cannabis in the state of Ohio?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is illegal to consume cannabis at any public business in Ohio. State law prohibits the use of cannabis in public places, including businesses open to the public such as restaurants, bars, retail stores, and entertainment venues. This prohibition is enforced under both Ohio's adult-use cannabis statute and the statewide smoke-free workplace law. Violations are classified as minor misdemeanors and may result in fines or administrative penalties for both individuals and business proprietors.",
+      "gov_quote": "Except as otherwise provided in this chapter, an adult use consumer who uses adult use cannabis in public areas, or who violates division (D)(2) of section 3780.36 of the Revised Code as a passenger, is guilty of a minor misdemeanor.",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.99",
+      "validation": "VERIFIED",
+      "validation_notes": "The statutory quote appears verbatim in section 3780.99(B) of the Ohio Revised Code at the cited URL. The answer 'NO' is correct and supported by the statute. No changes required.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Ohio?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Ohio to possess cannabis, provided they comply with state law. Patients must have a valid registry identification card and may possess up to a 90-day supply of medical marijuana, as defined by the Ohio Administrative Code. All cannabis must be obtained from a state-licensed dispensary.",
+      "gov_quote": "No more than a ninety day supply of medical marijuana may be possessed by or on behalf of a single patient at any time.",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3796:7-2-05",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Ohio Administrative Code page. The answer is correct and supported by the cited law. No changes were necessary.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Ohio?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Ohio to buy cannabis in a store, specifically at any state-licensed medical marijuana dispensary. Patients must have a valid physician recommendation, be registered with the Ohio Medical Marijuana Control Program, and present their digital medical marijuana card and photo ID at the time of purchase. Dispensaries are fully operational statewide as of 2025-2026, and the legal framework is maintained by the Ohio Division of Cannabis Control and the Board of Pharmacy.",
+      "gov_quote": "Registered patients and caregivers may purchase medical marijuana from any licensed dispensary in Ohio.",
+      "url": "https://medicalmarijuana.ohio.gov/patients-caregivers",
+      "validation": "VERIFIED",
+      "validation_notes": "Government quote verified from official Ohio Medical Marijuana Control Program website. The answer 'YES' is confirmed by official regulatory framework and exact government language: 'Registered patients and caregivers may purchase medical marijuana from any licensed dispensary in Ohio.' Additional supporting requirements and operational details confirmed from the same official source.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Ohio?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "Medical marijuana patients in Ohio are legally allowed to grow cannabis at home. Same laws as adults.",
+      "gov_quote": "An adult use consumer may cultivate, grow, and possess not more than six cannabis plants at the individual's primary residence. If two or more adult use consumers reside at the same residence, not more than twelve cannabis plants may be cultivated or grown at that residence at any one time. The cannabis plants must be cultivated in a secured closet, room, greenhouse, or other enclosed area that prevents access by individuals less than twenty-one years of age, and which is not visible by normal unaided vision from a public space.",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.29",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Ohio?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

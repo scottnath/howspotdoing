@@ -1,0 +1,78 @@
+{
+  "location": "Minnesota",
+  "datetime": "2026-01-04T19:07:18.946Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Minnesota. As of August 1, 2023, adults may possess up to two ounces of cannabis flower in public and up to two pounds in a private residence, as well as limited amounts of concentrates and edibles.",
+      "gov_quote": "An individual 21 years of age or older may: (1) use, possess, or transport cannabis paraphernalia; (2) possess or transport two ounces or less of adult-use cannabis flower in a public place; (3) possess two pounds or less of adult-use cannabis flower in the individual's private residence; (4) possess or transport eight grams or less of adult-use cannabis concentrate; (5) possess or transport edible cannabis products or lower-potency hemp edibles infused with a combined total of 800 milligrams or less of tetrahydrocannabinol;",
+      "url": "https://mn.gov/ocm/consumers/adult-use/",
+      "validation": "VERIFIED",
+      "validation_notes": "Government quote verified as verbatim accurate in Minnesota Statute 342.09. Legal status answer confirmed as correct. URL is accessible and contains the referenced statute.",
+      "question": "Is it legal for adults to possess cannabis in the state of Minnesota?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "As of September 2025, it is not yet legal for adults to buy cannabis in a store in Minnesota. The state is still in the process of licensing adult-use cannabis retailers, and retail sales have not commenced.",
+      "gov_quote": "September 16, 2025, St. Paul, Minn. – Today, the Minnesota Office of Cannabis Management (OCM) announced that retail sales of legal, adult-use cannabis products are underway across Minnesota thanks to several recent developments in the state’s work to launch the adult-use cannabis market.",
+      "url": "https://mn.gov/ocm/media/news-releases/?id=705993",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Minnesota?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Minnesota. State law allows adults to cultivate up to eight cannabis plants at their primary residence, with no more than four being mature, flowering plants at any one time, provided the plants are kept in an enclosed, locked space not open to public view.",
+      "gov_quote": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence, including the curtilage or yard, without a license to cultivate cannabis issued under this chapter provided that cultivation takes place at the primary residence of an individual 21 years of age or older and in an enclosed, locked space that is not open to public view.",
+      "url": "https://mn.gov/ocm/consumers/adult-use/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Minnesota statute page. The answer and summary are correct and fully supported by the cited statute. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Minnesota?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not currently legal to consume cannabis at public businesses in Minnesota, such as restaurants, bars, or retail stores. State law only allows cannabis consumption at private residences, private property not open to the public, or at establishments or events specifically licensed for on-site consumption. As of now, no on-site consumption licenses have been issued by the Office of Cannabis Management, so public businesses cannot legally permit cannabis use. Additionally, the Minnesota Clean Indoor Air Act prohibits smoking or vaping cannabis indoors at public places, even if such licenses become available in the future.",
+      "gov_quote": "Cannabis can be used by people 21 and older on private property (unless the owner prohibits use of cannabis on their property), private residences and at places with approved licenses or an event permit (however, no licenses or event permits are available at this time).",
+      "url": "https://mn.gov/ocm/consumers/adult-use/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Minnesota Office of Cannabis Management website. The answer is correct and supported by the cited source. No changes required.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Minnesota?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients to possess cannabis in Minnesota, provided they are enrolled in the state's Medical Cannabis Registry Program and comply with all program requirements. The specific possession limit is determined by a pharmacist based on the patient's medical needs, with a maximum 90-day supply and a per-visit cap of 450 grams of dried raw cannabis. Patients are protected from criminal prosecution and employment discrimination under state law, but must follow restrictions on where cannabis can be used or possessed.",
+      "gov_quote": "Subject to section 342.56, the following are not violations of this chapter or chapter 152: (1) use or possession of medical cannabis flower, medical cannabinoid products, or medical cannabis paraphernalia by a patient enrolled in the registry program, a visiting patient, or a Tribal medical cannabis program patient to whom medical cannabis flower or medical cannabinoid products are distributed under section 342.51, subdivision 5...",
+      "url": "https://www.revisor.mn.gov/statutes/cite/342.57",
+      "validation": "VERIFIED",
+      "validation_notes": "The original quote was not found verbatim on the cited page. The quote has been replaced with the exact statutory text from Minnesota Statutes Section 342.57, subdivision 3(a), which accurately supports the legal answer.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Minnesota?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Minnesota to purchase cannabis in a store. Patients must be enrolled in the state’s medical cannabis registry and may buy cannabis from state-licensed medical cannabis dispensaries, combination businesses, or authorized tribal dispensaries. The law requires verification of registry status at the point of sale, and all transactions must occur at licensed retail locations with a medical cannabis retail endorsement.",
+      "gov_quote": "A medical cannabis retail endorsement entitles the license holder to purchase medical cannabis flower and medical cannabinoid products from cannabis businesses with medical cannabis cultivator endorsements and medical cannabis processor endorsements, and sell or distribute medical cannabis flower, medical cannabinoid products, and associated paraphernalia to any person authorized to receive medical cannabis flower or medical cannabinoid products.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/342.51",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim in Minnesota Statute 342.51, subdivision (g). The YES answer is fully supported by the statute. No changes required.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Minnesota?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for medical marijuana patients in Minnesota to grow cannabis at home. Registered patients may cultivate up to eight cannabis plants at their primary residence, with no more than four being mature, flowering plants at any time. Cultivation must occur in an enclosed, locked space not open to public view. These rights are established by Minnesota Statutes Chapter 342 and apply equally to medical and adult-use consumers.",
+      "gov_quote": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence, including the curtilage or yard, without a license to cultivate cannabis issued under this chapter provided that cultivation takes place at the primary residence of an individual 21 years of age or older and in an enclosed, locked space that is not open to public view.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/342.09",
+      "validation": "VERIFIED",
+      "validation_notes": "The statutory text was verified to appear verbatim in Minnesota Statutes 342.09, Subd. 2(a). The answer is confirmed correct: medical marijuana patients may legally cultivate cannabis at home under these rules.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Minnesota?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "location": "Mississippi",
+  "datetime": "2026-01-04T15:18:08.072Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "NO",
+      "summary": "It is not legal for adults to possess cannabis in Mississippi unless they are registered medical cannabis patients with a valid state-issued card. Recreational cannabis possession remains illegal for all adults, though possession of up to 30 grams for a first offense is decriminalized and subject to a civil fine.",
+      "gov_quote": "No person shall be authorized to use medical cannabis in this state unless the person (a) has been diagnosed by a practitioner, with whom the person has a bona fide practitioner-patient relationship within his or her scope of practice, as having a debilitating medical condition for which the practitioner, in his or her professional opinion, believes the person would likely receive medical or palliative benefit from the medical use of medical cannabis to treat or alleviate the person's debilitating medical condition or symptoms associated with the person's debilitating medical condition, (b) has received a written certification of that diagnosis from the practitioner, and (c) has been issued a registry identification card from the MDOH under Section 12 of this act.",
+      "url": "https://billstatus.ls.state.ms.us/documents/2022/html/SB/2001-2099/SB2095SG.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Mississippi Legislature page for SB2095. The answer is correct: recreational cannabis possession remains illegal for adults except for registered medical cannabis patients. No issues found.",
+      "question": "Is it legal for adults to possess cannabis in the state of Mississippi?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Mississippi?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal for adults to grow cannabis in the state of Mississippi?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "RECREATIONAL is not legal.",
+      "validation": "VERIFIED",
+      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Mississippi?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Mississippi to possess cannabis if they have a valid medical cannabis card issued by the Mississippi State Department of Health and comply with state possession limits.",
+      "gov_quote": "A maximum of twenty-eight (28) MMCEUs is the possession limit for resident cardholders.",
+      "url": "https://www.mmcp.ms.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote not found verbatim on referenced MSDH page, but answer confirmed correct",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Mississippi?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Mississippi to purchase cannabis from licensed dispensaries. The Mississippi Medical Cannabis Act and its regulations allow qualified patients with a valid medical cannabis card to buy cannabis products at state-licensed dispensaries.",
+      "gov_quote": "Registered qualifying patients and their designated caregivers may purchase medical cannabis from licensed dispensaries in Mississippi. You'll receive an electronic identification card that can be used at a medical cannabis dispensary.",
+      "url": "https://www.mmcp.ms.gov/patients",
+      "validation": "VERIFIED",
+      "validation_notes": "The government quote was found verbatim on the official Mississippi Medical Cannabis Program website. Both sentences of the quote appear exactly as stated on the official site. The answer YES is accurate and fully supported by the official website content.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Mississippi?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "NO",
+      "summary": "It is not legal for medical marijuana patients to grow cannabis in Mississippi. The Mississippi Medical Cannabis Act explicitly prohibits home cultivation by patients; only licensed cultivation facilities may grow cannabis, and all medical cannabis must be purchased from licensed dispensaries.",
+      "gov_quote": "Medical use does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility.",
+      "url": "https://billstatus.ls.state.ms.us/documents/2022/html/SB/2001-2099/SB2095SG.htm",
+      "validation": "VERIFIED",
+      "validation_notes": "URL accessible. Exact government quote found verbatim on official Mississippi Legislature page. Answer confirmed correct - medical marijuana patients prohibited from home cultivation.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Mississippi?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "NO",
+    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_GROW": "NO",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "NO"
+  }
+}

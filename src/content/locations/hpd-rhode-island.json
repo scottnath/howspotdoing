@@ -1,0 +1,78 @@
+{
+  "location": "Rhode Island",
+  "datetime": "2026-01-04T15:37:04.739Z",
+  "results": {
+    "RECREATIONAL": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to possess cannabis in Rhode Island. The Rhode Island Cannabis Act allows adults to possess up to one ounce of cannabis in public and up to ten ounces at home.",
+      "gov_quote": "\"Possessing, using, or purchasing up to one ounce (1 oz.) of cannabis or an equivalent amount of cannabis concentrate, or cannabis products, for personal use by a person who is at least twenty-one (21) years of age, is lawful and shall not be a criminal or civil offense under Rhode Island law.\"",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found with only a minor punctuation difference (period vs semicolon). The answer and summary are correct and fully supported by the statute. No substantive issues found.",
+      "question": "Is it legal for adults to possess cannabis in the state of Rhode Island?"
+    },
+    "RECREATIONAL_STORE": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to purchase cannabis in licensed retail stores in Rhode Island. The Rhode Island Cannabis Act, effective May 2022, allows adults to buy cannabis from state-licensed dispensaries, provided they meet age and purchase limit requirements. As of early 2026, multiple licensed dispensaries are operational and serving adult-use customers.",
+      "gov_quote": "Adults 21 years of age or older may legally possess and purchase cannabis in Rhode Island from licensed retailers. Adults may possess up to one ounce of cannabis in public and up to 10 ounces in their home.",
+      "url": "https://cannabis.ri.gov/adult-use",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Rhode Island cannabis website. The answer 'YES' is accurate as confirmed by the official source.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Rhode Island?"
+    },
+    "RECREATIONAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Rhode Island. The Rhode Island Cannabis Act, effective May 2022, allows adults to cultivate up to three mature and three immature cannabis plants per dwelling unit for personal use, with no license or registration required. Cultivation must occur in a private residence and plants must not be visible from public view.",
+      "gov_quote": "Adults 21 and older may possess up to one ounce of cannabis in public or 10 ounces at home. Adults may also cultivate up to three mature and three immature cannabis plants in their primary residence.",
+      "url": "https://cannabis.ri.gov/adult-use",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Rhode Island government website. The answer and quote are correct. No changes made.",
+      "question": "Is it legal for adults to grow cannabis in the state of Rhode Island?"
+    },
+    "RECREATIONAL_PUBLIC": {
+      "answer": "NO",
+      "summary": "It is not legal to consume cannabis at a public business in Rhode Island. State law prohibits the smoking or vaporizing of cannabis in any public place where tobacco use is banned, which includes all public businesses such as restaurants, bars, retail stores, and entertainment venues. There are no exceptions or licenses for on-site consumption at public businesses.",
+      "gov_quote": "\"The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance.\"",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
+      "validation": "VERIFIED",
+      "validation_notes": "Quote found verbatim in Rhode Island General Laws § 21-28.11-22. Legal interpretation confirmed correct - cannabis consumption by smoking/vaporizing prohibited in public businesses where tobacco use is banned. No exceptions or licenses available for on-site consumption.",
+      "question": "Is it legal to consume cannabis at a public business in the state of Rhode Island?"
+    },
+    "MEDICAL": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Rhode Island to possess cannabis. Patients may possess up to 2.5 ounces of usable marijuana and may cultivate up to 12 mature and 12 immature plants, provided they are registered with the state’s Medical Marijuana Program and comply with all regulatory requirements.",
+      "gov_quote": "The state's Medical Marijuana Act permits Rhode Island residents with debilitating medical conditions to use marijuana if a physician certifies, in writing, that the marijuana may alleviate their symptoms and that the potential benefits of using medical marijuana would likely outweigh the health risks to the patient.",
+      "url": "https://health.ri.gov/medical-marijuana/information/patients-caregivers",
+      "validation": "VERIFIED",
+      "validation_notes": "Human-found quote",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Rhode Island?"
+    },
+    "MEDICAL_STORE": {
+      "answer": "YES",
+      "summary": "Registered medical marijuana patients in Rhode Island are legally permitted to purchase cannabis at licensed compassion centers (dispensaries) in the state. The Rhode Island Department of Health explicitly states that patients with a medical marijuana card may visit any of the six compassion centers to purchase medical marijuana.",
+      "gov_quote": "Once you have a Medical Marijuana you may visit any of the six Rhode Island Compassion Centers to purchase medical marijuana.",
+      "url": "https://health.ri.gov/healthcare/medicalmarijuana/for/patients/",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Rhode Island Department of Health page. The answer is correct and supported by the cited government source. No changes made.",
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Rhode Island?"
+    },
+    "MEDICAL_GROW": {
+      "answer": "YES",
+      "summary": "It is legal for registered medical marijuana patients in Rhode Island to grow cannabis for personal medical use. Patients may cultivate up to 12 mature and 12 immature plants at a single registered indoor location, provided they obtain a Plant Tag Certificate and comply with all state regulations.",
+      "gov_quote": "A registered qualifying patient or registered primary caregiver may possess up to twelve (12) mature marijuana plants and twelve (12) immature marijuana plants, provided each plant is properly tagged with a valid medical marijuana plant tag certificate issued by the commission.",
+      "url": "https://cannabis.ri.gov/medical-marijuana-program",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Rhode Island government website. The answer is correct and all regulatory details are accurate. No changes required.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Rhode Island?"
+    }
+  },
+  "answers": {
+    "RECREATIONAL": "YES",
+    "RECREATIONAL_STORE": "YES",
+    "RECREATIONAL_GROW": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
+    "MEDICAL_GROW": "YES"
+  }
+}
