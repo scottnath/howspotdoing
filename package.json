@@ -16,7 +16,11 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
 		"prep": "npm run format && npm run lint",
-		"start": "npm run dev"
+		"start": "npm run dev",
+    "404file": "cp ./404.html ./dist/404.html",
+		"jekyllfile": "touch ./dist/.nojekyll",
+		"cname": "echo \"howspotdoing.com\" >>  ./dist/CNAME",
+		"postbuild": "npm run 404file && npm run jekyllfile && npm run cname"
   },
   "keywords": [],
   "author": "",

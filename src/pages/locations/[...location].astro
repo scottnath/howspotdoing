@@ -7,18 +7,22 @@ import { getEntry } from 'astro:content';
 export async function getStaticPaths() {
   const locations = await getCollection('locations');
 
-  return locations.map((entry) => {
+  return locations.flatMap((entry) => {
     // Convert hpd-new-york to new-york (remove hpd- prefix)
     const slug = entry.id.replace(/^hpd-/, '');
-    return {
-      params: { location: slug },
-      props: { entry },
-    };
+    return [
+      // /locations/[location]
+      { params: { location: slug }, props: { entry } },
+      // /locations/united-states/[location]
+      { params: { location: `united-states/${slug}` }, props: { entry } },
+    ];
   });
 }
 
 const { location } = Astro.params;
-const content = await getEntry('locations', `hpd-${location}`);
+// Extract slug from path (handles both "new-york" and "united-states/new-york")
+const slug = location?.includes('/') ? location.split('/').pop() : location;
+const content = await getEntry('locations', `hpd-${slug}`);
 const title = `${content.data.answer} - ${seoConfig.siteNickname}`;
 ---
 
