@@ -1,0 +1,17 @@
+---
+export interface Props {
+  legality: number;
+  location: string;
+}
+const { legality, location } = Astro.props;
+let legalityClass = '--the-red';
+if (legality >= 80) {
+  legalityClass = '--the-green';
+} else if (legality >= 30) {
+  legalityClass = '--the-yellow';
+}
+const underlineStyle = `--underline-color: var(${legalityClass})`;
+---
+
+<span class="is">Cannabis is <strong class="underline" style={underlineStyle}>{legality}% Legal</strong></span> <span class="in">in {location}</span>
+

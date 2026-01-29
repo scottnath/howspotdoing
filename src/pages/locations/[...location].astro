@@ -26,7 +26,7 @@ const content = await getEntry('locations', `hpd-${slug}`);
 const title = `${content.data.answer} - ${seoConfig.siteNickname}`;
 ---
 
-<Layout title={title} bodyClass="location-page">
+<Layout title={title} bodyClass="location-page" socialCardSlug={slug}>
   <Location location={content} />
 </Layout>
 

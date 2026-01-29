@@ -1,5 +1,9 @@
 ---
 const { report } = Astro.props;
+let urlVisible = '';
+if (report.url) {
+  urlVisible = report.url.replace('https://', '').replace('http://', '').replace('www.', '').split('/')[0];
+}
 ---
 
 <section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -16,7 +20,7 @@ const { report } = Astro.props;
           <blockquote itemprop="text">
             "{report.gov_quote}" -{' '}
             <cite itemprop="citation">
-              <a href="{report.url}">{report.url}</a>
+              <a href="{report.url}">{urlVisible}</a>
             </cite>
           </blockquote>
         )
@@ -45,5 +49,10 @@ const { report } = Astro.props;
   blockquote {
     color: #666;
     font-style: italic;
+    cite {
+      white-space: nowrap;
+      overflow: hidden;
+      display: block;;
+    }
   }
 </style>

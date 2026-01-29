@@ -1,9 +1,11 @@
 ---
 import Layout from '@components/Layout.astro';
 import Locations from '@components/Locations.astro';
+import SiteTitle from '@components/SiteTitle.astro';
 ---
 
 <Layout title="How's Pot Doing in...">
+  <h1 itemprop="name"><SiteTitle title="How's Pot Doing" /></h1>
   <section>
     <Locations />
   </section>

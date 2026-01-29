@@ -29,6 +29,9 @@ export interface Props {
   disableIndexing?: boolean;
 
   bodyClass?: string;
+
+  /** Location slug for social card image (e.g., "california") */
+  socialCardSlug?: string;
 }
 
 const {
@@ -38,7 +41,13 @@ const {
   image,
   disableIndexing = false,
   bodyClass = '',
+  socialCardSlug,
 } = Astro.props as Props;
+
+// Determine the OG image URL - use social card if slug provided, otherwise default
+const ogImageUrl = socialCardSlug
+  ? `/social-cards/${socialCardSlug}.png`
+  : seoConfig.image.url;
 ---
 
 <html lang="en">
@@ -53,12 +62,12 @@ const {
         basic: {
           title: ogTitle || title,
           type: 'website',
-          image: seoConfig.image.url || image.url,
+          image: ogImageUrl || image?.url,
         },
         image: {
-          width: seoConfig.image.width,
-          height: seoConfig.image.height,
-          alt: seoConfig.image.alt || image.alt,
+          width: socialCardSlug ? 1200 : seoConfig.image.width,
+          height: socialCardSlug ? 628 : seoConfig.image.height,
+          alt: socialCardSlug ? `${title} social card` : (seoConfig.image.alt || image?.alt),
         },
         optional: {
           siteName: seoConfig.siteName,
@@ -173,7 +182,6 @@ const {
       src="https://plausible.io/js/script.outbound-links.js"></script>
   </head>
   <body class={bodyClass}>
-    <Header />
     <main>
       <slot />
     </main>

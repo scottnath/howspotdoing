@@ -103,7 +103,7 @@ const locationsCollection = defineCollection({
         ...data,
         title: `How's Pot Doing in ${data.location}?`,
         legality,
-        answer: `Cannabis is ${legality}% legal in ${data.location}`,
+        answer: `Cannabis is ${legality}% Legal in ${data.location}`,
         datetime,
       };
     }),

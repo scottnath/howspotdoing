@@ -1,10 +1,66 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '@components/Layout.astro';
-import Locations from '@components/Locations.astro';
+import SiteTitle from '@components/SiteTitle.astro';
+
+const locations = (await getCollection('locations')).sort((a, b) =>
+  a.data.location.localeCompare(b.data.location)
+);
+
+const getSlug = (id: string): string => id.replace(/^hpd-/, '');
+
+const legal100 = locations.filter((loc) => loc.data.legality === 100);
+const legal80 = locations.filter((loc) => loc.data.legality >= 80 && loc.data.legality < 100);
+const legal30 = locations.filter((loc) => loc.data.legality >= 30 && loc.data.legality < 80);
 ---
 
 <Layout title="How's Pot Doing in...">
+  <h1 itemprop="name"><SiteTitle title="How's Pot Doing" /></h1>
   <section>
-    <Locations />
+    <dl>
+      <dt>Cannabis is 100% legal in...</dt>
+      {legal100.map((loc) => (
+        <dd><a href={`/locations/${getSlug(loc.id)}/`}>{loc.data.location}</a></dd>
+      ))}
+    </dl>
+    <dl>
+      <dt>Cannabis is at least 80% legal in...</dt>
+      {legal80.map((loc) => (
+        <dd><a href={`/locations/${getSlug(loc.id)}/`}>{loc.data.location}</a></dd>
+      ))}
+    </dl>
+    <dl>
+      <dt>Cannabis is at least 30% legal in...</dt>
+      {legal30.map((loc) => (
+        <dd><a href={`/locations/${getSlug(loc.id)}/`}>{loc.data.location}</a></dd>
+      ))}
+    </dl>
   </section>
 </Layout>
+
+<style>
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.5rem;
+    margin: 0;
+    text-align: left;
+  }
+  dt {
+    grid-column: 1 / -1;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  dd {
+    margin: 0;
+  }
+  dd a {
+    display: block;
+    padding: 0.25rem 0 0;
+  }
+</style>

@@ -1,12 +1,14 @@
 ---
 const { location } = Astro.props;
 import Question from './Question.astro';
+import SiteTitle from '@components/SiteTitle.astro';
+import Answer from '@components/Answer.astro';
 ---
 
 <article itemscope itemtype="https://schema.org/FAQPage" class="meow location">
-  <h1 itemprop="name">{location.data.title}</h1>
-  <p itemprop="description">{location.data.answer}</p>
-  <p itemprop="lastReviewed">Last reviewed: {location.data.datetime}</p>
+  <h1 itemprop="name"><SiteTitle title={location.data.title} /></h1>
+  <p itemprop="description" class="answer-title serif-stroke"><Answer legality={location.data.legality} location={location.data.location} /></p>
+  <p itemprop="lastReviewed" class="emoji-background-text">Last reviewed: {location.data.datetime}</p>
   <Question report={location.data.results.RECREATIONAL} />
   <Question report={location.data.results.RECREATIONAL_STORE} />
   <Question report={location.data.results.RECREATIONAL_GROW} />
@@ -17,7 +19,7 @@ import Question from './Question.astro';
 <style>
   article {
     >h1 {
-      text-wrap-style: balance;
+      text-wrap-style: stable;
       text-align: center;
       font-size: 1.5em;
       padding: 0;

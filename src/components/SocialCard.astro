@@ -1,0 +1,98 @@
+---
+export interface Props {
+  answer: string;
+  location: string;
+  title: string;
+  legality: number;
+}
+import '@styles/global.css';
+const { answer, location, title, legality } = Astro.props;
+const question = title.split('?')[0];
+import SiteTitle from '@components/SiteTitle.astro';
+import Answer from '@components/Answer.astro';
+---
+
+<div class="social-card">
+  <p class="question"><SiteTitle title={question} /></p>
+  <p class="answer serif-stroke"><Answer legality={legality} location={location} /></p>
+  <p class="sitename">HowsPotDoing.com</p>
+</div>
+
+<style>
+  .social-card {
+    width: 1200px;
+    height: 628px;
+    background: linear-gradient(180deg, #f3f6f3 0%, #4cf14c 70%, #02c102 100%);
+    padding: 20px;
+    box-sizing: border-box;
+    color: var(--the-yellow);
+    position: relative;
+
+    .logo-title {
+      font-size: 4em;
+      text-align: center;
+      display: block;
+    }
+  }
+
+  .site-name {
+    color: #006100;
+    font-size: 3em;
+    font-weight: bold;
+    margin: .5em 0;
+    text-align: center;
+  }
+  .question {
+  }
+
+
+  .answer {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-wrap: balance;
+    line-height: 1.2;
+    /* Vertical centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 80px);
+    font-stretch: 75%;
+    /* Dark outline for contrast + drop shadow for depth */
+    span {
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+  .sitename {
+    /*
+    font-size: 2.5em;
+    font-stretch: 100%;
+    font-weight: bold; */
+
+    /* --outline-stroke-color: var(--the-green);
+    margin: 0; */
+    text-align: center;
+    position: absolute;
+    top: auto;
+    bottom: 1em;
+    width: 100%;
+    text-align: center;
+    font-family: 'Scripto', cursive;
+    font-size: 2.5em;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 2px var(--the-yellow);
+    color: var(--the-green);
+    margin: 0;
+    letter-spacing: 0.1em;
+    /* span {
+      font-family: 'TikTok Sans', sans-serif;
+      display: inline;
+    } */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+
+
+  }
+</style>

@@ -1,0 +1,32 @@
+---
+export interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+
+<span class="logo-title"
+  ><span class="title logo-stroke"
+    >{title.replace('?', '')}<span class="qm">?</span></span
+  ></span
+>
+
+<style>
+  .title {
+    font-family: 'Scripto', cursive;
+  }
+  .qm {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url('/hows-pot-doing.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.2em;
+    color: transparent;
+    vertical-align: middle;
+    text-indent: 999em;
+    margin: -21px 0 0 1px;
+  }
+</style>

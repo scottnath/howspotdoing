@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: owner/repo
+  branch: sveltia-2026
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: locations
+    label: Locations
+    folder: src/content/locations
+    extension: json
+    format: json
+    create: true
+    fields:
+      - { label: RECREATIONAL, name: RECREATIONAL, widget: text }
+      - { label: RECREATIONAL_STORE, name: RECREATIONAL_STORE, widget: text }
+      - { label: RECREATIONAL_GROW, name: RECREATIONAL_GROW, widget: text }
+      - { label: RECREATIONAL_PUBLIC, name: RECREATIONAL_PUBLIC, widget: text }
+      - { label: MEDICAL, name: MEDICAL, widget: text }
+      - { label: MEDICAL_STORE, name: MEDICAL_STORE, widget: text }
+      - { label: MEDICAL_GROW, name: MEDICAL_GROW, widget: text }
