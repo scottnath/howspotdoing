@@ -4,7 +4,7 @@
 export const seoConfig = {
   baseURL: 'https://howspotdoing.com', // Change this to your production URL.
   description:
-    "How's Pot Doing? As in...is Cannabis legal in your state?", // Change this to be your website's description.
+    "Official sources, clear score: How's Pot Doing rates cannabis legality by state (0-100) using .gov websites about recreation and medical cannabis access.", // Change this to be your website's description.
   type: 'website',
   image: {
     url: '/hows-pot-doing.png', // Change this to your website's thumbnail.

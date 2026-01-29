@@ -141,14 +141,19 @@ main {
 }
 
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   main {
     max-width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   main {
     max-width: 95%;
+  }
+}
+@media (min-width: 900px) {
+  main {
+    max-width: 85%;
   }
 }
 
