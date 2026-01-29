@@ -67,7 +67,7 @@
     }
   },
   "answers": {
-    "RECREATIONAL": "2026-01-01",
+    "RECREATIONAL": "YES",
     "RECREATIONAL_STORE": "NO",
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
