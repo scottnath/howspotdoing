@@ -6,15 +6,21 @@ import Answer from '@components/Answer.astro';
 ---
 
 <article itemscope itemtype="https://schema.org/FAQPage" class="meow location">
-  <h1 itemprop="name"><SiteTitle title={location.data.title} /></h1>
+  <h1 itemprop="name"><SiteTitle title={location.data.title} location={location.data.location} /></h1>
   <p itemprop="description" class="answer-title serif-stroke"><Answer legality={location.data.legality} location={location.data.location} /></p>
-  <p itemprop="lastReviewed" class="emoji-background-text">Last reviewed: {location.data.datetime}</p>
-  <Question report={location.data.results.RECREATIONAL} />
-  <Question report={location.data.results.RECREATIONAL_STORE} />
-  <Question report={location.data.results.RECREATIONAL_GROW} />
-  <Question report={location.data.results.MEDICAL} />
-  <Question report={location.data.results.MEDICAL_STORE} />
-  <Question report={location.data.results.MEDICAL_GROW} />
+  <p itemprop="lastReviewed">Last reviewed: {location.data.datetime}</p>
+  <div class="questions">
+    <div class="rec">
+      <Question report={location.data.results.RECREATIONAL} />
+      <Question report={location.data.results.RECREATIONAL_STORE} />
+      <Question report={location.data.results.RECREATIONAL_GROW} />
+    </div>
+    <div class="med">
+      <Question report={location.data.results.MEDICAL} />
+      <Question report={location.data.results.MEDICAL_STORE} />
+      <Question report={location.data.results.MEDICAL_GROW} />
+    </div>
+  </div>
 </article>
 <style>
   article {
@@ -27,9 +33,8 @@ import Answer from '@components/Answer.astro';
     }
     [itemprop="description"] {
       text-align: center;
-      font-size: 2em;
       font-weight: bold;
-      padding: .5em 0;
+      padding: 1rem 0;
       margin: 0;
     }
     [itemprop="lastReviewed"] {
@@ -38,6 +43,22 @@ import Answer from '@components/Answer.astro';
       padding: 0;
       margin: 0 0 1em 0;
       color: #666;
+    }
+    @media (min-width: 600px) {
+      .questions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+        .rec, .med {
+          flex: 0 0 calc(50% - 0.5em);
+          max-width: calc(45% - 0.5em);
+        }
+        /* .question {
+          flex: 0 0 calc(50% - 0.5em);
+          max-width: calc(45% - 0.5em);
+        } */
+      }
     }
   }
 </style>

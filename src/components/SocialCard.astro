@@ -19,6 +19,11 @@ import Answer from '@components/Answer.astro';
 </div>
 
 <style>
+  :root {
+    --logo-title-size: 4rem;
+    --logo-size: 4rem;
+    --answer-size: 3.4rem;
+  }
   .social-card {
     width: 1200px;
     height: 628px;
@@ -29,7 +34,7 @@ import Answer from '@components/Answer.astro';
     position: relative;
 
     .logo-title {
-      font-size: 4em;
+      font-size: 4rem;
       text-align: center;
       display: block;
     }
@@ -37,17 +42,14 @@ import Answer from '@components/Answer.astro';
 
   .site-name {
     color: #006100;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: bold;
     margin: .5em 0;
     text-align: center;
   }
-  .question {
-  }
-
 
   .answer {
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: bold;
     margin: 0;
     text-align: center;
@@ -81,7 +83,7 @@ import Answer from '@components/Answer.astro';
     width: 100%;
     text-align: center;
     font-family: 'Scripto', cursive;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     paint-order: stroke fill;
     -webkit-text-stroke: 2px var(--the-yellow);
     color: var(--the-green);

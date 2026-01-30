@@ -1,24 +1,48 @@
 ---
 export interface Props {
-  title: string;
+  title?: string;
+  location?: string;
 }
-const { title } = Astro.props;
+const { title, location } = Astro.props;
+const siteTitle = 'How\'s Pot Doing';
+let titleText = siteTitle;
+if (title) {
+  titleText = title.replace('?', '');
+}
 ---
 
-<span class="logo-title"
-  ><span class="title logo-stroke"
-    >{title.replace('?', '')}<span class="qm">?</span></span
-  ></span
->
+<span class="logo-title">
+  <span class="title logo-stroke">
+    {location ? (
+        <span class="text-style">How&apos;s Pot Doing in <span class="loc text-style">{location}<span class="qm">?</span></span></span>
+    ) : (
+      <span class="page text-style">{titleText}<span class="qm">?</span></span>
+    )}
+  </span>
+</span>
 
 <style>
-  .title {
+.text-style {
+  font-family: 'Scripto', cursive;
+  color: var(--the-yellow);
+  font-size: var(--logo-title-size);
+  font-weight: 500;
+}
+.logo-title {
+  margin: 0 0 24px 0;
+  text-align: center;
+  opacity: 0.9;
+  .span {
     font-family: 'Scripto', cursive;
   }
+  .loc {
+    white-space: nowrap;
+  }
+}
   .qm {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: var(--logo-size);
+    height: var(--logo-size);
     background-image: url('/hows-pot-doing.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -27,6 +51,6 @@ const { title } = Astro.props;
     color: transparent;
     vertical-align: middle;
     text-indent: 999em;
-    margin: -21px 0 0 1px;
+    margin: -.6rem 0 0 1px;
   }
 </style>

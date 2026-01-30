@@ -13,5 +13,24 @@ if (legality >= 80) {
 const underlineStyle = `--underline-color: var(${legalityClass})`;
 ---
 
-<span class="is">Cannabis is <strong class="underline" style={underlineStyle}>{legality}% Legal</strong></span> <span class="in">in {location}</span>
+<span class="answer"><span class="is">Cannabis is <strong class="underline" style={underlineStyle}>{legality}% Legal</strong></span> <span class="in">in {location}</span></span>
 
+<style>
+
+.answer {
+  text-align: center;
+  text-wrap: balance;
+}
+  .answer span,
+  .answer span strong {
+    color: var(--the-yellow);
+    font-size: var(--answer-size);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    font-stretch: 75%;
+  }
+  .answer span strong {
+    padding-right: .5rem;
+  }
+</style>

@@ -6,7 +6,7 @@ if (report.url) {
 }
 ---
 
-<section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="question">
   <h2 itemprop="name">{report.question}</h2>
   <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
     <p itemprop="text">{report.answer}</p>
@@ -30,25 +30,48 @@ if (report.url) {
 </section>
 
 <style>
+  :root {
+    --question-margin-bottom: .5rem;
+    --question-font-size: 1.2rem;
+    --question-padding: .1rem;
+  }
+  @media (min-width: 600px) {
+    :root {
+      --question-margin-bottom: 1rem;
+      --question-font-size: 1.5rem;
+      --question-padding: .5rem;
+    }
+  }
+  @media (min-width: 900px) {
+    :root {
+      --question-margin-bottom: 1.5rem;
+      --question-font-size: 1.8rem;
+      --question-padding: 1rem;
+    }
+  }
   [itemtype="https://schema.org/Question"] {
-    margin-bottom: 1em;
+    margin-bottom: var(--question-margin-bottom);
     border: 1px solid #ccc;
-    padding: 1em;
+    padding: var(--question-padding);
     border-radius: 0.5em;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     >[itemprop="name"] {
       text-wrap-style: balance;
       text-align: center;
+      font-size: var(--question-font-size);
     }
   }
   [itemprop="acceptedAnswer"]>[itemprop="text"] {
-    font-size: 1.5em;
+    font-size: calc(var(--answer-size) + .3rem);
     font-weight: bold;
     text-align: center;
+    margin: 0;
   }
   blockquote {
     color: #666;
     font-style: italic;
+    margin: .5rem 0;
+    font-size: .9rem;
     cite {
       white-space: nowrap;
       overflow: hidden;

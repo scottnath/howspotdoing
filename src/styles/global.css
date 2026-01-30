@@ -4,15 +4,32 @@
   --the-yellow: #fee03c;
   --the-green: #004d00;
   --the-red: #d00000;
-  --logo-size: 1.2em;
+  --logo-size: 2.5rem;
+  --logo-title-size: 2.3rem;
   --outline-stroke-size: .1em;
   --outline-stroke-color: var(--the-yellow);
   --large-stroke-size: 1px;
   --medium-stroke-size: 2px;
   --medium-stroke-color: var(--the-green);
   --underline-color: var(--the-green);
+  font-size: 16px;
+  --text-size: 1rem;
+  --answer-size: 1.5rem;
 }
-
+@media (min-width: 600px) {
+  :root {
+    --logo-title-size: 2.7rem;
+    --logo-size: 2.9rem;
+    --answer-size: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  :root {
+    --logo-title-size: 3rem;
+    --logo-size: 3rem;
+    --answer-size: 2.4rem;
+  }
+}
 @font-face {
   font-family: 'Scripto';
   src: url('/Scripto-2OR2v.ttf') format('truetype');
@@ -20,12 +37,20 @@
   font-style: normal;
   font-display: swap;
 }
+* {
+  font-family: "TikTok Sans", sans-serif;
+  font-variation-settings: "slnt" 0;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: var(--text-size);
+}
+
 .underline {
   position: relative;
   &::after {
     content: "";
     position: absolute;
-    bottom: -15px;
+    bottom: -1.2rem;
     left: -7px;
     height: 10px;
     width: 100%;
@@ -65,12 +90,6 @@
   -webkit-text-stroke: 2px #000;
 }
 
-* {
-  font-family: "TikTok Sans", sans-serif;
-  font-variation-settings: "slnt" 0;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 .serif-stroke {
   text-shadow:
     /* Dark green outline/stroke */
@@ -87,22 +106,6 @@
     calc(var(--medium-stroke-size) * 3) calc(var(--medium-stroke-size) * 3) calc(var(--medium-stroke-size) * 8) rgba(0, 0, 0, 0.3);
 }
 
-.logo-title {
-  font-family: 'Scripto', cursive;
-  color: var(--the-yellow);
-  font-size: 2em;
-  font-weight: 500;
-  margin: 0 0 24px 0;
-  text-align: center;
-  opacity: 0.9;
-
-  .logo {
-    width: var(--logo-size);
-    height: var(--logo-size);
-    vertical-align: text-top;
-    margin: -4px 0 0px -3px;
-  }
-}
 
 #global-header {
   text-align: center;
@@ -117,22 +120,6 @@ main {
   margin: 0 auto;
 }
 
-.answer-title {
-  color: var(--the-yellow);
-  font-size: 6em;
-  font-weight: bold;
-  margin: 0;
-  text-align: center;
-  text-wrap: balance;
-  line-height: 1.2;
-  font-stretch: 75%;
-  /* Dark outline for contrast + drop shadow for depth */
-}
-.meow {
-  max-width: 90%;
-  margin: 0 auto;
-  text-align: left;
-}
 
 .location-page {
   #global-header-title {
@@ -141,27 +128,22 @@ main {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   main {
     max-width: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   main {
     max-width: 95%;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   main {
     max-width: 85%;
   }
 }
 
-
-.howsit {
-  font-size: 1.5em;
-  margin-bottom: 1.5em;
-}
 
 .emoji-background-text {
   display:block;
