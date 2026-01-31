@@ -2,18 +2,12 @@
 import { getEntry } from 'astro:content';
 import SocialCardComponent from '@components/SocialCard.astro';
 
-// Enable server-side rendering for this page to access query params
+// Server-render this page to read query params
+// This file is deleted before production builds
 export const prerender = false;
 
 // Get the location slug from query parameter
 const locationParam = Astro.url.searchParams.get('location');
-
-// Redirect to home in production (this page is only for screenshot generation)
-if (import.meta.env.MODE === 'production') {
-  return Astro.redirect('/');
-}
-
-// Default to california if no location provided
 const slug = locationParam || 'california';
 const locationId = `hpd-${slug}`;
 

@@ -1,5 +1,6 @@
-import { readdirSync, existsSync, mkdirSync, renameSync } from 'node:fs';
+import { readdirSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { spawn, type ChildProcess } from 'node:child_process';
 import puppeteer from 'puppeteer';
 
 const CARD_WIDTH = 1200;
@@ -8,16 +9,11 @@ const CARD_HEIGHT = 628;
 const CONTENT_FOLDER = 'src/content/locations';
 const OUTPUT_FOLDER = 'public/social-cards';
 
-const BASE_URL = 'http://localhost:4321';
-const TIMEOUT = 3000;
-
-// Set to 0 or undefined to process all locations
-const LIMIT = 0;
-
-interface GenerateOptions {
-  limit?: number;
-  forceRegenerate?: boolean;
-}
+// Use a unique port to avoid conflicts with existing dev servers
+const PORT = 4399;
+const BASE_URL = `http://localhost:${PORT}`;
+const SCREENSHOT_DELAY = 1000;
+const SERVER_READY_TIMEOUT = 30000;
 
 async function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -32,11 +28,53 @@ function extractSlug(filename: string): string {
 }
 
 /**
- * Generates social card images for all locations.
+ * Waits for the dev server to be ready by polling the URL.
  */
-async function generateSocialCards(options: GenerateOptions = {}): Promise<void> {
-  const { limit = LIMIT, forceRegenerate = false } = options;
+async function waitForServer(url: string, timeout: number): Promise<boolean> {
+  const startTime = Date.now();
+  while (Date.now() - startTime < timeout) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        return true;
+      }
+    } catch {
+      // Server not ready yet
+    }
+    await delay(500);
+  }
+  return false;
+}
 
+/**
+ * Starts the Astro dev server on the specified port and returns the process.
+ */
+function startDevServer(): ChildProcess {
+  console.log(`Starting dev server on port ${PORT}...`);
+  const server = spawn('npx', ['astro', 'dev', '--port', String(PORT)], {
+    stdio: ['ignore', 'pipe', 'pipe'],
+    detached: false,
+  });
+
+  server.stdout?.on('data', (data) => {
+    const output = data.toString();
+    if (output.includes('localhost')) {
+      console.log('Dev server output:', output.trim());
+    }
+  });
+
+  server.stderr?.on('data', (data) => {
+    console.error('Dev server error:', data.toString());
+  });
+
+  return server;
+}
+
+/**
+ * Generates social card images for all locations.
+ * Always regenerates all images.
+ */
+async function generateSocialCards(): Promise<void> {
   const cwd = process.cwd();
   const contentPath = join(cwd, CONTENT_FOLDER);
   const outputPath = join(cwd, OUTPUT_FOLDER);
@@ -53,30 +91,17 @@ async function generateSocialCards(options: GenerateOptions = {}): Promise<void>
   );
 
   const slugs = locationFiles.map(extractSlug);
-  const slugsToProcess = limit > 0 ? slugs.slice(0, limit) : slugs;
-
-  console.log(`Found ${slugs.length} locations`);
-  if (limit > 0) {
-    console.log(`Processing limited to ${limit} locations`);
-  }
+  console.log(`Found ${slugs.length} locations to process`);
 
   const browser = await puppeteer.launch({
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
   let processed = 0;
-  let skipped = 0;
+  let failed = 0;
 
-  for (const slug of slugsToProcess) {
+  for (const slug of slugs) {
     const outputFile = join(outputPath, `${slug}.png`);
-
-    // Skip if file exists and not forcing regeneration
-    if (existsSync(outputFile) && !forceRegenerate) {
-      console.log(`Skipping ${slug} - social card already exists`);
-      skipped++;
-      continue;
-    }
-
     const url = `${BASE_URL}/social-card?location=${slug}`;
 
     try {
@@ -89,7 +114,7 @@ async function generateSocialCards(options: GenerateOptions = {}): Promise<void>
       });
 
       await page.goto(url, { waitUntil: 'networkidle0' });
-      await delay(TIMEOUT);
+      await delay(SCREENSHOT_DELAY);
 
       await page.screenshot({
         path: outputFile,
@@ -101,68 +126,70 @@ async function generateSocialCards(options: GenerateOptions = {}): Promise<void>
         },
       });
 
-      console.log(`✓ Generated: ${slug}.png`);
+      console.log(`  ✓ ${slug}.png`);
       processed++;
       await page.close();
     } catch (error) {
-      console.error(`✗ Failed to generate social card for ${slug}:`, error);
+      console.error(`  ✗ Failed: ${slug}`, error);
+      failed++;
     }
   }
 
   await browser.close();
 
   console.log('\n--- Summary ---');
-  console.log(`Processed: ${processed}`);
-  console.log(`Skipped: ${skipped}`);
-  console.log(`Total: ${slugsToProcess.length}`);
+  console.log(`Generated: ${processed}`);
+  console.log(`Failed: ${failed}`);
+  console.log(`Total: ${slugs.length}`);
+
+  if (failed > 0) {
+    process.exit(1);
+  }
 }
 
 /**
- * Handles renaming the social card page to make it visible/hidden.
- * The underscore prefix hides it from production builds.
+ * Main function - starts server, generates cards, stops server.
  */
-async function generateWithPageRename(): Promise<void> {
-  const cwd = process.cwd();
-  const hiddenPath = join(cwd, 'src/pages/_social-card.astro');
-  const visiblePath = join(cwd, 'src/pages/social-card.astro');
+async function main(): Promise<void> {
+  const startWithServer = process.argv.includes('--with-server');
 
-  const isHidden = existsSync(hiddenPath);
-  const isVisible = existsSync(visiblePath);
-
-  if (!isHidden && !isVisible) {
-    console.error('Error: social-card.astro page not found');
-    process.exit(1);
-  }
-
-  // If page is hidden, rename to visible, run generation, then rename back
-  if (isHidden) {
-    console.log('Unhiding social-card page for generation...');
-    renameSync(hiddenPath, visiblePath);
+  if (startWithServer) {
+    // Start dev server, generate cards, then stop server
+    const server = startDevServer();
 
     try {
+      console.log('Waiting for dev server to be ready...');
+      const isReady = await waitForServer(BASE_URL, SERVER_READY_TIMEOUT);
+
+      if (!isReady) {
+        throw new Error('Dev server failed to start within timeout');
+      }
+
+      console.log('Dev server is ready!\n');
       await generateSocialCards();
     } finally {
-      console.log('Re-hiding social-card page...');
-      renameSync(visiblePath, hiddenPath);
+      console.log('\nStopping dev server...');
+      server.kill('SIGTERM');
+      // Give it a moment to clean up
+      await delay(1000);
     }
   } else {
-    // Page is already visible, just run generation
+    // Assume server is already running
+    console.log('Checking if dev server is running...');
+    const isReady = await waitForServer(BASE_URL, 5000);
+
+    if (!isReady) {
+      console.error('Dev server is not running. Either:');
+      console.error('  1. Start it with: npm run dev');
+      console.error('  2. Or use: npm run social-cards -- --with-server');
+      process.exit(1);
+    }
+
     await generateSocialCards();
   }
 }
 
-// Parse command line arguments
-const args = process.argv.slice(2);
-const forceFlag = args.includes('--force') || args.includes('-f');
-const noRenameFlag = args.includes('--no-rename');
-
-if (forceFlag) {
-  console.log('Force regeneration enabled - will overwrite existing files\n');
-}
-
-// Run the appropriate function based on flags
-if (noRenameFlag) {
-  generateSocialCards({ forceRegenerate: forceFlag }).catch(console.error);
-} else {
-  generateWithPageRename().catch(console.error);
-}
+main().catch((error) => {
+  console.error('Fatal error:', error);
+  process.exit(1);
+});

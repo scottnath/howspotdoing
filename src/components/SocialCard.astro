@@ -18,11 +18,11 @@ import Answer from '@components/Answer.astro';
   <p class="sitename">HowsPotDoing.com</p>
 </div>
 
-<style>
+<style scoped>
   :root {
     --logo-title-size: 4rem;
     --logo-size: 4rem;
-    --answer-size: 3.4rem;
+    --answer-size: 6rem;
   }
   .social-card {
     width: 1200px;
@@ -49,8 +49,6 @@ import Answer from '@components/Answer.astro';
   }
 
   .answer {
-    font-size: 6rem;
-    font-weight: bold;
     margin: 0;
     text-align: center;
     text-wrap: balance;
@@ -61,11 +59,9 @@ import Answer from '@components/Answer.astro';
     left: 50%;
     transform: translate(-50%, -50%);
     width: calc(100% - 80px);
-    font-stretch: 75%;
     /* Dark outline for contrast + drop shadow for depth */
     span {
       display: inline-block;
-      white-space: nowrap;
     }
   }
   .sitename {
