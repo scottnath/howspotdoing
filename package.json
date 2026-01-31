@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
-    "build:full": "npm run social-cards -- --with-server && rm src/pages/social-card.astro && npm run build && git checkout src/pages/social-card.astro 2>/dev/null || true",
+    "build": "rm -f src/pages/social-card.astro && astro build && git checkout src/pages/social-card.astro 2>/dev/null || true",
+    "build:full": "npm run social-cards -- --with-server && npm run build",
     "preview": "astro preview",
     "test": "node --import tsx test.config.js",
     "test:coverage": "node --import tsx test.config.js --coverage",

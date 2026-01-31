@@ -53,7 +53,7 @@ function startDevServer(): ChildProcess {
   console.log(`Starting dev server on port ${PORT}...`);
   const server = spawn('npx', ['astro', 'dev', '--port', String(PORT)], {
     stdio: ['ignore', 'pipe', 'pipe'],
-    detached: false,
+    detached: true,
   });
 
   server.stdout?.on('data', (data) => {
@@ -169,9 +169,19 @@ async function main(): Promise<void> {
       await generateSocialCards();
     } finally {
       console.log('\nStopping dev server...');
-      server.kill('SIGTERM');
+      // Kill the server and all child processes
+      if (server.pid) {
+        try {
+          process.kill(-server.pid, 'SIGKILL');
+        } catch {
+          server.kill('SIGKILL');
+        }
+      } else {
+        server.kill('SIGKILL');
+      }
       // Give it a moment to clean up
-      await delay(1000);
+      await delay(500);
+      console.log('Done.');
     }
   } else {
     // Assume server is already running

@@ -20,6 +20,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          install-dependencies: true
+
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
@@ -29,7 +34,10 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-      - run: npm run build:full
+
+      - name: Generate social cards and build
+        run: npm run build:full
+        timeout-minutes: 10
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
