@@ -4,7 +4,7 @@ import { spawn, type ChildProcess } from 'node:child_process';
 import puppeteer from 'puppeteer';
 
 const CARD_WIDTH = 1200;
-const CARD_HEIGHT = 628;
+const CARD_HEIGHT = 630;
 
 const CONTENT_FOLDER = 'src/content/locations';
 const OUTPUT_FOLDER = 'public/social-cards';

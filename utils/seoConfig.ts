@@ -13,7 +13,7 @@ export const seoConfig = {
     height: 500,
   },
   siteName: "How's Pot Doing?",
-  siteNickname: "How's Pot Doing dot com",
+  siteNickname: "How's Pot Doing.com",
   twitter: {
     card: 'Twitter is a hellhole.',
   },
