@@ -1,14 +1,12 @@
 {
   "location": "New Hampshire",
-  "datetime": "2026-01-13T06:45:00.000Z",
+  "datetime": "2026-04-04T04:42:53.740Z",
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "summary": "It is not legal for adults to possess cannabis for recreational use in New Hampshire. Possession of up to three-quarters of an ounce by adults is decriminalized and treated as a civil violation subject to a fine, but it remains illegal and is not legalized for adult use.",
-      "gov_quote": "\"No person shall knowingly possess, actually or constructively, marijuana in a quantity of three-quarters of an ounce or less, unless such person is authorized to possess marijuana for therapeutic use pursuant to RSA 126-X. Any person who violates this section shall be guilty of a violation and subject to a fine of $100 for a first or second offense and $300 for a third offense within a three-year period. A fourth or subsequent offense within a three-year period shall constitute a class B misdemeanor.\"",
-      "url": "https://www.gencourt.state.nh.us/rsa/html/XXX/318-B/318-B-2-c.htm",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New Hampshire government statute page. The answer and summary are correct; adult possession is not legal, only decriminalized for small amounts. No changes required.",
+      "summary": "Recreational cannabis possession is not legal for adults in New Hampshire. Possession of up to 3/4 ounce has been decriminalized and is treated as a civil violation subject to a fine, but it is not legal. Medical cannabis is legal only for qualifying patients with a valid registry identification card under RSA 126-X.",
+      "gov_quote": "Recreational cannabis use remains prohibited.",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
       "question": "Is it legal for adults to possess cannabis in the state of New Hampshire?"
     },
     "RECREATIONAL_STORE": {
@@ -34,29 +32,27 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "summary": "It is legal for registered medical marijuana patients in New Hampshire to possess cannabis. Patients with a valid registry identification card may possess up to two ounces of usable cannabis at any time, as authorized by the state's Therapeutic Cannabis Program.",
-      "gov_quote": "There is a 2 ounce possession limit per patient, and all patients are limited to purchasing 2 ounces of cannabis in any 10-day period.",
-      "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "validation": "VERIFIED",
-      "validation_notes": "The quote appears verbatim on the official DHHS page. The answer and summary are accurate and fully supported by the source. No discrepancies found; validation status updated from QUOTE_CORRECTED to VERIFIED.",
+      "summary": "It is legal for registered medical marijuana patients to possess cannabis in New Hampshire, provided they comply with the state's Therapeutic Cannabis Program requirements, including a possession limit of up to 2 ounces of usable cannabis.",
+      "gov_quote": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following: (a) Two ounces of usable cannabis; and (b) Any amount of unusable cannabis.",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/NHTOC/NHTOC-X-126-X.htm",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Hampshire?"
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for registered medical marijuana patients in New Hampshire to purchase cannabis from licensed Alternative Treatment Centers (ATCs), which are the state's only authorized medical cannabis dispensaries.",
-      "gov_quote": "END",
-      "url": "none",
+      "summary": "It is legal for registered medical marijuana patients in New Hampshire to purchase cannabis from licensed Alternative Treatment Centers (ATCs) if they possess a valid registry identification card and comply with all program rules.",
+      "gov_quote": "The registry ID cards allow cardholders to purchase therapeutic cannabis from one of the state’s licensed Alternative Treatment Centers (ATCs).",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "The exact quote was found verbatim on the official DHHSnone",
+      "validation_notes": "Exact quote found verbatim on the cited NH DHHS page. The YES answer is accurate and supported by the source. No issues found.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New Hampshire?"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "summary": "It is not legal for medical marijuana patients to grow cannabis at home in New Hampshire. State law prohibits home cultivation by patients or caregivers; all medical cannabis must be obtained from licensed Alternative Treatment Centers.",
-      "gov_quote": "Registry ID cards allow cardholders to purchase therapeutic cannabis from one of the state's licensed Alternative Treatment Centers (ATCs)",
-      "url": "https://www.dhhs.nh.gov/programs-services/health-care/therapeutic-cannabis-program",
+      "summary": "Medical marijuana patients in New Hampshire are not legally permitted to grow cannabis at home. State law restricts cultivation to licensed Alternative Treatment Centers (ATCs), and there is no provision allowing home cultivation by patients or caregivers.",
+      "gov_quote": "The ATCs are independently operated, not-for-profit entities responsible for the cultivation, production, and dispensing of therapeutic cannabis to qualifying patients in New Hampshire.",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official DHHS page. The answer is correct: home cultivation is prohibited for medical marijuana patients in New Hampshire. No changes required.",
+      "validation_notes": "Exact quote found verbatim on the official NH DHHS page. The answer 'NO' is confirmed correct. No changes made.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New Hampshire?"
     }
   },

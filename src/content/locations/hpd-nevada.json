@@ -1,68 +1,56 @@
 {
   "location": "Nevada",
-  "datetime": "2026-01-13T06:45:00.000Z",
+  "datetime": "2026-04-04T04:56:24.662Z",
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to possess cannabis in Nevada. State law allows possession of up to 2.5 ounces of usable cannabis or one-fourth ounce of concentrated cannabis.",
-      "gov_quote": "Except as otherwise provided in NRS 678D.300, a person who is 21 years of age or older is exempt from state prosecution for: (a) The possession, delivery or production of cannabis;",
-      "url": "https://www.leg.state.nv.us/NRS/NRS-678D.html#NRS678DSec200",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Nevada statute page. The answer 'YES' is accurate and the possession limits are correct per NRS 678D.200. No changes required.",
+      "summary": "It is legal for adults 21 years of age or older to possess cannabis in Nevada. State law allows possession of up to 2.5 ounces of usable cannabis or 0.25 ounces of concentrated cannabis under NRS 678D.200.",
+      "gov_quote": "Except as otherwise provided in this section, a person who is 21 years of age or older is exempt from state prosecution for: (a) The possession, delivery or production of cannabis; ... if the person does not, at any one time, possess, deliver or produce more than: (1) Two and one-half ounces of usable cannabis; (2) One-fourth of an ounce of concentrated cannabis; (3) Six cannabis plants, irrespective of whether the cannabis plants are mature or immature; and (4) A maximum allowable quantity of adult-use cannabis products as established by regulation of the Board.",
+      "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
       "question": "Is it legal for adults to possess cannabis in the state of Nevada?"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Nevada. State law allows adults to purchase up to 2.5 ounces of usable cannabis or 0.25 ounces of concentrate per transaction from licensed dispensaries.",
-      "gov_quote": "Consumers may only legally buy cannabis from a state-licensed retail store.",
+      "summary": "It is legal for adults 21 and older to buy cannabis in a store in Nevada. State law allows adults to purchase cannabis from licensed retail stores, provided they present valid government-issued identification at the point of sale.",
+      "gov_quote": "For use by adults 21 years of age and older. Consumers may only legally buy cannabis from a state-licensed retail store.",
       "url": "https://ccb.nv.gov/consumers/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Nevada Cannabis Control Board website. All information regarding legality, purchase limits, and age requirements is confirmed and accurate. No discrepancies found.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Nevada?"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to grow cannabis in Nevada only if they live more than 25 miles from a licensed retail cannabis store. Eligible adults may cultivate up to six plants per person, with a maximum of 12 plants per household, and all plants must be kept in a secure, enclosed area not visible to the public.",
-      "gov_quote": "1. Except as otherwise provided in chapter 678C of NRS, a person shall not: (a) Cultivate cannabis within 25 miles of an adult-use cannabis retail store licensed pursuant to chapter 678B of NRS, unless the person is an adult-use cannabis cultivation facility or is a cannabis establishment agent volunteering at, employed by or providing labor to an adult-use cannabis cultivation facility;",
+      "summary": "It is legal for adults 21 and older to grow cannabis in Nevada only if they live more than 25 miles from a licensed retail cannabis store. The law allows up to six plants per person, with a maximum of twelve plants per household, and all plants must be grown in a secure, enclosed area not visible to the public.",
+      "gov_quote": "The exemption from state prosecution set forth in subsection 1 applies only to the extent that a person: ... (d) Does not, at any one time, possess, deliver or produce more than: ... (3) Six cannabis plants, irrespective of whether the cannabis plants are mature or immature; ... (e) Cultivates, grows or produces not more than six cannabis plants: (1) Within an enclosed area that is not exposed to public view that is equipped with locks or other security devices which allow access only by an authorized person; and (2) At a residence or upon the grounds of a residence in which not more than 12 cannabis plants are cultivated, grown or produced;",
       "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact statutory quote found verbatim in NRS 678D.310(1)(a) on the official Nevada Revised Statutes website. The legal answer and summary are accurate and supported by the statute. No changes required.",
       "question": "Is it legal for adults to grow cannabis in the state of Nevada?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "summary": "Cannabis consumption at public businesses is illegal in Nevada unless the business is a licensed cannabis consumption lounge. NRS 678D.300 makes it a misdemeanor to consume cannabis in public places, including businesses, with fines up to $600. The only exception is for specifically licensed cannabis consumption lounges operating under strict regulatory requirements.",
+      "summary": "It is not legal to consume cannabis at a public business in Nevada unless the business is specifically licensed as a cannabis consumption lounge by the Nevada Cannabis Compliance Board.",
       "gov_quote": "Except as otherwise provided in subsection 10 or by regulations adopted by the Board pursuant to NRS 678B.645, a person who smokes or otherwise consumes cannabis or a cannabis product in a public place, in an adult-use cannabis retail store or in a vehicle is guilty of a misdemeanor punished by a fine of not more than $600.",
       "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Nevada Revised Statutes page. The answer is correct and supported by the statute. No changes required.",
+      "validation_notes": "Exact quote found verbatim on the cited Nevada Legislature NRS-678D page. The answer 'NO' is fully supported by the statutory text. No corrections needed.",
       "question": "Is it legal to consume cannabis at a public business in the state of Nevada?"
     },
     "MEDICAL": {
       "answer": "YES",
-      "summary": "It is legal for medical marijuana patients in Nevada to possess cannabis if they hold a valid registry identification card. Patients may possess up to 2.5 ounces of usable cannabis and up to 12 cannabis plants, subject to statutory requirements and restrictions.",
-      "gov_quote": "1. A person who holds a valid registry identification card or letter of approval issued to the person pursuant to this chapter ... is exempt from state prosecution for: (a) The possession, delivery or production of cannabis; ... 2. The exemption from state prosecution set forth in subsection 1 applies only to the extent that a person ... does not, at any one time, collectively possess, deliver or produce with another person who is authorized to possess, deliver or produce cannabis pursuant to this chapter more than: (a) Two and one-half ounces of usable cannabis; (b) Twelve cannabis plants, irrespective of whether the plants are mature or immature",
-      "url": "https://www.leg.state.nv.us/NRS/NRS-678C.html",
-      "validation": "VERIFIED",
-      "validation_notes": "The quote has been corrected to reflect the exact wording from the Nevada Revised Statutes.",
+      "summary": "It is legal for registered medical marijuana patients in Nevada to possess cannabis. Patients may possess up to 2.5 ounces of usable marijuana and up to one-fourth ounce of concentrated cannabis within any 14-day period, as established by state law.",
+      "gov_quote": "A person who holds a valid registry identification card issued to the person pursuant to NRS 453A.220 or 453A.250 is exempt from state prosecution for: (a) Possession, delivery or production of marijuana; (b) Possession or delivery of paraphernalia; (c) Aiding and abetting another in the possession, delivery or production of marijuana; and (d) Any combination of the acts described in paragraphs (a), (b) and (c).",
+      "url": "https://www.leg.state.nv.us/Division/Legal/LawLibrary/NRS/NRS-453A.html",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Nevada?"
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for registered medical marijuana patients to purchase cannabis from licensed dispensaries and retail stores in Nevada. Patients must hold a valid Nevada medical marijuana registry identification card and may buy cannabis at nearly any licensed dispensary, including both dual-use and the single medical-only dispensary.",
-      "gov_quote": "Only licensed dispensaries may deliver and sell cannabis.",
-      "url": "https://ccb.nv.gov/nevada-cannabis-program/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote 'Only licensed dispensaries may deliver and sell cannabis.' found verbatim on the official Nevada Cannabis Control Board website. The answer 'YES' is confirmed as correct. No changes made.",
+      "summary": "It is legal for medical marijuana patients to purchase cannabis in a store in Nevada, provided they have a valid medical cannabis patient card. Licensed dispensaries are authorized to sell cannabis to registered medical patients under Nevada law.",
+      "gov_quote": "Medical cannabis patients may purchase cannabis at licensed retail stores if authorized by their medical cannabis patient card.",
+      "url": "https://ccb.nv.gov/consumers/",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Nevada?"
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "summary": "Medical marijuana patients in Nevada may legally grow cannabis only if they meet specific exceptions, such as living more than 25 miles from a dispensary, being unable to travel due to illness or lack of transportation, requiring a strain unavailable at dispensaries, or having cultivated before July 1, 2013. Otherwise, home cultivation by medical marijuana patients is prohibited where dispensaries are available in the patient's county of residence.",
-      "gov_quote": "Nevada law (NRS 678C) currently allows cardholders to home cultivate if they fall into one or more of the following exceptions:\n- If there is no dispensary in the county where your live or you do not live within 25 miles of a dispensary\n- If there was no dispensary operating within 25 miles of where you live when you first applied for your card and have not had a lapse in your registration\n- If you are unable to travel to a dispensary due to illness or lack of transportation\n- If the dispensaries in the county in which you live are unable to supply the strain of marijuana necessary for your medical condition",
-      "url": "https://dpbh.nv.gov/Reg/MM-Patient-Cardholder-Registry/dta/FAQs/Medical_Marijuana_Patient_Cardholder_Registry_-_FAQs/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Nevada Department of Public and Behavioral Health FAQ page. The answer 'YES' is accurate and supported by the cited source. No changes required.",
+      "summary": "Medical marijuana patients in Nevada may legally grow cannabis at home only if they meet specific statutory exceptions, such as living more than 25 miles from a dispensary at the time of their initial registry application, inability to travel due to illness or lack of transportation, dispensaries being closed or unable to supply the required strain, or if they were cultivating before July 1, 2013. The law limits cultivation to 12 plants per patient or caregiver household, and authorization must be stated on the patient's registry identification card.",
+      "gov_quote": "After a medical cannabis dispensary opens in the county of residence of a person who holds a registry identification card, including, without limitation, a designated primary caregiver, such a person is not authorized to cultivate, grow or produce cannabis. The provisions of this subsection do not apply if: (a) The person who holds the registry identification card was cultivating, growing or producing cannabis in accordance with state law on or before July 1, 2013; (b) All the medical cannabis dispensaries in the county of residence of the person who holds the registry identification card close or are unable to supply the quantity or strain of cannabis necessary for the medical use of the person to treat his or her specific medical condition; (c) Because of illness or lack of transportation, the person who holds the registry identification card is unable reasonably to travel to a medical cannabis dispensary; or (d) No medical cannabis dispensary was operating within 25 miles of the residence of the person who holds the registry identification card at the time the person first applied for his or her registry identification card.",
+      "url": "https://www.leg.state.nv.us/nrs/NRS-678C.html",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Nevada?"
     }
   },

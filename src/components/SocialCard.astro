@@ -6,7 +6,7 @@ export interface Props {
   legality: number;
 }
 import '@styles/global.css';
-const { answer, location, title, legality } = Astro.props;
+const { answer: _answer, location, title, legality } = Astro.props;
 const question = title.split('?')[0];
 import SiteTitle from '@components/SiteTitle.astro';
 import Answer from '@components/Answer.astro';
