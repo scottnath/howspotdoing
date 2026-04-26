@@ -1,6 +1,5 @@
 {
   "location": "Pennsylvania",
-  "datetime": "2026-01-13T06:45:00.000Z",
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
@@ -68,5 +67,7 @@
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
-  }
+  },
+  "lastResearch": "2026-01-13T06:45:00.000Z",
+  "lastUpdate": "2026-01-13T06:45:00.000Z"
 }

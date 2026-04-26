@@ -1,6 +1,5 @@
 {
   "location": "Minnesota",
-  "datetime": "2026-04-04T04:46:20.223Z",
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
@@ -72,5 +71,7 @@
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
-  }
+  },
+  "lastResearch": "2026-04-04T04:46:20.223Z",
+  "lastUpdate": "2026-04-04T04:46:20.223Z"
 }

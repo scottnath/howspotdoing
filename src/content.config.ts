@@ -84,7 +84,8 @@ const locationsCollection = defineCollection({
   schema: z
     .object({
       location: z.string(),
-      datetime: z.string(),
+      lastResearch: z.string(),
+      lastUpdate: z.string(),
       results: z.object({
         RECREATIONAL: resultSchema,
         RECREATIONAL_STORE: resultSchema,
@@ -98,13 +99,19 @@ const locationsCollection = defineCollection({
     })
     .transform((data) => {
       const legality = calculateLegality(data.answers);
-      const datetime = new Date(data.datetime).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+      const formatDate = (date: string): string =>
+        new Date(date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        });
       return {
         ...data,
         title: `How's Pot Doing in ${data.location}?`,
         legality,
         answer: `Cannabis is ${legality}% Legal in ${data.location}`,
-        datetime,
+        lastResearch: formatDate(data.lastResearch),
+        lastUpdate: formatDate(data.lastUpdate),
       };
     }),
 });

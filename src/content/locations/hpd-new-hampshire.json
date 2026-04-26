@@ -1,6 +1,5 @@
 {
   "location": "New Hampshire",
-  "datetime": "2026-04-04T04:42:53.740Z",
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
@@ -64,5 +63,7 @@
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
-  }
+  },
+  "lastResearch": "2026-04-04T04:42:53.740Z",
+  "lastUpdate": "2026-04-04T04:42:53.740Z"
 }

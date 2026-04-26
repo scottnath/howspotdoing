@@ -6,9 +6,16 @@ import Answer from '@components/Answer.astro';
 ---
 
 <article itemscope itemtype="https://schema.org/FAQPage" class="meow location">
-  <h1 itemprop="name"><SiteTitle title={location.data.title} location={location.data.location} /></h1>
-  <p itemprop="description" class="answer-title serif-stroke"><Answer legality={location.data.legality} location={location.data.location} /></p>
-  <p itemprop="lastReviewed">Last reviewed: {location.data.datetime}</p>
+  <h1 itemprop="name">
+    <SiteTitle title={location.data.title} location={location.data.location} />
+  </h1>
+  <p itemprop="description" class="answer-title serif-stroke">
+    <Answer
+      legality={location.data.legality}
+      location={location.data.location}
+    />
+  </p>
+  <p itemprop="lastReviewed">Last reviewed: {location.data.lastResearch}</p>
   <div class="questions">
     <div class="rec">
       <Question report={location.data.results.RECREATIONAL} />
@@ -24,20 +31,20 @@ import Answer from '@components/Answer.astro';
 </article>
 <style>
   article {
-    >h1 {
+    > h1 {
       text-wrap-style: stable;
       text-align: center;
       font-size: 1.5em;
       padding: 0;
       margin: 1em 0 0 0;
     }
-    [itemprop="description"] {
+    [itemprop='description'] {
       text-align: center;
       font-weight: bold;
       padding: 1rem 0;
       margin: 0;
     }
-    [itemprop="lastReviewed"] {
+    [itemprop='lastReviewed'] {
       text-align: center;
       font-size: 1em;
       padding: 0;
@@ -50,7 +57,8 @@ import Answer from '@components/Answer.astro';
         flex-wrap: wrap;
         gap: 1em;
         justify-content: center;
-        .rec, .med {
+        .rec,
+        .med {
           flex: 0 0 calc(50% - 0.5em);
           max-width: calc(45% - 0.5em);
         }

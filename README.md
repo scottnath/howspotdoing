@@ -45,7 +45,8 @@ Location data lives in `src/content/locations/hpd-*.json` and is validated via
 `src/content.config.ts`. Each file includes:
 
 - `location` (string)
-- `datetime` (string)
+- `lastResearch` (string)
+- `lastUpdate` (string)
 - `answers` (access signals used to score legality)
 - `results` (per-question summaries and citations)
 
