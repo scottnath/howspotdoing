@@ -1,6 +1,5 @@
 {
   "location": "Virginia",
-  "datetime": "2026-01-13T06:45:00.000Z",
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
@@ -74,5 +73,7 @@
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
-  }
+  },
+  "lastResearch": "2026-01-13T06:45:00.000Z",
+  "lastUpdate": "2026-01-13T06:45:00.000Z"
 }
