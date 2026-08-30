@@ -96,10 +96,14 @@ npm install
 npm run dev          # dev server
 npm run build        # site build
 npm run build:full   # social cards + build (what CI deploys)
-npm test
+npm test             # node:test runner; no test files exist yet (src/**/*.test.ts)
 npm run lint
 npm run format
 ```
+
+`npm run build` is the real check here: the content collection schema in
+`src/content.config.ts` validates all 50 location files at build time, so a bad
+synced JSON file fails the build rather than a test.
 
 Deployment: `.github/workflows/astro.yml` runs `build:full` on push to `main` and
 publishes `dist/` to the `gh-pages` branch.
