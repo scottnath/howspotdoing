@@ -4,20 +4,20 @@
     "RECREATIONAL": {
       "answer": "YES",
       "gov_quote": "New Jersey state law allows adults 21 years and older to have up to 6 oz of cannabis and cannabis products in their possession.",
-      "url": "https://www.nj.gov/cannabis/legal-cannabis/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on official website. Answer confirmed. No changes made.",
+      "url": "https://www.nj.gov/cannabis/adult-personal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 legal-cannabis URL; the 6 oz sentence is on the current adult-personal page.",
       "question": "Is it legal for adults to possess cannabis in the state of New Jersey?",
       "gov_section": "New Jersey state law allows adults 21 years and older to have up to 6 oz of cannabis and cannabis products in their possession."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "\"Adults 21 years of age or older can legally purchase cannabis and cannabis products for personal use at licensed dispensaries in New Jersey. Retail sales of adult-use cannabis began on April 21, 2022.\"",
-      "url": "https://www.nj.gov/cannabis/consumers/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New Jersey government cannabis website. Answer and summary are accurate and current. No changes made.",
+      "gov_quote": "Anyone - New Jersey residents or visitors - 21 years and older.",
+      "url": "https://www.nj.gov/cannabis/adult-personal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 consumers URL; stored the Who can buy sentence from adult-personal.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of New Jersey?",
-      "gov_section": "\"Adults 21 years of age or older can legally purchase cannabis and cannabis products for personal use at licensed dispensaries in New Jersey. Retail sales of adult-use cannabis began on April 21, 2022.\""
+      "gov_section": "Anyone - New Jersey residents or visitors - 21 years and older."
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
@@ -30,30 +30,30 @@
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "No smoking in indoor public spaces like restaurants, bars, or offices. No smoking in public parks, or on beaches. With all the spaces where you cannot smoke, cannabis users now have legal spaces to smoke cannabis socially outside their homes\u2014cannabis consumption areas.",
-      "url": "https://www.nj.gov/cannabis/consumers/consumption/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "gov_quote": "Generally, an adult 21 years of age or older can use cannabis on private property.",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 consumption URL; general rule on the current FAQ is private-property use.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of New Jersey?",
-      "gov_section": "No smoking in indoor public spaces like restaurants, bars, or offices. No smoking in public parks, or on beaches. With all the spaces where you cannot smoke, cannabis users now have legal spaces to smoke cannabis socially outside their homes\u2014cannabis consumption areas."
+      "gov_section": "Generally, an adult 21 years of age or older can use cannabis on private property."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "No smoking in indoor public spaces like restaurants, bars, or offices. No smoking in public parks, or on beaches. With all the spaces where you cannot smoke, cannabis users now have legal spaces to smoke cannabis socially outside their homes\u2014cannabis consumption areas.",
-      "url": "https://www.nj.gov/cannabis/consumers/consumption/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "answer": "YES",
+      "gov_quote": "You can also consume legal cannabis at licensed dispensaries with consumption areas.",
+      "url": "https://www.nj.gov/cannabis/adult-personal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 consumption URL. Licensed dispensary consumption areas are public businesses that allow on-site use.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of New Jersey?",
-      "gov_section": "No smoking in indoor public spaces like restaurants, bars, or offices. No smoking in public parks, or on beaches. With all the spaces where you cannot smoke, cannabis users now have legal spaces to smoke cannabis socially outside their homes\u2014cannabis consumption areas."
+      "gov_section": "You can also consume legal cannabis at licensed dispensaries with consumption areas."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "The maximum amount of medical cannabis that a qualifying patient or the patient\u2019s designated caregiver is allowed by law to purchase is 85 grams (3 oz) for a 30-day period.",
-      "url": "https://www.nj.gov/cannabis/medicinal-cannabis/patients-caregivers/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New Jersey government website. Answer and summary are correct. No changes made.",
+      "gov_quote": "Adults and minors with a qualifying medical condition may participate in the Medicinal Cannabis Program .",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 patients-caregivers URL with the current general FAQ medical-program sentence.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Jersey?",
-      "gov_section": "The maximum amount of medical cannabis that a qualifying patient or the patient\u2019s designated caregiver is allowed by law to purchase is 85 grams (3 oz) for a 30-day period."
+      "gov_section": "Adults and minors with a qualifying medical condition may participate in the Medicinal Cannabis Program ."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
@@ -79,7 +79,7 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"

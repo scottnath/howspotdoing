@@ -12,21 +12,21 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "\"Adults 21 or older can legally buy cannabis from licensed retailers in California. You can buy up to 28.5 grams of non-concentrated cannabis, 8 grams of concentrated cannabis, and 6 immature cannabis plants per day.\"",
-      "url": "https://cannabis.ca.gov/consumers/where-to-buy-cannabis/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official California cannabis website. Legal status and purchase limits confirmed as accurate. No changes made.",
+      "gov_quote": "Cannabis is legal in California. You can buy cannabis if you are: 18 or older with a physician\u2019s recommendation (medicinal use) 21 or older (adult use)",
+      "url": "https://www.cannabis.ca.gov/consumers/whats-legal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 where-to-buy page with DCC What\u2019s legal; copied the continuous buy-eligibility sentence.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of California?",
-      "gov_section": "\"Adults 21 or older can legally buy cannabis from licensed retailers in California. You can buy up to 28.5 grams of non-concentrated cannabis, 8 grams of concentrated cannabis, and 6 immature cannabis plants per day.\""
+      "gov_section": "Cannabis is legal in California. You can buy cannabis if you are: 18 or older with a physician\u2019s recommendation (medicinal use) 21 or older (adult use)"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"You can grow up to 6 cannabis plants at home if you\u2019re at least 21 years old.\"",
-      "url": "https://cannabis.ca.gov/cannabis-laws/personal-use/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official California government cannabis webpage. The answer and summary are fully supported by the source. No changes required.",
+      "gov_quote": "You can grow up to 6 cannabis plants at home if you\u2019re at least 21 years old.",
+      "url": "https://www.cannabis.ca.gov/consumers/whats-legal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 personal-use page with DCC What\u2019s legal; copied the home-grow sentence.",
       "question": "Is it legal for adults to grow cannabis in the state of California?",
-      "gov_section": "\"You can grow up to 6 cannabis plants at home if you\u2019re at least 21 years old.\""
+      "gov_section": "You can grow up to 6 cannabis plants at home if you\u2019re at least 21 years old."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
@@ -48,11 +48,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A qualified patient or primary caregiver may possess no more than eight ounces of dried marijuana per qualified patient. If a qualified patient or primary caregiver has a doctor\u2019s recommendation that this quantity does not meet the patient\u2019s medical needs, the patient or primary caregiver may possess an amount of marijuana consistent with the patient\u2019s needs.",
-      "url": "https://cannabis.ca.gov/cannabis-laws/medical-cannabis-patients/",
-      "validation": "VERIFIED",
+      "gov_quote": "anyone 18 or older can use cannabis if they have a physician\u2019s recommendation or a medical marijuana ID card.",
+      "url": "https://www.cannabis.ca.gov/consumers/responsible-cannabis-use/",
+      "validation": "QUOTE_CORRECTED",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of California?",
-      "gov_section": "A qualified patient or primary caregiver may possess no more than eight ounces of dried marijuana per qualified patient. If a qualified patient or primary caregiver has a doctor\u2019s recommendation that this quantity does not meet the patient\u2019s medical needs, the patient or primary caregiver may possess an amount of marijuana consistent with the patient\u2019s needs."
+      "gov_section": "anyone 18 or older can use cannabis if they have a physician\u2019s recommendation or a medical marijuana ID card.",
+      "validation_notes": "Replaced 404 medical-patients page with DCC responsible-use sentence."
     },
     "MEDICAL_STORE": {
       "answer": "YES",

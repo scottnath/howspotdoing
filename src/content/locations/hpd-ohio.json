@@ -12,12 +12,12 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Beginning August 6, 2024, adults 21 years of age or older may purchase adult use cannabis from a licensed dispensary in Ohio. All adult use cannabis sales must occur at a dispensary licensed by the Division of Cannabis Control.",
-      "url": "https://cannabis.ohio.gov/consumers/adult-use",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Ohio government cannabis website. The legal status answer is accurate and fully supported by the cited source. No changes required.",
+      "gov_quote": "On November 7, 2023, a majority of Ohio voters approved Issue 2 to legalize the possession and use of cannabis by individuals aged 21 and over, and the sale of cannabis by state-licensed dispensaries, thus creating the Division of Cannabis Control (DCC or Division) within the Ohio Department of Commerce.",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced unreachable cannabis.ohio.gov host with the current Commerce DCC FAQ.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Ohio?",
-      "gov_section": "Beginning August 6, 2024, adults 21 years of age or older may purchase adult use cannabis from a licensed dispensary in Ohio. All adult use cannabis sales must occur at a dispensary licensed by the Division of Cannabis Control."
+      "gov_section": "On November 7, 2023, a majority of Ohio voters approved Issue 2 to legalize the possession and use of cannabis by individuals aged 21 and over, and the sale of cannabis by state-licensed dispensaries, thus creating the Division of Cannabis Control (DCC or Division) within the Ohio Department of Commerce."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
@@ -30,21 +30,21 @@
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "Except as otherwise provided in this chapter, an adult use consumer who uses adult use cannabis in public areas, or who violates division (D)(2) of section 3780.36 of the Revised Code as a passenger, is guilty of a minor misdemeanor.",
-      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.99",
-      "validation": "VERIFIED",
-      "validation_notes": "The statutory quote appears verbatim in section 3780.99(B) of the Ohio Revised Code at the cited URL. The answer 'NO' is correct and supported by the statute. No changes required.",
+      "gov_quote": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the continuous public-place prohibition from the current DCC FAQ.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Ohio?",
-      "gov_section": "Except as otherwise provided in this chapter, an adult use consumer who uses adult use cannabis in public areas, or who violates division (D)(2) of section 3780.36 of the Revised Code as a passenger, is guilty of a minor misdemeanor."
+      "gov_section": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "Except as otherwise provided in this chapter, an adult use consumer who uses adult use cannabis in public areas, or who violates division (D)(2) of section 3780.36 of the Revised Code as a passenger, is guilty of a minor misdemeanor.",
-      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.99",
-      "validation": "VERIFIED",
-      "validation_notes": "The statutory quote appears verbatim in section 3780.99(B) of the Ohio Revised Code at the cited URL. The answer 'NO' is correct and supported by the statute. No changes required.",
+      "gov_quote": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Same public-place prohibition covers bars, restaurants, and other public businesses.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Ohio?",
-      "gov_section": "Except as otherwise provided in this chapter, an adult use consumer who uses adult use cannabis in public areas, or who violates division (D)(2) of section 3780.36 of the Revised Code as a passenger, is guilty of a minor misdemeanor."
+      "gov_section": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place"
     },
     "MEDICAL": {
       "answer": "YES",
@@ -86,5 +86,5 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://medicalmarijuana.ohio.gov/"
+  "primaryGovUrl": "https://com.ohio.gov/divisions-and-programs/cannabis-control"
 }

@@ -11,12 +11,12 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "This voter initiative allows adults over the age of 21 to possess, purchase, transport, or process 1 ounce or less of marijuana or 5 grams or less of marijuana concentrate.",
-      "url": "https://azdor.gov/marijuana-taxes",
-      "validation": "VERIFIED",
-      "validation_notes": "Government quote verified verbatim on the Arizona Department of Revenue website. All legal information confirmed accurate.",
+      "gov_quote": "Possessing, consuming, purchasing, processing, manufacturing by manual or mechanical means, including sieving or ice water separation but excluding chemical extraction or chemical synthesis, or transporting one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate.",
+      "url": "https://www.azleg.gov/ars/36/02852.htm",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 azdor marijuana-taxes page with the ARS 36-2852 purchase/possession clause.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Arizona?",
-      "gov_section": "This voter initiative allows adults over the age of 21 to possess, purchase, transport, or process 1 ounce or less of marijuana or 5 grams or less of marijuana concentrate."
+      "gov_section": "Possessing, consuming, purchasing, processing, manufacturing by manual or mechanical means, including sieving or ice water separation but excluding chemical extraction or chemical synthesis, or transporting one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",

@@ -12,21 +12,21 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Adults 21 years of age or older may legally possess and purchase cannabis in Rhode Island from licensed retailers. Adults may possess up to one ounce of cannabis in public and up to 10 ounces in their home.",
-      "url": "https://cannabis.ri.gov/adult-use",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Rhode Island cannabis website. The answer 'YES' is accurate as confirmed by the official source.",
+      "gov_quote": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced unreachable cannabis.ri.gov with the statute page that authorizes purchasing from a licensed retailer.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Rhode Island?",
-      "gov_section": "Adults 21 years of age or older may legally possess and purchase cannabis in Rhode Island from licensed retailers. Adults may possess up to one ounce of cannabis in public and up to 10 ounces in their home."
+      "gov_section": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Adults 21 and older may possess up to one ounce of cannabis in public or 10 ounces at home. Adults may also cultivate up to three mature and three immature cannabis plants in their primary residence.",
-      "url": "https://cannabis.ri.gov/adult-use",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Rhode Island government website. The answer and quote are correct. No changes made.",
+      "gov_quote": "Within any residence, possessing, cultivating or processing not more than a total of three (3) mature cannabis plants and up to a total of three (3) immature cannabis plants per dwelling unit for personal use",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced unreachable cannabis.ri.gov with the statute home-cultivation clause.",
       "question": "Is it legal for adults to grow cannabis in the state of Rhode Island?",
-      "gov_section": "Adults 21 and older may possess up to one ounce of cannabis in public or 10 ounces at home. Adults may also cultivate up to three mature and three immature cannabis plants in their primary residence."
+      "gov_section": "Within any residence, possessing, cultivating or processing not more than a total of three (3) mature cannabis plants and up to a total of three (3) immature cannabis plants per dwelling unit for personal use"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
@@ -66,12 +66,12 @@
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A registered qualifying patient or registered primary caregiver may possess up to twelve (12) mature marijuana plants and twelve (12) immature marijuana plants, provided each plant is properly tagged with a valid medical marijuana plant tag certificate issued by the commission.",
-      "url": "https://cannabis.ri.gov/medical-marijuana-program",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Rhode Island government website. The answer is correct and all regulatory details are accurate. No changes required.",
+      "gov_quote": "",
+      "url": "https://health.ri.gov/medical-marijuana/information/patients-caregivers",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Removed dead cannabis.ri.gov URL. MEDICAL is NO-grow; parent medical program page does not authorize home cultivation.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Rhode Island?",
-      "gov_section": "A registered qualifying patient or registered primary caregiver may possess up to twelve (12) mature marijuana plants and twelve (12) immature marijuana plants, provided each plant is properly tagged with a valid medical marijuana plant tag certificate issued by the commission."
+      "gov_section": ""
     }
   },
   "answers": {

@@ -2,7 +2,7 @@
   {
     "state": "Alabama",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Alabama",
@@ -21,6 +21,11 @@
   },
   {
     "state": "Alabama",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Alabama",
     "type": "MEDICAL",
     "exists": "none"
   },
@@ -47,20 +52,25 @@
   {
     "state": "Alaska",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
-  },
-  {
-    "state": "Alaska",
-    "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
-  },
-  {
-    "state": "Alaska",
-    "type": "MEDICAL",
     "exists": "yes"
   },
   {
     "state": "Alaska",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Alaska",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
+  },
+  {
+    "state": "Alaska",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Alaska",
     "type": "MEDICAL_STORE",
     "exists": "no"
   },
@@ -77,17 +87,22 @@
   {
     "state": "Arizona",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Arizona",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Arizona",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "Arizona",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "Arizona",
@@ -126,8 +141,13 @@
   },
   {
     "state": "Arkansas",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Arkansas",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Arkansas",
@@ -147,22 +167,27 @@
   {
     "state": "California",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "California",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "California",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "California",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "California",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "California",
@@ -182,17 +207,22 @@
   {
     "state": "Colorado",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Colorado",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Colorado",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "Colorado",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "Colorado",
@@ -217,16 +247,21 @@
   {
     "state": "Connecticut",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
-  },
-  {
-    "state": "Connecticut",
-    "type": "RECREATIONAL_GROW",
     "exists": "yes"
   },
   {
     "state": "Connecticut",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Connecticut",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "no"
   },
   {
@@ -266,8 +301,13 @@
   },
   {
     "state": "Delaware",
-    "type": "MEDICAL",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "no"
+  },
+  {
+    "state": "Delaware",
+    "type": "MEDICAL",
+    "exists": "yes"
   },
   {
     "state": "Delaware",
@@ -301,13 +341,18 @@
   },
   {
     "state": "Florida",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Florida",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Florida",
     "type": "MEDICAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Florida",
@@ -336,6 +381,11 @@
   },
   {
     "state": "Georgia",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Georgia",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -352,25 +402,30 @@
   {
     "state": "Hawaii",
     "type": "RECREATIONAL",
-    "exists": "no"
-  },
-  {
-    "state": "Hawaii",
-    "type": "RECREATIONAL_STORE",
-    "exists": "no"
-  },
-  {
-    "state": "Hawaii",
-    "type": "RECREATIONAL_GROW",
-    "exists": "no"
-  },
-  {
-    "state": "Hawaii",
-    "type": "RECREATIONAL_PUBLIC",
     "exists": "yes"
   },
   {
     "state": "Hawaii",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
+  },
+  {
+    "state": "Hawaii",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -382,7 +437,7 @@
   {
     "state": "Hawaii",
     "type": "MEDICAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Idaho",
@@ -402,6 +457,11 @@
   {
     "state": "Idaho",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Idaho",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -422,7 +482,7 @@
   {
     "state": "Illinois",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Illinois",
@@ -441,8 +501,13 @@
   },
   {
     "state": "Illinois",
-    "type": "MEDICAL",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "MEDICAL",
+    "exists": "yes"
   },
   {
     "state": "Illinois",
@@ -472,6 +537,11 @@
   {
     "state": "Indiana",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Indiana",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -511,6 +581,11 @@
   },
   {
     "state": "Iowa",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Iowa",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -527,7 +602,7 @@
   {
     "state": "Kansas",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Kansas",
@@ -546,8 +621,13 @@
   },
   {
     "state": "Kansas",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Kansas",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Kansas",
@@ -581,13 +661,18 @@
   },
   {
     "state": "Kentucky",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Kentucky",
     "type": "MEDICAL",
     "exists": "yes"
   },
   {
     "state": "Kentucky",
     "type": "MEDICAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Kentucky",
@@ -597,30 +682,35 @@
   {
     "state": "Louisiana",
     "type": "RECREATIONAL",
-    "exists": "no"
-  },
-  {
-    "state": "Louisiana",
-    "type": "RECREATIONAL_STORE",
-    "exists": "none"
-  },
-  {
-    "state": "Louisiana",
-    "type": "RECREATIONAL_GROW",
-    "exists": "none"
-  },
-  {
-    "state": "Louisiana",
-    "type": "RECREATIONAL_PUBLIC",
-    "exists": "none"
-  },
-  {
-    "state": "Louisiana",
-    "type": "MEDICAL",
     "exists": "yes"
   },
   {
     "state": "Louisiana",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Louisiana",
     "type": "MEDICAL_STORE",
     "exists": "yes"
   },
@@ -632,27 +722,32 @@
   {
     "state": "Maine",
     "type": "RECREATIONAL",
-    "exists": "no"
-  },
-  {
-    "state": "Maine",
-    "type": "RECREATIONAL_STORE",
-    "exists": "no"
-  },
-  {
-    "state": "Maine",
-    "type": "RECREATIONAL_GROW",
-    "exists": "no"
-  },
-  {
-    "state": "Maine",
-    "type": "RECREATIONAL_PUBLIC",
     "exists": "yes"
   },
   {
     "state": "Maine",
+    "type": "RECREATIONAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
+  },
+  {
+    "state": "Maine",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Maine",
@@ -677,47 +772,57 @@
   {
     "state": "Maryland",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
-  },
-  {
-    "state": "Maryland",
-    "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
-  },
-  {
-    "state": "Maryland",
-    "type": "MEDICAL",
-    "exists": "no"
-  },
-  {
-    "state": "Maryland",
-    "type": "MEDICAL_STORE",
     "exists": "yes"
   },
   {
     "state": "Maryland",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Maryland",
     "type": "MEDICAL_GROW",
     "exists": "no"
   },
   {
     "state": "Massachusetts",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Massachusetts",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Massachusetts",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Massachusetts",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "Massachusetts",
@@ -747,7 +852,7 @@
   {
     "state": "Michigan",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Michigan",
@@ -756,8 +861,13 @@
   },
   {
     "state": "Michigan",
-    "type": "MEDICAL",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "MEDICAL",
+    "exists": "yes"
   },
   {
     "state": "Michigan",
@@ -791,13 +901,18 @@
   },
   {
     "state": "Minnesota",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "no"
+  },
+  {
+    "state": "Minnesota",
     "type": "MEDICAL",
     "exists": "yes"
   },
   {
     "state": "Minnesota",
     "type": "MEDICAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Minnesota",
@@ -826,6 +941,11 @@
   },
   {
     "state": "Mississippi",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Mississippi",
     "type": "MEDICAL",
     "exists": "yes"
   },
@@ -837,7 +957,7 @@
   {
     "state": "Mississippi",
     "type": "MEDICAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Missouri",
@@ -857,6 +977,11 @@
   {
     "state": "Missouri",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Missouri",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "yes"
   },
   {
@@ -887,11 +1012,16 @@
   {
     "state": "Montana",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Montana",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Montana",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "no"
   },
   {
@@ -912,7 +1042,7 @@
   {
     "state": "Nebraska",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Nebraska",
@@ -927,6 +1057,11 @@
   {
     "state": "Nebraska",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Nebraska",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -937,7 +1072,7 @@
   {
     "state": "Nebraska",
     "type": "MEDICAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Nebraska",
@@ -947,7 +1082,7 @@
   {
     "state": "Nevada",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Nevada",
@@ -957,12 +1092,17 @@
   {
     "state": "Nevada",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Nevada",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "Nevada",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "Nevada",
@@ -977,7 +1117,7 @@
   {
     "state": "Nevada",
     "type": "MEDICAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Hampshire",
@@ -997,6 +1137,11 @@
   {
     "state": "New Hampshire",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -1017,12 +1162,12 @@
   {
     "state": "New Jersey",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Jersey",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Jersey",
@@ -1032,12 +1177,17 @@
   {
     "state": "New Jersey",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "New Jersey",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "New Jersey",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Jersey",
@@ -1052,12 +1202,12 @@
   {
     "state": "New Mexico",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Mexico",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Mexico",
@@ -1067,12 +1217,17 @@
   {
     "state": "New Mexico",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "New Mexico",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "New Mexico",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New Mexico",
@@ -1106,13 +1261,18 @@
   },
   {
     "state": "New York",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "no"
+  },
+  {
+    "state": "New York",
     "type": "MEDICAL",
     "exists": "no"
   },
   {
     "state": "New York",
     "type": "MEDICAL_STORE",
-    "exists": "yes"
+    "exists": "no"
   },
   {
     "state": "New York",
@@ -1122,7 +1282,7 @@
   {
     "state": "North Carolina",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "North Carolina",
@@ -1137,6 +1297,11 @@
   {
     "state": "North Carolina",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "North Carolina",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -1176,13 +1341,18 @@
   },
   {
     "state": "North Dakota",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "North Dakota",
     "type": "MEDICAL",
     "exists": "no"
   },
   {
     "state": "North Dakota",
     "type": "MEDICAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "North Dakota",
@@ -1197,25 +1367,30 @@
   {
     "state": "Ohio",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
-  },
-  {
-    "state": "Ohio",
-    "type": "RECREATIONAL_GROW",
-    "exists": "no"
-  },
-  {
-    "state": "Ohio",
-    "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
-  },
-  {
-    "state": "Ohio",
-    "type": "MEDICAL",
     "exists": "yes"
   },
   {
     "state": "Ohio",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Ohio",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
+  },
+  {
+    "state": "Ohio",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Ohio",
     "type": "MEDICAL_STORE",
     "exists": "no"
   },
@@ -1246,6 +1421,11 @@
   },
   {
     "state": "Oklahoma",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Oklahoma",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -1262,27 +1442,32 @@
   {
     "state": "Oregon",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Oregon",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Oregon",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Oregon",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "Oregon",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "Oregon",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Oregon",
@@ -1316,6 +1501,11 @@
   },
   {
     "state": "Pennsylvania",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Pennsylvania",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -1332,30 +1522,35 @@
   {
     "state": "Rhode Island",
     "type": "RECREATIONAL",
-    "exists": "no"
-  },
-  {
-    "state": "Rhode Island",
-    "type": "RECREATIONAL_STORE",
-    "exists": "no"
-  },
-  {
-    "state": "Rhode Island",
-    "type": "RECREATIONAL_GROW",
-    "exists": "no"
-  },
-  {
-    "state": "Rhode Island",
-    "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
-  },
-  {
-    "state": "Rhode Island",
-    "type": "MEDICAL",
     "exists": "yes"
   },
   {
     "state": "Rhode Island",
+    "type": "RECREATIONAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
     "type": "MEDICAL_STORE",
     "exists": "yes"
   },
@@ -1367,7 +1562,7 @@
   {
     "state": "South Carolina",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "South Carolina",
@@ -1382,6 +1577,11 @@
   {
     "state": "South Carolina",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "South Carolina",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -1421,6 +1621,11 @@
   },
   {
     "state": "South Dakota",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "South Dakota",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -1456,6 +1661,11 @@
   },
   {
     "state": "Tennessee",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Tennessee",
     "type": "MEDICAL",
     "exists": "none"
   },
@@ -1491,6 +1701,11 @@
   },
   {
     "state": "Texas",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Texas",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -1526,6 +1741,11 @@
   },
   {
     "state": "Utah",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "Utah",
     "type": "MEDICAL",
     "exists": "yes"
   },
@@ -1552,11 +1772,16 @@
   {
     "state": "Vermont",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Vermont",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Vermont",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "yes"
   },
   {
@@ -1577,7 +1802,7 @@
   {
     "state": "Virginia",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Virginia",
@@ -1587,12 +1812,17 @@
   {
     "state": "Virginia",
     "type": "RECREATIONAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Virginia",
     "type": "RECREATIONAL_PUBLIC",
-    "exists": "no"
+    "exists": "yes"
+  },
+  {
+    "state": "Virginia",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "yes"
   },
   {
     "state": "Virginia",
@@ -1607,12 +1837,12 @@
   {
     "state": "Virginia",
     "type": "MEDICAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Washington",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "Washington",
@@ -1631,6 +1861,11 @@
   },
   {
     "state": "Washington",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
     "type": "MEDICAL",
     "exists": "no"
   },
@@ -1642,12 +1877,12 @@
   {
     "state": "Washington",
     "type": "MEDICAL_GROW",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "West Virginia",
     "type": "RECREATIONAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "West Virginia",
@@ -1666,8 +1901,13 @@
   },
   {
     "state": "West Virginia",
+    "type": "RECREATIONAL_ONSITE",
+    "exists": "none"
+  },
+  {
+    "state": "West Virginia",
     "type": "MEDICAL",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "West Virginia",
@@ -1697,6 +1937,11 @@
   {
     "state": "Wisconsin",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {
@@ -1732,6 +1977,11 @@
   {
     "state": "Wyoming",
     "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "RECREATIONAL_ONSITE",
     "exists": "none"
   },
   {

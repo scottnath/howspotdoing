@@ -12,20 +12,21 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Retail cannabis is legal in Colorado. You must be 21. It\u2019s illegal for people under 21 to buy, have, or use retail cannabis. You must present a valid ID proving you\u2019re 21 or older. Buy retail cannabis only from licensed retail stores. Adults over the age of 21 can buy and possess up to 1 ounce of cannabis at a time.",
-      "url": "https://cannabis.colorado.gov/know-the-laws",
-      "validation": "VERIFIED",
+      "gov_quote": "Buy retail cannabis only from licensed retail stores. Adults over the age of 21 can buy and possess up to 1 ounce of cannabis at a time.",
+      "url": "https://cannabis.colorado.gov/laws-about-cannabis-use",
+      "validation": "QUOTE_CORRECTED",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Colorado?",
-      "gov_section": "Retail cannabis is legal in Colorado. You must be 21. It\u2019s illegal for people under 21 to buy, have, or use retail cannabis. You must present a valid ID proving you\u2019re 21 or older. Buy retail cannabis only from licensed retail stores. Adults over the age of 21 can buy and possess up to 1 ounce of cannabis at a time."
+      "gov_section": "Buy retail cannabis only from licensed retail stores. Adults over the age of 21 can buy and possess up to 1 ounce of cannabis at a time.",
+      "validation_notes": "Replaced 404 know-the-laws URL with the current laws-about-cannabis-use page."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time. Counties and municipalities can pass stricter laws. Denver limits a home grow to 12 plants, even if there are three or more adults over age 21 in the residence. The laws are different for medical cannabis consumers. Cannabis plants must be kept in an enclosed, locked area that can\u2019t be viewed openly. This means the plants can\u2019t be outside. At homes with residents under 21, any cannabis grow area must be enclosed and locked in a separate space that minors can\u2019t access. At homes without residents under 21, extra precautions must be taken to make sure any visiting youth don\u2019t have access to cannabis plants. Homegrown cannabis or cannabis products can\u2019t be sold to anyone. Only licensed cannabis businesses can sell cannabis products.",
-      "url": "https://cannabis.colorado.gov/know-the-laws/personal-use",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Colorado government cannabis website. The answer is correct and supported by the cited source. No changes made.",
+      "gov_quote": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time.",
+      "url": "https://cannabis.colorado.gov/home-grow-laws",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 personal-use URL with the current home-grow-laws page.",
       "question": "Is it legal for adults to grow cannabis in the state of Colorado?",
-      "gov_section": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time. Counties and municipalities can pass stricter laws. Denver limits a home grow to 12 plants, even if there are three or more adults over age 21 in the residence. The laws are different for medical cannabis consumers. Cannabis plants must be kept in an enclosed, locked area that can\u2019t be viewed openly. This means the plants can\u2019t be outside. At homes with residents under 21, any cannabis grow area must be enclosed and locked in a separate space that minors can\u2019t access. At homes without residents under 21, extra precautions must be taken to make sure any visiting youth don\u2019t have access to cannabis plants. Homegrown cannabis or cannabis products can\u2019t be sold to anyone. Only licensed cannabis businesses can sell cannabis products."
+      "gov_section": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
@@ -37,13 +38,13 @@
       "gov_section": "Using Cannabis in any way \u2014 smoking, eating or vaping \u2014 isn\u2019t allowed in public places. This includes the following outdoor and indoor areas, and many more: Sidewalks. Parks and amusement parks. Ski resorts. Concert venues. Businesses. Restaurants, cafes, or bars. Common areas of apartment buildings or condominiums."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "Using Cannabis in any way \u2014 smoking, eating or vaping \u2014 isn\u2019t allowed in public places. This includes the following outdoor and indoor areas, and many more: Sidewalks. Parks and amusement parks. Ski resorts. Concert venues. Businesses. Restaurants, cafes, or bars. Common areas of apartment buildings or condominiums.",
-      "url": "https://cannabis.colorado.gov/laws-about-cannabis-use",
+      "answer": "YES",
+      "gov_quote": "Marijuana Hospitality Business License allows the holder to operate a premise in which marijuana may be consumed as described in 44-10-609 C.R.S.",
+      "url": "https://med.colorado.gov/licensee-information-and-lookup-tool/licensed-facilities",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Corrected to the live page text (Oxford comma in \u201ccafes, or bars\u201d).",
+      "validation_notes": "URL rescue to MED licensed-facilities page. Licensed hospitality premises may allow on-site consumption; membership clubs are not required.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Colorado?",
-      "gov_section": "Using Cannabis in any way \u2014 smoking, eating or vaping \u2014 isn\u2019t allowed in public places. This includes the following outdoor and indoor areas, and many more: Sidewalks. Parks and amusement parks. Ski resorts. Concert venues. Businesses. Restaurants, cafes, or bars. Common areas of apartment buildings or condominiums."
+      "gov_section": "Marijuana Hospitality Business License allows the holder to operate a premise in which marijuana may be consumed as described in 44-10-609 C.R.S."
     },
     "MEDICAL": {
       "answer": "YES",
@@ -76,7 +77,7 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
