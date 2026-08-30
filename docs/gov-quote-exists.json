@@ -1,0 +1,1752 @@
+[
+  {
+    "state": "Alabama",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Alabama",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Alabama",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Alabama",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Alabama",
+    "type": "MEDICAL",
+    "exists": "none"
+  },
+  {
+    "state": "Alabama",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Alabama",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Alaska",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Alaska",
+    "type": "RECREATIONAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Alaska",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Alaska",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Alaska",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Alaska",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Alaska",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Arizona",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Arkansas",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Arkansas",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Arkansas",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Arkansas",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Arkansas",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Arkansas",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Arkansas",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "California",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "California",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "California",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "California",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "California",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "California",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "California",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Colorado",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Colorado",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Colorado",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Colorado",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Colorado",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Colorado",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Colorado",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Connecticut",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Connecticut",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Delaware",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Delaware",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Delaware",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Delaware",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Delaware",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Delaware",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Delaware",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Florida",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Florida",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Florida",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Florida",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Florida",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Florida",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Florida",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Georgia",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Georgia",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Georgia",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Georgia",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Georgia",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Georgia",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Georgia",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Hawaii",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Hawaii",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Idaho",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Idaho",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Idaho",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Idaho",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Idaho",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Idaho",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Idaho",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Illinois",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Illinois",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Indiana",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Indiana",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Indiana",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Indiana",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Indiana",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Indiana",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Indiana",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Iowa",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Iowa",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Iowa",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Iowa",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Iowa",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Iowa",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Iowa",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Kansas",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Kansas",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Kansas",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Kansas",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Kansas",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Kansas",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Kansas",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Kentucky",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Kentucky",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Kentucky",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Kentucky",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Kentucky",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Kentucky",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Kentucky",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Louisiana",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Louisiana",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Louisiana",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Maine",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Maine",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Maine",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Maine",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Maryland",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Maryland",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Maryland",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Massachusetts",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Michigan",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Minnesota",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Minnesota",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Minnesota",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Minnesota",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Minnesota",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Minnesota",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Minnesota",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Mississippi",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Mississippi",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Mississippi",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Mississippi",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Mississippi",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Mississippi",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Mississippi",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Missouri",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Missouri",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Missouri",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Missouri",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Missouri",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Missouri",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Missouri",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Montana",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Montana",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Montana",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Montana",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Montana",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Montana",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Montana",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Nebraska",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Nebraska",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Nebraska",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Nebraska",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Nebraska",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Nebraska",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Nebraska",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Nevada",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Nevada",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Nevada",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Nevada",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Nevada",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Nevada",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Nevada",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "New Hampshire",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "New Jersey",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "New Jersey",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "New Jersey",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "New Jersey",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "New Jersey",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "New Jersey",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "New Jersey",
+    "type": "MEDICAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "New Mexico",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "New Mexico",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "New Mexico",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "New Mexico",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "New Mexico",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "New Mexico",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "New Mexico",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "New York",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "New York",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "New York",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "New York",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "New York",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "New York",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "New York",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "North Carolina",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "North Carolina",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "North Carolina",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "North Carolina",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "North Carolina",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "North Carolina",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "North Carolina",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "North Dakota",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "North Dakota",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "North Dakota",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "North Dakota",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "North Dakota",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "North Dakota",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "North Dakota",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Ohio",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Ohio",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Oklahoma",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Oregon",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Pennsylvania",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Rhode Island",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "South Carolina",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "South Carolina",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "South Carolina",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "South Carolina",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "South Carolina",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "South Carolina",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "South Carolina",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "South Dakota",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "South Dakota",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "South Dakota",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "South Dakota",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "South Dakota",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "South Dakota",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "South Dakota",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Tennessee",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Tennessee",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Tennessee",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Tennessee",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Tennessee",
+    "type": "MEDICAL",
+    "exists": "none"
+  },
+  {
+    "state": "Tennessee",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Tennessee",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Texas",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Texas",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Texas",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Texas",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Texas",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Texas",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Texas",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Utah",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Utah",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Utah",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Utah",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Utah",
+    "type": "MEDICAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Utah",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "Utah",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Vermont",
+    "type": "RECREATIONAL",
+    "exists": "yes"
+  },
+  {
+    "state": "Vermont",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Vermont",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Vermont",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "yes"
+  },
+  {
+    "state": "Vermont",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Vermont",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Vermont",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "RECREATIONAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Virginia",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
+    "type": "RECREATIONAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
+    "type": "RECREATIONAL_GROW",
+    "exists": "yes"
+  },
+  {
+    "state": "Washington",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "Washington",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "West Virginia",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "West Virginia",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "West Virginia",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "West Virginia",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "West Virginia",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "West Virginia",
+    "type": "MEDICAL_STORE",
+    "exists": "no"
+  },
+  {
+    "state": "West Virginia",
+    "type": "MEDICAL_GROW",
+    "exists": "no"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "MEDICAL",
+    "exists": "no"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Wisconsin",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "RECREATIONAL",
+    "exists": "no"
+  },
+  {
+    "state": "Wyoming",
+    "type": "RECREATIONAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "RECREATIONAL_GROW",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "RECREATIONAL_PUBLIC",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "MEDICAL",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "MEDICAL_STORE",
+    "exists": "none"
+  },
+  {
+    "state": "Wyoming",
+    "type": "MEDICAL_GROW",
+    "exists": "none"
+  }
+]
