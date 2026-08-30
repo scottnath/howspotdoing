@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978. Any person who violates this Subsection with respect to: ... (2) A substance classified in Schedule I that is marijuana, tetrahydrocannabinol, or chemical derivatives thereof, shall be punished as follows: (a)(i) On a first conviction or any subsequent conviction, wherein the offender possesses fourteen grams or less, the offender shall be fined not more than one hundred dollars.",
+      "gov_quote": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978, while acting in the course of his professional practice, or except as otherwise authorized by this Part.",
       "url": "https://www.legis.la.gov/Legis/Law.aspx?d=98880",
-      "validation": "VERIFIED",
-      "validation_notes": "Government quote is accurate and matches statutory language. Answer confirmed correct - cannabis possession remains illegal in Louisiana with $100 fine for up to 14 grams.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced a truncated reconstruction with the continuous Schedule I possession sentence.",
       "question": "Is it legal for adults to possess cannabis in the state of Louisiana?",
-      "gov_section": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978. Any person who violates this Subsection with respect to: ... (2) A substance classified in Schedule I that is marijuana, tetrahydrocannabinol, or chemical derivatives thereof, shall be punished as follows: (a)(i) On a first conviction or any subsequent conviction, wherein the offender possesses fourteen grams or less, the offender shall be fined not more than one hundred dollars."
+      "gov_section": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978, while acting in the course of his professional practice, or except as otherwise authorized by this Part."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",

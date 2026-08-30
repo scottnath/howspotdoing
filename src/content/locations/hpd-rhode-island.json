@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "\"Possessing, using, or purchasing up to one ounce (1 oz.) of cannabis or an equivalent amount of cannabis concentrate, or cannabis products, for personal use by a person who is at least twenty-one (21) years of age, is lawful and shall not be a criminal or civil offense under Rhode Island law.\"",
+      "gov_quote": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;",
       "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found with only a minor punctuation difference (period vs semicolon). The answer and summary are correct and fully supported by the statute. No substantive issues found.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced reconstructed wording with the continuous authorized-conduct clause.",
       "question": "Is it legal for adults to possess cannabis in the state of Rhode Island?",
-      "gov_section": "\"Possessing, using, or purchasing up to one ounce (1 oz.) of cannabis or an equivalent amount of cannabis concentrate, or cannabis products, for personal use by a person who is at least twenty-one (21) years of age, is lawful and shall not be a criminal or civil offense under Rhode Island law.\""
+      "gov_section": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
@@ -33,7 +33,7 @@
       "gov_quote": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance.",
       "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotation marks so the stored quote matches the page verbatim.",
+      "validation_notes": "Removed wrapping quotes; stored the continuous public smoking/vaporizing sentence.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Rhode Island?",
       "gov_section": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance."
     },
@@ -42,7 +42,7 @@
       "gov_quote": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance.",
       "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotation marks so the stored quote matches the page verbatim.",
+      "validation_notes": "Same sentence covers places that prohibit smoking cannabis by rule or ordinance.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Rhode Island?",
       "gov_section": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance."
     },

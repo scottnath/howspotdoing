@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"It is unlawful for any person to possess or have under his control a controlled substance unless obtained pursuant to a valid prescription or order of a practitioner.\" (S.C. Code Ann. \u00a7 44-53-370)",
+      "gov_quote": "It shall be unlawful for any person knowingly or intentionally to possess a controlled substance unless the substance was obtained directly from, or pursuant to a valid prescription or order of, a practitioner while acting in the course of his professional practice, or except as otherwise authorized by this article.",
       "url": "https://www.scstatehouse.gov/code/t44c053.php",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim in S.C. Code Ann. \u00a7 44-53-370 on the official South Carolina government website. The answer and summary are accurate and fully supported by the statutory text. URL is accessible and contains the relevant law. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced a reconstructed quote with the continuous 44-53-370 possession sentence.",
       "question": "Is it legal for adults to possess cannabis in the state of South Carolina?",
-      "gov_section": "\"It is unlawful for any person to possess or have under his control a controlled substance unless obtained pursuant to a valid prescription or order of a practitioner.\" (S.C. Code Ann. \u00a7 44-53-370)"
+      "gov_section": "It shall be unlawful for any person knowingly or intentionally to possess a controlled substance unless the substance was obtained directly from, or pursuant to a valid prescription or order of, a practitioner while acting in the course of his professional practice, or except as otherwise authorized by this article."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",

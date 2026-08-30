@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "For a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 30 grams of cannabis flower; (2) no more than 500 milligrams of THC contained in cannabis-infused product; (3) 5 grams of cannabis concentrate.",
+      "gov_quote": "for a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 60 grams of cannabis flower",
       "url": "https://www.ilga.gov/legislation/ilcs/documents/041007050K10-10.htm",
-      "validation": "VERIFIED",
-      "validation_notes": "Quote appears verbatim in Illinois statute 410 ILCS 705/10-10. Legal status correctly reported as legal for adults 21+ with specified possession limits. No discrepancies found between report and current law.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Updated to the live statutory limit (60 grams). Previous stored quote said 30 grams.",
       "question": "Is it legal for adults to possess cannabis in the state of Illinois?",
-      "gov_section": "For a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 30 grams of cannabis flower; (2) no more than 500 milligrams of THC contained in cannabis-infused product; (3) 5 grams of cannabis concentrate."
+      "gov_section": "for a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 60 grams of cannabis flower"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
@@ -48,12 +48,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board, for the medical use of cannabis in accordance with this Act, if the registered qualifying patient possesses an amount of cannabis that does not exceed an adequate supply as defined in subsection (a) of Section 10 of this Act of usable cannabis\u2026",
+      "gov_quote": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board",
       "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3503&ChapterID=35",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the Illinois General Assembly website. The answer 'YES' is correct and the summary accurately reflects the law and possession limits. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Trimmed to the continuous opening clause that appears verbatim on the page.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Illinois?",
-      "gov_section": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board, for the medical use of cannabis in accordance with this Act, if the registered qualifying patient possesses an amount of cannabis that does not exceed an adequate supply as defined in subsection (a) of Section 10 of this Act of usable cannabis\u2026"
+      "gov_section": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board"
     },
     "MEDICAL_STORE": {
       "answer": "YES",

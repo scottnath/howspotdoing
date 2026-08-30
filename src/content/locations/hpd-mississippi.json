@@ -54,12 +54,12 @@
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "gov_quote": "Medical use does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility.",
+      "gov_quote": "The term \"medical use\" does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility;",
       "url": "https://billstatus.ls.state.ms.us/documents/2022/html/SB/2001-2099/SB2095SG.htm",
-      "validation": "VERIFIED",
-      "validation_notes": "URL accessible. Exact government quote found verbatim on official Mississippi Legislature page. Answer confirmed correct - medical marijuana patients prohibited from home cultivation.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the continuous medical-use exclusion, including the following semicolon as shown on the enrolled bill.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Mississippi?",
-      "gov_section": "Medical use does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility."
+      "gov_section": "The term \"medical use\" does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility;"
     }
   },
   "answers": {

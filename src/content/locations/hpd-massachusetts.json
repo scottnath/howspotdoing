@@ -3,48 +3,48 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "A person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege and shall not be subject to seizure or forfeiture of assets for: (1) possessing, using, purchasing, processing or manufacturing 1 ounce or less of marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate.",
+      "gov_quote": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege",
       "url": "https://malegislature.gov/laws/generallaws/parti/titlexv/chapter94g/section7",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Massachusetts Legislature website. The answer is correct and supported by the legal text. Possession limits are accurately stated according to Massachusetts General Laws Chapter 94G, Section 7. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Trimmed to the continuous adult-use immunity clause that appears verbatim on the statute page.",
       "question": "Is it legal for adults to possess cannabis in the state of Massachusetts?",
-      "gov_section": "A person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege and shall not be subject to seizure or forfeiture of assets for: (1) possessing, using, purchasing, processing or manufacturing 1 ounce or less of marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate."
+      "gov_section": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "\"A person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege and shall not be subject to seizure or forfeiture of assets for: (1) possessing, using, purchasing, processing or manufacturing 1 ounce or less of marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate\"",
+      "gov_quote": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege",
       "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Massachusetts legislature website. The answer 'YES' is fully supported by the legal text, which explicitly allows adults 21+ to purchase cannabis in the state. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Same immunity clause; previous quote added wrapping quotes and extra clauses not continuous on the page.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Massachusetts?",
-      "gov_section": "\"A person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege and shall not be subject to seizure or forfeiture of assets for: (1) possessing, using, purchasing, processing or manufacturing 1 ounce or less of marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate\""
+      "gov_section": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use so long as not more than 12 plants are cultivated on the premises at once.",
+      "gov_quote": "within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use",
       "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
-      "validation": "VERIFIED",
-      "validation_notes": "The quote was found verbatim on the official Massachusetts law page. The answer and summary are accurate and fully supported by the statute. Legal status confirmed: adults 21+ may grow up to 6 cannabis plants per person, with a maximum of 12 per household.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the continuous home-cultivation clause; list punctuation now matches the page.",
       "question": "Is it legal for adults to grow cannabis in the state of Massachusetts?",
-      "gov_section": "Within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use so long as not more than 12 plants are cultivated on the premises at once."
+      "gov_section": "within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "FUTURE_DATE",
-      "gov_quote": "\"No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited. This subsection shall not apply to a person who consumes marijuana or marijuana products in a designated area of a marijuana establishment located in a city or town that has voted to allow consumption on the premises where sold.\"",
+      "gov_quote": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited.",
       "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section13",
-      "validation": "VERIFIED",
-      "validation_notes": "The statutory quote is now an exact match to the text found on the official Massachusetts General Laws website. The legal interpretation in the summary is accurate and supported by the statute. No further corrections required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Removed wrapping quotes; stored the continuous public-consumption sentence.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Massachusetts?",
-      "gov_section": "\"No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited. This subsection shall not apply to a person who consumes marijuana or marijuana products in a designated area of a marijuana establishment located in a city or town that has voted to allow consumption on the premises where sold.\""
+      "gov_section": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "FUTURE_DATE",
-      "gov_quote": "\"No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited. This subsection shall not apply to a person who consumes marijuana or marijuana products in a designated area of a marijuana establishment located in a city or town that has voted to allow consumption on the premises where sold.\"",
+      "gov_quote": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited.",
       "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section13",
-      "validation": "VERIFIED",
-      "validation_notes": "The statutory quote is now an exact match to the text found on the official Massachusetts General Laws website. The legal interpretation in the summary is accurate and supported by the statute. No further corrections required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Same public-consumption ban. The page's later licensed-establishment exception is city/town opt-in, not a general cafe/bar allowance.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Massachusetts?",
-      "gov_section": "\"No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited. This subsection shall not apply to a person who consumes marijuana or marijuana products in a designated area of a marijuana establishment located in a city or town that has voted to allow consumption on the premises where sold.\""
+      "gov_section": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited."
     },
     "MEDICAL": {
       "answer": "YES",

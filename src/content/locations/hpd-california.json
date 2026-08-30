@@ -30,21 +30,21 @@
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"Section 11362.3. (a) Nothing in Section 11362.1 shall be construed to permit any person to... (2) Smoke or ingest cannabis or cannabis products in a public place, except as provided in Section 26200 of the Business and Professions Code.\"",
+      "gov_quote": "Section 11362.1 does not permit any person to: (1) Smoke or ingest cannabis or cannabis products in a public place, except in accordance with Section 26200 of the Business and Professions Code.",
       "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11362.3.&lawCode=HSC",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on official California Health and Safety Code website. Answer 'NO' is legally accurate - cannabis consumption is prohibited at public businesses except for specifically licensed consumption lounges under Section 26200 of the Business and Professions Code.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced ellipsized reconstruction with the current HSC 11362.3 sentence.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of California?",
-      "gov_section": "\"Section 11362.3. (a) Nothing in Section 11362.1 shall be construed to permit any person to... (2) Smoke or ingest cannabis or cannabis products in a public place, except as provided in Section 26200 of the Business and Professions Code.\""
+      "gov_section": "Section 11362.1 does not permit any person to: (1) Smoke or ingest cannabis or cannabis products in a public place, except in accordance with Section 26200 of the Business and Professions Code."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "\"Section 11362.3. (a) Nothing in Section 11362.1 shall be construed to permit any person to... (2) Smoke or ingest cannabis or cannabis products in a public place, except as provided in Section 26200 of the Business and Professions Code.\"",
+      "gov_quote": "Section 11362.1 does not permit any person to: (1) Smoke or ingest cannabis or cannabis products in a public place, except in accordance with Section 26200 of the Business and Professions Code.",
       "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11362.3.&lawCode=HSC",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on official California Health and Safety Code website. Answer 'NO' is legally accurate - cannabis consumption is prohibited at public businesses except for specifically licensed consumption lounges under Section 26200 of the Business and Professions Code.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Same sentence; licensed exception is B&P 26200, not a general cafe/bar allowance.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of California?",
-      "gov_section": "\"Section 11362.3. (a) Nothing in Section 11362.1 shall be construed to permit any person to... (2) Smoke or ingest cannabis or cannabis products in a public place, except as provided in Section 26200 of the Business and Professions Code.\""
+      "gov_section": "Section 11362.1 does not permit any person to: (1) Smoke or ingest cannabis or cannabis products in a public place, except in accordance with Section 26200 of the Business and Professions Code."
     },
     "MEDICAL": {
       "answer": "YES",

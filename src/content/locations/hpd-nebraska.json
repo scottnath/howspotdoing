@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance; or (b) To possess a controlled substance.",
+      "gov_quote": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance;",
       "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-416",
-      "validation": "VERIFIED",
-      "validation_notes": "Original quote did not appear verbatim in the statute. Replaced with exact statutory language from the cited URL. Also corrected summary to reflect that there is no general medical exception for cannabis possession in Nebraska.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Stored the continuous 28-416 prohibited-acts clause instead of a shortened reconstruction.",
       "question": "Is it legal for adults to possess cannabis in the state of Nebraska?",
-      "gov_section": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance; or (b) To possess a controlled substance."
+      "gov_section": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance;"
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
@@ -48,7 +48,7 @@
       "gov_quote": "Application periods for Dispensaries and Product Manufacturers will be set at a later date.",
       "url": "https://lcc.nebraska.gov/medical-cannabis/medical-cannabis-commission-how-apply",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotation marks so the stored quote matches the page verbatim.",
+      "validation_notes": "Removed wrapping quotes; sentence already exact on the application page.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Nebraska?",
       "gov_section": "Application periods for Dispensaries and Product Manufacturers will be set at a later date."
     },

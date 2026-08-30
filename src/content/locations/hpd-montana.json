@@ -21,12 +21,12 @@
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"An individual who is at least 21 years of age may possess, plant, or cultivate up to two mature marijuana plants and two seedlings... Not more than twice the number of marijuana plants permitted under this subsection may be cultivated in or on the grounds of a single private residence simultaneously.\"",
+      "gov_quote": "possessing, planting, or cultivating up to two mature marijuana plants and two seedlings, or four mature marijuana plants and four seedlings for a registered cardholder",
       "url": "https://leg.mt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0060/0160-0120-0010-0060.html",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced ellipsized reconstruction with the continuous MCA cultivation clause.",
       "question": "Is it legal for adults to grow cannabis in the state of Montana?",
-      "gov_section": "\"An individual who is at least 21 years of age may possess, plant, or cultivate up to two mature marijuana plants and two seedlings... Not more than twice the number of marijuana plants permitted under this subsection may be cultivated in or on the grounds of a single private residence simultaneously.\""
+      "gov_section": "possessing, planting, or cultivating up to two mature marijuana plants and two seedlings, or four mature marijuana plants and four seedlings for a registered cardholder"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",

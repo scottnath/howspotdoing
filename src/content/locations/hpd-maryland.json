@@ -21,12 +21,12 @@
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "(a)(1) A person may not cultivate more than two cannabis plants. (2) If two or more persons at least 21 years old reside at the same residence, no more than two cannabis plants may be cultivated at that residence. (b) Cannabis plants may not be cultivated in a location where the plants are subject to public view, including a view from another private property, without the use of binoculars, aircraft, or other optical aids. (c) (1) A person who cultivates cannabis shall take reasonable precautions to ensure the plants are secure from unauthorized access and access by a person under the age of 21 years. (2) Reasonable precautions includes cultivating cannabis in an enclosed locked space to which persons under the age of 21 years do not possess a key. (d) Cannabis cultivation may occur only on property lawfully in possession of the cultivator or with the consent of the person in lawful possession of the property. (e) A person under the age of 21 years may not cultivate cannabis plants. (f) A person who violates this section is guilty of a misdemeanor and on conviction is subject to imprisonment not exceeding 3 years or a fine not exceeding $5,000 or both.",
+      "gov_quote": "A person may not cultivate more than two cannabis plants.",
       "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=5-601.2",
-      "validation": "VERIFIED",
-      "validation_notes": "The statutory quote is accurate and matches the official Maryland government statute page. The answer 'YES' is correct based on the statute content. No discrepancies were found.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Trimmed to the continuous two-plant limit sentence on the cited page.",
       "question": "Is it legal for adults to grow cannabis in the state of Maryland?",
-      "gov_section": "(a)(1) A person may not cultivate more than two cannabis plants. (2) If two or more persons at least 21 years old reside at the same residence, no more than two cannabis plants may be cultivated at that residence. (b) Cannabis plants may not be cultivated in a location where the plants are subject to public view, including a view from another private property, without the use of binoculars, aircraft, or other optical aids. (c) (1) A person who cultivates cannabis shall take reasonable precautions to ensure the plants are secure from unauthorized access and access by a person under the age of 21 years. (2) Reasonable precautions includes cultivating cannabis in an enclosed locked space to which persons under the age of 21 years do not possess a key. (d) Cannabis cultivation may occur only on property lawfully in possession of the cultivator or with the consent of the person in lawful possession of the property. (e) A person under the age of 21 years may not cultivate cannabis plants. (f) A person who violates this section is guilty of a misdemeanor and on conviction is subject to imprisonment not exceeding 3 years or a fine not exceeding $5,000 or both."
+      "gov_section": "A person may not cultivate more than two cannabis plants."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",

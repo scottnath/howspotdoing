@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"Except as authorized by this act, it is unlawful for any person to manufacture, deliver, or possess with intent to manufacture or deliver a controlled substance.\" (West Virginia Code \u00a760A-4-401)",
+      "gov_quote": "Except as authorized by this act, it is unlawful for any person to manufacture, deliver, or possess with intent to manufacture or deliver a controlled substance.",
       "url": "https://code.wvlegislature.gov/60A-4-401/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official West Virginia Code website. The legal answer is correct and supported by the statute. No corrections needed.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced reconstructed quote with the exact opening statutory sentence.",
       "question": "Is it legal for adults to possess cannabis in the state of West Virginia?",
-      "gov_section": "\"Except as authorized by this act, it is unlawful for any person to manufacture, deliver, or possess with intent to manufacture or deliver a controlled substance.\" (West Virginia Code \u00a760A-4-401)"
+      "gov_section": "Except as authorized by this act, it is unlawful for any person to manufacture, deliver, or possess with intent to manufacture or deliver a controlled substance."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
@@ -36,12 +36,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bSenate Bill 386, signed into law on April 19, 2017, by Governor Jim Justice, created the Medical Cannabis Act that allows for cannabis to be used for certified medical use by a West Virginia resident with a serious medical condition and is limited by law to the following forms: pill; oil; topical forms including gels, creams or ointments; a form medically appropriate for administration by vaporization or nebulization, dry leaf or plant form; tincture; liquid; or dermal patch.",
+      "gov_quote": "Senate Bill 386, signed into law on April 19, 2017, by Governor Jim Justice, created the Medical Cannabis Act that allows for cannabis to be used for certified medical use by a West Virginia resident with a serious medical condition",
       "url": "https://omc.wv.gov/rules/Pages/default.aspx",
-      "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Stripped leading zero-width/whitespace characters and stored the continuous OMC sentence.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of West Virginia?",
-      "gov_section": "\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bSenate Bill 386, signed into law on April 19, 2017, by Governor Jim Justice, created the Medical Cannabis Act that allows for cannabis to be used for certified medical use by a West Virginia resident with a serious medical condition and is limited by law to the following forms: pill; oil; topical forms including gels, creams or ointments; a form medically appropriate for administration by vaporization or nebulization, dry leaf or plant form; tincture; liquid; or dermal patch."
+      "gov_section": "Senate Bill 386, signed into law on April 19, 2017, by Governor Jim Justice, created the Medical Cannabis Act that allows for cannabis to be used for certified medical use by a West Virginia resident with a serious medical condition"
     },
     "MEDICAL_STORE": {
       "answer": "YES",

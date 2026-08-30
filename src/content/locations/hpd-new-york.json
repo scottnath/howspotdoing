@@ -12,12 +12,12 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "It's illegal for anyone under the age of 21 to buy, possess, or consumes use adult-use cannabis in New York. Just like alcohol and tobacco. A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management.",
+      "gov_quote": "A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management.",
       "url": "https://cannabis.ny.gov/adult-use",
-      "validation": "VERIFIED",
-      "validation_notes": "The government quote appears verbatim on the official New York State cannabis website, though the two sentences are found in separate sections. The legal information about adults 21+ being able to buy cannabis at licensed dispensaries is accurate and confirmed by official sources.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Previous quote mixed two passages and contained a typo; stored the continuous listing sentence from the page.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of New York?",
-      "gov_section": "It's illegal for anyone under the age of 21 to buy, possess, or consumes use adult-use cannabis in New York. Just like alcohol and tobacco. A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management."
+      "gov_section": "A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",

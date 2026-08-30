@@ -36,11 +36,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A qualifying patient or designated caregiver in actual possession of a registry identification card shall not be subject to arrest, prosecution, or penalty in any manner, or denied any right or privilege, including but not limited to civil penalty or disciplinary action by a business or occupational or professional licensing board or bureau, for the medical use of marijuana in accordance with this amendment\u2026 Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.",
+      "gov_quote": "Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.",
       "url": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/",
-      "validation": "VERIFIED",
+      "validation": "QUOTE_CORRECTED",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Arkansas?",
-      "gov_section": "A qualifying patient or designated caregiver in actual possession of a registry identification card shall not be subject to arrest, prosecution, or penalty in any manner, or denied any right or privilege, including but not limited to civil penalty or disciplinary action by a business or occupational or professional licensing board or bureau, for the medical use of marijuana in accordance with this amendment\u2026 Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period."
+      "gov_section": "Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.",
+      "validation_notes": "Replaced reconstructed registry-card wording with the live FAQ possession/purchase sentence."
     },
     "MEDICAL_STORE": {
       "answer": "YES",

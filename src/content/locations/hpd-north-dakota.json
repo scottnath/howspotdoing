@@ -45,12 +45,12 @@
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "An individual with a North Dakota medical marijuana card is only authorized to purchase and possess medical marijuana from one of the eight registered dispensaries in the state. State law has no protections for individuals in North Dakota with marijuana or marijuana products not purchased from an in-state registered dispensary.",
+      "gov_quote": "an individual with a North Dakota medical marijuana card is only authorized to purchase and possess medical marijuana from one of the eight registered dispensaries in the state.",
       "url": "https://www.hhs.nd.gov/mm/patients",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official North Dakota Department of Health and Human Services website. Answer confirmed. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the exact patient-page sentence, including leading capitalization as shown.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of North Dakota?",
-      "gov_section": "An individual with a North Dakota medical marijuana card is only authorized to purchase and possess medical marijuana from one of the eight registered dispensaries in the state. State law has no protections for individuals in North Dakota with marijuana or marijuana products not purchased from an in-state registered dispensary."
+      "gov_section": "an individual with a North Dakota medical marijuana card is only authorized to purchase and possess medical marijuana from one of the eight registered dispensaries in the state."
     },
     "MEDICAL_GROW": {
       "answer": "NO",

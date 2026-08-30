@@ -21,30 +21,30 @@
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Notwithstanding any other provision of law, the following acts are lawful for persons 21 years of age or older: possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown.",
+      "gov_quote": "AS 17.38.020 specifies it will be lawful; possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown",
       "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the Alaska Alcohol & Marijuana Control Office (AMCO) Marijuana FAQs page. All legal information regarding cultivation limits (6 plants per adult, 3 mature; 12 plants per household, 6 mature) is correctly stated and confirmed by the official FAQ page. The legal status for adults 21+ to grow cannabis is accurately described.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced stitched statute paraphrase with the continuous FAQ sentence.",
       "question": "Is it legal for adults to grow cannabis in the state of Alaska?",
-      "gov_section": "Notwithstanding any other provision of law, the following acts are lawful for persons 21 years of age or older: possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown."
+      "gov_section": "AS 17.38.020 specifies it will be lawful; possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "AS 17.38.040 bans public consumption. 'In public' means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence. On November 20, 2015, the Marijuana Control Board amended the definition to exclude marijuana retail stores that have a consumption endorsement issued by the board.",
+      "gov_quote": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence.",
       "url": "https://www.commerce.alaska.gov/web/amco/marijuanafaqs.aspx",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Alaska Alcohol & Marijuana Control Office FAQ page. The answer is accurate and directly supported by the cited government source. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the continuous public-place definition from the FAQ.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Alaska?",
-      "gov_section": "AS 17.38.040 bans public consumption. 'In public' means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence. On November 20, 2015, the Marijuana Control Board amended the definition to exclude marijuana retail stores that have a consumption endorsement issued by the board."
+      "gov_section": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "AS 17.38.040 bans public consumption. 'In public' means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence. On November 20, 2015, the Marijuana Control Board amended the definition to exclude marijuana retail stores that have a consumption endorsement issued by the board.",
+      "gov_quote": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence.",
       "url": "https://www.commerce.alaska.gov/web/amco/marijuanafaqs.aspx",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Alaska Alcohol & Marijuana Control Office FAQ page. The answer is accurate and directly supported by the cited government source. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Same FAQ definition includes places of amusement or business.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Alaska?",
-      "gov_section": "AS 17.38.040 bans public consumption. 'In public' means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence. On November 20, 2015, the Marijuana Control Board amended the definition to exclude marijuana retail stores that have a consumption endorsement issued by the board."
+      "gov_section": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence."
     },
     "MEDICAL": {
       "answer": "YES",

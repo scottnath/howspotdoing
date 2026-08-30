@@ -21,12 +21,12 @@
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older.",
+      "gov_quote": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older",
       "url": "https://www.michigan.gov/cra/resources/consumer-connection",
-      "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the continuous CRA consumer-connection sentence (colon on the page follows this clause).",
       "question": "Is it legal for adults to grow cannabis in the state of Michigan?",
-      "gov_section": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older."
+      "gov_section": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
@@ -48,12 +48,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers.",
+      "gov_quote": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers",
       "url": "https://www.michigan.gov/cra/resources/consumer-connection",
-      "validation": "VERIFIED",
-      "validation_notes": "The original quote was not found verbatim on the Michigan government page. The quote has been replaced with the exact text from the page that supports the answer. The answer remains correct.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Copied the continuous MMMA sentence from the CRA page.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Michigan?",
-      "gov_section": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers."
+      "gov_section": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers"
     },
     "MEDICAL_STORE": {
       "answer": "YES",

@@ -66,12 +66,12 @@
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"A qualifying patient or the qualifying patient\u2019s primary caregiver may cultivate no more than ten cannabis plants at an address or property owned or controlled by the qualifying patient or caregiver, provided that the address or property has been registered with the department of health as the location where the cannabis will be cultivated.\"",
+      "gov_quote": "provided that an \u201cadequate supply\u201d shall not exceed: ten cannabis plants, whether immature or mature, and four ounces of usable cannabis at any given time.",
       "url": "https://health.hawaii.gov/medicalcannabisregistry/growing-cannabis/",
-      "validation": "VERIFIED",
-      "validation_notes": "The answer and summary are accurate and reflect current Hawaii law, including the 10-plant limit, registration requirements, and the January 1, 2028 deadline. However, the exact quote provided could not be definitively verified as appearing verbatim on the cited Department of Health webpage, though it accurately represents the law's substance.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced reconstructed cultivate-at-address wording with the continuous adequate-supply plant limit on the grow page.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Hawaii?",
-      "gov_section": "\"A qualifying patient or the qualifying patient\u2019s primary caregiver may cultivate no more than ten cannabis plants at an address or property owned or controlled by the qualifying patient or caregiver, provided that the address or property has been registered with the department of health as the location where the cannabis will be cultivated.\""
+      "gov_section": "provided that an \u201cadequate supply\u201d shall not exceed: ten cannabis plants, whether immature or mature, and four ounces of usable cannabis at any given time."
     }
   },
   "answers": {

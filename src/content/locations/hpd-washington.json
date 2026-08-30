@@ -3,12 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter); 16 ounces of cannabis-infused products in solid form (solid edibles); 72 ounces of cannabis-infused products in liquid form (drinks); 7 grams of cannabis concentrate.",
+      "gov_quote": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter) 16 ounces of cannabis-infused products in solid form (solid edibles) 72 ounces of cannabis-infused products in liquid form (drinks) 7 grams of cannabis concentrate",
       "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
-      "validation": "VERIFIED",
-      "validation_notes": "Quote verification successful: The quoted text appears verbatim in content and order on the official Washington State LCB page, with only minor formatting differences (list format on page vs semicolons in report). The answer 'YES' is explicitly supported by the official source which states 'Cannabis for adult, non-medical use became legal in Washington State in 2012' and 'only adults age 21 and older may possess or use adult-use cannabis'. All possession limits are accurately reflected. No discrepancies or inaccuracies were identified.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Stored the live list as one contiguous excerpt (the page does not use the previously stored semicolons).",
       "question": "Is it legal for adults to possess cannabis in the state of Washington?",
-      "gov_section": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter); 16 ounces of cannabis-infused products in solid form (solid edibles); 72 ounces of cannabis-infused products in liquid form (drinks); 7 grams of cannabis concentrate."
+      "gov_section": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter) 16 ounces of cannabis-infused products in solid form (solid edibles) 72 ounces of cannabis-infused products in liquid form (drinks) 7 grams of cannabis concentrate"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
@@ -66,12 +66,12 @@
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "The qualifying patient or designated provider may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants. If the health care professional determines that the medical needs of a qualifying patient exceed the amounts provided for in subsection (1) of this section, the health care professional must specify on the authorization that it is recommended that the patient be allowed to grow, in his or her domicile, up to fifteen plants for the personal medical use of the patient.",
+      "gov_quote": "may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants.",
       "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=69.51A.210",
-      "validation": "VERIFIED",
-      "validation_notes": "The provided government quote is an exact, verbatim match to the official statutory language found on the Washington State government website. The quote appears word-for-word in RCW 69.51A.210 with no discrepancies, paraphrasing, or modifications. The answer 'YES' is correct - it is indeed legal for medical marijuana patients to grow cannabis in Washington State, subject to the conditions and limits specified in the statute. No issues were found during verification.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Trimmed to the continuous domicile-grow sentence; dropped a later authorization-database passage.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Washington?",
-      "gov_section": "The qualifying patient or designated provider may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants. If the health care professional determines that the medical needs of a qualifying patient exceed the amounts provided for in subsection (1) of this section, the health care professional must specify on the authorization that it is recommended that the patient be allowed to grow, in his or her domicile, up to fifteen plants for the personal medical use of the patient."
+      "gov_section": "may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants."
     }
   },
   "answers": {

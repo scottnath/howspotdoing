@@ -3,11 +3,12 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"A person commits the crime of unlawful possession of marijuana in the second degree if, except as otherwise authorized, he or she possesses marijuana for his or her personal use only.\"",
-      "validation": "VERIFIED",
+      "gov_quote": "A person commits the crime of unlawful possession of marihuana in the second degree if, except as otherwise authorized, he possesses marihuana for his personal use only.",
+      "validation": "QUOTE_CORRECTED",
       "url": "https://alisondb.legislature.state.al.us/alison/codeofalabama/1975/13A-12-214.htm",
       "question": "Is it legal for adults to possess cannabis in the state of Alabama?",
-      "gov_section": "\"A person commits the crime of unlawful possession of marijuana in the second degree if, except as otherwise authorized, he or she possesses marijuana for his or her personal use only.\""
+      "gov_section": "A person commits the crime of unlawful possession of marihuana in the second degree if, except as otherwise authorized, he possesses marihuana for his personal use only.",
+      "validation_notes": "Replaced reconstructed wording with the exact statutory sentence (marihuana; he possesses)."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",

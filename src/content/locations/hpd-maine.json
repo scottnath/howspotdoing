@@ -3,30 +3,30 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "A person 21 years of age or older may... Use, possess or transport at any one time up to 2 1/2 ounces of cannabis or 2 1/2 ounces of a combination of cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate.",
+      "gov_quote": "Use, possess or transport at any one time up to 2 1/2 ounces of cannabis or 2 1/2 ounces of a combination of cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate",
       "url": "https://legislature.maine.gov/statutes/28-b/title28-Bsec1501.html",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Maine government website. The answer is correct and consistent with current law. No issues or corrections required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced ellipsized reconstruction with the continuous possession clause.",
       "question": "Is it legal for adults to possess cannabis in the state of Maine?",
-      "gov_section": "A person 21 years of age or older may... Use, possess or transport at any one time up to 2 1/2 ounces of cannabis or 2 1/2 ounces of a combination of cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate."
+      "gov_section": "Use, possess or transport at any one time up to 2 1/2 ounces of cannabis or 2 1/2 ounces of a combination of cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A person 21 years of age or older may... purchase up to 2 1/2 ounces of adult use cannabis or 2 1/2 ounces of a combination of adult use cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate from a cannabis store.",
+      "gov_quote": "purchase up to 2 1/2 ounces of adult use cannabis or 2 1/2 ounces of a combination of adult use cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate from a cannabis store",
       "url": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim (with ellipsis for omitted words) on the official Maine statute page. The answer is correct and supported by the statute. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced ellipsized reconstruction with the continuous cannabis-store purchase clause.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Maine?",
-      "gov_section": "A person 21 years of age or older may... purchase up to 2 1/2 ounces of adult use cannabis or 2 1/2 ounces of a combination of adult use cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate from a cannabis store."
+      "gov_section": "purchase up to 2 1/2 ounces of adult use cannabis or 2 1/2 ounces of a combination of adult use cannabis and cannabis concentrate that includes no more than 10 grams of cannabis concentrate from a cannabis store"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A person 21 years of age or older may cultivate up to 6 mature marijuana plants, 12 immature marijuana plants and an unlimited number of seedlings for personal use at that person's place of residence or at a location owned by that person, or, with written permission, at a location owned by another person.",
+      "gov_quote": "a person 21 years of age or older may cultivate up to 6 mature cannabis plants, up to 12 immature cannabis plants and an unlimited number of seedlings for personal adult use",
       "url": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1502.html",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Maine statute page. The answer regarding adult cannabis cultivation legality is accurate and supported by the cited law. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced reconstructed 'marijuana plants' wording with the live 'cannabis plants' cultivation clause.",
       "question": "Is it legal for adults to grow cannabis in the state of Maine?",
-      "gov_section": "A person 21 years of age or older may cultivate up to 6 mature marijuana plants, 12 immature marijuana plants and an unlimited number of seedlings for personal use at that person's place of residence or at a location owned by that person, or, with written permission, at a location owned by another person."
+      "gov_section": "a person 21 years of age or older may cultivate up to 6 mature cannabis plants, up to 12 immature cannabis plants and an unlimited number of seedlings for personal adult use"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
@@ -48,12 +48,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "\"A qualifying patient may possess up to 8 pounds of harvested cannabis... A qualifying patient may cultivate up to 6 mature cannabis plants, 12 immature cannabis plants and an unlimited number of seedlings.\"",
+      "gov_quote": "Possess up to 8 pounds of harvested cannabis;",
       "url": "https://legislature.maine.gov/legis/statutes/22/title22sec2423-A.html",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Maine statute page. The answer YES is correct and supported by the statute. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Stored the continuous harvested-cannabis possession clause instead of a stitched patient paragraph.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Maine?",
-      "gov_section": "\"A qualifying patient may possess up to 8 pounds of harvested cannabis... A qualifying patient may cultivate up to 6 mature cannabis plants, 12 immature cannabis plants and an unlimited number of seedlings.\""
+      "gov_section": "Possess up to 8 pounds of harvested cannabis;"
     },
     "MEDICAL_STORE": {
       "answer": "YES",

@@ -55,12 +55,12 @@
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A retailer must establish an area for conducting retail sales that is open to individuals who are 21 years or older or registered in the medical cannabis patient registry. A retailer must confirm that an individual in the retail area is 21 years of age or older, enrolled in the medical cannabis patient registry, or a registered caregiver for a patient enrolled in the medical cannabis patient registry.",
+      "gov_quote": "A retailer must establish an area for conducting retail sales that is open to individuals who are 21 years or older or registered in the medical cannabis patient registry.",
       "url": "https://www.revisor.mn.gov/rules/9810.2501/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the cited URL. The YES answer is confirmed by the rule text. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Trimmed to the continuous retail-area sentence; dropped a second sentence that was not contiguous.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Minnesota?",
-      "gov_section": "A retailer must establish an area for conducting retail sales that is open to individuals who are 21 years or older or registered in the medical cannabis patient registry. A retailer must confirm that an individual in the retail area is 21 years of age or older, enrolled in the medical cannabis patient registry, or a registered caregiver for a patient enrolled in the medical cannabis patient registry."
+      "gov_section": "A retailer must establish an area for conducting retail sales that is open to individuals who are 21 years or older or registered in the medical cannabis patient registry."
     },
     "MEDICAL_GROW": {
       "answer": "YES",

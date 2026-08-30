@@ -45,12 +45,12 @@
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A dispensary shall only dispense medicinal cannabis to a registered qualified patient, visiting qualified patient, or designated caregiver who presents a valid registry identification card issued by the cabinet.",
+      "gov_quote": "A dispensary shall only dispense medicinal cannabis to a registered qualified patient, visiting qualified patient, or designated caregiver who:",
       "url": "https://apps.legislature.ky.gov/law/kar/titles/915/001/070/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Kentucky government regulation page. The YES answer is accurate and fully supported by the regulation. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Trimmed to the continuous dispensing clause; the card-presentation requirements follow as a list.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Kentucky?",
-      "gov_section": "A dispensary shall only dispense medicinal cannabis to a registered qualified patient, visiting qualified patient, or designated caregiver who presents a valid registry identification card issued by the cabinet."
+      "gov_section": "A dispensary shall only dispense medicinal cannabis to a registered qualified patient, visiting qualified patient, or designated caregiver who:"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
