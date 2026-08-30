@@ -3,55 +3,56 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "summary": "It is illegal for adults to possess cannabis in Idaho. State law prohibits possession of cannabis for any purpose, including recreational use by adults. Possession of three ounces or less is a misdemeanor with a mandatory minimum $300 fine and possible jail time; possession of more than three ounces is a felony. There are no exceptions for adult use, and Idaho has not enacted any legalization or decriminalization measures.",
       "gov_quote": "Marijuana is a Schedule 1 controlled substance under the Controlled Substances Act and Idaho law. As such, the use and sale of marijuana for any purpose is illegal in Idaho. It is illegal for any person to manufacture, deliver, possess with intent to manufacture or deliver, or possess marijuana, which refers to all parts of the plants of the genus cannabis, including or any preparation of cannabis which contains tetrahydrocannabinol.",
       "url": "https://odp.idaho.gov/issues-trends/marijuana/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Idaho government page. The answer 'NO' is correct and fully supported by the cited source. No changes required.",
-      "question": "Is it legal for adults to possess cannabis in the state of Idaho?"
+      "question": "Is it legal for adults to possess cannabis in the state of Idaho?",
+      "gov_section": "Marijuana is a Schedule 1 controlled substance under the Controlled Substances Act and Idaho law. As such, the use and sale of marijuana for any purpose is illegal in Idaho. It is illegal for any person to manufacture, deliver, possess with intent to manufacture or deliver, or possess marijuana, which refers to all parts of the plants of the genus cannabis, including or any preparation of cannabis which contains tetrahydrocannabinol."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "summary": "RECREATIONAL is not legal.",
       "validation": "VERIFIED",
-      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "validation_notes": "RECREATIONAL is not legal.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Idaho?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "summary": "RECREATIONAL is not legal.",
       "validation": "VERIFIED",
-      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "validation_notes": "RECREATIONAL is not legal.",
       "question": "Is it legal for adults to grow cannabis in the state of Idaho?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "summary": "RECREATIONAL is not legal.",
       "validation": "VERIFIED",
-      "validation_notes": "%PARENT_QUESTION% is not legal.",
-      "question": "Is it legal to consume cannabis at a public business in the state of Idaho?"
+      "validation_notes": "RECREATIONAL is not legal.",
+      "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Idaho?"
+    },
+    "RECREATIONAL_ONSITE": {
+      "answer": "NO",
+      "validation": "VERIFIED",
+      "validation_notes": "RECREATIONAL is not legal.",
+      "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Idaho?"
     },
     "MEDICAL": {
       "answer": "NO",
-      "summary": "It is not legal for medical marijuana patients to possess cannabis in Idaho. Idaho law does not recognize any medical marijuana program, exemption, or defense for patients, and all possession of cannabis remains strictly prohibited regardless of medical need.",
       "gov_quote": "Marijuana is a Schedule 1 controlled substance under the Controlled Substances Act and Idaho law. As such, the use and sale of marijuana for any purpose is illegal in Idaho.",
       "url": "https://odp.idaho.gov/marijuana/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the Idaho Office of Drug Policy website. The answer 'NO' is accurate and supported by the official source. No changes made.",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Idaho?"
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Idaho?",
+      "gov_section": "Marijuana is a Schedule 1 controlled substance under the Controlled Substances Act and Idaho law. As such, the use and sale of marijuana for any purpose is illegal in Idaho."
     },
     "MEDICAL_STORE": {
       "answer": "NO",
-      "summary": "MEDICAL is not legal.",
       "validation": "VERIFIED",
-      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "validation_notes": "RECREATIONAL is not legal.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Idaho?"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "summary": "MEDICAL is not legal.",
       "validation": "VERIFIED",
-      "validation_notes": "%PARENT_QUESTION% is not legal.",
+      "validation_notes": "RECREATIONAL is not legal.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Idaho?"
     }
   },
@@ -60,10 +61,12 @@
     "RECREATIONAL_STORE": "NO",
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
+    "RECREATIONAL_ONSITE": "NO",
     "MEDICAL": "NO",
     "MEDICAL_STORE": "NO",
     "MEDICAL_GROW": "NO"
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z"
+  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "primaryGovUrl": "https://odp.idaho.gov/marijuana/"
 }

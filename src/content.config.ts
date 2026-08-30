@@ -34,8 +34,8 @@ const validationSchema = z
 
 const resultSchema = z.object({
   answer: answerSchema,
-  summary: z.string(),
   gov_quote: z.string().optional(),
+  gov_section: z.string().optional(),
   url: z.string().optional(),
   validation: validationSchema,
   validation_notes: z.string().optional(),
@@ -47,6 +47,7 @@ const answersSchema = z.object({
   RECREATIONAL_STORE: answerSchema,
   RECREATIONAL_GROW: answerSchema,
   RECREATIONAL_PUBLIC: answerSchema,
+  RECREATIONAL_ONSITE: answerSchema,
   MEDICAL: answerSchema,
   MEDICAL_STORE: answerSchema,
   MEDICAL_GROW: answerSchema,
@@ -86,11 +87,13 @@ const locationsCollection = defineCollection({
       location: z.string(),
       lastResearch: z.string(),
       lastUpdate: z.string(),
+      primaryGovUrl: z.string().optional(),
       results: z.object({
         RECREATIONAL: resultSchema,
         RECREATIONAL_STORE: resultSchema,
         RECREATIONAL_GROW: resultSchema,
         RECREATIONAL_PUBLIC: resultSchema,
+        RECREATIONAL_ONSITE: resultSchema,
         MEDICAL: resultSchema,
         MEDICAL_STORE: resultSchema,
         MEDICAL_GROW: resultSchema,

@@ -3,64 +3,73 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to possess cannabis in Missouri. Amendment 3, which added Article XIV, Section 2 to the Missouri Constitution, legalized adult-use cannabis effective December 8, 2022. Adults may possess up to 3 ounces of marijuana at any time.",
       "gov_quote": "Article XIV, Section 2 allows individuals aged 21 years and older (adult consumers) to legally purchase, possess and consume cannabis in Missouri.",
       "url": "https://health.mo.gov/news/newsitem/uuid/c7eb819f-bdaa-4557-9371-0988013611be",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Missouri Department of Health & Senior Services page. The answer is fully supported by the source. No changes made.",
-      "question": "Is it legal for adults to possess cannabis in the state of Missouri?"
+      "question": "Is it legal for adults to possess cannabis in the state of Missouri?",
+      "gov_section": "Article XIV, Section 2 allows individuals aged 21 years and older (adult consumers) to legally purchase, possess and consume cannabis in Missouri."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to purchase cannabis at licensed dispensaries in Missouri. Amendment 3, codified as Article XIV, Section 2 of the Missouri Constitution, allows adults to legally buy, possess, and consume cannabis from state-licensed retail stores.",
       "gov_quote": "Article XIV, Section 2 allows individuals aged 21 years and older (adult consumers) to legally purchase, possess and consume cannabis in Missouri.",
       "url": "https://health.mo.gov/news/newsitem/uuid/c7eb819f-bdaa-4557-9371-0988013611be/dhss-publishes-annual-report-for-state-s-medical-and-adult-use-cannabis-program",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the cited Missouri DHSS page. The answer is confirmed by the page content. No changes made.",
-      "question": "Is it legal for adults to buy cannabis in a store in the state of Missouri?"
+      "question": "Is it legal for adults to buy cannabis in a store in the state of Missouri?",
+      "gov_section": "Article XIV, Section 2 allows individuals aged 21 years and older (adult consumers) to legally purchase, possess and consume cannabis in Missouri."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to grow cannabis in Missouri if they obtain a consumer personal cultivation card from the Department of Health and Senior Services. Cardholders may cultivate up to six flowering marijuana plants, six nonflowering plants 14 inches tall or more, and six nonflowering plants under 14 inches tall at their private residence in an enclosed locked facility. All cultivation must be for personal, non-commercial use and comply with state regulations.",
       "gov_quote": "Individuals at least twenty-one years of age may obtain a consumer personal cultivation card from the department to cultivate up to six (6) flowering marijuana plants, six (6) nonflowering plants under 14 inches tall or more, and six (6) non flowering plants under 14 inches tall in a single enclosed locked facility. All consumer personal cultivation must take place at a private residence.",
       "url": "https://health.mo.gov/safety/cannabis/patient-cultivation.php",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Missouri Department of Health and Senior Services page. The answer YES is fully supported by the page content. No issues found.",
-      "question": "Is it legal for adults to grow cannabis in the state of Missouri?"
+      "question": "Is it legal for adults to grow cannabis in the state of Missouri?",
+      "gov_section": "Individuals at least twenty-one years of age may obtain a consumer personal cultivation card from the department to cultivate up to six (6) flowering marijuana plants, six (6) nonflowering plants under 14 inches tall or more, and six (6) non flowering plants under 14 inches tall in a single enclosed locked facility. All consumer personal cultivation must take place at a private residence."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "summary": "It is not legal to consume cannabis at a public business in Missouri. State law prohibits cannabis consumption in public places, including businesses, unless a local government has specifically designated an area for public consumption.",
       "gov_quote": "No. Per Article XIV sections 1 and 2, no qualifying patient or consumer shall consume marijuana in a public place, unless otherwise provided by law. Local governments may designate areas for public consumption. Please check with your local government if this is applicable.",
       "url": "https://health.mo.gov/safety/cannabis/faqs-general.php",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Missouri cannabis FAQ page. The answer 'NO' is fully supported. No changes required.",
-      "question": "Is it legal to consume cannabis at a public business in the state of Missouri?"
+      "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Missouri?",
+      "gov_section": "No. Per Article XIV sections 1 and 2, no qualifying patient or consumer shall consume marijuana in a public place, unless otherwise provided by law. Local governments may designate areas for public consumption. Please check with your local government if this is applicable."
+    },
+    "RECREATIONAL_ONSITE": {
+      "answer": "NO",
+      "gov_quote": "No. Per Article XIV sections 1 and 2, no qualifying patient or consumer shall consume marijuana in a public place, unless otherwise provided by law. Local governments may designate areas for public consumption. Please check with your local government if this is applicable.",
+      "url": "https://health.mo.gov/safety/cannabis/faqs-general.php",
+      "validation": "VERIFIED",
+      "validation_notes": "Exact quote found verbatim on the official Missouri cannabis FAQ page. The answer 'NO' is fully supported. No changes required.",
+      "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Missouri?",
+      "gov_section": "No. Per Article XIV sections 1 and 2, no qualifying patient or consumer shall consume marijuana in a public place, unless otherwise provided by law. Local governments may designate areas for public consumption. Please check with your local government if this is applicable."
     },
     "MEDICAL": {
       "answer": "YES",
-      "summary": "Registered medical marijuana patients in Missouri may legally possess up to a 60-day supply (12 ounces) of cannabis with a valid patient ID card.",
       "gov_quote": "A patient ID card holder, or caregiver ID card holder on behalf of a licensed patient, may be in possession of up to a 60-day supply (12 ounces, unless the patient has a physician or nurse practitioner certification authorizing more than 6 ounces in 30 days).",
       "url": "https://health.mo.gov/safety/cannabis/faqs-patient.php",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Missouri?"
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Missouri?",
+      "gov_section": "A patient ID card holder, or caregiver ID card holder on behalf of a licensed patient, may be in possession of up to a 60-day supply (12 ounces, unless the patient has a physician or nurse practitioner certification authorizing more than 6 ounces in 30 days)."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for registered medical marijuana patients to purchase cannabis from licensed dispensaries in Missouri. Patients must have a valid medical marijuana patient identification card issued by the Missouri Department of Health and Senior Services to buy cannabis at state-licensed dispensaries.",
       "gov_quote": "Only Department-licensed dispensaries are legally authorized to sell medical marijuana in the state of Missouri.",
       "url": "https://health.mo.gov/safety/cannabis/patient-services.php",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the page. The answer is correct and supported by the official Missouri Department of Health and Senior Services website. No changes made.",
-      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Missouri?"
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Missouri?",
+      "gov_section": "Only Department-licensed dispensaries are legally authorized to sell medical marijuana in the state of Missouri."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "summary": "Medical marijuana patients in Missouri are legally permitted to grow cannabis at home, provided they obtain a patient cultivation identification card from the Missouri Department of Health and Senior Services (DHSS). Licensed patients may cultivate up to six (6) flowering marijuana plants, six (6) nonflowering marijuana plants (over 14 inches tall), and six (6) clones (plants under 14 inches tall) at any given time in a single, enclosed locked facility.",
       "gov_quote": "Licensed patients authorized to cultivate, or licensed caregivers authorized to cultivate on their behalf may cultivate up to six (6) flowering marijuana plants, six (6) nonflowering marijuana plants (over fourteen (14) inches tall), and six (6) clones (plants under fourteen (14) inches tall) at any given time in a single, enclosed locked facility.",
       "url": "https://health.mo.gov/safety/cannabis/cultivation.php",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Missouri DHSS page. The answer is correct and supported by the cited source. No changes required.",
-      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Missouri?"
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Missouri?",
+      "gov_section": "Licensed patients authorized to cultivate, or licensed caregivers authorized to cultivate on their behalf may cultivate up to six (6) flowering marijuana plants, six (6) nonflowering marijuana plants (over fourteen (14) inches tall), and six (6) clones (plants under fourteen (14) inches tall) at any given time in a single, enclosed locked facility."
     }
   },
   "answers": {
@@ -68,10 +77,12 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
+    "RECREATIONAL_ONSITE": "NO",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
   "lastResearch": "2026-04-04T04:46:05.413Z",
-  "lastUpdate": "2026-04-04T04:46:05.413Z"
+  "lastUpdate": "2026-04-04T04:46:05.413Z",
+  "primaryGovUrl": "https://health.mo.gov/safety/cannabis/"
 }
