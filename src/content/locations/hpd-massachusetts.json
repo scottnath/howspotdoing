@@ -86,5 +86,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://masscannabiscontrol.com/"
+  "primaryGovUrl": "https://masscannabiscontrol.com/",
+  "sourceNotes": "masscannabiscontrol.com is the Massachusetts Cannabis Control Commission's own site, confirmed by a link from mass.gov/orgs/cannabis-control-commission, checked 2026-08-31, so it is acceptable as a citation despite not being a .gov host. Separately, mass.gov returns 403 to scripted requests but loads normally in a browser, so check a mass.gov page by hand before recording it as inaccessible."
 }

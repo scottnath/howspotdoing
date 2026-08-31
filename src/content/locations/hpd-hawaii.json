@@ -86,5 +86,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://health.hawaii.gov/medicalcannabisregistry/"
+  "primaryGovUrl": "https://health.hawaii.gov/medicalcannabisregistry/",
+  "sourceNotes": "The RECREATIONAL row cites the 2024 bill on capitol.hawaii.gov that legalized possession from 2026-01-01. That date has passed, so the citation should move to a statute page or an agency page that states the law as it stands now, and the answer should be rechecked against that page rather than against the bill."
 }
