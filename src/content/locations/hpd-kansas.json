@@ -4,9 +4,9 @@
     "RECREATIONAL": {
       "answer": "NO",
       "gov_quote": "It shall be unlawful for any person to possess any of the following controlled substances or controlled substance analogs thereof:",
-      "url": "http://kslegislature.org/li_2020/b2019_20/statute/021_000_0000_chapter/021_057_0000_article/021_057_0006_section/021_057_0006_k/",
+      "url": "https://www.kslegislature.gov/b2025_26/laws/021_000_0000_chapter/021_057_0000_article/021_057_0006_section/021_057_0006_k/",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed ellipsis; stored the continuous unlawful-possession clause from the cited statute page.",
+      "validation_notes": "Moved from kslegislature.org to the kslegislature.gov statute page; quote confirmed verbatim there.",
       "question": "Is it legal for adults to possess cannabis in the state of Kansas?",
       "gov_section": "It shall be unlawful for any person to possess any of the following controlled substances or controlled substance analogs thereof:"
     },
@@ -37,9 +37,9 @@
     "MEDICAL": {
       "answer": "NO",
       "gov_quote": "It shall be unlawful for any person to possess any opiates, opium or narcotic drugs, or any stimulant designated in K.S.A. 65-4107 (d)(1), (d)(3) or (f)(1), and amendments thereto, or a controlled substance analog thereof.",
-      "url": "https://www.ksrevisor.org/statutes/chapters/ch21/021_057_0006.html",
+      "url": "https://ksrevisor.gov/statutes/chapters/ch21/021_057_0006.html",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Updated to the live revisors sentence (stimulant cross-reference replaced the older generic list).",
+      "validation_notes": "Moved from www.ksrevisor.org to ksrevisor.gov; quote confirmed verbatim there.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Kansas?",
       "gov_section": "It shall be unlawful for any person to possess any opiates, opium or narcotic drugs, or any stimulant designated in K.S.A. 65-4107 (d)(1), (d)(3) or (f)(1), and amendments thereto, or a controlled substance analog thereof."
     },

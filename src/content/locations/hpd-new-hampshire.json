@@ -34,10 +34,12 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following: (a) Two ounces of usable cannabis; and (b) Any amount of unusable cannabis.",
-      "url": "https://www.gencourt.state.nh.us/rsa/html/NHTOC/NHTOC-X-126-X.htm",
+      "gov_quote": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following:",
+      "url": "https://www.gc.nh.gov/rsa/html/X/126-X/126-X-2.htm",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Hampshire?",
-      "gov_section": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following: (a) Two ounces of usable cannabis; and (b) Any amount of unusable cannabis."
+      "gov_section": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following: (a) Two ounces of usable cannabis; and (b) Any amount of unusable cannabis.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Was citing the chapter table of contents on gencourt.state.nh.us, which does not contain the quote. Now cites RSA 126-X:2 on gc.nh.gov, where the sentence appears verbatim."
     },
     "MEDICAL_STORE": {
       "answer": "YES",

@@ -4,9 +4,9 @@
     "RECREATIONAL": {
       "answer": "NO",
       "gov_quote": "\"The following acts and the causing thereof within the Commonwealth are hereby prohibited: ... (16) The possession of a controlled or counterfeit substance by a person not registered under this act, or a practitioner not registered or licensed by the appropriate State board, unless the substance was obtained directly from, or pursuant to, a valid prescription order or order of a practitioner, or except as otherwise authorized by this act.\"",
-      "url": "https://www.legis.state.pa.us/cfdocs/legis/LI/uconsCheck.cfm?txtType=HTM&yr=1972&sessInd=0&smthLwInd=0&act=64",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Pennsylvania legislative website. The answer is correct and supported by the cited statute. No changes made.",
+      "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?SESSYR=1972&ACTNUM=64&SESSIND=0&SMTHLWIND=0",
+      "validation": "URL_INACCESSIBLE",
+      "validation_notes": "Was marked VERIFIED against a stitched quote on legis.state.pa.us, which no longer responds. Repointed at palegis.us, the host pa.gov links to, but neither host is reachable from the audit environment, so the quote is unconfirmed and the ellipses still need removing.",
       "question": "Is it legal for adults to possess cannabis in the state of Pennsylvania?",
       "gov_section": "\"The following acts and the causing thereof within the Commonwealth are hereby prohibited: ... (16) The possession of a controlled or counterfeit substance by a person not registered under this act, or a practitioner not registered or licensed by the appropriate State board, unless the substance was obtained directly from, or pursuant to, a valid prescription order or order of a practitioner, or except as otherwise authorized by this act.\""
     },

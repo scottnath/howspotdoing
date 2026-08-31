@@ -1147,15 +1147,15 @@
   {
     "state": "New Hampshire",
     "type": "MEDICAL",
-    "exists": "no"
-  },
-  {
-    "state": "New Hampshire",
-    "type": "MEDICAL_STORE",
     "exists": "yes"
   },
   {
     "state": "New Hampshire",
+    "type": "MEDICAL_STORE",
+    "exists": "yes"
+  },
+  {
+    "state": "New Hampshire",
     "type": "MEDICAL_GROW",
     "exists": "yes"
   },
@@ -1247,7 +1247,7 @@
   {
     "state": "New York",
     "type": "RECREATIONAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New York",
@@ -1272,7 +1272,7 @@
   {
     "state": "New York",
     "type": "MEDICAL_STORE",
-    "exists": "no"
+    "exists": "yes"
   },
   {
     "state": "New York",
