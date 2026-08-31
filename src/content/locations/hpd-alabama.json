@@ -65,5 +65,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.alabamapublichealth.gov/"
+  "primaryGovUrl": "https://www.alabamapublichealth.gov/",
+  "sourceNotes": "alisondb.legislature.state.al.us is the Alabama Legislature's own publication of the Code of Alabama, so it is an acceptable citation even though it is not a .gov host. A link from governor.alabama.gov is the evidence for that, checked 2026-08-31. If the same statutory text turns up on a .gov page, prefer the .gov page."
 }

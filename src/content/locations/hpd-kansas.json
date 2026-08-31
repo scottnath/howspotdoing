@@ -68,5 +68,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.kdhe.ks.gov/"
+  "primaryGovUrl": "https://www.kdhe.ks.gov/",
+  "sourceNotes": "Both the Kansas Legislature and the Revisor of Statutes have moved from .org to .gov. The citations here now use kslegislature.gov and ksrevisor.gov, and the quotes were reconfirmed on those hosts. Do not go back to kslegislature.org or www.ksrevisor.org; if you find a legacy .org URL in this file, replace it with the .gov equivalent at the same path and recheck the quote there."
 }

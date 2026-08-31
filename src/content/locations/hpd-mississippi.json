@@ -74,5 +74,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.mmcp.ms.gov/"
+  "primaryGovUrl": "https://www.mmcp.ms.gov/",
+  "sourceNotes": "billstatus.ls.state.ms.us is the Mississippi Legislature's own bill-status system, confirmed by a link from legislature.ms.gov, checked 2026-08-31, so it is acceptable despite the .us host. legislature.ms.gov fronts that system, but the document URLs themselves still live on the .us host, so the citation cannot simply be moved to the .gov domain."
 }

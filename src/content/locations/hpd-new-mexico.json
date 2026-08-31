@@ -86,5 +86,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.rld.nm.gov/cannabis/"
+  "primaryGovUrl": "https://www.rld.nm.gov/cannabis/",
+  "sourceNotes": "Two non-.gov hosts are confirmed official for this state. nmhealth.org is the New Mexico Department of Health, linked from both nm.gov and the rld.nm.gov cannabis FAQ, and nmonesource.com is the New Mexico Compilation Commission's publication of the NMSA, linked from that same rld.nm.gov FAQ. Both were checked 2026-08-31, so either host may be cited even though neither is a .gov domain."
 }

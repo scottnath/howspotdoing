@@ -73,5 +73,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://knowthefactsmmj.com/"
+  "primaryGovUrl": "https://knowthefactsmmj.com/",
+  "sourceNotes": "knowthefactsmmj.com is the site of the Florida Department of Health's Office of Medical Marijuana Use, confirmed by a link from the floridahealth.gov medical marijuana page, checked 2026-08-31. That is why it is acceptable as a citation, and why it is also this state's primaryGovUrl, despite not being a .gov host."
 }

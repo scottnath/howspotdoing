@@ -73,5 +73,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.pa.gov/agencies/health/programs/medical-marijuana"
+  "primaryGovUrl": "https://www.pa.gov/agencies/health/programs/medical-marijuana",
+  "sourceNotes": "www.legis.state.pa.us and www.palegis.us resolve to the same IP, and pa.gov does link to palegis.us, but neither host answers HTTP or HTTPS from the audit environment. That is why the RECREATIONAL row is marked URL_INACCESSIBLE rather than VERIFIED. Its gov_quote also still stitches two passages together with an ellipsis, so it needs replacing with one uninterrupted excerpt as soon as the page can be read; if the host still will not answer, look for the same statute on a pa.gov page instead."
 }

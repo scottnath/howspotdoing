@@ -80,5 +80,6 @@
   },
   "lastResearch": "2026-04-04T04:56:24.662Z",
   "lastUpdate": "2026-04-04T04:56:24.662Z",
-  "primaryGovUrl": "https://ccb.nv.gov/"
+  "primaryGovUrl": "https://ccb.nv.gov/",
+  "sourceNotes": "www.leg.state.nv.us is the Nevada Legislature's own publication of the NRS, confirmed by links from nv.gov and from ccb.nv.gov/consumers/, checked 2026-08-31. Citations to it are therefore acceptable despite the .us host, though a ccb.nv.gov page is preferable when it states the same thing in plainer language."
 }
