@@ -3,66 +3,75 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to possess cannabis in New Jersey. The Cannabis Regulatory, Enforcement Assistance, and Marketplace Modernization (CREAMM) Act, effective February 22, 2021, allows adults to possess up to six ounces of cannabis or cannabis products.",
       "gov_quote": "New Jersey state law allows adults 21 years and older to have up to 6 oz of cannabis and cannabis products in their possession.",
-      "url": "https://www.nj.gov/cannabis/legal-cannabis/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on official website. Answer confirmed. No changes made.",
-      "question": "Is it legal for adults to possess cannabis in the state of New Jersey?"
+      "url": "https://www.nj.gov/cannabis/adult-personal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 legal-cannabis URL; the 6 oz sentence is on the current adult-personal page.",
+      "question": "Is it legal for adults to possess cannabis in the state of New Jersey?",
+      "gov_section": "New Jersey state law allows adults 21 years and older to have up to 6 oz of cannabis and cannabis products in their possession."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for adults 21 and older to buy cannabis in a store in New Jersey. The Cannabis Regulatory, Enforcement Assistance, and Marketplace Modernization (CREAMM) Act authorizes adults to purchase cannabis from licensed dispensaries, which have been operational since April 21, 2022. Purchases require valid government-issued ID, are limited to one ounce per transaction, and are available to both residents and visitors.",
-      "gov_quote": "\"Adults 21 years of age or older can legally purchase cannabis and cannabis products for personal use at licensed dispensaries in New Jersey. Retail sales of adult-use cannabis began on April 21, 2022.\"",
-      "url": "https://www.nj.gov/cannabis/consumers/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New Jersey government cannabis website. Answer and summary are accurate and current. No changes made.",
-      "question": "Is it legal for adults to buy cannabis in a store in the state of New Jersey?"
+      "gov_quote": "Anyone - New Jersey residents or visitors - 21 years and older.",
+      "url": "https://www.nj.gov/cannabis/adult-personal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 consumers URL; stored the Who can buy sentence from adult-personal.",
+      "question": "Is it legal for adults to buy cannabis in a store in the state of New Jersey?",
+      "gov_section": "Anyone - New Jersey residents or visitors - 21 years and older."
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "summary": "It is not legal for adults to grow cannabis in New Jersey. Current state law prohibits home cultivation of cannabis for both recreational and medicinal purposes, and only licensed businesses may legally cultivate cannabis.",
       "gov_quote": "No. Current New Jersey law does not give authority to NJ-CRC to authorize private, residential, or any growing of cannabis outside of a business with a cultivation license.",
       "url": "https://www.nj.gov/cannabis/resources/faqs/general/",
       "validation": "VERIFIED",
       "validation_notes": "Both the government quote and legal status answer have been verified as accurate. The exact quote was found verbatim on the official NJ government cannabis FAQ page, and the 'NO' answer regarding adult cannabis cultivation legality is correct according to current New Jersey law.",
-      "question": "Is it legal for adults to grow cannabis in the state of New Jersey?"
+      "question": "Is it legal for adults to grow cannabis in the state of New Jersey?",
+      "gov_section": "No. Current New Jersey law does not give authority to NJ-CRC to authorize private, residential, or any growing of cannabis outside of a business with a cultivation license."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "summary": "It is not legal to consume cannabis at a public business in New Jersey unless the business is a licensed cannabis dispensary with a state- and municipally-approved cannabis consumption area. All other public businesses, such as restaurants, bars, and retail stores, are prohibited from allowing cannabis consumption on their premises.",
-      "gov_quote": "No smoking in indoor public spaces like restaurants, bars, or offices. No smoking in public parks, or on beaches. With all the spaces where you cannot smoke, cannabis users now have legal spaces to smoke cannabis socially outside their homes—cannabis consumption areas.",
-      "url": "https://www.nj.gov/cannabis/consumers/consumption/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
-      "question": "Is it legal to consume cannabis at a public business in the state of New Jersey?"
+      "gov_quote": "Generally, an adult 21 years of age or older can use cannabis on private property.",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 consumption URL; general rule on the current FAQ is private-property use.",
+      "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of New Jersey?",
+      "gov_section": "Generally, an adult 21 years of age or older can use cannabis on private property."
+    },
+    "RECREATIONAL_ONSITE": {
+      "answer": "YES",
+      "gov_quote": "You can also consume legal cannabis at licensed dispensaries with consumption areas.",
+      "url": "https://www.nj.gov/cannabis/adult-personal/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 consumption URL. Licensed dispensary consumption areas are public businesses that allow on-site use.",
+      "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of New Jersey?",
+      "gov_section": "You can also consume legal cannabis at licensed dispensaries with consumption areas."
     },
     "MEDICAL": {
       "answer": "YES",
-      "summary": "It is legal for registered medical marijuana patients in New Jersey to possess cannabis. Patients who are registered with the New Jersey Medicinal Cannabis Program and possess a valid Medical Cannabis Program identification card may legally possess up to 3 ounces (85 grams) of cannabis within a 30-day period, as authorized by their healthcare provider.",
-      "gov_quote": "The maximum amount of medical cannabis that a qualifying patient or the patient’s designated caregiver is allowed by law to purchase is 85 grams (3 oz) for a 30-day period.",
-      "url": "https://www.nj.gov/cannabis/medicinal-cannabis/patients-caregivers/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New Jersey government website. Answer and summary are correct. No changes made.",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Jersey?"
+      "gov_quote": "Adults and minors with a qualifying medical condition may participate in the Medicinal Cannabis Program .",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 patients-caregivers URL with the current general FAQ medical-program sentence.",
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Jersey?",
+      "gov_section": "Adults and minors with a qualifying medical condition may participate in the Medicinal Cannabis Program ."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "summary": "It is legal for registered medical marijuana patients in New Jersey to purchase cannabis in licensed stores, known as Alternative Treatment Centers (ATCs) or dispensaries. Patients must be registered with the New Jersey Medicinal Cannabis Program and present a valid MCP ID card to buy cannabis from these state-licensed facilities.",
       "gov_quote": "Cannabis orders are filled at one of the state-licensed Alternative Treatment Centers (ATCs) or dispensaries across New Jersey.",
       "url": "https://www.nj.gov/cannabis/medicinalcannabis/patients/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official New Jersey government page. The answer is correct: registered medical marijuana patients can legally purchase cannabis in licensed stores (ATCs/dispensaries) in New Jersey. No changes were required to the original report.",
-      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New Jersey?"
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New Jersey?",
+      "gov_section": "Cannabis orders are filled at one of the state-licensed Alternative Treatment Centers (ATCs) or dispensaries across New Jersey."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "summary": "It is not legal for medical marijuana patients to grow cannabis at home in New Jersey. State law prohibits home cultivation for patients and caregivers; all legal cultivation must be conducted by licensed businesses, and patients must obtain medical cannabis from state-licensed dispensaries.",
       "gov_quote": "The law does not currently permit home grow. Patients and caregivers are not permitted to grow cannabis or be in possession of a cannabis plant.",
       "url": "https://www.nj.gov/cannabis/medicinalcannabis/medicinal/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official New Jersey government medicinal cannabis program page. The answer is correct and supported by the cited source. No changes required.",
-      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New Jersey?"
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New Jersey?",
+      "gov_section": "The law does not currently permit home grow. Patients and caregivers are not permitted to grow cannabis or be in possession of a cannabis plant."
     }
   },
   "answers": {
@@ -70,10 +79,12 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z"
+  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "primaryGovUrl": "https://www.nj.gov/cannabis/"
 }

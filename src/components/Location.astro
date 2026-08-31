@@ -16,11 +16,26 @@ import Answer from '@components/Answer.astro';
     />
   </p>
   <p itemprop="lastReviewed">Last reviewed: {location.data.lastResearch}</p>
+  {
+    location.data.primaryGovUrl && (
+      <p class="official-site">
+        Official cannabis information:{' '}
+        <a href={location.data.primaryGovUrl}>
+          {location.data.primaryGovUrl
+            .replace(/^https?:\/\//, '')
+            .replace(/\/$/, '')
+            .split('/')[0]}
+        </a>
+      </p>
+    )
+  }
   <div class="questions">
     <div class="rec">
       <Question report={location.data.results.RECREATIONAL} />
       <Question report={location.data.results.RECREATIONAL_STORE} />
       <Question report={location.data.results.RECREATIONAL_GROW} />
+      <Question report={location.data.results.RECREATIONAL_PUBLIC} />
+      <Question report={location.data.results.RECREATIONAL_ONSITE} />
     </div>
     <div class="med">
       <Question report={location.data.results.MEDICAL} />
@@ -44,12 +59,16 @@ import Answer from '@components/Answer.astro';
       padding: 1rem 0;
       margin: 0;
     }
-    [itemprop='lastReviewed'] {
+    [itemprop='lastReviewed'],
+    .official-site {
       text-align: center;
       font-size: 1em;
       padding: 0;
-      margin: 0 0 1em 0;
+      margin: 0 0 0.5em 0;
       color: #666;
+    }
+    .official-site {
+      margin-bottom: 1em;
     }
     @media (min-width: 600px) {
       .questions {
