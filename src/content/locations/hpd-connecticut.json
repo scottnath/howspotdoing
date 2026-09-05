@@ -86,5 +86,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://portal.ct.gov/cannabis"
+  "primaryGovUrl": "https://portal.ct.gov/cannabis",
+  "sourceNotes": "cga.ct.gov, the Connecticut General Assembly, serves only its leaf certificate and leaves the client to fetch the issuing intermediate. Browsers do that and Node does not, so the three rows citing it read as unread in the audit while opening perfectly well for a person. Do not record them as inaccessible on that basis. Checked by hand on 2026-08-31: the MEDICAL_GROW quote appears verbatim on chap_420f.htm, which answers 200. portal.ct.gov has no such problem."
 }

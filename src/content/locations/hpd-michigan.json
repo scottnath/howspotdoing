@@ -86,5 +86,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.michigan.gov/cra"
+  "primaryGovUrl": "https://www.michigan.gov/cra",
+  "sourceNotes": "legislature.mi.gov serves only its leaf certificate and leaves the client to fetch the issuing intermediate, so the three rows citing it read as unread in the audit while opening fine in a browser. Do not conclude anything from that on its own; check by hand. Doing so on 2026-08-31 found the RECREATIONAL quote is not on MCL-333-27955 at all, despite the row being VERIFIED: it ends in an ellipsis and describes the ballot initiative's title rather than quoting the statute. That row needs re-researching, and the audit will not surface it while the certificate stops the page being read. michigan.gov itself is healthy, but three of its cited pages are 404s."
 }

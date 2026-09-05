@@ -74,5 +74,5 @@
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
   "primaryGovUrl": "https://www.pa.gov/agencies/health/programs/medical-marijuana",
-  "sourceNotes": "www.legis.state.pa.us and www.palegis.us resolve to the same IP, and pa.gov does link to palegis.us, but neither host answers HTTP or HTTPS from the audit environment. That is why the RECREATIONAL row is marked URL_INACCESSIBLE rather than VERIFIED. Its gov_quote also still stitches two passages together with an ellipsis, so it needs replacing with one uninterrupted excerpt as soon as the page can be read; if the host still will not answer, look for the same statute on a pa.gov page instead."
+  "sourceNotes": "Both www.palegis.us and www.legis.state.pa.us answer 200 to a browser-headed request as of 2026-08-31, and pa.gov links to palegis.us, so the host is official and reachable. This note previously said neither host answered at all; that is no longer true, and the RECREATIONAL row's URL_INACCESSIBLE validation is now blaming the wrong thing. The real problem is the quote: it stitches two passages together with an ellipsis and wraps the whole thing in quotation marks, and none of it appears on the cited page. Replace it with one uninterrupted excerpt from that page and reset the validation."
 }

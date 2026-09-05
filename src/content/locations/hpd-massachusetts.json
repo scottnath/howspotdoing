@@ -87,5 +87,5 @@
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
   "primaryGovUrl": "https://masscannabiscontrol.com/",
-  "sourceNotes": "masscannabiscontrol.com is the Massachusetts Cannabis Control Commission's own site, confirmed by a link from mass.gov/orgs/cannabis-control-commission, checked 2026-08-31, so it is acceptable as a citation despite not being a .gov host. Separately, mass.gov returns 403 to scripted requests but loads normally in a browser, so check a mass.gov page by hand before recording it as inaccessible."
+  "sourceNotes": "masscannabiscontrol.com is the Massachusetts Cannabis Control Commission's own site, confirmed by a link from mass.gov/orgs/cannabis-control-commission, checked 2026-08-31, so it is acceptable as a citation despite not being a .gov host. Two corrections to what this note used to say. mass.gov does not return 403 to scripted requests: every mass.gov page cited here answered 200 to a browser-headed request on 2026-08-31. And the MEDICAL_STORE citation, masscannabiscontrol.com/medical-use-of-marijuana-program/, now redirects to a PDF guide, which hard rule 3 does not allow as a url and which no quote can be matched against. That row needs an HTML page."
 }

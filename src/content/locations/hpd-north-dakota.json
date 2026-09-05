@@ -74,5 +74,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.hhs.nd.gov/mm"
+  "primaryGovUrl": "https://www.hhs.nd.gov/mm",
+  "sourceNotes": "www.hhs.nd.gov takes twelve to twenty seconds to assemble its cannabis pages and then answers correctly, which is slow enough to trip a short audit timeout and make its rows look dead. Raise the timeout rather than replacing the citation. Separately, the RECREATIONAL row cites www.ndlegis.gov/cencode/t19c03-1.pdf, and hard rule 3 does not allow a PDF as a url: no reader can check a quote against it in a browser and no script can match one. That row needs an HTML page for the same chapter."
 }

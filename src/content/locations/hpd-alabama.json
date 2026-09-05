@@ -66,5 +66,5 @@
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
   "primaryGovUrl": "https://www.alabamapublichealth.gov/",
-  "sourceNotes": "alisondb.legislature.state.al.us is the Alabama Legislature's own publication of the Code of Alabama, so it is an acceptable citation even though it is not a .gov host. A link from governor.alabama.gov is the evidence for that, checked 2026-08-31. If the same statutory text turns up on a .gov page, prefer the .gov page."
+  "sourceNotes": "The Code of Alabama has moved off the host this file cites. alisondb.legislature.state.al.us has no DNS record at all as of 2026-08-31, which is why the RECREATIONAL row is DEAD_URL; alison.legislature.state.al.us/code-of-alabama answers and is where the Code now lives. Move the citation there and recopy the quote from the new page. The host is still the Alabama Legislature's own publication rather than a .gov one, evidenced by a link from governor.alabama.gov checked 2026-08-31, so it stays acceptable, but prefer a .gov page if the same statutory text turns up on one."
 }
