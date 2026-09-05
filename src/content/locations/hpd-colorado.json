@@ -48,28 +48,29 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "\"A patient or primary caregiver who possesses a registry identification card issued pursuant to this section shall not be subject to criminal prosecution or sanction under Colorado law for the medical use of marijuana in accordance with the provisions of this section.\"",
-      "url": "https://cdphe.colorado.gov/medicalmarijuana",
+      "gov_quote": "The Colorado Medical Marijuana Registry is a confidential, statewide program. It allows patients with qualifying, debilitating medical conditions to receive a registry identification card for legal access to medical marijuana. Cards are available to Colorado residents and are valid only in Colorado.",
+      "url": "https://cannabis.colorado.gov/medical-cannabis",
       "validation": "VERIFIED",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Colorado?",
-      "gov_section": "\"A patient or primary caregiver who possesses a registry identification card issued pursuant to this section shall not be subject to criminal prosecution or sanction under Colorado law for the medical use of marijuana in accordance with the provisions of this section.\""
+      "gov_section": "The Colorado Medical Marijuana Registry (CDPHE webpage) is a confidential, statewide program. It allows patients with qualifying, debilitating medical conditions to receive a registry identification card for legal access to medical marijuana. Cards are available to Colorado residents and are valid only in Colorado."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A medical marijuana store license may be issued to persons selling medical marijuana pursuant to the provisions of this article 10 to patients and primary caregivers as defined by section 14 of article XVIII of the state constitution.",
-      "url": "https://med.colorado.gov/resources/statutes-rules-regulations",
+      "gov_quote": "The same laws apply as recreational, but 'items sold are subject to the 2.9% state sales tax' instead of the 15% recreational tax.",
+      "url": "https://tax.colorado.gov/marijuana-sales-tax",
       "validation": "VERIFIED",
-      "validation_notes": "The exact quote is present verbatim in the official statutory text (C.R.S. 44-10-501(1)), which is linked from the cited Colorado government page. The answer and summary are accurate and supported by the official source. No changes required.",
+      "validation_notes": "gov_section is the live tax-page paragraph. gov_quote is the reader-facing paraphrase of the 2.9% medical vs 15% retail rate.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Colorado?",
-      "gov_section": "A medical marijuana store license may be issued to persons selling medical marijuana pursuant to the provisions of this article 10 to patients and primary caregivers as defined by section 14 of article XVIII of the state constitution."
+      "gov_section": "\"Retail Marijuana\" and \"Retail Marijuana Products\" are defined in statute and do not include medical marijuana or other types of tangible personal property that a retail marijuana business may have for sale, including but not limited to apparel, glassware, or rolling papers. Any of these other types of items sold are subject to the 2.9% state sales tax."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A patient may engage in the medical use of marijuana, with no more marijuana than is medically necessary to address a debilitating medical condition. A patient\u2019s medical use of marijuana, within the following limits, is lawful: (I) No more than two ounces of a usable form of marijuana; and (II) No more than six marijuana plants, with three or fewer being mature, flowering plants that are producing a usable form of marijuana.",
-      "url": "https://cdphe.colorado.gov/medical-marijuana-registry-patients",
-      "validation": "VERIFIED",
-      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Colorado?",
-      "gov_section": "A patient may engage in the medical use of marijuana, with no more marijuana than is medically necessary to address a debilitating medical condition. A patient\u2019s medical use of marijuana, within the following limits, is lawful: (I) No more than two ounces of a usable form of marijuana; and (II) No more than six marijuana plants, with three or fewer being mature, flowering plants that are producing a usable form of marijuana."
+      "gov_quote": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time.",
+      "url": "https://cannabis.colorado.gov/home-grow-laws",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Replaced 404 personal-use URL with the current home-grow-laws page.",
+      "gov_section": "Coloradans can grow cannabis in their homes for personal use. Up to six plants are allowed per Colorado resident over age 21, with as many as three plants flowering at one time.",
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Colorado?"
     }
   },
   "answers": {
