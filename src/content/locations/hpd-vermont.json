@@ -86,5 +86,6 @@
   },
   "lastResearch": "2026-01-13T06:45:00.000Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://ccb.vermont.gov/"
+  "primaryGovUrl": "https://ccb.vermont.gov/",
+  "sourceNotes": "legislature.vermont.gov serves only its leaf certificate and leaves the client to fetch the issuing intermediate, so the four rows citing it read as unread in the audit while opening fine in a browser. Checked by hand on 2026-08-31: the RECREATIONAL quote appears verbatim on section 18/084/04230a, which answers 200. Do not record these as inaccessible without opening them. Two ccb.vermont.gov pages are genuine 404s and do need replacing."
 }

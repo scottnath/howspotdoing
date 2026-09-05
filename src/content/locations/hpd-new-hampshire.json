@@ -73,5 +73,5 @@
   "lastResearch": "2026-04-04T04:42:53.740Z",
   "lastUpdate": "2026-04-04T04:42:53.740Z",
   "primaryGovUrl": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-  "sourceNotes": "www.gencourt.state.nh.us is the New Hampshire General Court's publication of the RSAs, confirmed official by a link from courts.nh.gov, checked 2026-08-31. The same RSAs are also served from gc.nh.gov and the MEDICAL citation has already moved there, so prefer gc.nh.gov for any new citation rather than adding another .us URL. Separately, nh.gov returns 403 to scripted requests but loads normally in a browser, so do not read a 403 from that host as a dead page."
+  "sourceNotes": "www.gencourt.state.nh.us is the New Hampshire General Court's publication of the RSAs, confirmed official by a link from courts.nh.gov, checked 2026-08-31. The same RSAs are also served from gc.nh.gov and the MEDICAL citation has already moved there, so prefer gc.nh.gov for any new citation rather than adding another .us URL. This note used to warn that nh.gov returns 403 to scripted requests; it does not. Both dhhs.nh.gov and gc.nh.gov answered 200 to a browser-headed request on 2026-08-31, so a failure on either now needs investigating rather than excusing."
 }
