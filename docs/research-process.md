@@ -8,7 +8,6 @@ researched, quoted, and re-checked lives in the
 - `docs/questions.md` — the eight questions, their scope, YES criteria, and how they
   feed the legality score
 - `docs/research-process.md` — full lifecycle and the ordered audit passes
-- `docs/youdotcom-agents.md` — how the You.com research/editor agents are configured
 - `src/data/legality/types.ts` — data shape
 - `src/data/legality/agents/quote-audit.md` — exact-match audit and correction passes
 

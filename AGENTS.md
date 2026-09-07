@@ -115,7 +115,8 @@ publishes `dist/` to the `gh-pages` branch.
   so synced data keeps the formatting `hpd-research` wrote.
 - Structured data matters here: location pages use schema.org `FAQPage`/`Question`
   markup. Keep `itemprop`/`itemtype` attributes intact when editing components.
-- A quote is a legal citation. Never edit `gov_quote` text for style, and never
+- A quote is a legal citation. `gov_quote` may be paraphrased for a reader;
+  `gov_section` is the verbatim excerpt that has to appear on `url`. Never
   render a quote without its `url`.
 
 ## Related documentation
