@@ -3,75 +3,75 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "As of July 1, 2021, possession and use of up to 1.5 oz of cannabis is legal. Connecticut residents may also store up to 5 oz in a locked container at home or transport it in a locked glovebox or trunk.",
+      "gov_quote": "Residents over the age of 21 can legally possess and consume marijuana.",
       "url": "https://portal.ct.gov/cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Connecticut state cannabis website. All legal facts confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the cannabis portal homepage.",
       "question": "Is it legal for adults to possess cannabis in the state of Connecticut?",
-      "gov_section": "As of July 1, 2021, possession and use of up to 1.5 oz of cannabis is legal. Connecticut residents may also store up to 5 oz in a locked container at home or transport it in a locked glovebox or trunk."
+      "gov_section": "Residents over the age of 21 can legally possess and consume marijuana."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Adult-use sales have started in connecticut at licensed retailers.",
+      "gov_quote": "Adult-use sales have started in Connecticut at licensed retailers.",
       "url": "https://portal.ct.gov/cannabis",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous licensed-retailer sentence on the cannabis portal.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the cannabis portal homepage. The page writes connecticut in lowercase.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Connecticut?",
       "gov_section": "Adult-use sales have started in connecticut at licensed retailers."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Medical marijuana patients 18 years and older and adults 21 years of age and older are able to grow up to 3 mature and 3 immature plants in their home, with a cap of 12 total plants per household.",
-      "url": "https://portal.ct.gov/cannabis/Knowledge-Base/Articles/Growing-cannabis-at-home",
+      "gov_quote": "Adults 21 and older may grow up to three mature and three immature plants at home, with a household cap of 12 plants.",
+      "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/growing-cannabis-at-home",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Connecticut government website. All legal information is accurate and confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the portal home-grow article.",
       "question": "Is it legal for adults to grow cannabis in the state of Connecticut?",
       "gov_section": "Medical marijuana patients 18 years and older and adults 21 years of age and older are able to grow up to 3 mature and 3 immature plants in their home, with a cap of 12 total plants per household."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "Except as provided in subsection (b) of this section, use or possession of cannabis by a person in any public place, as defined in section 21a-240, is prohibited. Public place means any area that is used or held out for use by the public whether owned or operated by public or private interests.",
-      "url": "https://www.cga.ct.gov/current/pub/chap_420h.htm",
+      "gov_quote": "Cannabis use is prohibited in state parks and on state beaches and waters.",
+      "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/where-you-can-use-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the portal article on where cannabis may be used.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Connecticut?",
-      "gov_section": "Except as provided in subsection (b) of this section, use or possession of cannabis by a person in any public place, as defined in section 21a-240, is prohibited. Public place means any area that is used or held out for use by the public whether owned or operated by public or private interests."
+      "gov_section": "Cities and towns may enact ordinances to regulate whether and where cannabis can be consumed in public. At home, landlords may prohibit smoking and vaping, but they generally may not prohibit possession or consumption of other forms of cannabis. Cannabis use will be prohibited in state parks and on state beaches and waters."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "Except as provided in subsection (b) of this section, use or possession of cannabis by a person in any public place, as defined in section 21a-240, is prohibited. Public place means any area that is used or held out for use by the public whether owned or operated by public or private interests.",
-      "url": "https://www.cga.ct.gov/current/pub/chap_420h.htm",
+      "gov_quote": "On-site consumption of cannabis is not allowed at cannabis establishments.",
+      "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/is-on-site-consumption-of-cannabis-or-cannabis-products-allowed-at-cannabis-establishments",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the portal on-site consumption FAQ.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Connecticut?",
-      "gov_section": "Except as provided in subsection (b) of this section, use or possession of cannabis by a person in any public place, as defined in section 21a-240, is prohibited. Public place means any area that is used or held out for use by the public whether owned or operated by public or private interests."
+      "gov_section": "No. At this time, on-site consumption of cannabis (including cannabis products) is not allowed at cannabis establishments."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "Registered medical marijuana patients may have up to 5 ounces of medical marijuana per month.",
-      "url": "https://portal.ct.gov/DCP/Medical-Marijuana-Program/Medical-Marijuana-Program",
+      "gov_quote": "Registered medical marijuana patients may have up to 5 ounces of medical marijuana.",
+      "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/mmp/patient-faq/how-much-marijuana-can-a-patient-have-on-hand",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Connecticut government page. The answer and summary are accurate. No changes required.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Medical Marijuana Program patient FAQ.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Connecticut?",
-      "gov_section": "Registered medical marijuana patients may have up to 5 ounces of medical marijuana per month."
+      "gov_section": "Registered medical marijuana patients may have up to 5 ounces of medical marijuana."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Qualifying patients and caregivers who are registered with the Department of Consumer Protection may purchase medical marijuana from a licensed dispensary facility or hybrid retailer in Connecticut.",
-      "url": "https://portal.ct.gov/DCP/Medical-Marijuana-Program/Medical-Marijuana-Program",
+      "gov_quote": "Registered patients and caregivers may buy medical marijuana at dispensary facilities and hybrid retailers.",
+      "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/mmp/medical-marijuana-dispensary-facilities-and-hybrid-retailers",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Connecticut Department of Consumer Protection Medical Marijuana Program webpage. The answer 'YES' is accurate and supported by the source. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the portal dispensary and hybrid retailer page.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Connecticut?",
-      "gov_section": "Qualifying patients and caregivers who are registered with the Department of Consumer Protection may purchase medical marijuana from a licensed dispensary facility or hybrid retailer in Connecticut."
+      "gov_section": "Medical marijuana products can be purchased by qualifying patients and caregivers registered with the Medical Marijuana Program."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Any qualifying patient who is eighteen years of age or older may cultivate up to three mature cannabis plants and three immature cannabis plants in the patient's primary residence at any given time, provided such plants are secure from access by any individual other than the patient or patient's caregiver and no more than twelve cannabis plants may be grown per household.",
-      "url": "https://www.cga.ct.gov/2023/pub/chap_420f.htm",
+      "gov_quote": "Medical marijuana patients 18 and older may grow up to three mature and three immature plants at home, with a household cap of 12 plants.",
+      "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/growing-cannabis-at-home",
       "validation": "VERIFIED",
-      "validation_notes": "The exact quoted language regarding cultivation by medical marijuana patients appears verbatim in the official Connecticut law as published at the provided URL. The answer 'YES' is fully supported by the current legal text: medical marijuana patients 18 and older may cultivate cannabis in Connecticut, subject to the specified limits and security requirements.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the portal home-grow article. That sentence names medical marijuana patients 18 and older.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Connecticut?",
-      "gov_section": "Any qualifying patient who is eighteen years of age or older may cultivate up to three mature cannabis plants and three immature cannabis plants in the patient's primary residence at any given time, provided such plants are secure from access by any individual other than the patient or patient's caregiver and no more than twelve cannabis plants may be grown per household."
+      "gov_section": "Medical marijuana patients 18 years and older and adults 21 years of age and older are able to grow up to 3 mature and 3 immature plants in their home, with a cap of 12 total plants per household."
     }
   },
   "answers": {
@@ -84,8 +84,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
   "primaryGovUrl": "https://portal.ct.gov/cannabis",
-  "sourceNotes": "cga.ct.gov, the Connecticut General Assembly, serves only its leaf certificate and leaves the client to fetch the issuing intermediate. Browsers do that and Node does not, so the three rows citing it read as unread in the audit while opening perfectly well for a person. Do not record them as inaccessible on that basis. Checked by hand on 2026-08-31: the MEDICAL_GROW quote appears verbatim on chap_420f.htm, which answers 200. portal.ct.gov has no such problem."
+  "sourceNotes": "The official cannabis homepage is https://portal.ct.gov/cannabis, walked on 2026-09-07 for all eight questions. Related portal pages used on this pass are the knowledge-base articles on home grow, where cannabis may be used, on-site consumption, the Medical Marijuana Program, the patient possession FAQ, and the dispensary and hybrid retailer list. Medical-program pages that used to live under portal.ct.gov/DCP/Medical-Marijuana-Program now redirect into portal.ct.gov/cannabis. cga.ct.gov still has a leaf-certificate problem in the audit fetch, so this pass cites the portal rather than statute pages."
 }

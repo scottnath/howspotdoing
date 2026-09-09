@@ -5,8 +5,8 @@
       "answer": "NO",
       "gov_quote": "It shall be unlawful for any person knowingly or intentionally to possess a controlled substance unless the substance was obtained directly from, or pursuant to a valid prescription or order of, a practitioner while acting in the course of his professional practice, or except as otherwise authorized by this article.",
       "url": "https://www.scstatehouse.gov/code/t44c053.php",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced a reconstructed quote with the continuous 44-53-370 possession sentence.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.scstatehouse.gov/code/t44c053.php.",
       "question": "Is it legal for adults to possess cannabis in the state of South Carolina?",
       "gov_section": "It shall be unlawful for any person knowingly or intentionally to possess a controlled substance unless the substance was obtained directly from, or pursuant to a valid prescription or order of, a practitioner while acting in the course of his professional practice, or except as otherwise authorized by this article."
     },
@@ -66,7 +66,7 @@
     "MEDICAL_STORE": "NO",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://scdhec.gov/"
 }

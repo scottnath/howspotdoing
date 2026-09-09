@@ -3,35 +3,36 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"A person is guilty of possession of marijuana when he or she knowingly and unlawfully possesses marijuana. Possession of marijuana is a Class B misdemeanor.\"",
-      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49113",
+      "gov_quote": "Cannabis consumption outside of Kentucky's medical cannabis program remains illegal.",
+      "url": "https://kymedcan.ky.gov/laws-and-regulations/Pages/default.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "The original quote did not appear verbatim on the cited page. The corrected quote is taken directly from the statutory language on the official Kentucky legislature website. The answer and summary remain accurate.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://kymedcan.ky.gov/laws-and-regulations/Pages/default.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Kentucky?",
-      "gov_section": "\"A person is guilty of possession of marijuana when he or she knowingly and unlawfully possesses marijuana. Possession of marijuana is a Class B misdemeanor.\""
+      "gov_section": "Cannabis consumption outside of the medical cannabis program remains illegal in the Commonwealth of Kentucky."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Kentucky?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Kentucky?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Kentucky?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Kentucky?"
     },
     "MEDICAL": {
@@ -39,25 +40,28 @@
       "gov_quote": "On March 31, 2023, Governor Andy Beshear signed Senate Bill 47 (SB 47) into law, legalizing medical cannabis for Kentuckians beginning Jan. 1, 2025.",
       "url": "https://kymedcan.ky.gov/laws-and-regulations/Pages/default.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Government quote verified as accurate and appears verbatim on official website. Legal status and registration requirements confirmed. Note: Specific possession limits (112g flower, 28g concentrate, 3,900mg THC edibles, 30-day/10-day supply) are not explicitly listed on the main official website pages reviewed, though no contradictions were found.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://kymedcan.ky.gov/laws-and-regulations/Pages/default.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Kentucky?",
       "gov_section": "On March 31, 2023, Governor Andy Beshear signed Senate Bill 47 (SB 47) into law, legalizing medical cannabis for Kentuckians beginning Jan. 1, 2025."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A dispensary shall only dispense medicinal cannabis to a registered qualified patient, visiting qualified patient, or designated caregiver who:",
-      "url": "https://apps.legislature.ky.gov/law/kar/titles/915/001/070/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous dispensing clause; the card-presentation requirements follow as a list.",
+      "gov_quote": "Registered patients buy medical cannabis at licensed dispensaries. As of August 28, 2026, Kentucky lists open dispensaries across the state.",
+      "url": "https://kymedcan.ky.gov/patients-and-caregivers/Pages/Find-a-Dispensary.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://kymedcan.ky.gov/patients-and-caregivers/Pages/Find-a-Dispensary.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Kentucky?",
-      "gov_section": "A dispensary shall only dispense medicinal cannabis to a registered qualified patient, visiting qualified patient, or designated caregiver who:"
+      "gov_section": "As of August 28, 2026: the following dispensaries are open:"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
       "gov_quote": "No. Kentucky law prohibits individuals from growing their own medical cannabis.",
-      "url": "https://kymedcan.ky.gov/Pages/index.aspx",
+      "url": "https://kymedcan.ky.gov/FAQs/Pages/General-Questions.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "The exact quote 'No. Kentucky law prohibits individuals from growing their own medical cannabis.' was found verbatim on the official Kentucky medical cannabis website FAQ section. No changes were needed as the quote and all report details are accurate and supported by the official source.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://kymedcan.ky.gov/FAQs/Pages/General-Questions.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Kentucky?",
       "gov_section": "No. Kentucky law prohibits individuals from growing their own medical cannabis."
     }
@@ -72,7 +76,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://kymedcan.ky.gov/"
+  "lastResearch": "2026-09-09T02:00:58.159Z",
+  "lastUpdate": "2026-09-09T02:00:58.159Z",
+  "primaryGovUrl": "https://kymedcan.ky.gov/Pages/index.aspx",
+  "sourceNotes": "This pass started from https://kymedcan.ky.gov/Pages/index.aspx on 2026-09-08 and stayed on kymedcan.ky.gov. That host is the Kentucky Office of Medical Cannabis. The laws page at /laws-and-regulations/Pages/default.aspx restates Senate Bill 47 and says cannabis consumption outside the medical program remains illegal. The General Questions FAQ at /FAQs/Pages/General-Questions.aspx answers that individuals may not grow their own medical cannabis and that medical cannabis is only sold at licensed dispensaries. The Patient and Caregiver FAQ states that a registered qualified patient may purchase a 30-day supply during a 25-day period. Find a Dispensary at /patients-and-caregivers/Pages/Find-a-Dispensary.aspx lists open licensed dispensaries as of August 28, 2026. The stored citations on apps.legislature.ky.gov were replaced because that host is not the requested source and this host already answers those questions. The stored home-grow sentence is no longer on the homepage. Fetch with browser headers returns 200 and the excerpts are in the HTML, so these rows do not need a browser."
 }

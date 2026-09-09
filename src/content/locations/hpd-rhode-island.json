@@ -3,75 +3,83 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;",
-      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced reconstructed wording with the continuous authorized-conduct clause.",
+      "gov_quote": "Adults 21 and older may possess up to one ounce of cannabis flower on their person, or the equivalent in concentrate, and up to 10 ounces at home.",
+      "url": "https://health.ri.gov/cannabis-safety/information/cannabis-information-adults",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://health.ri.gov/cannabis-safety/information/cannabis-information-adults.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Rhode Island?",
-      "gov_section": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;"
+      "gov_section": "Under the Rhode Island Cannabis Act, adults 21 and older are allowed to possess up to one ounce of cannabis flower on their person (or an equivalent amount of cannabis concentrate) and up to 10 ounces at home."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;",
-      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced unreachable cannabis.ri.gov with the statute page that authorizes purchasing from a licensed retailer.",
+      "gov_quote": "Cannabis not grown at home may be purchased legally from a Rhode Island-licensed dispensary.",
+      "url": "https://health.ri.gov/cannabis-safety/information/cannabis-information-adults",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://health.ri.gov/cannabis-safety/information/cannabis-information-adults.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Rhode Island?",
-      "gov_section": "Possessing, using, purchasing from a licensed cannabis retailer, or processing one ounce (1 oz.) or less of cannabis, or the equivalent amount in the form of cannabis concentrate;"
+      "gov_section": "Cannabis not grown at home may be purchased legally from a Rhode Island-licensed dispensary, which offer products that are required to undergo testing for THC concentration, or strength, and contaminants."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Within any residence, possessing, cultivating or processing not more than a total of three (3) mature cannabis plants and up to a total of three (3) immature cannabis plants per dwelling unit for personal use",
-      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced unreachable cannabis.ri.gov with the statute home-cultivation clause.",
+      "gov_quote": "Adults 21 and older may grow up to three mature and three immature plants.",
+      "url": "https://health.ri.gov/cannabis-safety/information/cannabis-information-adults",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://health.ri.gov/cannabis-safety/information/cannabis-information-adults.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Rhode Island?",
-      "gov_section": "Within any residence, possessing, cultivating or processing not more than a total of three (3) mature cannabis plants and up to a total of three (3) immature cannabis plants per dwelling unit for personal use"
+      "gov_section": "They are also allowed to grow up to three mature and three immature plants."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance.",
+      "gov_quote": "The Cannabis Act does not authorize smoking or vaporizing cannabis in any public place.",
       "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotes; stored the continuous public smoking/vaporizing sentence.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Rhode Island?",
-      "gov_section": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance."
+      "gov_section": "Nothing contained within this chapter or chapter 28.6 of this title shall be construed as authorizing the smoking or vaporizing of cannabis in any public place. The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance.",
-      "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.HTM",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same sentence covers places that prohibit smoking cannabis by rule or ordinance.",
+      "gov_quote": "Rhode Island does not license cannabis lounges or other social consumption businesses.",
+      "url": "https://ccc.ri.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://ccc.ri.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Rhode Island?",
-      "gov_section": "The smoking or vaporizing of cannabis is prohibited in any public place that prohibits the smoking or vaporizing of tobacco products as well as any place that prohibits the smoking or vaporizing of cannabis including by rule, regulation, or by local ordinance."
+      "gov_section": "At this time, there are no licenses that would allow for the operation of social consumption businesses in Rhode Island."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "The state's Medical Marijuana Act permits Rhode Island residents with debilitating medical conditions to use marijuana if a physician certifies, in writing, that the marijuana may alleviate their symptoms and that the potential benefits of using medical marijuana would likely outweigh the health risks to the patient.",
+      "gov_quote": "Registered patients may possess a limited amount of marijuana under the Medical Marijuana Act.",
       "url": "https://health.ri.gov/medical-marijuana/information/patients-caregivers",
       "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://health.ri.gov/medical-marijuana/information/patients-caregivers.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Rhode Island?",
       "gov_section": "The state's Medical Marijuana Act permits Rhode Island residents with debilitating medical conditions to use marijuana if a physician certifies, in writing, that the marijuana may alleviate their symptoms and that the potential benefits of using medical marijuana would likely outweigh the health risks to the patient."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
       "gov_quote": "Once you have a Medical Marijuana you may visit any of the six Rhode Island Compassion Centers to purchase medical marijuana.",
-      "url": "https://health.ri.gov/healthcare/medicalmarijuana/for/patients/",
+      "url": "https://health.ri.gov/medical-marijuana/information/patients-caregivers",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Rhode Island Department of Health page. The answer is correct and supported by the cited government source. No changes made.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://health.ri.gov/medical-marijuana/information/patients-caregivers.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Rhode Island?",
       "gov_section": "Once you have a Medical Marijuana you may visit any of the six Rhode Island Compassion Centers to purchase medical marijuana."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "",
-      "url": "https://health.ri.gov/medical-marijuana/information/patients-caregivers",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed dead cannabis.ri.gov URL. MEDICAL is NO-grow; parent medical program page does not authorize home cultivation.",
+      "gov_quote": "Qualified patients may purchase, possess, and cultivate cannabis for debilitating medical conditions.",
+      "url": "https://health.ri.gov/cannabis-safety",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://health.ri.gov/cannabis-safety.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Rhode Island?",
-      "gov_section": ""
+      "gov_section": "It allows qualified patients to purchase, possess and cultivate cannabis to alleviate symptoms caused by debilitating medical conditions."
     }
   },
   "answers": {
@@ -84,7 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://health.ri.gov/healthcare/medicalmarijuana/"
+  "lastResearch": "2026-09-09T02:12:13.639Z",
+  "lastUpdate": "2026-09-09T02:12:13.639Z",
+  "primaryGovUrl": "https://health.ri.gov/cannabis-safety",
+  "sourceNotes": "This pass started from health.ri.gov on 2026-09-08 and treated that host as the source. The dedicated cannabis homepage is now https://health.ri.gov/cannabis-safety. The older medical-marijuana path https://health.ri.gov/healthcare/medicalmarijuana/ redirects to https://health.ri.gov/medical-marijuana. The adults page at /cannabis-safety/information/cannabis-information-adults answers adult possession, licensed purchase, and home grow. The patients-and-caregivers page at /medical-marijuana/information/patients-caregivers still has the stored Medical Marijuana Act possession sentence and the compassion-center purchase sentence; the old /healthcare/medicalmarijuana/for/patients/ URL redirects there. Patient home cultivation is stated on the cannabis-safety homepage, not on the patients page. Health does not say where adults may consume. The cannabis-safety homepage links to the Rhode Island Cannabis Act at webserver.rilegislature.gov and to the Cannabis Control Commission at ccc.ri.gov, so public smoking is cited from § 21-28.11-22 and the lack of social consumption licenses from the CCC FAQ. cannabis.ri.gov remains a retired host. A browser-headed fetch of every cited page returned 200 with the excerpt in the HTML, so these rows do not need a browser."
 }

@@ -3,80 +3,88 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "a person 21 years of age or older may lawfully possess on his person or in any public place not more than two ounces of marijuana or an equivalent amount of marijuana product as determined by regulation promulgated by the Board.",
-      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1100/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Updated to the live Code of Virginia sentence (two ounces; public place).",
+      "gov_quote": "Adults 21 and older may possess up to two ounces of cannabis outside their private residence.",
+      "url": "https://cca.virginia.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Virginia?",
-      "gov_section": "a person 21 years of age or older may lawfully possess on his person or in any public place not more than two ounces of marijuana or an equivalent amount of marijuana product as determined by regulation promulgated by the Board."
+      "gov_section": "Adults 21 years and older may possess up to two ounces of cannabis outside their private residence."
     },
     "RECREATIONAL_STORE": {
-      "answer": "NO",
-      "gov_quote": "Currently, there is no legal way to buy or sell recreational cannabis in Virginia.",
-      "url": "https://cca.virginia.gov/laws/popupshops",
+      "answer": "2027-07-01",
+      "gov_quote": "Non-medical cannabis sales are still illegal. Retail marijuana sales begin July 1, 2027.",
+      "url": "https://cca.virginia.gov/faq",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Virginia Cannabis Control Authority website. The 'NO' answer for adult retail cannabis purchases is accurate according to the current law. No changes needed to the original report content.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Virginia?",
-      "gov_section": "Currently, there is no legal way to buy or sell recreational cannabis in Virginia."
+      "gov_section": "Currently, non-medical sales of cannabis are illegal. The sale of retail marijuana will begin July 1, 2027."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A person 21 years of age or older may cultivate up to four marijuana plants for personal use at their place of residence; however, at no point shall a household contain more than four marijuana plants.",
-      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous home-cultivation sentence.",
+      "gov_quote": "Adults 21 and older may grow up to four plants per household, not per person.",
+      "url": "https://cca.virginia.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Virginia?",
-      "gov_section": "A person 21 years of age or older may cultivate up to four marijuana plants for personal use at their place of residence; however, at no point shall a household contain more than four marijuana plants."
+      "gov_section": "Adults 21 years and older may grow up to four plants per household (not per person), according to specified requirements."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "No person shall consume marijuana or a marijuana product or offer marijuana or a marijuana product to another, whether accepted or not, at or in any public place.",
-      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1108/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Confirmed exact statutory sentence; wrapping quotes removed in prior pass.",
+      "gov_quote": "Using cannabis in public places is illegal, including parks and streets.",
+      "url": "https://cca.virginia.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Virginia?",
-      "gov_section": "No person shall consume marijuana or a marijuana product or offer marijuana or a marijuana product to another, whether accepted or not, at or in any public place."
+      "gov_section": "No. Using cannabis or cannabis products in public places in Virginia is illegal. Virginia code defines public places as anywhere the public has access, including but not limited to restaurants, parks, stores, and streets."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "No person shall consume marijuana or a marijuana product or offer marijuana or a marijuana product to another, whether accepted or not, at or in any public place.",
-      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1108/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Public place includes businesses open to the public.",
+      "gov_quote": "Using cannabis in public places is illegal, including restaurants and stores.",
+      "url": "https://cca.virginia.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Virginia?",
-      "gov_section": "No person shall consume marijuana or a marijuana product or offer marijuana or a marijuana product to another, whether accepted or not, at or in any public place."
+      "gov_section": "No. Using cannabis or cannabis products in public places in Virginia is illegal. Virginia code defines public places as anywhere the public has access, including but not limited to restaurants, parks, stores, and streets."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "To be eligible to purchase medical cannabis, you must obtain a written certification from a licensed medical practitioner.",
-      "url": "https://cca.virginia.gov/medical-cannabis-program/",
+      "gov_quote": "Virginia residents with a written certification from a qualified practitioner may obtain medical cannabis.",
+      "url": "https://cca.virginia.gov/faq",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the Virginia Cannabis Control Authority website. The answer and summary are accurate and supported by the official source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Virginia?",
-      "gov_section": "To be eligible to purchase medical cannabis, you must obtain a written certification from a licensed medical practitioner."
+      "gov_section": "You can obtain medical cannabis if you are a Virginia resident who has received a written certification from a qualified practitioner who has determined you have a condition or a disease that would benefit from the use of medical cannabis."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Patients with a valid written certification from a registered practitioner may purchase medical cannabis products from a permitted pharmaceutical processor or cannabis dispensing facility. Registration with the Board of Pharmacy is no longer required for patients to obtain medical cannabis products.",
-      "url": "https://cca.virginia.gov/medical-cannabis-patients/",
+      "gov_quote": "Patients may present a written certification and state ID at a licensed dispensary to access medical cannabis.",
+      "url": "https://cca.virginia.gov/faq",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Virginia government page. The answer and summary are accurate and fully supported by the cited source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Virginia?",
-      "gov_section": "Patients with a valid written certification from a registered practitioner may purchase medical cannabis products from a permitted pharmaceutical processor or cannabis dispensing facility. Registration with the Board of Pharmacy is no longer required for patients to obtain medical cannabis products."
+      "gov_section": "Patients may present their written certification, whether digital or physical, and their state-issued ID at a licensed dispensary to access medical cannabis."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A person 21 years of age or older may cultivate up to four marijuana plants for personal use at their place of residence; however, at no point shall a household contain more than four marijuana plants.",
-      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same statutory sentence is the cultivation authority on the cited page.",
+      "gov_quote": "Adults 21 and older, including medical patients, may grow up to four plants per household.",
+      "url": "https://cca.virginia.gov/faq",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cca.virginia.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Virginia?",
-      "gov_section": "A person 21 years of age or older may cultivate up to four marijuana plants for personal use at their place of residence; however, at no point shall a household contain more than four marijuana plants."
+      "gov_section": "Adults 21 years and older may grow up to four plants per household (not per person), according to specified requirements."
     }
   },
   "answers": {
     "RECREATIONAL": "YES",
-    "RECREATIONAL_STORE": "NO",
+    "RECREATIONAL_STORE": "2027-07-01",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
     "RECREATIONAL_ONSITE": "NO",
@@ -84,7 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://cca.virginia.gov/"
+  "lastResearch": "2026-09-08T16:49:16.301Z",
+  "lastUpdate": "2026-09-08T16:49:16.301Z",
+  "primaryGovUrl": "https://cca.virginia.gov",
+  "sourceNotes": "This pass started from https://cca.virginia.gov on 2026-09-08 and stayed on that host. The FAQ answers adult possession, the July 1, 2027 retail-sales start, home cultivation, the public-consumption ban, medical certification, and dispensary purchase. The Retail Marijuana Market timeline and the July 1, 2026 news post restate that retail sales begin July 1, 2027. Laws restates two-ounce public possession, four-plant home grow, and that buying adult-use cannabis is still illegal. Patients and Dispensary Locations confirm the medical program and list open medical dispensaries. Three stored CCA paths are gone: /laws/popupshops now redirects to the education library, and /medical-cannabis-program/ and /medical-cannabis-patients/ are 404s. The live medical paths are /medicalcannabis and /medicalcannabis/patients. law.lis.virginia.gov citations from the prior pass were replaced because that host is not the requested source and CCA HTML already answers those questions. cca.virginia.gov answered 200 to a browser-headed fetch and the excerpts are in the HTML, so these rows do not need a browser."
 }

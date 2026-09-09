@@ -3,75 +3,83 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter) 16 ounces of cannabis-infused products in solid form (solid edibles) 72 ounces of cannabis-infused products in liquid form (drinks) 7 grams of cannabis concentrate",
+      "gov_quote": "Adults may buy and possess up to one ounce of useable cannabis, plus set limits on edibles, drinks, and concentrate.",
       "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Stored the live list as one contiguous excerpt (the page does not use the previously stored semicolons).",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/using_and_having_cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Washington?",
       "gov_section": "You may buy and possess a maximum of: One ounce of useable cannabis (plant matter) 16 ounces of cannabis-infused products in solid form (solid edibles) 72 ounces of cannabis-infused products in liquid form (drinks) 7 grams of cannabis concentrate"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Adults age 21 and over can purchase marijuana and marijuana products at state-licensed retail stores. You may possess up to one ounce of usable marijuana, 16 ounces of marijuana-infused product in solid form, 72 ounces in liquid form, and seven grams of marijuana concentrates.",
+      "gov_quote": "Cannabis must be bought from a state-licensed retail store.",
       "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "The provided URL could not be accessed or its content retrieved. The exact government quote could not be verified on the page. However, the answer and summary are supported by other official sources. No changes made to the report content due to inaccessible URL.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/using_and_having_cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Washington?",
-      "gov_section": "Adults age 21 and over can purchase marijuana and marijuana products at state-licensed retail stores. You may possess up to one ounce of usable marijuana, 16 ounces of marijuana-infused product in solid form, 72 ounces in liquid form, and seven grams of marijuana concentrates."
+      "gov_section": "Cannabis and cannabis products must be bought from a state-licensed retail store."
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "gov_quote": "Washington does not allow home growing of cannabis plants, unless you are a qualified medical patient or designated provider with a valid authorization form.",
+      "gov_quote": "Washington does not allow home growing of cannabis plants, unless you are a qualified medical patient or designated provider.",
       "url": "https://lcb.wa.gov/education/growing_cannabis_at_home",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Washington State Liquor and Cannabis Board webpage. The answer 'NO' is correct and supported by the cited source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/growing_cannabis_at_home.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Washington?",
       "gov_section": "Washington does not allow home growing of cannabis plants, unless you are a qualified medical patient or designated provider with a valid authorization form."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"Public consumption is not allowed. You cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land.\"",
-      "url": "https://lcb.wa.gov/cannabis/know-the-law",
+      "gov_quote": "You cannot use cannabis in parks or on public sidewalks.",
+      "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Quote found verbatim on official LCB page. Answer 'NO' is fully supported by official legal text. No exceptions or licensed consumption areas exist.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/using_and_having_cannabis.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Washington?",
-      "gov_section": "\"Public consumption is not allowed. You cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land.\""
+      "gov_section": "This means you cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "\"Public consumption is not allowed. You cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land.\"",
-      "url": "https://lcb.wa.gov/cannabis/know-the-law",
+      "gov_quote": "You cannot use cannabis in restaurants or other public places.",
+      "url": "https://lcb.wa.gov/education/using_and_having_cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Quote found verbatim on official LCB page. Answer 'NO' is fully supported by official legal text. No exceptions or licensed consumption areas exist.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/using_and_having_cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Washington?",
-      "gov_section": "\"Public consumption is not allowed. You cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land.\""
+      "gov_section": "This means you cannot use cannabis in any form, including smoking, vaping, or eating, in public places like parks, restaurants, on public sidewalks, at concerts, etc., or on federal land."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "Patients entered into the medical cannabis authorization database and who hold a recognition card may purchase up to three times the current limits at licensed retail stores with a medical cannabis endorsement, possess six plants and eight ounces of usable cannabis, and, if authorized by their healthcare practitioner, may grow up to 15 plants and possess up to 16 ounces of usable cannabis produced from their plants. Patients with a valid authorization who are not entered into the database may grow up to four plants and possess up to six ounces of usable cannabis for personal medical use within their domicile.",
-      "url": "https://doh.wa.gov/licenses-permits-and-certificates/medical-marijuana/medical-marijuana-patients",
+      "gov_quote": "Qualified medical patients and designated providers with a valid authorization may grow cannabis at home.",
+      "url": "https://lcb.wa.gov/education/growing_cannabis_at_home",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim or in direct paraphrase across official Washington State Department of Health resources. The answer 'YES' is accurate and supported by the official page. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/growing_cannabis_at_home.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Washington?",
-      "gov_section": "Patients entered into the medical cannabis authorization database and who hold a recognition card may purchase up to three times the current limits at licensed retail stores with a medical cannabis endorsement, possess six plants and eight ounces of usable cannabis, and, if authorized by their healthcare practitioner, may grow up to 15 plants and possess up to 16 ounces of usable cannabis produced from their plants. Patients with a valid authorization who are not entered into the database may grow up to four plants and possess up to six ounces of usable cannabis for personal medical use within their domicile."
+      "gov_section": "Washington does not allow home growing of cannabis plants, unless you are a qualified medical patient or designated provider with a valid authorization form."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Qualifying patients and designated providers with a valid authorization may purchase cannabis from any licensed retail store with a medical cannabis endorsement. Registered patients with a recognition card are eligible for higher purchase limits and tax exemptions on DOH-compliant products.",
-      "url": "https://doh.wa.gov/you-and-your-family/cannabis/medical-cannabis/patient-information",
+      "gov_quote": "Licensed retail stores with a medical endorsement sell cannabis and issue recognition cards.",
+      "url": "https://lcb.wa.gov/medical-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Washington State Department of Health page. The answer is fully supported by the source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/medical-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Washington?",
-      "gov_section": "Qualifying patients and designated providers with a valid authorization may purchase cannabis from any licensed retail store with a medical cannabis endorsement. Registered patients with a recognition card are eligible for higher purchase limits and tax exemptions on DOH-compliant products."
+      "gov_section": "Stores with a medical endorsement are marked in green."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants.",
-      "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=69.51A.210",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous domicile-grow sentence; dropped a later authorization-database passage.",
+      "gov_quote": "Qualified medical patients and designated providers with a valid authorization may grow cannabis at home.",
+      "url": "https://lcb.wa.gov/education/growing_cannabis_at_home",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcb.wa.gov/education/growing_cannabis_at_home.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Washington?",
-      "gov_section": "may also grow, in his or her domicile, up to six plants for the personal medical use of the qualifying patient and possess up to eight ounces of useable cannabis produced from his or her plants."
+      "gov_section": "Washington does not allow home growing of cannabis plants, unless you are a qualified medical patient or designated provider with a valid authorization form."
     }
   },
   "answers": {
@@ -84,7 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://lcb.wa.gov/"
+  "lastResearch": "2026-09-08T16:53:28.052Z",
+  "lastUpdate": "2026-09-08T16:53:28.052Z",
+  "primaryGovUrl": "https://lcb.wa.gov/education/using_and_having_cannabis",
+  "sourceNotes": "This pass started from https://lcb.wa.gov/education/using_and_having_cannabis on 2026-09-08 and stayed on lcb.wa.gov. Using and Having Cannabis answers adult possession limits, licensed retail purchase, and the public-consumption ban that names parks, sidewalks, and restaurants. Growing Cannabis at Home answers the adult home-grow ban and the medical-patient exception. Medical Cannabis lists medically endorsed licensed stores and says only LCB-licensed businesses may sell cannabis. The stored /cannabis/know-the-law path is a 404. doh.wa.gov citations from the prior pass were replaced because that host is not the requested source and LCB HTML already answers the medical questions. The grow page links to a DOH patient FAQ for plant-count details; this pass did not cite it. lcb.wa.gov answered 200 to a browser-headed fetch and the excerpts are in the HTML, so these rows do not need a browser."
 }

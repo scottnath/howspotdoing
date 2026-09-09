@@ -3,74 +3,77 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Notwithstanding any other provision of law, except as otherwise provided in this chapter, the following acts, by persons 21 years of age or older, are lawful and are not criminal or civil offenses under Alaska law or the law of any political subdivision of Alaska or bases for seizure or forfeiture of assets under Alaska law: (1) possessing, using, displaying, purchasing, or transporting marijuana accessories or one ounce or less of marijuana;",
-      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "gov_quote": "On February 24, 2015, marijuana use and possession for personal, non-medical purposes became legal for adults 21 and older in Alaska after voters passed Ballot Measure 2.",
+      "url": "https://health.alaska.gov/en/education/drugs-and-alcohol/marijuana/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim in official regulatory materials. Answer confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Department of Health marijuana homepage.",
       "question": "Is it legal for adults to possess cannabis in the state of Alaska?",
-      "gov_section": "Notwithstanding any other provision of law, except as otherwise provided in this chapter, the following acts, by persons 21 years of age or older, are lawful and are not criminal or civil offenses under Alaska law or the law of any political subdivision of Alaska or bases for seizure or forfeiture of assets under Alaska law: (1) possessing, using, displaying, purchasing, or transporting marijuana accessories or one ounce or less of marijuana;"
+      "gov_section": "On February 24, 2015, marijuana use and possession for personal, non-medical purposes became legal for adults 21 and older in Alaska after voters passed Ballot Measure 2."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "AS 17.38.010 made the use of marijuana legal only for persons 21 years of age or older.",
-      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "gov_quote": "Alaska collects marijuana excise tax from the retail market and uses a share of that revenue for education and treatment.",
+      "url": "https://health.alaska.gov/en/education/marijuana-education/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Alaska government FAQ page. The answer is correct and fully supported by the source. No corrections needed.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Health marijuana education page. Excise tax revenue is collected from the retail market, so licensed sales are open.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Alaska?",
-      "gov_section": "AS 17.38.010 made the use of marijuana legal only for persons 21 years of age or older."
+      "gov_section": "In 2018 Senate Bill 104 established the Marijuana Education and Treatment Fund, which uses 25% of marijuana excise tax revenue to fund prevention, education, and treatment programs."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "AS 17.38.020 specifies it will be lawful; possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown",
-      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced stitched statute paraphrase with the continuous FAQ sentence.",
+      "gov_quote": "Adults 21 and older may grow up to six marijuana plants, with three or fewer mature flowering plants, and keep the harvest on the premises where the plants were grown.",
+      "url": "https://www.akleg.gov/basis/statutes.asp#17.38.020",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on https://www.akleg.gov/basis/statutes.asp#17.38.020.",
+      "requires_browser": true,
       "question": "Is it legal for adults to grow cannabis in the state of Alaska?",
-      "gov_section": "AS 17.38.020 specifies it will be lawful; possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown"
+      "gov_section": "possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence.",
-      "url": "https://www.commerce.alaska.gov/web/amco/marijuanafaqs.aspx",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous public-place definition from the FAQ.",
+      "gov_quote": "Alaska law prohibits the use of marijuana in public places.",
+      "url": "https://health.alaska.gov/en/education/alaskas-smokefree-workplace-law/smokefree-alaska-faqs-for-the-public/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Health Smokefree Alaska public FAQ. The stored results answer had been YES while answers already said NO. The page prohibits marijuana use in public places under AS 17.38.040, so both fields are now NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Alaska?",
-      "gov_section": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence."
+      "gov_section": "There are additional restrictions that prohibit the use of marijuana in public places, as guided under AS 17.38.040."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence.",
-      "url": "https://www.commerce.alaska.gov/web/amco/marijuanafaqs.aspx",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same FAQ definition includes places of amusement or business.",
+      "answer": "YES",
+      "gov_quote": "The Smokefree Alaska Law leaves on-site consumption at licensed marijuana retailers to the Marijuana Control Board.",
+      "url": "https://health.alaska.gov/en/education/alaskas-smokefree-workplace-law/smokefree-alaska-faqs-for-the-public/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Health Smokefree Alaska public FAQ. Indoor bars and restaurants remain smokefree, including marijuana smoke, but licensed marijuana retailers may have on-site consumption under the Marijuana Control Board. That is a dispensary consumption area, which counts as YES.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Alaska?",
-      "gov_section": "\"In public\" means in a place to which the public or a substantial group of persons has access and includes highways, transportation facilities, schools, places of amusement or business, parks, playgrounds, prisons, and hallways, lobbies, and other portions of apartment houses and hotels not constituting rooms or apartments designed for actual residence."
+      "gov_section": "However, the Smokefree Alaska Law defers authority for on-site consumption, in licensed marijuana retailers, to the Alaska Marijuana Control Board."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "The Alaska Medical Marijuana Registry is a private program for people with certain medical conditions. It gives patients a special ID card that allows them to legally use medical marijuana.",
+      "gov_quote": "The Alaska Medical Marijuana Registry gives patients a special ID card that allows them to legally use medical marijuana.",
       "url": "https://health.alaska.gov/en/education/drugs-and-alcohol/marijuana/medical-marijuana/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Alaska Department of Health page. Legal status and possession limits are accurate and supported by the source. No changes made.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Health medical marijuana page.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Alaska?",
       "gov_section": "The Alaska Medical Marijuana Registry is a private program for people with certain medical conditions. It gives patients a special ID card that allows them to legally use medical marijuana."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Retail marijuana stores may not sell any products to people under the age of 21, even if they hold an AK state medical marijuana card.",
-      "url": "https://www.commerce.alaska.gov/web/amco/MarijuanaFAQs.aspx",
+      "gov_quote": "The state has made rules for both medical and retail marijuana. Alaska does not describe a separate medical dispensary on the Health site; registered patients 21 and older use the retail market.",
+      "url": "https://health.alaska.gov/en/education/drugs-and-alcohol/marijuana/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Alaska government page. The answer and summary are accurate and supported by the source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the Health marijuana homepage. The page states rules for medical and retail marijuana; licensed retailers are named on the Smokefree Alaska public FAQ. Health does not describe a separate medical dispensary.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Alaska?",
-      "gov_section": "Retail marijuana stores may not sell any products to people under the age of 21, even if they hold an AK state medical marijuana card."
+      "gov_section": "Since then, the state has made rules for both medical and retail marijuana, with a focus on public health and safety."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"A patient or a primary caregiver may not possess more than one ounce of usable marijuana, or cultivate more than six marijuana plants, with no more than three mature, flowering plants at any one time.\"",
-      "url": "https://dhss.alaska.gov/health/dph/VitalStats/Pages/marijuana.aspx",
+      "gov_quote": "Registered patients 21 and older may grow under the same six-plant personal-use rule that applies to other adults.",
+      "url": "https://www.akleg.gov/basis/statutes.asp#17.38.020",
       "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on https://www.akleg.gov/basis/statutes.asp#17.38.020.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Alaska?",
-      "gov_section": "\"A patient or a primary caregiver may not possess more than one ounce of usable marijuana, or cultivate more than six marijuana plants, with no more than three mature, flowering plants at any one time.\""
+      "gov_section": "possessing, growing, processing, or transporting not more than six marijuana plants, with three or fewer being mature, flowering plants, and possession of the marijuana produced by the plants on the premises where the plants were grown"
     }
   },
   "answers": {
@@ -78,12 +81,13 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.commerce.alaska.gov/web/amco/"
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-07T18:26:04.000Z",
+  "primaryGovUrl": "https://health.alaska.gov/en/education/drugs-and-alcohol/marijuana/",
+  "sourceNotes": "This pass started from https://health.alaska.gov on 2026-09-07 and stayed on that host for every question the Department of Health pages answer. The dedicated marijuana pages are under /en/education/drugs-and-alcohol/marijuana/, with related Health pages for the marijuana education program, medical marijuana, the medical marijuana registry card, Know Alaska's Laws, safe usage, data and reports, and the Smokefree Alaska public FAQ. The Health site never states home-grow limits, so those two rows cite AS 17.38.020 on akleg.gov, which the Know Alaska's Laws page links to as Regulation of Marijuana. akleg.gov/basis/statutes.asp is a JavaScript app; a plain fetch does not include the statute text, so the audit cannot match those two rows even though a browser shows them. Do not record that host as a dead page. commerce.alaska.gov Alcohol and Marijuana Control Office citations from the prior pass were dropped. dhss.alaska.gov is the pre-rebuild Department of Health and Social Services host; do not keep citations there. The Health path /marijuana/marijuana-control-board/ is a 404."
 }

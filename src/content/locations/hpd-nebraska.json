@@ -5,8 +5,8 @@
       "answer": "NO",
       "gov_quote": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance;",
       "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-416",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Stored the continuous 28-416 prohibited-acts clause instead of a shortened reconstruction.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://nebraskalegislature.gov/laws/statutes.php?statute=28-416.",
       "question": "Is it legal for adults to possess cannabis in the state of Nebraska?",
       "gov_section": "Except as authorized by the Uniform Controlled Substances Act, it shall be unlawful for any person knowingly or intentionally: (a) To manufacture, distribute, deliver, dispense, or possess with intent to manufacture, distribute, deliver, or dispense a controlled substance;"
     },
@@ -47,8 +47,8 @@
       "answer": "NO",
       "gov_quote": "Application periods for Dispensaries and Product Manufacturers will be set at a later date.",
       "url": "https://lcc.nebraska.gov/medical-cannabis/medical-cannabis-commission-how-apply",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotes; sentence already exact on the application page.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://lcc.nebraska.gov/medical-cannabis/medical-cannabis-commission-how-apply.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Nebraska?",
       "gov_section": "Application periods for Dispensaries and Product Manufacturers will be set at a later date."
     },
@@ -69,7 +69,7 @@
     "MEDICAL_STORE": "NO",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://lcc.nebraska.gov/medical-cannabis"
 }

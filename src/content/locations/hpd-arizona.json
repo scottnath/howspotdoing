@@ -3,72 +3,80 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Adults 21 years of age or older may possess, consume, purchase, process, manufacture by manual or mechanical means, or transport one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate.",
-      "url": "https://www.azdhs.gov/licensing/marijuana/",
+      "gov_quote": "Legal for adults 21 years of age or older to use, possess, or transfer up to one ounce of marijuana and cultivate for personal use not more than six marijuana plants at a primary residence; and adults 21 years of age or older may possess, consume, purchase, process, manufacture by manual or mechanical means, or transport one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate.",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-general",
       "validation": "VERIFIED",
+      "requires_browser": true,
       "question": "Is it legal for adults to possess cannabis in the state of Arizona?",
-      "gov_section": "Adults 21 years of age or older may possess, consume, purchase, process, manufacture by manual or mechanical means, or transport one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate."
+      "gov_section": "On November 3, 2020, Arizona voters voted \"yes\" on Proposition 207, the Smart and Safe Arizona Act, a voter initiative to allow adults 21 years of age or older to use, possess, or transfer up to one ounce of marijuana and cultivate for personal use not more than six marijuana plants at a primary residence;"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Possessing, consuming, purchasing, processing, manufacturing by manual or mechanical means, including sieving or ice water separation but excluding chemical extraction or chemical synthesis, or transporting one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate.",
-      "url": "https://www.azleg.gov/ars/36/02852.htm",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced 404 azdor marijuana-taxes page with the ARS 36-2852 purchase/possession clause.",
+      "gov_quote": "A person 21 years of age or older may purchase one ounce or less of adult use marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate.",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-purchasing",
+      "validation": "VERIFIED",
+      "requires_browser": true,
+      "validation_notes": "human",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Arizona?",
-      "gov_section": "Possessing, consuming, purchasing, processing, manufacturing by manual or mechanical means, including sieving or ice water separation but excluding chemical extraction or chemical synthesis, or transporting one ounce or less of marijuana, except that not more than five grams of marijuana may be in the form of marijuana concentrate."
+      "gov_section": "A person 21 years of age or older may purchase one ounce or less of adult use marijuana, except that not more than 5 grams of marijuana may be in the form of marijuana concentrate."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Possessing, transporting, cultivating or processing not more than six marijuana plants for personal use at the individual's primary residence",
-      "url": "https://www.azleg.gov/ars/36/02852.htm",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed ellipsis; stored the continuous statutory clause from the page.",
+      "gov_quote": "It is legal to cultivate for personal use not more than six marijuana plants at a primary residence",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-general",
+      "validation": "VERIFIED",
+      "requires_browser": true,
+      "validation_notes": "Human",
       "question": "Is it legal for adults to grow cannabis in the state of Arizona?",
-      "gov_section": "Possessing, transporting, cultivating or processing not more than six marijuana plants for personal use at the individual's primary residence"
+      "gov_section": "On November 3, 2020, Arizona voters voted \"yes\" on Proposition 207, the Smart and Safe Arizona Act, a voter initiative to allow adults 21 years of age or older to use, possess, or transfer up to one ounce of marijuana and cultivate for personal use not more than six marijuana plants at a primary residence;"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "Does not allow any person to: (a) Smoke marijuana in a public place or open space.",
-      "url": "https://www.azleg.gov/ars/36/02851.htm",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotes; stored the exact ARS clause.",
+      "gov_quote": "No, marijuana may not be smoked in public.",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-general",
+      "validation": "VERIFIED",
+      "requires_browser": true,
+      "validation_notes": "human",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Arizona?",
-      "gov_section": "Does not allow any person to: (a) Smoke marijuana in a public place or open space."
+      "gov_section": "No, marijuana may not be smoked in public."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "Does not allow any person to: (a) Smoke marijuana in a public place or open space.",
-      "url": "https://www.azleg.gov/ars/36/02851.htm",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same public-place smoking prohibition; no general cafe/bar allowance on this page.",
+      "gov_quote": "No, marijuana may not be smoked in public.",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-general",
+      "validation": "VERIFIED",
+      "requires_browser": true,
+      "validation_notes": "human",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Arizona?",
-      "gov_section": "Does not allow any person to: (a) Smoke marijuana in a public place or open space."
+      "gov_section": "No, marijuana may not be smoked in public."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "\"A qualifying patient or the qualifying patient\u2019s designated caregiver may not possess more than two and one-half ounces of usable marijuana.\"",
-      "url": "https://www.azleg.gov/ars/36/02805.htm",
+      "gov_quote": "There are two types of Qualified Patients: Adult Patients and Patients Under the Age of 18. For patients under 18, the patient's custodial parent or legal guardian must be designated as his or her caregiver. Adult patients do not need to designate a caregiver.",
+      "url": "https://www.azdhs.gov/licensing/medical-marijuana/#qualifying-home",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Arizona Revised Statutes page. The legal answer is correct and fully supported by the cited law. No discrepancies or corrections required.",
+      "requires_browser": true,
+      "validation_notes": "Exact quote found verbatim by human",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Arizona?",
-      "gov_section": "\"A qualifying patient or the qualifying patient\u2019s designated caregiver may not possess more than two and one-half ounces of usable marijuana.\""
+      "gov_section": "There are two types of Qualified Patients: Adult Patients and Patients Under the Age of 18. For patients under 18, the patient's custodial parent or legal guardian must be designated as his or her caregiver. Adult patients do not need to designate a caregiver."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A qualifying patient may purchase up to 2.5 oz. per 14-day period from a licensed nonprofit medical marijuana dispensary.",
-      "url": "https://www.azdhs.gov/licensing/medical-marijuana/index.php",
+      "gov_quote": "The amount purchased cannot cause the registered qualifying patient to exceed the limit of obtaining no more than 2.5 ounces of marijuana in a 14 day period.",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-purchasing",
       "validation": "VERIFIED",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Arizona?",
-      "gov_section": "A qualifying patient may purchase up to 2.5 oz. per 14-day period from a licensed nonprofit medical marijuana dispensary."
+      "gov_section": "The amount purchased cannot cause the registered qualifying patient to exceed the limit of obtaining no more than 2.5 ounces of marijuana in a 14 day period."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"A qualifying patient or the qualifying patient\u2019s designated caregiver may be allowed to cultivate marijuana if the qualifying patient lives more than twenty-five miles from the nearest dispensary. The qualifying patient or designated caregiver may cultivate up to twelve plants in an enclosed, locked facility.\"",
-      "url": "https://www.azdhs.gov/licensing/medical-marijuana/index.php#faqs-patients",
+      "gov_quote": "As a medical marijuana qualified patient or caregiver, you have cultivation rights if your residence address is over 25 miles from an operating dispensary, as indicated on your card and may cultivate up to 12 plants.",
+      "url": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php#faqs-cultivation",
       "validation": "VERIFIED",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Arizona?",
-      "gov_section": "\"A qualifying patient or the qualifying patient\u2019s designated caregiver may be allowed to cultivate marijuana if the qualifying patient lives more than twenty-five miles from the nearest dispensary. The qualifying patient or designated caregiver may cultivate up to twelve plants in an enclosed, locked facility.\""
+      "gov_section": "As a medical marijuana qualified patient or caregiver, you have cultivation rights if your residence address is over 25 miles from an operating dispensary, as indicated on your card and may cultivate up to 12 plants."
     }
   },
   "answers": {
@@ -81,7 +89,7 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T22:58:14.570Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://www.azdhs.gov/licensing/marijuana/"
 }

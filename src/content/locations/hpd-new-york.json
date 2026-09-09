@@ -6,7 +6,8 @@
       "gov_quote": "Cannabis is legal in New York State for adults 21+",
       "url": "https://cannabis.ny.gov/know-law",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/know-law.",
+      "requires_browser": true,
       "question": "Is it legal for adults to possess cannabis in the state of New York?",
       "gov_section": "Cannabis is legal in New York State for adults 21+"
     },
@@ -14,64 +15,71 @@
       "answer": "YES",
       "gov_quote": "A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management.",
       "url": "https://cannabis.ny.gov/adult-use",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Previous quote mixed two passages and contained a typo; stored the continuous listing sentence from the page.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/adult-use.",
+      "requires_browser": true,
       "question": "Is it legal for adults to buy cannabis in a store in the state of New York?",
       "gov_section": "A listing of all legal dispensaries in New York State officially licensed by the Office of Cannabis Management."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
       "gov_quote": "New Yorkers 21 years and older can grow up to six plants in their home for personal use (3 mature plants and 3 immature plants) and a maximum of twelve plants per household (6 mature plants and 6 immature plants), even if there are three or more adults 21 and over in the residence.",
-      "url": "https://cannabis.ny.gov/adult-use-personal-home-cultivation",
+      "url": "https://cannabis.ny.gov/adult-use-information",
       "validation": "VERIFIED",
-      "validation_notes": "The government quote appears EXACTLY verbatim on the official New York State cannabis website. The answer YES is accurate and fully supported by the official source. No corrections are necessary.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/adult-use-information.",
+      "requires_browser": true,
       "question": "Is it legal for adults to grow cannabis in the state of New York?",
       "gov_section": "New Yorkers 21 years and older can grow up to six plants in their home for personal use (3 mature plants and 3 immature plants) and a maximum of twelve plants per household (6 mature plants and 6 immature plants), even if there are three or more adults 21 and over in the residence."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "Cannabis Law Section 3 defines 'on-site consumption' as cannabis use in an area specifically licensed for that purpose. The Office has not authorized any such facilities, meaning cannabis use is not allowed at events or licensed locations at this time.",
-      "url": "https://cannabis.ny.gov/know-law",
+      "gov_quote": "New York prohibits smoking cannabis in all New York State Parks and other public outdoor spaces.",
+      "url": "https://cannabis.ny.gov/adult-use-information",
       "validation": "VERIFIED",
-      "validation_notes": "The original quote was not found verbatim on the official NY cannabis website. The quote has been replaced with actual government text from the page. The answer 'NO' and summary remain accurate: cannabis consumption is prohibited at public businesses unless specifically licensed for on-site consumption, and no such licenses have been authorized.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/adult-use-information.",
+      "requires_browser": true,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of New York?",
-      "gov_section": "Cannabis Law Section 3 defines 'on-site consumption' as cannabis use in an area specifically licensed for that purpose. The Office has not authorized any such facilities, meaning cannabis use is not allowed at events or licensed locations at this time."
+      "gov_section": "New York recently passed a law that prohibits smoking cannabis and tobacco in all New York State Parks and other public outdoor spaces effective 10/13/2022."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "Cannabis Law Section 3 defines 'on-site consumption' as cannabis use in an area specifically licensed for that purpose. The Office has not authorized any such facilities, meaning cannabis use is not allowed at events or licensed locations at this time.",
-      "url": "https://cannabis.ny.gov/know-law",
+      "gov_quote": "Adults may consume cannabis in a private home, not at a private business such as a restaurant patio. On-site consumption license applications are not yet open.",
+      "url": "https://cannabis.ny.gov/adult-use-information",
       "validation": "VERIFIED",
-      "validation_notes": "The original quote was not found verbatim on the official NY cannabis website. The quote has been replaced with actual government text from the page. The answer 'NO' and summary remain accurate: cannabis consumption is prohibited at public businesses unless specifically licensed for on-site consumption, and no such licenses have been authorized.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/adult-use-information.",
+      "requires_browser": true,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of New York?",
-      "gov_section": "Cannabis Law Section 3 defines 'on-site consumption' as cannabis use in an area specifically licensed for that purpose. The Office has not authorized any such facilities, meaning cannabis use is not allowed at events or licensed locations at this time."
+      "gov_section": "It is legal for adults 21 years or older to consume cannabis in a private home or in most places tobacco can be consumed, with the exception of consumption in a motor vehicle, a private business (such as a restaurant patio), a hookah or “cigar bar,” or on federal property."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "Registered organizations may dispense up to a 60-day supply of medical cannabis to a certified patient or designated caregiver, pursuant to any recommendations or limitations made by the health care provider on the certification.",
-      "url": "https://cannabis.ny.gov/medical-cannabis-program",
+      "gov_quote": "The Medical Cannabis Program authorizes patients for the consumption of medical cannabis when a certified health care provider deems it appropriate.",
+      "url": "https://cannabis.ny.gov/patients",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New York State Office of Cannabis Management website. The answer is correct and supported by the cited government source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/patients.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New York?",
-      "gov_section": "Registered organizations may dispense up to a 60-day supply of medical cannabis to a certified patient or designated caregiver, pursuant to any recommendations or limitations made by the health care provider on the certification."
+      "gov_section": "The Medical Cannabis Program authorizes patients for the consumption and home cultivation of medical cannabis if deemed appropriate by a New York State certified health care provider."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "The patient\u2019s certification will contain a registry ID and can be used immediately in conjunction with a government issued photo ID to buy medical cannabis from a licensed medical dispensary in New York State.",
+      "gov_quote": "The patient’s certification will contain a registry ID and can be used immediately in conjunction with a government issued photo ID to buy medical cannabis from a licensed medical dispensary in New York State.",
       "url": "https://cannabis.ny.gov/patients",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New York State cannabis website. The answer and summary are fully supported by the source. No corrections or changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/patients.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New York?",
-      "gov_section": "The patient\u2019s certification will contain a registry ID and can be used immediately in conjunction with a government issued photo ID to buy medical cannabis from a licensed medical dispensary in New York State."
+      "gov_section": "The patient’s certification will contain a registry ID and can be used immediately in conjunction with a government issued photo ID to buy medical cannabis from a licensed medical dispensary in New York State."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Certified patients and designated caregivers 21 years of age or older who are registered with the Medical Cannabis Program may cultivate cannabis at home for the patient\u2019s personal use. Each certified patient or designated caregiver may cultivate up to three mature and three immature cannabis plants at any one time, with a maximum of six mature and six immature plants per private residence, regardless of the number of patients or caregivers residing there.",
-      "url": "https://cannabis.ny.gov/medical-cannabis-home-cultivation",
+      "gov_quote": "Certified patients and designated caregivers 18 or older who are registered with the Medical Cannabis Program may cultivate cannabis at home for a certified patient’s personal use.",
+      "url": "https://cannabis.ny.gov/patients",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New York State cannabis website. Legal status is correctly reported as YES. No corrections needed.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.ny.gov/patients.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New York?",
-      "gov_section": "Certified patients and designated caregivers 21 years of age or older who are registered with the Medical Cannabis Program may cultivate cannabis at home for the patient\u2019s personal use. Each certified patient or designated caregiver may cultivate up to three mature and three immature cannabis plants at any one time, with a maximum of six mature and six immature plants per private residence, regardless of the number of patients or caregivers residing there."
+      "gov_section": "Certified patients and designated caregivers 18+ who are registered with the Medical Cannabis Program may cultivate cannabis at home for a certified patients’ personal use."
     }
   },
   "answers": {
@@ -84,7 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://cannabis.ny.gov/"
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T15:23:00.000Z",
+  "primaryGovUrl": "https://cannabis.ny.gov/",
+  "sourceNotes": "This pass started from https://cannabis.ny.gov/ on 2026-09-08 and stayed on that host. Know the Law still states that cannabis is legal for adults 21+. Adult-Use lists licensed dispensaries. Adult-Use Information answers home cultivation, park and outdoor-public smoking bans, and the private-business consumption exception. The patients page answers medical possession, dispensary purchase, and medical home grow. Three stored paths are 404s: /adult-use-personal-home-cultivation, /medical-cannabis-program, and /medical-cannabis-home-cultivation. Cannabis Showcase Event permits are off-site sales, not on-site consumption. The licensing page says future windows for on-site consumption licenses are anticipated, so on-site stays NO. Home-cultivation PDFs on this host were not cited. cannabis.ny.gov answers 403 to fetch and to headless Chromium; the audit then opens a headed window, which loads the pages. A spoofed Chrome user-agent on bundled Chromium keeps the interstitial up, so the browser retry uses Playwright's own identity and reuses one context."
 }
