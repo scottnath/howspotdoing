@@ -10,6 +10,8 @@ researched, quoted, and re-checked lives in the
 - `docs/research-process.md` — full lifecycle and the ordered audit passes
 - `src/data/legality/types.ts` — data shape
 - `src/data/legality/agents/quote-audit.md` — exact-match audit and correction passes
+- `src/data/legality/agents/re-research.md` — full re-research of a state from a
+  current official homepage. Trigger: `Re-research <State> using <url>`
 
 ## Scope of an audit
 

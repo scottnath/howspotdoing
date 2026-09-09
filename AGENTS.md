@@ -51,7 +51,8 @@ table on `/locations`.
 
 Per-question fields: `answer`, `gov_quote` (rendered as the blockquote),
 `gov_section` (stored context, not rendered), `url` (the citation link),
-`question` (the rendered heading), `validation`, `validation_notes`. Per-location:
+`question` (the rendered heading), `validation`, `validation_notes`,
+`requires_browser` (audit-only; not rendered). Per-location:
 `primaryGovUrl` renders as the "Official cannabis information" link.
 
 There is no `summary` field. Do not add one to the schema.

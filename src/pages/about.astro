@@ -6,10 +6,10 @@ import SiteTitle from '@components/SiteTitle.astro';
 <Layout title="About - How's Pot Doing?">
   <h1 itemprop="name"><SiteTitle title="About How's Pot Doing?" /></h1>
   <article class="about">
-    <h1>How the Legality of cannabis is calculated</h1>
+    <h2>How the Legality of cannabis is calculated</h2>
 
-    <p>We confirm legality on government sites, then score access: 80 for recreational,
-    30 for medical-only. Store purchase and home cultivation each add 10 points if
+    <p>We confirm legality on government sites, specifically `.gov` sites. We find the most plain language quote to determine legality. Then we calculate the percentage of legal gray area you're risking in that location.</p>
+    <p>It's 80% legal for recreational, but only 30% when medical cannabis is the only option. Store purchase and home cultivation each add 10 points if
     allowed.</p>
 
     <div class="scoring">
@@ -49,6 +49,8 @@ import SiteTitle from '@components/SiteTitle.astro';
       <strong>50%</strong> = best medical-only<br />
       <strong>0%</strong> = fully illegal
     </p>
+    <h2>State X allows low-THC products, why is it a NO?</h2>
+    <p>When states only allow low-THC cannabis, usually for medical use, they're still blocking it's true theraputic use. These laws are used to quell momentum, not to serve the public interest.</p>
   </article>
 </Layout>
 

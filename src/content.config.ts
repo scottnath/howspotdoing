@@ -27,6 +27,7 @@ const validationSchema = z
       'no_data_provided',
       'URL_INACCESSIBLE',
       'ANSWER_INCORRECT',
+      'DERIVED_NO',
     ]),
     z.string(),
   ])
@@ -39,6 +40,7 @@ const resultSchema = z.object({
   url: z.string().optional(),
   validation: validationSchema,
   validation_notes: z.string().optional(),
+  requires_browser: z.boolean().optional(),
   question: z.string(),
 });
 
