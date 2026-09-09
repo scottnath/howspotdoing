@@ -3,63 +3,67 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"Possession of marijuana without a valid medical marijuana patient license remains illegal in Oklahoma. Only licensed patients and caregivers may legally possess medical marijuana within the limits set by state law.\"",
-      "url": "https://oklahoma.gov/omma/patients-caregivers.html",
+      "gov_quote": "Oklahoma voters authorized a medical marijuana program in 2018. The state does not describe adult-use possession.",
+      "url": "https://oklahoma.gov/omma/about/about-omma.html",
       "validation": "VERIFIED",
-      "validation_notes": "Both sentences of the quoted text appear verbatim as consecutive statements on the official Oklahoma government page. The NO answer is accurate and supported by the source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://oklahoma.gov/omma/about/about-omma.html.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Oklahoma?",
-      "gov_section": "\"Possession of marijuana without a valid medical marijuana patient license remains illegal in Oklahoma. Only licensed patients and caregivers may legally possess medical marijuana within the limits set by state law.\""
+      "gov_section": "The Oklahoma Medical Marijuana Authority (OMMA) is the regulatory agency for Oklahoma’s medical marijuana program. Oklahoma voters authorized the state’s medical marijuana program in 2018 with State Question 788."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Oklahoma?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Oklahoma?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Oklahoma?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Oklahoma?"
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A medical marijuana minor patient license allows an Oklahoma resident under the age of 18 to legally possess, use and grow medical marijuana and medical marijuana products in Oklahoma.",
-      "url": "https://omma.ok.gov/patients-caregivers",
+      "gov_quote": "A medical marijuana patient license allows someone with an approved application to legally buy, use and grow medical marijuana and medical marijuana products in Oklahoma.",
+      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the OMMA website. The answer 'YES' is accurate and supported by official government text. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Oklahoma?",
-      "gov_section": "A medical marijuana minor patient license allows an Oklahoma resident under the age of 18 to legally possess, use and grow medical marijuana and medical marijuana products in Oklahoma."
+      "gov_section": "A medical marijuana patient license allows someone with an approved application to legally buy, use and grow medical marijuana and medical marijuana products in Oklahoma."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Licensed dispensaries may only sell medical marijuana and medical marijuana products to a patient, the patient\u2019s caregiver, a research license holder, or the parent or legal guardian named on a minor patient\u2019s license. The patient, caregiver, or parent/legal guardian must present a valid, unexpired medical marijuana license at the point of sale.",
-      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights.html",
+      "gov_quote": "Licensed patients must present their medical marijuana patient license card every time they purchase medical marijuana at a dispensary.",
+      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official OMMA website. The answer is correct and supported by the cited legal language. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Oklahoma?",
-      "gov_section": "Licensed dispensaries may only sell medical marijuana and medical marijuana products to a patient, the patient\u2019s caregiver, a research license holder, or the parent or legal guardian named on a minor patient\u2019s license. The patient, caregiver, or parent/legal guardian must present a valid, unexpired medical marijuana license at the point of sale."
+      "gov_section": "You must present your medical marijuana patient license identification card every time you purchase medical marijuana at a dispensary or have marijuana taken to a processor to be concentrated."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Patient-grown marijuana must be on real property owned by the patient or the patient must have the written permission of the real property owner to grow marijuana. Cannot be visible by someone with 20/20 vision from any street adjacent to the property.",
-      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-responsibilities.html",
+      "gov_quote": "Patient-grown marijuana must be on real property owned by the patient or grown with the written permission of the property owner.",
+      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official OMMA page. The answer and plant limits are confirmed by the government source. No corrections required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Oklahoma?",
-      "gov_section": "Patient-grown marijuana must be on real property owned by the patient or the patient must have the written permission of the real property owner to grow marijuana. Cannot be visible by someone with 20/20 vision from any street adjacent to the property."
+      "gov_section": "Patient-grown marijuana must be on real property owned by the patient or the patient must have the written permission of the real property owner to grow marijuana."
     }
   },
   "answers": {
@@ -72,7 +76,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://oklahoma.gov/omma.html"
+  "lastResearch": "2026-09-08T16:45:22.870Z",
+  "lastUpdate": "2026-09-08T16:45:22.870Z",
+  "primaryGovUrl": "https://oklahoma.gov/omma.html",
+  "sourceNotes": "This pass started from https://oklahoma.gov/omma.html on 2026-09-08 and stayed on oklahoma.gov. Related OMMA pages used on this pass are About OMMA, Patient Licenses, and Patient Rights and Responsibilities. The patients-caregivers hub is on-source but is now a navigation page without the old illegal-possession sentences. The stored MEDICAL citation was on omma.ok.gov, which is the same agency's former host; this pass did not keep that host because oklahoma.gov already answers the medical questions. The stored MEDICAL_STORE path /omma/patients-caregivers/patient-rights.html and the stored MEDICAL_GROW path /omma/patients-caregivers/patient-rights-responsibilities.html are 404s; the live rights page is /omma/patients-caregivers/patient-rights-and-responsibilities.html. oklahoma.gov answered 200 to a browser-headed fetch and the excerpts are in the HTML, so these rows do not need a browser."
 }

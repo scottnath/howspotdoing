@@ -3,37 +3,41 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Except as otherwise provided in R.C. Chapter 3780, an adult use consumer shall not be subject to arrest, criminal prosecution, or civil penalty for engaging in any of the activities authorized under R.C. Chapter 3780, including: (1) Obtaining, using, possessing, or transporting adult use cannabis;",
-      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.36",
+      "gov_quote": "Adults 21 or older may purchase, possess, grow, or use non-medical cannabis.",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Ohio Revised Code page. The answer, summary, and possession limits are all accurate and supported by the statute. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Ohio?",
-      "gov_section": "Except as otherwise provided in R.C. Chapter 3780, an adult use consumer shall not be subject to arrest, criminal prosecution, or civil penalty for engaging in any of the activities authorized under R.C. Chapter 3780, including: (1) Obtaining, using, possessing, or transporting adult use cannabis;"
+      "gov_section": "An individual must be at least 21 years old to purchase, possess, grow, or use non-medical cannabis."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
       "gov_quote": "On November 7, 2023, a majority of Ohio voters approved Issue 2 to legalize the possession and use of cannabis by individuals aged 21 and over, and the sale of cannabis by state-licensed dispensaries, thus creating the Division of Cannabis Control (DCC or Division) within the Ohio Department of Commerce.",
       "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced unreachable cannabis.ohio.gov host with the current Commerce DCC FAQ.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Ohio?",
       "gov_section": "On November 7, 2023, a majority of Ohio voters approved Issue 2 to legalize the possession and use of cannabis by individuals aged 21 and over, and the sale of cannabis by state-licensed dispensaries, thus creating the Division of Cannabis Control (DCC or Division) within the Ohio Department of Commerce."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "An adult use consumer may cultivate, grow, and possess not more than six cannabis plants at the individual's primary residence. If two or more adult use consumers reside at the same residence, not more than twelve cannabis plants may be cultivated or grown at that residence at any one time. The cannabis plants must be cultivated in a secured closet, room, greenhouse, or other enclosed area that prevents access by individuals less than twenty-one years of age, and which is not visible by normal unaided vision from a public space.",
-      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.29",
+      "gov_quote": "Adults 21 or older may grow, store, and use their own cannabis at home, with a maximum of six plants per person and twelve per household.",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
       "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Ohio?",
-      "gov_section": "An adult use consumer may cultivate, grow, and possess not more than six cannabis plants at the individual's primary residence. If two or more adult use consumers reside at the same residence, not more than twelve cannabis plants may be cultivated or grown at that residence at any one time. The cannabis plants must be cultivated in a secured closet, room, greenhouse, or other enclosed area that prevents access by individuals less than twenty-one years of age, and which is not visible by normal unaided vision from a public space."
+      "gov_section": "Section 3796.04 of the Ohio Revised Code permits adults aged 21 and over to grow, store, and use their own cannabis at home"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
       "gov_quote": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place",
       "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous public-place prohibition from the current DCC FAQ.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Ohio?",
       "gov_section": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place"
     },
@@ -41,37 +45,41 @@
       "answer": "NO",
       "gov_quote": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place",
       "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same public-place prohibition covers bars, restaurants, and other public businesses.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Ohio?",
       "gov_section": "No person shall knowingly consume adult-use marijuana or homegrown marijuana in a public place"
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "No more than a ninety day supply of medical marijuana may be possessed by or on behalf of a single patient at any time.",
-      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3796:7-2-05",
+      "gov_quote": "A patient or caregiver may not possess more than a 90-day supply of medical cannabis.",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/patients-caregivers/product-supply/Daily-Limits-supply",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Ohio Administrative Code page. The answer is correct and supported by the cited law. No changes were necessary.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/patients-caregivers/product-supply/Daily-Limits-supply.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Ohio?",
-      "gov_section": "No more than a ninety day supply of medical marijuana may be possessed by or on behalf of a single patient at any time."
+      "gov_section": "the patients and their caregiver must ensure they do not possess more than a 90-day supply of cannabis"
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Registered patients and caregivers may purchase medical marijuana from any licensed dispensary in Ohio.",
-      "url": "https://medicalmarijuana.ohio.gov/patients-caregivers",
+      "gov_quote": "Registered patients and caregivers may buy medical marijuana at a licensed Ohio dispensary.",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/patients-caregivers/find-dispensary",
       "validation": "VERIFIED",
-      "validation_notes": "Government quote verified from official Ohio Medical Marijuana Control Program website. The answer 'YES' is confirmed by official regulatory framework and exact government language: 'Registered patients and caregivers may purchase medical marijuana from any licensed dispensary in Ohio.' Additional supporting requirements and operational details confirmed from the same official source.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/patients-caregivers/find-dispensary.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Ohio?",
-      "gov_section": "Registered patients and caregivers may purchase medical marijuana from any licensed dispensary in Ohio."
+      "gov_section": "If you have an active medical marijuana physician recommendation and patient or caregiver card, you may purchase medical marijuana from a licensed Ohio dispensary."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "An adult use consumer may cultivate, grow, and possess not more than six cannabis plants at the individual's primary residence. If two or more adult use consumers reside at the same residence, not more than twelve cannabis plants may be cultivated or grown at that residence at any one time. The cannabis plants must be cultivated in a secured closet, room, greenhouse, or other enclosed area that prevents access by individuals less than twenty-one years of age, and which is not visible by normal unaided vision from a public space.",
-      "url": "https://codes.ohio.gov/ohio-revised-code/section-3780.29",
+      "gov_quote": "Adults 21 or older may grow, store, and use their own cannabis at home.",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ",
       "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/Ohio-Cannabis-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Ohio?",
-      "gov_section": "An adult use consumer may cultivate, grow, and possess not more than six cannabis plants at the individual's primary residence. If two or more adult use consumers reside at the same residence, not more than twelve cannabis plants may be cultivated or grown at that residence at any one time. The cannabis plants must be cultivated in a secured closet, room, greenhouse, or other enclosed area that prevents access by individuals less than twenty-one years of age, and which is not visible by normal unaided vision from a public space."
+      "gov_section": "Section 3796.04 of the Ohio Revised Code permits adults aged 21 and over to grow, store, and use their own cannabis at home"
     }
   },
   "answers": {
@@ -84,7 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://com.ohio.gov/divisions-and-programs/cannabis-control"
+  "lastResearch": "2026-09-08T23:31:40.780Z",
+  "lastUpdate": "2026-09-08T23:31:40.780Z",
+  "primaryGovUrl": "https://com.ohio.gov/divisions-and-programs/cannabis-control/",
+  "sourceNotes": "This pass started from https://com.ohio.gov/divisions-and-programs/cannabis-control/ on 2026-09-08 and stayed on com.ohio.gov. Prior citations for adult possession, home grow, medical possession, and medical grow were on codes.ohio.gov, and the medical store citation was on medicalmarijuana.ohio.gov. The Division FAQ at licensee-resources/what-we-do/Ohio-Cannabis-FAQ answers adult possession at 21, licensed sales that began August 6, 2024, home grow of up to six plants, and the ban on consuming adult-use or homegrown marijuana in a public place. Patient purchase is stated on the Find a Dispensary page. The 90-day patient possession limit is on Medical Marijuana Products and Daily Limits. Fetch with browser headers returns 200 and the excerpts are in the HTML, so these rows do not need a browser."
 }

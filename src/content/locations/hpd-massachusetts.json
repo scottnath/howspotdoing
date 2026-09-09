@@ -3,89 +3,97 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege",
-      "url": "https://malegislature.gov/laws/generallaws/parti/titlexv/chapter94g/section7",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous adult-use immunity clause that appears verbatim on the statute page.",
+      "gov_quote": "Adults 21 and older may possess 2 ounces of marijuana, or 10 ounces at home.",
+      "url": "https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Massachusetts?",
-      "gov_section": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege"
+      "gov_section": "You may possess 2 oz. or have 10 oz. at home (MGL c. 94G, § 7)"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege",
-      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same immunity clause; previous quote added wrapping quotes and extra clauses not continuous on the page.",
+      "gov_quote": "Adults 21 and older may purchase up to 2 ounces of marijuana.",
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c94g-ss-7",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/mass-general-laws-c94g-ss-7.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Massachusetts?",
-      "gov_section": "a person 21 years of age or older shall not be arrested, prosecuted, penalized, sanctioned or disqualified under the laws of the commonwealth in any manner, or denied any right or privilege"
+      "gov_section": "possessing, using, purchasing, processing or manufacturing 2 ounces or less of marijuana or the equivalent amount of marijuana products as determined by the commission"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use",
-      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous home-cultivation clause; list punctuation now matches the page.",
+      "gov_quote": "Adults 21 and older may grow up to 6 plants at home, or 12 plants if more than one adult in the household grows.",
+      "url": "https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Massachusetts?",
-      "gov_section": "within the person's primary residence, possessing up to 10 ounces of marijuana and any marijuana produced by marijuana plants cultivated on the premises and possessing, cultivating or processing not more than 6 marijuana plants for personal use"
+      "gov_section": "You can only grow up to 6 plants in your home If there's more than one person over 21 living in the home who wants to grow at home, the maximum number of plants that may be grown in a home is 12 plants"
     },
     "RECREATIONAL_PUBLIC": {
-      "answer": "FUTURE_DATE",
+      "answer": "NO",
       "gov_quote": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited.",
-      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section13",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotes; stored the continuous public-consumption sentence.",
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c94g-ss-13",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/mass-general-laws-c94g-ss-13.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Massachusetts?",
       "gov_section": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "FUTURE_DATE",
-      "gov_quote": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited.",
-      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section13",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same public-consumption ban. The page's later licensed-establishment exception is city/town opt-in, not a general cafe/bar allowance.",
+      "answer": "NO",
+      "gov_quote": "Public consumption is prohibited except in a designated area of a licensed marijuana establishment in a city or town that has voted to allow on-premises consumption. This host does not list an open public consumption venue.",
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c94g-ss-13",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/mass-general-laws-c94g-ss-13.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Massachusetts?",
       "gov_section": "No person shall consume marijuana in a public place or smoke marijuana where smoking tobacco is prohibited."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "The maximum amount of marijuana a Patient may possess at one time is a 60-day supply\u2014or up to 10 ounces. A Certifying Health Care Provider may deem a larger quantity is medically necessary.",
-      "url": "https://masscannabiscontrol.com/ten-things-new-patients-should-know",
+      "gov_quote": "A registered qualifying patient or personal caregiver is not subject to arrest or prosecution for medical-use marijuana.",
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c94i-ss-2",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Massachusetts Cannabis Control Commission website. Legal status and possession limits are accurately stated. No corrections needed.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/mass-general-laws-c94i-ss-2.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Massachusetts?",
-      "gov_section": "The maximum amount of marijuana a Patient may possess at one time is a 60-day supply\u2014or up to 10 ounces. A Certifying Health Care Provider may deem a larger quantity is medically necessary."
+      "gov_section": "A qualifying patient or a personal caregiver shall not be subject to arrest or prosecution, or civil penalty, for medical use marijuana"
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "To obtain marijuana for medical use from an MTC, you must have an active certification from your Certifying Health Care Provider, as well as maintain an active registration with the Program. Upon entrance at an MTC, simply present your Program registration card and a valid form of identification and follow all directions for purchase.",
-      "url": "https://masscannabiscontrol.com/medical-use-of-marijuana-program/",
+      "gov_quote": "Registered qualifying patients may purchase medical-use marijuana from a licensed medical marijuana establishment.",
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c94i-ss-2",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Massachusetts Cannabis Control Commission website. The YES answer and summary are fully supported by the official source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/mass-general-laws-c94i-ss-2.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Massachusetts?",
-      "gov_section": "To obtain marijuana for medical use from an MTC, you must have an active certification from your Certifying Health Care Provider, as well as maintain an active registration with the Program. Upon entrance at an MTC, simply present your Program registration card and a valid form of identification and follow all directions for purchase."
+      "gov_section": "The commission shall operate a medical use of marijuana program, which shall permit a qualifying patient with a debilitating medical condition to obtain a written or electronic certification from a healthcare professional with whom the patient has a bona fide healthcare professional-patient relationship to purchase medical use marijuana from a medical marijuana establishment."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"The law allows qualifying patients to apply for a Hardship Cultivation Registration to grow a limited number of plants sufficient to maintain a 60-day supply of marijuana for personal medical use. However, the Commission has not yet implemented the Hardship Cultivation Registration program. Until then, patients are subject to the general home cultivation limits: up to six plants per person, twelve per household.\"",
-      "url": "https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana",
+      "gov_quote": "A qualifying patient or their caregiver with a cultivation registration may grow plants sufficient for a 60-day supply of medical marijuana.",
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c94i-ss-2",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. Summary accurately reflects the law. No changes made.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.mass.gov/info-details/mass-general-laws-c94i-ss-2.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Massachusetts?",
-      "gov_section": "\"The law allows qualifying patients to apply for a Hardship Cultivation Registration to grow a limited number of plants sufficient to maintain a 60-day supply of marijuana for personal medical use. However, the Commission has not yet implemented the Hardship Cultivation Registration program. Until then, patients are subject to the general home cultivation limits: up to six plants per person, twelve per household.\""
+      "gov_section": "Such registration shall allow the qualifying patient or the qualifying patient's personal caregiver to cultivate a limited number of plants, sufficient to maintain a 60-day supply of marijuana, and shall require cultivation and storage only in an enclosed, locked area."
     }
   },
   "answers": {
     "RECREATIONAL": "YES",
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
-    "RECREATIONAL_PUBLIC": "FUTURE_DATE",
-    "RECREATIONAL_ONSITE": "FUTURE_DATE",
+    "RECREATIONAL_PUBLIC": "NO",
+    "RECREATIONAL_ONSITE": "NO",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://masscannabiscontrol.com/",
-  "sourceNotes": "masscannabiscontrol.com is the Massachusetts Cannabis Control Commission's own site, confirmed by a link from mass.gov/orgs/cannabis-control-commission, checked 2026-08-31, so it is acceptable as a citation despite not being a .gov host. Two corrections to what this note used to say. mass.gov does not return 403 to scripted requests: every mass.gov page cited here answered 200 to a browser-headed request on 2026-08-31. And the MEDICAL_STORE citation, masscannabiscontrol.com/medical-use-of-marijuana-program/, now redirects to a PDF guide, which hard rule 3 does not allow as a url and which no quote can be matched against. That row needs an HTML page."
+  "lastResearch": "2026-09-09T02:03:16.346Z",
+  "lastUpdate": "2026-09-09T02:03:16.346Z",
+  "primaryGovUrl": "https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana",
+  "sourceNotes": "This pass started from https://www.mass.gov/info-details/massachusetts-law-about-recreational-marijuana on 2026-09-08 and stayed on mass.gov. That page is the Trial Court Law Libraries recreational-marijuana guide. It answers adult possession of 2 ounces, or 10 ounces at home, and home cultivation of 6 plants, or 12 per household. It links to the Mass.gov texts of MGL c. 94G, § 7 and § 13 and to the medical-marijuana law page. Section 7 authorizes purchasing 2 ounces or less. Section 13 bans consumption in a public place, with an exception for a designated area of a marijuana establishment in a city or town that has voted to allow on-premises consumption. Chapter 65 of the Acts of 2026, signed April 19, 2026, authorized on-site consumption licenses, but no HTML page on this host lists an open public consumption venue. MGL c. 94I, § 2 on mass.gov answers medical possession, purchase at a medical marijuana establishment, and hardship cultivation registration. The stored malegislature.gov citations and the masscannabiscontrol.com medical pages were replaced because those hosts are not the requested source and this host already answers the questions. masscannabiscontrol.com remains the Cannabis Control Commission's own site, confirmed by a link from mass.gov/orgs/cannabis-control-commission, checked 2026-08-31; it was not cited on this pass. The earlier MEDICAL_STORE path on that host redirected to a PDF. Fetch with browser headers returns 200 and the excerpts are in the HTML, so these rows do not need a browser."
 }

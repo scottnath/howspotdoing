@@ -5,8 +5,8 @@
       "answer": "NO",
       "gov_quote": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978, while acting in the course of his professional practice, or except as otherwise authorized by this Part.",
       "url": "https://www.legis.la.gov/Legis/Law.aspx?d=98880",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced a truncated reconstruction with the continuous Schedule I possession sentence.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.legis.la.gov/Legis/Law.aspx?d=98880.",
       "question": "Is it legal for adults to possess cannabis in the state of Louisiana?",
       "gov_section": "It is unlawful for any person knowingly or intentionally to possess a controlled dangerous substance classified in Schedule I unless such substance was obtained directly, or pursuant to a valid prescription or order, from a practitioner or as provided in R.S. 40:978, while acting in the course of his professional practice, or except as otherwise authorized by this Part."
     },
@@ -72,7 +72,7 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://ldh.la.gov/page/medical-marijuana"
 }

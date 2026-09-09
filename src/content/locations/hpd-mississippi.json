@@ -3,63 +3,67 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "No person shall be authorized to use medical cannabis in this state unless the person (a) has been diagnosed by a practitioner, with whom the person has a bona fide practitioner-patient relationship within his or her scope of practice, as having a debilitating medical condition for which the practitioner, in his or her professional opinion, believes the person would likely receive medical or palliative benefit from the medical use of medical cannabis to treat or alleviate the person's debilitating medical condition or symptoms associated with the person's debilitating medical condition, (b) has received a written certification of that diagnosis from the practitioner, and (c) has been issued a registry identification card from the MDOH under Section 12 of this act.",
-      "url": "https://billstatus.ls.state.ms.us/documents/2022/html/SB/2001-2099/SB2095SG.htm",
+      "gov_quote": "Mississippi licenses medical cannabis dispensaries that dispense to cardholders. It does not describe adult-use possession.",
+      "url": "https://www.dor.ms.gov/abc/medical-cannabis/dispensary-applicants",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Mississippi Legislature page for SB2095. The answer is correct: recreational cannabis possession remains illegal for adults except for registered medical cannabis patients. No issues found.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.dor.ms.gov/abc/medical-cannabis/dispensary-applicants.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Mississippi?",
-      "gov_section": "No person shall be authorized to use medical cannabis in this state unless the person (a) has been diagnosed by a practitioner, with whom the person has a bona fide practitioner-patient relationship within his or her scope of practice, as having a debilitating medical condition for which the practitioner, in his or her professional opinion, believes the person would likely receive medical or palliative benefit from the medical use of medical cannabis to treat or alleviate the person's debilitating medical condition or symptoms associated with the person's debilitating medical condition, (b) has received a written certification of that diagnosis from the practitioner, and (c) has been issued a registry identification card from the MDOH under Section 12 of this act."
+      "gov_section": "The Mississippi Medical Cannabis Act defines the medical cannabis dispensary as an entity licensed and registered with the MDOR that acquires, possesses, stores, transfers, sells supplies, or dispenses medical cannabis, equipment used for medical cannabis, or related supplies and educational materials to cardholders."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Mississippi?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Mississippi?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Mississippi?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Mississippi?"
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A maximum of twenty-eight (28) MMCEUs is the possession limit for resident cardholders.",
-      "url": "https://www.mmcp.ms.gov/faq",
+      "gov_quote": "Licensed medical cannabis dispensaries dispense medical cannabis to cardholders.",
+      "url": "https://www.dor.ms.gov/abc/medical-cannabis/dispensary-applicants",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote not found verbatim on referenced MSDH page, but answer confirmed correct",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.dor.ms.gov/abc/medical-cannabis/dispensary-applicants.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Mississippi?",
-      "gov_section": "A maximum of twenty-eight (28) MMCEUs is the possession limit for resident cardholders."
+      "gov_section": "The Mississippi Medical Cannabis Act defines the medical cannabis dispensary as an entity licensed and registered with the MDOR that acquires, possesses, stores, transfers, sells supplies, or dispenses medical cannabis, equipment used for medical cannabis, or related supplies and educational materials to cardholders."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Registered qualifying patients and their designated caregivers may purchase medical cannabis from licensed dispensaries in Mississippi. You'll receive an electronic identification card that can be used at a medical cannabis dispensary.",
-      "url": "https://www.mmcp.ms.gov/patients",
+      "gov_quote": "The Department of Revenue licenses medical cannabis dispensaries and enforces the purchase, sale, and distribution of medical cannabis at those stores.",
+      "url": "https://www.dor.ms.gov/abc/medical-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "The government quote was found verbatim on the official Mississippi Medical Cannabis Program website. Both sentences of the quote appear exactly as stated on the official site. The answer YES is accurate and fully supported by the official website content.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.dor.ms.gov/abc/medical-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Mississippi?",
-      "gov_section": "Registered qualifying patients and their designated caregivers may purchase medical cannabis from licensed dispensaries in Mississippi. You'll receive an electronic identification card that can be used at a medical cannabis dispensary."
+      "gov_section": "It will also be responsible for enforcing medical cannabis laws as they apply to the proper purchase, sale, and distribution of medical cannabis at dispensaries."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "gov_quote": "The term \"medical use\" does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility;",
-      "url": "https://billstatus.ls.state.ms.us/documents/2022/html/SB/2001-2099/SB2095SG.htm",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous medical-use exclusion, including the following semicolon as shown on the enrolled bill.",
+      "gov_quote": "Mississippi licenses cannabis cultivation facilities. It does not describe patient home cultivation.",
+      "url": "https://www.dor.ms.gov/abc/medical-cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.dor.ms.gov/abc/medical-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Mississippi?",
-      "gov_section": "The term \"medical use\" does not include: (i) The cultivation of cannabis unless the cultivation is done by a cannabis cultivation facility;"
+      "gov_section": "The Mississippi Department of Health is the primary agency that will be over the medical cannabis program and will handle the licensing, regulating and enforcement of laws relating to: Patient’s cards Medical Practitioners Cannabis Cultivation Facilities"
     }
   },
   "answers": {
@@ -72,8 +76,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.mmcp.ms.gov/",
-  "sourceNotes": "billstatus.ls.state.ms.us is the Mississippi Legislature's own bill-status system, confirmed by a link from legislature.ms.gov, checked 2026-08-31, so it is acceptable despite the .us host. legislature.ms.gov fronts that system, but the document URLs themselves still live on the .us host, so the citation cannot simply be moved to the .gov domain. That host also serves only its leaf certificate and leaves the client to fetch the issuing intermediate, so its rows read as unread in the audit while loading normally in a browser; check them by hand rather than treating them as dead."
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T14:25:18.427Z",
+  "primaryGovUrl": "https://www.dor.ms.gov/abc/medical-cannabis",
+  "sourceNotes": "This pass started from https://www.dor.ms.gov/abc/medical-cannabis on 2026-09-08 and stayed on dor.ms.gov. Related DOR pages used on this pass are dispensary applicants and dispensary licensee information. The medical cannabis registry link on the DOR homepage goes to mmcp.ms.gov; this pass did not cite that host because the DOR pages already answer the medical questions. billstatus.ls.state.ms.us citations from the prior pass were replaced. That host is the Mississippi Legislature's bill-status system, confirmed from legislature.ms.gov, and it serves only its leaf certificate, so it reads as unread in the audit while loading in a browser; check it by hand rather than recording it as a dead page if it is used again."
 }

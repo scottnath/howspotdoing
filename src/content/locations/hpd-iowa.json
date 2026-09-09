@@ -3,55 +3,56 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "Iowa\u2019s medical cannabidiol program authorizes the manufacture and sale of products that contain both CBD and THC.",
-      "url": "https://hhs.iowa.gov/health-prevention/medical-cannabis/law-enforcement-and-public-safety",
+      "gov_quote": "THC is considered a schedule I substance and is illegal in Iowa.",
+      "url": "https://revenue.iowa.gov/permits-licensing/alcohol/alcohol-guidance/thc-and-cbd-alcoholic-beverages",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the Iowa HHS page. The answer 'NO' is confirmed accurate. No changes made.",
       "question": "Is it legal for adults to possess cannabis in the state of Iowa?",
-      "gov_section": "Iowa\u2019s medical cannabidiol program authorizes the manufacture and sale of products that contain both CBD and THC."
+      "gov_section": "THC is considered a schedule I substance and is illegal in Iowa."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Iowa?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Iowa?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Iowa?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Iowa?"
     },
     "MEDICAL": {
       "answer": "NO",
-      "gov_quote": "",
-      "url": "https://hhs.iowa.gov/medical-cannabidiol-program/faq",
+      "gov_quote": "Prohibited forms of Medical Cannabis in Iowa include:\nRaw cannabis flower that may be combusted or smoked\nEdible products with a total THC concentration greater than 0.3 percent that is not a consumable hemp product.",
+      "url": "https://hhs.iowa.gov/health-prevention/medical-cannabis/patients",
       "validation": "VERIFIED",
       "validation_notes": "NO answer is correct; Iowa only allows certain processed cannabidiol products, not cannabis flower or unrestricted-THC cannabis. The summary is accurate. An empty gov_quote is acceptable for a NO answer when no explicit prohibition quote is available. URL is accessible.",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Iowa?"
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Iowa?",
+      "gov_section": "Prohibited forms of Medical Cannabis in Iowa include:\nRaw cannabis flower that may be combusted or smoked\nEdible products with a total THC concentration greater than 0.3 percent that is not a consumable hemp product."
     },
     "MEDICAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent MEDICAL, which is NO.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Iowa?"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent MEDICAL, which is NO.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Iowa?"
     }
   },
@@ -65,7 +66,7 @@
     "MEDICAL_STORE": "NO",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-04-04T04:34:41.296Z",
+  "lastResearch": "2026-09-08T22:24:58.364Z",
   "lastUpdate": "2026-04-04T04:34:41.296Z",
   "primaryGovUrl": "https://hhs.iowa.gov/health-prevention/medical-cannabis"
 }

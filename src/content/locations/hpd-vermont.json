@@ -3,89 +3,97 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Except as otherwise provided in this section, a person 21 years of age or older who possesses one ounce or less of cannabis or five grams or less of hashish and two mature cannabis plants or fewer or four immature cannabis plants or fewer or who possesses paraphernalia for cannabis use shall not be penalized or sanctioned in any manner by the State or any of its political subdivisions or denied any right or privilege under State law.",
+      "gov_quote": "Adults 21 years of age or older may possess one ounce or less of cannabis.",
       "url": "https://legislature.vermont.gov/statutes/section/18/084/04230a",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Vermont statute page. Answer and summary are correct. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://legislature.vermont.gov/statutes/section/18/084/04230a.",
+      "requires_browser": true,
       "question": "Is it legal for adults to possess cannabis in the state of Vermont?",
       "gov_section": "Except as otherwise provided in this section, a person 21 years of age or older who possesses one ounce or less of cannabis or five grams or less of hashish and two mature cannabis plants or fewer or four immature cannabis plants or fewer or who possesses paraphernalia for cannabis use shall not be penalized or sanctioned in any manner by the State or any of its political subdivisions or denied any right or privilege under State law."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Cannabis and cannabis products may be purchased by adults 21 and older with a valid government-issued photo ID card.",
-      "url": "https://ccb.vermont.gov/adult-use-cannabis",
+      "gov_quote": "Adults 21 and older may buy cannabis from a licensed retail establishment.",
+      "url": "https://ccb.vermont.gov/faq",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Vermont Cannabis Control Board website. Answer confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.vermont.gov/faq.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Vermont?",
-      "gov_section": "Cannabis and cannabis products may be purchased by adults 21 and older with a valid government-issued photo ID card."
+      "gov_section": "Cannabis and cannabis products may be purchased by adults 21 and older with a valid government-issued photo ID card, which the customer must present upon entry to the retail establishment, and again prior to purchase."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "a person 21 years of age or older who cultivates not more than two mature cannabis plants and four immature cannabis plants shall not be penalized or sanctioned",
+      "gov_quote": "Adults 21 years of age or older may cultivate two mature and four immature cannabis plants.",
       "url": "https://legislature.vermont.gov/statutes/section/18/084/04230e",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotes and ellipsis; copied the continuous statutory clause.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://legislature.vermont.gov/statutes/section/18/084/04230e.",
+      "requires_browser": true,
       "question": "Is it legal for adults to grow cannabis in the state of Vermont?",
-      "gov_section": "a person 21 years of age or older who cultivates not more than two mature cannabis plants and four immature cannabis plants shall not be penalized or sanctioned"
+      "gov_section": "Except as otherwise provided in this section, a person 21 years of age or older who cultivates not more than two mature cannabis plants and four immature cannabis plants shall not be penalized or sanctioned in any manner by the State or any of its political subdivisions or denied any right or privilege under State law."
     },
     "RECREATIONAL_PUBLIC": {
-      "answer": "YES",
-      "gov_quote": "Cannabis is legal in New York State for adults 21+",
-      "url": "https://cannabis.ny.gov/know-law",
+      "answer": "NO",
+      "gov_quote": "Public consumption of cannabis in any form is prohibited by state law.",
+      "url": "https://ccb.vermont.gov/publicsafetyFAQ",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New York State government page. The answer is confirmed for New York and representative of the broader trend in other listed states. For a full list of states and their regulations, refer to each state's official cannabis control board or department of health website as cited in the research report.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.vermont.gov/publicsafetyFAQ.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Vermont?",
-      "gov_section": "Cannabis is legal in New York State for adults 21+"
+      "gov_section": "Public consumption of cannabis in any form is prohibited by state law and is subject to civil penalties capped at $100 for a first offense, $200 for a second offense, and $500 for a third or subsequent offense."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "YES",
-      "gov_quote": "Cannabis is legal in New York State for adults 21+",
-      "url": "https://cannabis.ny.gov/know-law",
+      "answer": "NO",
+      "gov_quote": "Cannabis consumption is prohibited in restaurants, stores, and other places of public accommodation.",
+      "url": "https://ccb.vermont.gov/publicsafetyFAQ",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New York State government page. The answer is confirmed for New York and representative of the broader trend in other listed states. For a full list of states and their regulations, refer to each state's official cannabis control board or department of health website as cited in the research report.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.vermont.gov/publicsafetyFAQ.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Vermont?",
-      "gov_section": "Cannabis is legal in New York State for adults 21+"
+      "gov_section": "Cannabis consumption is prohibited by state law in all places of public accommodation, and some places of public accommodation can be private property. Places of public accommodation can include restaurants, stores, or other facilities at which services, facilities, goods, privileges, advantages, benefits, or accommodations are offered to the general public."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A registered patient or registered caregiver may possess, use, and transport marijuana for symptom relief in accordance with the provisions of this subchapter and rules adopted by the Board. A registered patient or registered caregiver may possess no more than two ounces of usable marijuana and, if not designated to receive marijuana from a dispensary, may cultivate no more than two mature marijuana plants and four immature marijuana plants.",
-      "url": "https://legislature.vermont.gov/statutes/chapter/18/086",
+      "gov_quote": "Registered medical patients may purchase up to two ounces of medical cannabis.",
+      "url": "https://ccb.vermont.gov/med-FAQ",
       "validation": "VERIFIED",
-      "validation_notes": "The exact quoted text does not appear verbatim on the referenced Vermont statute page. The statutory language is present in substance but not as a single, continuous quote. The answer and summary are accurate, but the quote should be corrected to match the exact text from the statute.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.vermont.gov/med-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Vermont?",
-      "gov_section": "A registered patient or registered caregiver may possess, use, and transport marijuana for symptom relief in accordance with the provisions of this subchapter and rules adopted by the Board. A registered patient or registered caregiver may possess no more than two ounces of usable marijuana and, if not designated to receive marijuana from a dispensary, may cultivate no more than two mature marijuana plants and four immature marijuana plants."
+      "gov_section": "Possession limits: Medical patients can purchase up to 2oz of Medical Cannabis."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "sell and deliver cannabis and cannabis products to patients and caregivers registered under chapter 35 of this title",
-      "url": "https://legislature.vermont.gov/statutes/fullchapter/07/035",
+      "gov_quote": "Registered patients and caregivers may buy medical cannabis at medical dispensaries and at adult-use retailers with a medical-use endorsement.",
+      "url": "https://ccb.vermont.gov/medicalendorsement",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the referenced Vermont legislative page. The answer is correct and supported by the statute. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.vermont.gov/medicalendorsement.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Vermont?",
-      "gov_section": "sell and deliver cannabis and cannabis products to patients and caregivers registered under chapter 35 of this title"
+      "gov_section": "This means that at certain, qualified adult-use retailers, medical cannabis patients and caregivers can purchase medical cannabis or cannabis products as they would at a medical-only dispensary."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A patient and their registered caregiver may possess not more than six mature cannabis plants, and twelve immature plants.",
-      "url": "https://ccb.vermont.gov/medical-program-faq",
+      "gov_quote": "Medical patients may have six mature and twelve immature cannabis plants.",
+      "url": "https://ccb.vermont.gov/med-FAQ",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Vermont Cannabis Control Board Medical Program FAQ page. The answer and summary are accurate and require no corrections.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.vermont.gov/med-FAQ.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Vermont?",
-      "gov_section": "A patient and their registered caregiver may possess not more than six mature cannabis plants, and twelve immature plants."
+      "gov_section": "Plant Count: Patients can have 6 mature and 12 immature plants."
     }
   },
   "answers": {
     "RECREATIONAL": "YES",
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
-    "RECREATIONAL_PUBLIC": "YES",
-    "RECREATIONAL_ONSITE": "YES",
+    "RECREATIONAL_PUBLIC": "NO",
+    "RECREATIONAL_ONSITE": "NO",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T15:32:14.196Z",
   "primaryGovUrl": "https://ccb.vermont.gov/",
-  "sourceNotes": "legislature.vermont.gov serves only its leaf certificate and leaves the client to fetch the issuing intermediate, so the four rows citing it read as unread in the audit while opening fine in a browser. Checked by hand on 2026-08-31: the RECREATIONAL quote appears verbatim on section 18/084/04230a, which answers 200. Do not record these as inaccessible without opening them. Two ccb.vermont.gov pages are genuine 404s and do need replacing."
+  "sourceNotes": "The official cannabis homepage is https://ccb.vermont.gov/, walked on 2026-09-08 for all eight questions. Related CCB pages used on this pass are the adult-use FAQ at /faq, the public-safety FAQ, the medical program FAQ at /med-FAQ, the medical-use endorsement page, the medical dispensaries list, and the licensed establishments list. The former CCB paths /adult-use-cannabis and /medical-program-faq return 404. Two rows had been citing cannabis.ny.gov and were replaced. Adult personal possession and home cultivation are not restated on CCB HTML pages; those limits appear in CCB municipal guidance PDFs, which cannot be cited, so those two rows cite 18 V.S.A. §§ 4230a and 4230e on legislature.vermont.gov. The CCB public-consumption statement links to § 4230a, and the CCB laws page lists legislature.vermont.gov statute chapters as State Laws. legislature.vermont.gov serves only its leaf certificate and leaves the client to fetch the issuing intermediate, so those two rows need a browser to verify."
 }

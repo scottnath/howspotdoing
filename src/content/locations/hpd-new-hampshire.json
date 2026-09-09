@@ -3,59 +3,65 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "Recreational cannabis use remains prohibited.",
+      "gov_quote": "New Hampshire's Therapeutic Cannabis Program exempts qualifying therapeutic use from criminal penalties. Adult-use possession is not part of that exemption.",
       "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of New Hampshire?",
-      "gov_section": "Recreational cannabis use remains prohibited."
+      "gov_section": "The Therapeutic Cannabis Program was established in 2013, under RSA 126-X. That law establishes exemptions from criminal penalties for the therapeutic use of cannabis in New Hampshire."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of New Hampshire?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of New Hampshire?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of New Hampshire?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of New Hampshire?"
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following:",
-      "url": "https://www.gc.nh.gov/rsa/html/X/126-X/126-X-2.htm",
+      "gov_quote": "Qualifying patients may possess up to two ounces of therapeutic cannabis.",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Hampshire?",
-      "gov_section": "A qualifying patient shall not be subject to arrest by state or local law enforcement, prosecution or penalty under state or municipal law, or denied any right or privilege for the therapeutic use of cannabis in accordance with this chapter, if the qualifying patient possesses an amount of cannabis that does not exceed the following: (a) Two ounces of usable cannabis; and (b) Any amount of unusable cannabis.",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Was citing the chapter table of contents on gencourt.state.nh.us, which does not contain the quote. Now cites RSA 126-X:2 on gc.nh.gov, where the sentence appears verbatim."
+      "gov_section": "There is a 2 ounce possession limit per patient, and all patients are limited to purchasing 2 ounces of cannabis in any 10-day period."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "The registry ID cards allow cardholders to purchase therapeutic cannabis from one of the state\u2019s licensed Alternative Treatment Centers (ATCs).",
+      "gov_quote": "The registry ID cards allow cardholders to purchase therapeutic cannabis from one of the state’s licensed Alternative Treatment Centers (ATCs).",
       "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the cited NH DHHS page. The YES answer is accurate and supported by the source. No issues found.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New Hampshire?",
-      "gov_section": "The registry ID cards allow cardholders to purchase therapeutic cannabis from one of the state\u2019s licensed Alternative Treatment Centers (ATCs)."
+      "gov_section": "The registry ID cards allow cardholders to purchase therapeutic cannabis from one of the state’s licensed Alternative Treatment Centers (ATCs)."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
       "gov_quote": "The ATCs are independently operated, not-for-profit entities responsible for the cultivation, production, and dispensing of therapeutic cannabis to qualifying patients in New Hampshire.",
       "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official NH DHHS page. The answer 'NO' is confirmed correct. No changes made.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New Hampshire?",
       "gov_section": "The ATCs are independently operated, not-for-profit entities responsible for the cultivation, production, and dispensing of therapeutic cannabis to qualifying patients in New Hampshire."
     }
@@ -70,8 +76,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-04-04T04:42:53.740Z",
-  "lastUpdate": "2026-04-04T04:42:53.740Z",
-  "primaryGovUrl": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-  "sourceNotes": "www.gencourt.state.nh.us is the New Hampshire General Court's publication of the RSAs, confirmed official by a link from courts.nh.gov, checked 2026-08-31. The same RSAs are also served from gc.nh.gov and the MEDICAL citation has already moved there, so prefer gc.nh.gov for any new citation rather than adding another .us URL. This note used to warn that nh.gov returns 403 to scripted requests; it does not. Both dhhs.nh.gov and gc.nh.gov answered 200 to a browser-headed request on 2026-08-31, so a failure on either now needs investigating rather than excusing."
+  "lastResearch": "2026-09-09T02:05:45.234Z",
+  "lastUpdate": "2026-09-09T02:05:45.234Z",
+  "primaryGovUrl": "https://www.nh.gov/",
+  "sourceNotes": "This pass started from https://www.nh.gov/ on 2026-09-08. That homepage is the state portal and does not itself describe cannabis law. Its agency directory links to the Department of Health and Human Services at https://www.dhhs.nh.gov/, and the dedicated program is the Therapeutic Cannabis Program at https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis. Every cited row in this file comes from that DHHS page. The older sentence that recreational cannabis use remains prohibited is gone from the page; RSA 126-X is now described as an exemption from criminal penalties for therapeutic use only, and the page still states a two-ounce patient possession limit, ATC purchase with a registry ID card, and ATC responsibility for cultivation. The prior gc.nh.gov MEDICAL citation was replaced because the requested walk from nh.gov already answers possession on the DHHS page. gc.nh.gov remains the General Court host that www.nh.gov links to, and the same RSAs are official there, but this pass did not need it. A browser-headed fetch of the cited DHHS page returned 200 with the excerpts in the HTML, so these rows do not need a browser."
 }

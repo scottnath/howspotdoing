@@ -3,55 +3,55 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"Except as authorized by this chapter, a person commits an offense if the person knowingly or intentionally possesses a usable quantity of marihuana.\"",
-      "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.481.htm#481.121",
+      "gov_quote": "In Texas and federal law, recreational use of marijuana is still illegal.",
+      "url": "https://guides.sll.texas.gov/cannabis/recreational-use",
       "validation": "VERIFIED",
-      "validation_notes": "Government quote verified as exact match to Texas Health and Safety Code \u00a7 481.121. Legal answer 'NO' confirmed correct based on statute content.",
+      "validation_notes": "human",
       "question": "Is it legal for adults to possess cannabis in the state of Texas?",
-      "gov_section": "\"Except as authorized by this chapter, a person commits an offense if the person knowingly or intentionally possesses a usable quantity of marihuana.\""
+      "gov_section": "In Texas and federal law, recreational use of marijuana is still illegal."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Texas?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Texas?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Texas?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Texas?"
     },
     "MEDICAL": {
       "answer": "NO",
-      "gov_quote": "",
-      "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.481.htm#481.111",
+      "gov_quote": "In 2015, Texas passed the Compassionate-Use Act. This Act allowed the first legal use of low-THC cannabis products for medical purposes.",
+      "url": "https://guides.sll.texas.gov/cannabis/compassionate-use",
       "validation": "VERIFIED",
       "validation_notes": "Research verification confirmed the accuracy of the report's claims. Texas Health and Safety Code defines 'low-THC cannabis' as containing not more than 1% THC by weight, and no statutory exemption exists for possession of cannabis with higher THC content by medical patients. The empty gov_quote field is appropriate as no direct, concise statutory quote was found that states the restriction in quotable form.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Texas?"
     },
-    "MEDICAL_STORE": {
+    "MEDICAL_STORE": {  
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent MEDICAL, which is NO.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Texas?"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent MEDICAL, which is NO.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Texas?"
     }
   },
@@ -65,7 +65,7 @@
     "MEDICAL_STORE": "NO",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
   "lastUpdate": "2026-01-13T06:45:00.000Z",
   "primaryGovUrl": "https://www.dshs.texas.gov/compassionate-use-program"
 }

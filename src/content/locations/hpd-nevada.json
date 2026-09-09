@@ -3,69 +3,83 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "a person who is 21 years of age or older is exempt from state prosecution for: (a) The possession, delivery or production of cannabis;",
-      "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
+      "gov_quote": "Adults 21 years and older can legally possess cannabis in Nevada.",
+      "url": "https://ccb.nv.gov/laws-regulations/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/laws-regulations/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Nevada?",
-      "gov_section": "a person who is 21 years of age or older is exempt from state prosecution for: (a) The possession, delivery or production of cannabis;",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced ellipsized reconstruction with the continuous NRS sentence."
+      "gov_section": "Adults 21 years and older can legally possess cannabis in the following amounts:"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "For use by adults 21 years of age and older. Consumers may only legally buy cannabis from a state-licensed retail store.",
-      "url": "https://ccb.nv.gov/consumers/",
+      "gov_quote": "The only legal way to buy cannabis in Nevada is from a state-licensed retail store.",
+      "url": "https://ccb.nv.gov/laws-regulations/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/laws-regulations/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Nevada?",
-      "gov_section": "For use by adults 21 years of age and older. Consumers may only legally buy cannabis from a state-licensed retail store."
+      "gov_section": "The only legal way to buy cannabis in Nevada is from a state-licensed retail store."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Cultivates, grows or produces not more than six cannabis plants:",
-      "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
+      "gov_quote": "Adults 21 and older may grow cannabis at home if there is not a licensed retail store within 25 miles.",
+      "url": "https://ccb.nv.gov/laws-regulations/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/laws-regulations/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Nevada?",
-      "gov_section": "Cultivates, grows or produces not more than six cannabis plants:",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced ellipsized exemption list with the continuous six-plant cultivation clause."
+      "gov_section": "Adults 21 years and older can legally grow cannabis plants at home for their personal consumption, but only if there is not a state-licensed retail cannabis store within 25 miles of the home."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "a person who smokes or otherwise consumes cannabis or a cannabis product in a public place, in an adult-use cannabis retail store or in a vehicle is guilty of a misdemeanor punished by a fine of not more than $600.",
-      "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous public-consumption penalty sentence (page inserts a space before the NRS cite in the lead-in).",
+      "gov_quote": "You cannot use cannabis in any public place.",
+      "url": "https://ccb.nv.gov/laws-regulations/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/laws-regulations/.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Nevada?",
-      "gov_section": "a person who smokes or otherwise consumes cannabis or a cannabis product in a public place, in an adult-use cannabis retail store or in a vehicle is guilty of a misdemeanor punished by a fine of not more than $600."
+      "gov_section": "You cannot use cannabis in any public place."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "a person who smokes or otherwise consumes cannabis or a cannabis product in a public place, in an adult-use cannabis retail store or in a vehicle is guilty of a misdemeanor punished by a fine of not more than $600.",
-      "url": "https://www.leg.state.nv.us/nrs/NRS-678D.html",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Same sentence; adult-use retail stores are listed as a prohibited consumption location.",
+      "answer": "YES",
+      "gov_quote": "Cannabis may be consumed at a licensed cannabis consumption lounge.",
+      "url": "https://ccb.nv.gov/laws-regulations/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/laws-regulations/.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Nevada?",
-      "gov_section": "a person who smokes or otherwise consumes cannabis or a cannabis product in a public place, in an adult-use cannabis retail store or in a vehicle is guilty of a misdemeanor punished by a fine of not more than $600."
+      "gov_section": "Cannabis may be consumed at a licensed cannabis consumption lounge."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A person who holds a valid registry identification card issued to the person pursuant to NRS 453A.220 or 453A.250 is exempt from state prosecution for: (a) Possession, delivery or production of marijuana; (b) Possession or delivery of paraphernalia; (c) Aiding and abetting another in the possession, delivery or production of marijuana; and (d) Any combination of the acts described in paragraphs (a), (b) and (c).",
-      "url": "https://www.leg.state.nv.us/Division/Legal/LawLibrary/NRS/NRS-453A.html",
+      "gov_quote": "Medical cannabis cardholders may possess up to 2.5 ounces of usable cannabis.",
+      "url": "https://ccb.nv.gov/faq/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/faq/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Nevada?",
-      "gov_section": "A person who holds a valid registry identification card issued to the person pursuant to NRS 453A.220 or 453A.250 is exempt from state prosecution for: (a) Possession, delivery or production of marijuana; (b) Possession or delivery of paraphernalia; (c) Aiding and abetting another in the possession, delivery or production of marijuana; and (d) Any combination of the acts described in paragraphs (a), (b) and (c)."
+      "gov_section": "Medical cannabis cardholder possession limits are up to 2.5 ounces of usable cannabis, 12 cannabis plants, or if they are more than 25 miles from a dispensary."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Medical cannabis patients may purchase cannabis at licensed retail stores if authorized by their medical cannabis patient card.",
-      "url": "https://ccb.nv.gov/consumers/",
+      "gov_quote": "Medical cannabis may be sold to a patient with an active government-issued medical card.",
+      "url": "https://ccb.nv.gov/faq/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/faq/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Nevada?",
-      "gov_section": "Medical cannabis patients may purchase cannabis at licensed retail stores if authorized by their medical cannabis patient card."
+      "gov_section": "The cannabis or cannabis product may only be sold to a medical patient with an active government issued cannabis medical card."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "after a medical cannabis dispensary opens in the county of residence of a person who holds a registry identification card, including, without limitation, a designated primary caregiver, such a person is not authorized to cultivate, grow or produce cannabis.",
-      "url": "https://www.leg.state.nv.us/nrs/NRS-678C.html",
+      "gov_quote": "Medical cannabis cardholders may grow up to 12 plants under certain circumstances, including when they live more than 25 miles from a dispensary.",
+      "url": "https://ccb.nv.gov/faq/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://ccb.nv.gov/faq/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Nevada?",
-      "gov_section": "after a medical cannabis dispensary opens in the county of residence of a person who holds a registry identification card, including, without limitation, a designated primary caregiver, such a person is not authorized to cultivate, grow or produce cannabis.",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous post-dispensary cultivation ban."
+      "gov_section": "Only under certain circumstances. Medical cannabis cardholder possession limits are up to 2.5 ounces of usable cannabis, 12 cannabis plants, or if they are more than 25 miles from a dispensary."
     }
   },
   "answers": {
@@ -73,13 +87,13 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-04-04T04:56:24.662Z",
-  "lastUpdate": "2026-04-04T04:56:24.662Z",
+  "lastResearch": "2026-09-08T16:39:30.618Z",
+  "lastUpdate": "2026-09-08T16:39:30.618Z",
   "primaryGovUrl": "https://ccb.nv.gov/",
-  "sourceNotes": "www.leg.state.nv.us is the Nevada Legislature's own publication of the NRS, confirmed by links from nv.gov and from ccb.nv.gov/consumers/, checked 2026-08-31. Citations to it are therefore acceptable despite the .us host, though a ccb.nv.gov page is preferable when it states the same thing in plainer language."
+  "sourceNotes": "This pass started from https://ccb.nv.gov/ on 2026-09-08 and stayed on that host. Related CCB pages used on this pass are Laws and Regulations, which answers adult possession, retail purchase, home grow, public consumption, and licensed consumption lounges, and the FAQ, which answers medical possession, medical purchase, and medical home grow. The stored consumers-page excerpts for adult and medical store purchase are no longer on https://ccb.nv.gov/consumers/. Off-source www.leg.state.nv.us NRS citations from the prior pass were replaced. That host remains the Legislature's publication of the NRS, confirmed from nv.gov and from this site, but CCB HTML already states the same rules. On-site consumption changes to YES because CCB says cannabis may be consumed at a licensed consumption lounge, a public business; requiring a lounge license does not make the answer NO. The program page still labels the public lounge list as coming soon. ccb.nv.gov answered 200 to a browser-headed fetch, so fetch is enough."
 }

@@ -3,37 +3,41 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "you must be 21 years or older to possess and consume cannabis in New Mexico unless you\u2019re enrolled in the medical program and carry a qualified patient card.",
+      "gov_quote": "you must be 21 years or older to possess and consume cannabis in New Mexico unless you’re enrolled in the medical program and carry a qualified patient card.",
       "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/yes-and-knows/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced unreachable ccd.rld.state.nm.us host with the current RLD Yes and Knows page.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/yes-and-knows/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of New Mexico?",
-      "gov_section": "you must be 21 years or older to possess and consume cannabis in New Mexico unless you\u2019re enrolled in the medical program and carry a qualified patient card."
+      "gov_section": "you must be 21 years or older to possess and consume cannabis in New Mexico unless you’re enrolled in the medical program and carry a qualified patient card."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
       "gov_quote": "Consumers are eligible to buy up to the following at one time: 2 ounces of cannabis",
       "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced unreachable ccd.rld.nm.gov consumer page with the current RLD adult-use purchase limits.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of New Mexico?",
       "gov_section": "Consumers are eligible to buy up to the following at one time: 2 ounces of cannabis"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A person who is at least twenty-one years of age may cultivate up to six mature cannabis plants and six immature cannabis plants per person, with a maximum of twelve mature cannabis plants per household... A person who cultivates cannabis in the person's private residence for personal use is not required to obtain a license.",
-      "url": "https://nmonesource.com/nmos/nmsa/en/item/4391/index.do#!b/26-2C-26",
+      "gov_quote": "A single adult, 21 years of age or older, can grow up to 12 plants at their private residence, but no more than six (6) plants can be mature, flowering plants.",
+      "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/personal-use-of-cannabis/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official New Mexico government website. All legal information about adult cannabis cultivation, including plant limits, age requirements, license exemption, and security/visibility measures, was verified as accurate. No discrepancies found.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/personal-use-of-cannabis/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of New Mexico?",
-      "gov_section": "A person who is at least twenty-one years of age may cultivate up to six mature cannabis plants and six immature cannabis plants per person, with a maximum of twelve mature cannabis plants per household... A person who cultivates cannabis in the person's private residence for personal use is not required to obtain a license."
+      "gov_section": "A single adult, 21 years of age or older, can grow up to 12 plants at their private residence, but no more than six (6) plants can be mature, flowering plants. A household with multiple adults can have no more than 12 mature plants total."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
       "gov_quote": "It is illegal to use cannabis or cannabis products while driving or while in public spaces (restaurants, parks, public sidewalks, etc.).",
       "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced 404 DOH guide with the current RLD FAQ parks/sidewalks sentence.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of New Mexico?",
       "gov_section": "It is illegal to use cannabis or cannabis products while driving or while in public spaces (restaurants, parks, public sidewalks, etc.)."
     },
@@ -41,8 +45,9 @@
       "answer": "YES",
       "gov_quote": "All cannabis consumption (smoking, vaping, eating, etc.) must be done either in your private residence or at a licensed consumption lounge.",
       "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "URL rescue to RLD FAQ. Licensed consumption lounges are public businesses that allow on-site use.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of New Mexico?",
       "gov_section": "All cannabis consumption (smoking, vaping, eating, etc.) must be done either in your private residence or at a licensed consumption lounge."
     },
@@ -50,28 +55,31 @@
       "answer": "YES",
       "gov_quote": "Medical cannabis patients are eligible to buy up to the following in any ninety (90) day period with no tax: Up to 15 ounces (425 units) of cannabis",
       "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced unreachable mcp.doh.nm.gov host with the current RLD adult-use medical-limit sentence.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of New Mexico?",
       "gov_section": "Medical cannabis patients are eligible to buy up to the following in any ninety (90) day period with no tax: Up to 15 ounces (425 units) of cannabis"
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Upon approval of your application, you will have immediate access to your electronic card.",
-      "url": "https://nmhealth.org/about/mcp/",
+      "gov_quote": "A medical cannabis sale is a transaction to a medical cannabis patient who possesses a valid qualified patient, primary caregiver, or reciprocal participant registry identification card.",
+      "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/",
       "validation": "VERIFIED",
-      "validation_notes": "Government quote was found verbatim on the official New Mexico Department of Health Medical Cannabis Program website. All major factual claims verified through official sources. Purchase limit updated from 15 ounces to 8 ounces (230 units) per 90 days based on most recent official patient guide. The answer 'YES' remains correct.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of New Mexico?",
-      "gov_section": "Upon approval of your application, you will have immediate access to your electronic card."
+      "gov_section": "A medical cannabis sale is a transaction to a medical cannabis patient who possesses a valid qualified patient, primary caregiver, or reciprocal participant registry identification card."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A qualified patient or primary caregiver who holds a valid personal production license is authorized to possess no more than four mature female plants and a combined total of 12 seedlings and male plants at any one time at the approved location identified on the license.",
-      "url": "https://www.nmhealth.org/about/mcp/svcs/ppl/",
+      "gov_quote": "A single adult, 21 years of age or older, can grow up to 12 plants at their private residence, but no more than six (6) plants can be mature, flowering plants.",
+      "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/personal-use-of-cannabis/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim in the official regulatory text and referenced by the Department of Health. The answer and summary are accurate. No discrepancies found.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/personal-use-of-cannabis/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of New Mexico?",
-      "gov_section": "A qualified patient or primary caregiver who holds a valid personal production license is authorized to possess no more than four mature female plants and a combined total of 12 seedlings and male plants at any one time at the approved location identified on the license."
+      "gov_section": "A single adult, 21 years of age or older, can grow up to 12 plants at their private residence, but no more than six (6) plants can be mature, flowering plants. A household with multiple adults can have no more than 12 mature plants total."
     }
   },
   "answers": {
@@ -84,8 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.rld.nm.gov/cannabis/",
-  "sourceNotes": "Two non-.gov hosts are confirmed official for this state. nmhealth.org is the New Mexico Department of Health, linked from both nm.gov and the rld.nm.gov cannabis FAQ, and nmonesource.com is the New Mexico Compilation Commission's publication of the NMSA, linked from that same rld.nm.gov FAQ. Both were checked 2026-08-31, so either host may be cited even though neither is a .gov domain."
+  "lastResearch": "2026-09-08T16:45:39.700Z",
+  "lastUpdate": "2026-09-08T16:45:39.700Z",
+  "primaryGovUrl": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/",
+  "sourceNotes": "The official cannabis homepage used for this walk is https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/, set on 2026-09-08. That page is the Cannabis Control Division's Cannabis in New Mexico overview on rld.nm.gov. Yes and Knows answers adult possession. Adult Use answers adult purchase limits and medical patient purchase and home possession. Personal Use of Cannabis answers adult home cultivation of up to six mature plants, which is also how a patient 21 or older may grow. The FAQs answer the public-consumption ban, licensed consumption lounges, and medical sales to cardholders. Citations that had been on nmonesource.com and nmhealth.org were replaced because those hosts are not the requested source and this host already answers the questions. The homepage still links to nmhealth.org/about/mcp/svcs/ as the Department of Health medical cannabis patient program, and to nmonesource.com for the Cannabis Regulation Act and the Lynn and Erin Compassionate Use Act; both hosts were already confirmed official on 2026-08-31 and the same .gov links were still present on 2026-09-08. Fetch with browser headers returns 200 and the excerpts are in the HTML, so these rows do not need a browser."
 }

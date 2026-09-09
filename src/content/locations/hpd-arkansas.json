@@ -3,12 +3,10 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"Except as provided by this chapter, it is unlawful for a person to possess a controlled substance.\"",
-      "url": "https://arkleg.state.ar.us/Acts/CodeSectionsAmended?ddBienniumSession=2015/2015R",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Arkansas legislative site. The answer 'NO' is correct for adult recreational cannabis possession. No changes required.",
-      "question": "Is it legal for adults to possess cannabis in the state of Arkansas?",
-      "gov_section": "\"Except as provided by this chapter, it is unlawful for a person to possess a controlled substance.\""
+      "gov_quote": "Recreational cannabis is illegal in Arkansas.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from ether, which is NO.",
+      "question": "Is it legal for adults to possess cannabis in the state of Arkansas?"
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
@@ -38,28 +36,28 @@
       "answer": "YES",
       "gov_quote": "Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.",
       "url": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/",
-      "validation": "QUOTE_CORRECTED",
+      "validation": "VERIFIED",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Arkansas?",
       "gov_section": "Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.",
-      "validation_notes": "Replaced reconstructed registry-card wording with the live FAQ possession/purchase sentence."
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "\"Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.\"",
-      "url": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
+      "gov_quote": "Yes. To be protected under the Arkansas Medical Marijuana Amendment, your marijuana must be purchased from one of the licensed Arkansas dispensaries.",
+      "url": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the Arkansas Department of Health website. The answer is correct and fully supported by the cited source. No corrections needed.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Arkansas?",
-      "gov_section": "\"Qualified registered patients are allowed to purchase up to 2.5 ounces from a dispensary in a 14-day period.\""
+      "gov_section": "Yes. To be protected under the Arkansas Medical Marijuana Amendment, your marijuana must be purchased from one of the licensed Arkansas dispensaries."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "gov_quote": "No. Qualifying registered patients and their designated caregivers cannot grow or cultivate medical marijuana.",
-      "url": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana-faqs",
+      "gov_quote": "No. Qualifying registered patients and their designated caregivers cannot grow or cultivate medical marijuana. Marijuana-infused products must be purchased through the licensed Arkansas medical marijuana dispensaries.",
+      "url": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Arkansas Department of Health Medical Marijuana FAQs page. The answer is correct and the URL is accessible. No changes required.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Arkansas?",
-      "gov_section": "No. Qualifying registered patients and their designated caregivers cannot grow or cultivate medical marijuana."
+      "gov_section": "No. Qualifying registered patients and their designated caregivers cannot grow or cultivate medical marijuana. Marijuana-infused products must be purchased through the licensed Arkansas medical marijuana dispensaries."
     }
   },
   "answers": {
@@ -72,8 +70,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T23:12:17.202Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
   "sourceNotes": "arkleg.state.ar.us is the Arkansas General Assembly's own site, confirmed by a link from portal.arkansas.gov, checked 2026-08-31, so citations to it are acceptable despite the .us host. This file used to warn that arkansas.gov returns 403 to scripted requests; it does not. Every arkansas.gov page cited here answered 200 to a browser-headed request on 2026-08-31, so a failure on that host now needs looking into rather than dismissing."
 }

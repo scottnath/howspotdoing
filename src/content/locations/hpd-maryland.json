@@ -3,75 +3,83 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Like tobacco and alcohol, the legal purchase age for cannabis in Maryland is 21 or older. Valid, government-ID (driver's license, passport) is required at the point-of-sale. Licensed disp\u200b\u200bensaries\u200b\u200b are the only place to legally buy cannabis in Maryland.",
+      "gov_quote": "Adults 21 years or older may lawfully possess and use cannabis in Maryland.",
       "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/cannabisfaq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Maryland?",
-      "gov_section": "Like tobacco and alcohol, the legal purchase age for cannabis in Maryland is 21 or older. Valid, government-ID (driver's license, passport) is required at the point-of-sale. Licensed disp\u200b\u200bensaries\u200b\u200b are the only place to legally buy cannabis in Maryland."
+      "gov_section": "Effective July 1, 2023, a person 21 years or older may lawfully possess and use cannabis."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Sales of adult use cannabis are permitted beginning July 1, 2023.",
-      "url": "https://marylandtaxes.gov/business/sales-use/adult-use-cannabis.php",
+      "gov_quote": "Cannabis products may be purchased from licensed dispensaries.",
+      "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Quote verification: The exact quote 'Sales of adult use cannabis are permitted beginning July 1, 2023.' appears verbatim on the official Maryland tax website. The answer YES is correct, age requirement (21+) is accurate, July 1, 2023 effective date is confirmed, and ID requirement is accurate in substance as confirmed by official state guidance.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/cannabisfaq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Maryland?",
-      "gov_section": "Sales of adult use cannabis are permitted beginning July 1, 2023."
+      "gov_section": "Cannabis products may be purchased from licensed dispensaries."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A person may not cultivate more than two cannabis plants.",
-      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=5-601.2",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous two-plant limit sentence on the cited page.",
+      "gov_quote": "Adults 21 years or older may cultivate up to two cannabis plants at home, with a household cap of two plants.",
+      "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/cannabisfaq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Maryland?",
-      "gov_section": "A person may not cultivate more than two cannabis plants."
+      "gov_section": "A person 21 years or older may lawfully cultivate up to two plants in their home, out of public view. Likewise, a household may cultivate a maximum of two plants, regardless of how many persons over age 21 live in the residence."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"Cannabis (and hemp) smoking is prohibited in any public place or in any motor vehicle. A public place includes outdoor spaces and indoor spaces open to the public, including parks, streets and sidewalks, bars and restaurants, public transportation (e.g., buses, van, trains, taxicabs, limousines) and indoor places of employment.\"",
-      "url": "https://mdcannabis.gov/consumers/know-the-law",
+      "gov_quote": "Smoking cannabis is prohibited in parks, streets, sidewalks, and other public places.",
+      "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Maryland Cannabis Administration website. The answer is fully supported by the page content, which clearly prohibits cannabis consumption in public businesses. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/cannabisfaq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Maryland?",
-      "gov_section": "\"Cannabis (and hemp) smoking is prohibited in any public place or in any motor vehicle. A public place includes outdoor spaces and indoor spaces open to the public, including parks, streets and sidewalks, bars and restaurants, public transportation (e.g., buses, van, trains, taxicabs, limousines) and indoor places of employment.\""
+      "gov_section": "Smoking cannabis (and hemp) is prohibited in any public place. This includes outdoor spaces and indoor spaces open to the public including parks, streets and sidewalks, bars and restaurants, public transportation (e.g, buses, vans, trains, taxicabs, limousines) and indoor places of employment."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "\"Cannabis (and hemp) smoking is prohibited in any public place or in any motor vehicle. A public place includes outdoor spaces and indoor spaces open to the public, including parks, streets and sidewalks, bars and restaurants, public transportation (e.g., buses, van, trains, taxicabs, limousines) and indoor places of employment.\"",
-      "url": "https://mdcannabis.gov/consumers/know-the-law",
+      "gov_quote": "Smoking cannabis is prohibited in bars, restaurants, and other indoor spaces open to the public.",
+      "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Maryland Cannabis Administration website. The answer is fully supported by the page content, which clearly prohibits cannabis consumption in public businesses. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/cannabisfaq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Maryland?",
-      "gov_section": "\"Cannabis (and hemp) smoking is prohibited in any public place or in any motor vehicle. A public place includes outdoor spaces and indoor spaces open to the public, including parks, streets and sidewalks, bars and restaurants, public transportation (e.g., buses, van, trains, taxicabs, limousines) and indoor places of employment.\""
+      "gov_section": "Smoking cannabis (and hemp) is prohibited in any public place. This includes outdoor spaces and indoor spaces open to the public including parks, streets and sidewalks, bars and restaurants, public transportation (e.g, buses, vans, trains, taxicabs, limousines) and indoor places of employment."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "\"Any of the following persons acting in accordance with the provisions of this subtitle may not be subject to arrest, prosecution, revocation of mandatory supervision, parole, or probation, or any civil or administrative penalty, including a civil penalty or disciplinary action by a professional licensing board, or be denied any right or privilege, for the medical use of or possession of medical cannabis...\"",
-      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=13-3313",
+      "gov_quote": "Registered medical cannabis patients may possess medical cannabis.",
+      "url": "https://cannabis.maryland.gov/Pages/Patient-FAQ's_2.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the cited Maryland statute page. The answer is correct and supported by the law. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/Pages/Patient-FAQ's_2.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Maryland?",
-      "gov_section": "\"Any of the following persons acting in accordance with the provisions of this subtitle may not be subject to arrest, prosecution, revocation of mandatory supervision, parole, or probation, or any civil or administrative penalty, including a civil penalty or disciplinary action by a professional licensing board, or be denied any right or privilege, for the medical use of or possession of medical cannabis...\""
+      "gov_section": "Patients do not have to disclose that they possess medical cannabis and do not have to consent to a search."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A Maryland pa\u200btient can only obtain legal medical cannabis from a Maryland-licensed dispensary.",
+      "gov_quote": "A Maryland patient can only obtain legal medical cannabis from a Maryland-licensed dispensary.",
       "url": "https://cannabis.maryland.gov/pages/patients_faq.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Human-found quote",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/patients_faq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Maryland?",
-      "gov_section": "A Maryland pa\u200btient can only obtain legal medical cannabis from a Maryland-licensed dispensary."
+      "gov_section": "A Maryland patient can only obtain legal medical cannabis from a Maryland-licensed dispensary."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A qualifying patient or caregiver may cultivate up to four cannabis plants per residence, regardless of the number of qualifying patients or caregivers residing at the residence. The plants must be cultivated at the primary residence of the qualifying patient or caregiver, in a location not visible to the public, and in a manner that prevents unauthorized access.",
-      "url": "https://mmcc.maryland.gov/Pages/home-cultivation.aspx",
+      "gov_quote": "Registered medical patients may cultivate two additional plants, for a household total of four.",
+      "url": "https://cannabis.maryland.gov/pages/cannabisfaq.aspx",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Maryland Cannabis Administration page. The answer and summary are fully supported by the cited government source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.maryland.gov/pages/cannabisfaq.aspx.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Maryland?",
-      "gov_section": "A qualifying patient or caregiver may cultivate up to four cannabis plants per residence, regardless of the number of qualifying patients or caregivers residing at the residence. The plants must be cultivated at the primary residence of the qualifying patient or caregiver, in a location not visible to the public, and in a manner that prevents unauthorized access."
+      "gov_section": "In addition, medical patients registered with the Maryland Cannabis Administration can cultivate two additional plants, for a total of four plants; not to exceed more than four plants in a given residence."
     }
   },
   "answers": {
@@ -84,8 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T16:39:55.963Z",
+  "lastUpdate": "2026-09-08T16:39:55.963Z",
   "primaryGovUrl": "https://cannabis.maryland.gov/",
-  "sourceNotes": "mdcannabis.gov no longer resolves, with no DNS record at all as of 2026-08-31, so the RECREATIONAL_PUBLIC and RECREATIONAL_ONSITE citations are dead rather than merely moved. cannabis.maryland.gov is the Maryland Cannabis Administration's current site and answers 200; look for the same statements there. Two more rows point at 404s on hosts that are otherwise fine: mmcc.maryland.gov, which was the old Medical Cannabis Commission, and a retired adult-use page on marylandtaxes.gov. mgaleg.maryland.gov, which carries the statutes, is healthy."
+  "sourceNotes": "The official cannabis homepage is https://cannabis.maryland.gov/, walked on 2026-09-08 for all eight questions. Related Maryland Cannabis Administration pages used on this pass are the adult-use FAQ at /pages/cannabisfaq.aspx, the current patient FAQ at /Pages/Patient-FAQ's_2.aspx, the medical cannabis program page, Be Cannabis Smart, and the dispensary locator. mdcannabis.gov still does not resolve. The old Medical Cannabis Commission path mmcc.maryland.gov/Pages/home-cultivation.aspx and the adult-use page on marylandtaxes.gov are retired. The adult-use FAQ restates adult possession, licensed sales, home grow, public smoking, and the medical four-plant allowance, so those rows stay on cannabis.maryland.gov rather than mgaleg.maryland.gov. On-site consumption licenses are named in statute and in PDFs, but the FAQ still treats bars and restaurants as public places where smoking is prohibited, and no HTML page on this host says a lounge is open."
 }

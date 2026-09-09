@@ -3,75 +3,76 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "An initiation of legislation to allow under state law the personal possession and use of marihuana by persons 21 years of age or older; to provide for the lawful cultivation and sale of marihuana and industrial hemp by persons 21 years of age or older\u2026",
-      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-333-27955",
+      "gov_quote": "In 2018, Michigan voters made marijuana legal under state and local law for adults 21 and older.",
+      "url": "https://www.michigan.gov/cra/resources/consumer-connection/panel-hero",
       "validation": "VERIFIED",
-      "validation_notes": "Complete verification successful. URL accessible at Michigan Legislature website. Government quote found verbatim in official legislative text. All factual claims verified: adults 21+ legal possession, 2.5 ounces public limit, 10 ounces home limit, effective date December 6, 2018. No discrepancies or corrections needed.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the CRA consumer-connection page.",
       "question": "Is it legal for adults to possess cannabis in the state of Michigan?",
-      "gov_section": "An initiation of legislation to allow under state law the personal possession and use of marihuana by persons 21 years of age or older; to provide for the lawful cultivation and sale of marihuana and industrial hemp by persons 21 years of age or older\u2026"
+      "gov_section": "In 2018, Michigan voters updated state law to make marijuana legal under state and local law for adults 21 years of age or older, to make industrial hemp legal under state and local law, and to control the commercial production and distribution of marijuana under a system that licenses, regulates, and taxes the businesses involved."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "The use, possession, and sale of adult-use marihuana to individuals over 21 years of age became legal in Michigan following voter approval of a 2018 ballot initiative which became the Michigan Regulation and Taxation of Marihuana Act (\u201cMRTMA\u201d).",
-      "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/notice-to-taxpayers-regarding-the-wholesale-tax-on-adult-use-marihuana",
+      "gov_quote": "Legalization has brought marijuana into storefronts on main street, and the CRA licenses adult-use retailers.",
+      "url": "https://www.michigan.gov/cra/resources/consumer-connection/marijuana-educational-videos-materials",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the Michigan Treasury website. The answer is correct and fully supported by the cited government source.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the CRA consumer education page.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Michigan?",
-      "gov_section": "The use, possession, and sale of adult-use marihuana to individuals over 21 years of age became legal in Michigan following voter approval of a 2018 ballot initiative which became the Michigan Regulation and Taxation of Marihuana Act (\u201cMRTMA\u201d)."
+      "gov_section": "As this video points out, legalization has brought marijuana out from the shadows and into storefronts on main street."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older",
-      "url": "https://www.michigan.gov/cra/resources/consumer-connection",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous CRA consumer-connection sentence (colon on the page follows this clause).",
+      "gov_quote": "Adults 21 and older may grow up to 12 marijuana plants at home.",
+      "url": "https://www.michigan.gov/cra/resources/consumer-connection/electrical-safety-residential-growing",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the CRA residential-grow safety page.",
       "question": "Is it legal for adults to grow cannabis in the state of Michigan?",
-      "gov_section": "This law also allows the personal possession and use of marijuana by persons 21 years of age or older and provides for the lawful cultivation of marijuana and industrial hemp by persons 21 years of age or older"
+      "gov_section": "After Michigan voters legalized marijuana in 2018, Michigan residents over the age of 21 have also been able to grow up to 12 plants at their home."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"(1) This act does not authorize and does not permit any of the following: ... (d) Consuming marihuana in a public place or on the premises of a business or land open to the public.\"",
-      "url": "https://www.legislature.mi.gov/(S(0w2k3k2w2k1k1k1k1k1k1k1k))/mileg.aspx?page=getObject&objectName=mcl-333-27954",
+      "gov_quote": "This act does not authorize...consuming marihuana in a public place",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27954",
       "validation": "VERIFIED",
-      "validation_notes": "Exact statutory language from MCL 333.27954 is quoted verbatim. The legal conclusion that cannabis consumption is not permitted at public businesses in Michigan (except for licensed and municipally approved consumption establishments) is fully supported by the statute. No changes required.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27954.",
+      "requires_browser": true,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Michigan?",
-      "gov_section": "\"(1) This act does not authorize and does not permit any of the following: ... (d) Consuming marihuana in a public place or on the premises of a business or land open to the public.\""
+      "gov_section": "1. This act does not authorize:\n(a) operating, navigating, or being in physical control of any motor vehicle, aircraft, snowmobile, off-road recreational vehicle, or motorboat while under the influence of marihuana;\n(b) transfer of marihuana or marihuana accessories to a person under the age of 21;\n(c) any person under the age of 21 to possess, consume, purchase or otherwise obtain, cultivate, process, transport, or sell marihuana;\n(d) separation of plant resin by butane extraction or another method that utilizes a substance with a flashpoint below 100 degrees Fahrenheit in any public place, motor vehicle, or within the curtilage of any residential structure;\n(e) consuming marihuana in a public place or smoking marihuana where prohibited by the person who owns, occupies, or manages the property, except for purposes of this subdivision a public place does not include an area designated for consumption within a municipality that has authorized consumption in designated areas that are not accessible to persons under 21 years of age;"
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "\"(1) This act does not authorize and does not permit any of the following: ... (d) Consuming marihuana in a public place or on the premises of a business or land open to the public.\"",
-      "url": "https://www.legislature.mi.gov/(S(0w2k3k2w2k1k1k1k1k1k1k1k))/mileg.aspx?page=getObject&objectName=mcl-333-27954",
+      "answer": "YES",
+      "gov_quote": "A business that lets people consume marijuana on a nonresidential premises may do so with a designated consumption establishment or temporary marijuana event license.",
+      "url": "https://www.michigan.gov/cra/faq/rec-use-accordion/licensing/do-i-need-a-license-for-a-social-cannabis-club",
       "validation": "VERIFIED",
-      "validation_notes": "Exact statutory language from MCL 333.27954 is quoted verbatim. The legal conclusion that cannabis consumption is not permitted at public businesses in Michigan (except for licensed and municipally approved consumption establishments) is fully supported by the statute. No changes required.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the CRA designated-consumption FAQ. A licensed consumption establishment is a public business lounge, which counts as YES.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Michigan?",
-      "gov_section": "\"(1) This act does not authorize and does not permit any of the following: ... (d) Consuming marihuana in a public place or on the premises of a business or land open to the public.\""
+      "gov_section": "A person that allows consumption of marijuana products on the premises of a nonresidential location and charges a fee for entry, sells goods or services while individuals are consuming on the premises, or requires membership for entry shall acquire a designated consumption establishment or temporary marijuana event license."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers",
-      "url": "https://www.michigan.gov/cra/resources/consumer-connection",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Copied the continuous MMMA sentence from the CRA page.",
+      "gov_quote": "A registered patient is protected from arrest for medical use when they present a valid registry identification card and photo ID.",
+      "url": "https://www.michigan.gov/cra/sections/mmp/mmmp-information",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the MMMP information page.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Michigan?",
-      "gov_section": "In 2008, Michigan voters updated state law to allow the medical use of marijuana, to provide protections for the medical use of marijuana, and to provide for a system of registry identification cards for qualifying patients and primary caregivers"
+      "gov_section": "As outlined in the MMMA, a patient or caregiver must present their valid registry identification card and a valid driver license – or government-issued identification card with photo – to law enforcement to be protected from arrest."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Patients who wish to acquire medical marijuana or medical marijuana-infused products from licensed provisioning centers must first present a valid registry identification card at the time of purchase.",
-      "url": "https://www.michigan.gov/cra/medical-marijuana-program",
+      "gov_quote": "Registered patients may buy medical marijuana at a licensed provisioning center by presenting a registry card and photo ID.",
+      "url": "https://www.michigan.gov/cra/faq/program-list/applicant-questions/how-can-i-acquire-medical-marijuana-or-medical-marijuana-infused-products",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the Michigan government page. The answer is correct and supported by the official source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the CRA provisioning-center FAQ.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Michigan?",
-      "gov_section": "Patients who wish to acquire medical marijuana or medical marijuana-infused products from licensed provisioning centers must first present a valid registry identification card at the time of purchase."
+      "gov_section": "Patients must present a valid registry card and a valid driver license, or government-issued identification card with photo, at the time of purchase."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "A qualifying patient who has been issued and possesses a registry identification card may cultivate up to 12 marijuana plants in an enclosed, locked facility if the patient has not specified that a primary caregiver will cultivate marijuana for him or her.",
-      "url": "https://www.michigan.gov/cra/sections/mmmp",
+      "gov_quote": "Registered patients may grow their own medical marijuana or have a registered primary caregiver grow it for them.",
+      "url": "https://www.michigan.gov/cra/faq/licensing-list/additional-new/what-impact-does-the-mmfla-have-on-patients-or-caregivers-operating-under-the-mmma",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Michigan government webpage. The answer and summary are accurate and fully supported by the cited source.",
+      "validation_notes": "Live audit on 2026-09-07 found gov_section verbatim on the CRA patient and caregiver FAQ.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Michigan?",
-      "gov_section": "A qualifying patient who has been issued and possesses a registry identification card may cultivate up to 12 marijuana plants in an enclosed, locked facility if the patient has not specified that a primary caregiver will cultivate marijuana for him or her."
+      "gov_section": "Registered qualifying patients may continue to grow their own medical marijuana, or they may continue to have a registered primary caregiver grow it for them under the MMMA."
     }
   },
   "answers": {
@@ -79,13 +80,13 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.michigan.gov/cra",
-  "sourceNotes": "legislature.mi.gov serves only its leaf certificate and leaves the client to fetch the issuing intermediate, so the three rows citing it read as unread in the audit while opening fine in a browser. Do not conclude anything from that on its own; check by hand. Doing so on 2026-08-31 found the RECREATIONAL quote is not on MCL-333-27955 at all, despite the row being VERIFIED: it ends in an ellipsis and describes the ballot initiative's title rather than quoting the statute. That row needs re-researching, and the audit will not surface it while the certificate stops the page being read. michigan.gov itself is healthy, but three of its cited pages are 404s."
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-07T16:34:50.000Z",
+  "primaryGovUrl": "https://www.michigan.gov/cra/",
+  "sourceNotes": "The official Cannabis Regulatory Agency homepage is https://www.michigan.gov/cra/, walked on 2026-09-07 for all eight questions. Related CRA pages used on this pass are Consumer Connection, the residential-grow safety page, the consumer education videos page, the MMMP information page, and CRA FAQs on provisioning-center purchases, patient and caregiver grow rights, and designated consumption establishment licenses. The former paths /cra/medical-marijuana-program and /cra/sections/mmmp are not the live medical pages; use /cra/sections/mmp. legislature.mi.gov is linked from CRA Laws, Rules & Other Resources but serves only its leaf certificate, so the audit fetch cannot read it. This pass cites CRA HTML instead of that host. michigan.gov/cra itself fetched cleanly."
 }

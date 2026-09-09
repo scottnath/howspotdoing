@@ -1,75 +1,89 @@
 {
   "location": "Minnesota",
+  "lastResearch": "2026-09-09T02:59:17.559Z",
+  "lastUpdate": "2026-09-09T02:55:00.000Z",
+  "primaryGovUrl": "https://mn.gov/ocm",
+  "sourceNotes": "The official homepage is https://mn.gov/ocm, the Minnesota Office of Cannabis Management. A plain fetch of mn.gov is redirected through Radware Bot Manager at validate.perfdrive.com and returns a CAPTCHA with HTTP 200, so Node fetch cannot read the pages. Headless Chromium lands on the same captcha. On 2026-09-08 a headed Chromium window opened https://mn.gov/ocm and loaded the real Office of Cannabis Management HTML, then the same session opened the adult-use, news-release, license-types, patient-enrollment, and medical FAQ pages. The stored excerpts appear verbatim in that HTML. The audit's fetch-and-headless path still cannot confirm them, so these rows stay QUOTE_CORRECTED rather than VERIFIED. Adult-use consumer rules are on https://mn.gov/ocm/consumers/adult-use/. Medical patient enrollment and dispensary pickup are on https://mn.gov/ocm/dmc/patients/the-basics/how-to-become-a-patient.jsp. Home cultivation by patients and caregivers is explained on https://mn.gov/ocm/dmc/patients/the-basics/frequently-asked-questions.jsp. On-site consumption is a microbusiness retail endorsement described on https://mn.gov/ocm/businesses/licensing/license-types/. News releases under /ocm/media/news-releases/ are an Angular app; the article body is also present in a searchable hidden block. www.revisor.mn.gov remains readable without a captcha, but this pass answered every question from mn.gov/ocm.",
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "Effective August 1, 2023, full decriminalization allows the possession, use, and home grow of cannabis in Minnesota for people 21 and older.",
+      "gov_quote": "Adults 21 and older may possess cannabis in Minnesota. Decriminalization on August 1, 2023 allows possession, use, and home grow.",
       "url": "https://mn.gov/ocm/consumers/adult-use/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Minnesota Office of Cannabis Management page. The answer is correct and fully supported by the cited source. No changes required.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the adult-use page and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for adults to possess cannabis in the state of Minnesota?",
-      "gov_section": "Effective August 1, 2023, full decriminalization allows the possession, use, and home grow of cannabis in Minnesota for people 21 and older."
+      "gov_section": "Effective Aug. 1, 2023, full decriminalization allows the possession, use, and home grow of cannabis in Minnesota for people 21 and older."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "retail sales of legal, adult-use cannabis products are underway across Minnesota",
+      "gov_quote": "Retail sales of legal adult-use cannabis are underway at licensed retailers across Minnesota.",
       "url": "https://mn.gov/ocm/media/news-releases/?id=1202-705993",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on page. Answer confirmed. No changes made.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the news release and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Minnesota?",
       "gov_section": "retail sales of legal, adult-use cannabis products are underway across Minnesota"
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence, including the curtilage or yard, without a license to cultivate cannabis issued under this chapter provided that cultivation takes place at the primary residence of an individual 21 years of age or older and in an enclosed, locked space that is not open to public view.",
-      "url": "https://www.revisor.mn.gov/statutes/cite/342.09",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Minnesota statutes page. The answer is fully supported by the cited law. No issues found.",
+      "gov_quote": "Adults 21 and older may grow up to eight cannabis plants at their primary residence, with no more than four flowering, in an enclosed locked space out of public view.",
+      "url": "https://mn.gov/ocm/consumers/adult-use/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the adult-use page and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for adults to grow cannabis in the state of Minnesota?",
-      "gov_section": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence, including the curtilage or yard, without a license to cultivate cannabis issued under this chapter provided that cultivation takes place at the primary residence of an individual 21 years of age or older and in an enclosed, locked space that is not open to public view."
+      "gov_section": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence as long as it is at the primary residence of someone 21 or older."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "Cannabis can be used by people 21 and older on private property (unless the owner prohibits use of cannabis on their property), private residences and at places with approved licenses or an event permit (however, no licenses or event permits are available at this time).",
+      "gov_quote": "Adult-use cannabis may be consumed on private property, at private residences, and at licensed or permitted venues, not in parks or other outdoor public space.",
       "url": "https://mn.gov/ocm/consumers/adult-use/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Minnesota government page. The answer 'NO' is fully supported by the page content. No discrepancies found.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the adult-use page and found gov_section verbatim. Allowed places are private property, residences, and licensed or permitted venues. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Minnesota?",
-      "gov_section": "Cannabis can be used by people 21 and older on private property (unless the owner prohibits use of cannabis on their property), private residences and at places with approved licenses or an event permit (however, no licenses or event permits are available at this time)."
+      "gov_section": "Cannabis can be used by people 21 and older on private property (unless the owner prohibits use of cannabis on their property), private residences and at places with approved licenses or an event permit."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "Cannabis can be used by people 21 and older on private property (unless the owner prohibits use of cannabis on their property), private residences and at places with approved licenses or an event permit (however, no licenses or event permits are available at this time).",
-      "url": "https://mn.gov/ocm/consumers/adult-use/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Minnesota government page. The answer 'NO' is fully supported by the page content. No discrepancies found.",
+      "answer": "YES",
+      "gov_quote": "Licensed cannabis microbusinesses may have on-site consumption areas where customers use edible cannabis and hemp products.",
+      "url": "https://mn.gov/ocm/businesses/licensing/license-types/",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the license-types page and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Minnesota?",
-      "gov_section": "Cannabis can be used by people 21 and older on private property (unless the owner prohibits use of cannabis on their property), private residences and at places with approved licenses or an event permit (however, no licenses or event permits are available at this time)."
+      "gov_section": "With an endorsement, they can also have on-site consumption areas where customers can use edible cannabis and hemp products."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "There is a presumption that an individual enrolled in the registry program or a Tribal medical cannabis program patient is engaged in the authorized use or possession of medical cannabis flower and medical cannabinoid products.",
-      "url": "https://www.revisor.mn.gov/statutes/cite/342.57",
+      "gov_quote": "Enrolled patients may pick up medical cannabis at a Minnesota medical cannabis dispensary.",
+      "url": "https://mn.gov/ocm/dmc/patients/the-basics/how-to-become-a-patient.jsp",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the patient enrollment page and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Minnesota?",
-      "gov_section": "There is a presumption that an individual enrolled in the registry program or a Tribal medical cannabis program patient is engaged in the authorized use or possession of medical cannabis flower and medical cannabinoid products."
+      "gov_section": "Once your enrollment is approved, you can access your Medical Cannabis Registry account and pick up medical cannabis at your nearest medical cannabis dispensary."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A retailer must establish an area for conducting retail sales that is open to individuals who are 21 years or older or registered in the medical cannabis patient registry.",
-      "url": "https://www.revisor.mn.gov/rules/9810.2501/",
+      "gov_quote": "Patients purchase medical cannabis at a licensed medical cannabis dispensary after enrollment.",
+      "url": "https://mn.gov/ocm/dmc/patients/the-basics/how-to-become-a-patient.jsp",
       "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous retail-area sentence; dropped a second sentence that was not contiguous.",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the patient enrollment page and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Minnesota?",
-      "gov_section": "A retailer must establish an area for conducting retail sales that is open to individuals who are 21 years or older or registered in the medical cannabis patient registry."
+      "gov_section": "You must complete a new PSE before your first purchase of medical cannabis."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence, including the curtilage or yard, without a license to cultivate cannabis issued under this chapter provided that cultivation takes place at the primary residence of an individual 21 years of age or older and in an enclosed, locked space that is not open to public view.",
-      "url": "https://www.revisor.mn.gov/statutes/cite/342.09",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Minnesota Revisor of Statutes page. The answer is correct and supported by the statute. No issues found.",
+      "gov_quote": "A registered designated caregiver 21 or older may grow up to eight cannabis plants for a patient household, and patients 21 or older may assign that home-cultivation right.",
+      "url": "https://mn.gov/ocm/dmc/patients/the-basics/frequently-asked-questions.jsp",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Headed Chromium on 2026-09-08 loaded the medical FAQ and found gov_section verbatim. Fetch and headless Chromium still receive a Radware CAPTCHA, so requires_browser remains true.",
+      "requires_browser": true,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Minnesota?",
-      "gov_section": "Up to eight cannabis plants, with no more than four being mature, flowering plants may be grown at a single residence, including the curtilage or yard, without a license to cultivate cannabis issued under this chapter provided that cultivation takes place at the primary residence of an individual 21 years of age or older and in an enclosed, locked space that is not open to public view."
+      "gov_section": "Yes. A registered designated caregiver who is at least 21 years old may cultivate cannabis plants on behalf of a patient enrolled in Minnesota's medical cannabis program."
     }
   },
   "answers": {
@@ -77,12 +91,9 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "YES",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
-  },
-  "lastResearch": "2026-04-04T04:46:20.223Z",
-  "lastUpdate": "2026-04-04T04:46:20.223Z",
-  "primaryGovUrl": "https://mn.gov/ocm/"
+  }
 }

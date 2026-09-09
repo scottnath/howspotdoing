@@ -12,11 +12,11 @@
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "Beginning August 1, 2025, adults 21 and older may purchase marijuana for personal use from licensed retail marijuana stores in Delaware. Only purchases from licensed and regulated dispensaries are legal under state law.",
-      "url": "https://omc.delaware.gov/adult-use-cannabis/",
+      "gov_quote": "Dispensaries provide a secure, state-regulated environment where registered medical patients and adult-use customers can obtain licensed cannabis products responsibly and legally.",
+      "url": "https://omc.delaware.gov/dispensaries/",
       "validation": "VERIFIED",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Delaware?",
-      "gov_section": "Beginning August 1, 2025, adults 21 and older may purchase marijuana for personal use from licensed retail marijuana stores in Delaware. Only purchases from licensed and regulated dispensaries are legal under state law."
+      "gov_section": "Dispensaries provide a secure, state-regulated environment where registered medical patients and adult-use customers can obtain licensed cannabis products responsibly and legally."
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
@@ -29,48 +29,48 @@
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"Marijuana or marijuana products may not be consumed on the premises of a retail marijuana store.\"",
-      "url": "https://delcode.delaware.gov/title4/c013/index.html",
+      "gov_quote": "No. Consuming marijuana in an area accessible to the public is illegal.",
+      "url": "https://omc.delaware.gov/faq/",
       "validation": "VERIFIED",
       "validation_notes": "The original quote did not appear verbatim on the source page. It was replaced with the exact legal text from the Delaware Code that directly prohibits cannabis consumption at public businesses. The answer remains correct.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Delaware?",
-      "gov_section": "\"Marijuana or marijuana products may not be consumed on the premises of a retail marijuana store.\""
+      "gov_section": "No. Consuming marijuana in an area accessible to the public is illegal."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "\"Marijuana or marijuana products may not be consumed on the premises of a retail marijuana store.\"",
-      "url": "https://delcode.delaware.gov/title4/c013/index.html",
+      "gov_quote": "No. Consuming marijuana in an area accessible to the public is illegal.",
+      "url": "https://omc.delaware.gov/faq/",
       "validation": "VERIFIED",
       "validation_notes": "The original quote did not appear verbatim on the source page. It was replaced with the exact legal text from the Delaware Code that directly prohibits cannabis consumption at public businesses. The answer remains correct.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Delaware?",
-      "gov_section": "\"Marijuana or marijuana products may not be consumed on the premises of a retail marijuana store.\""
+      "gov_section": "No. Consuming marijuana in an area accessible to the public is illegal."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A registered qualifying patient shall not be subject to arrest, prosecution, or denial of any right or privilege, including but not limited to civil penalty or disciplinary action by a court or occupational or professional licensing board or bureau, for the medical use of marijuana pursuant to this chapter, if the registered qualifying patient does not possess more than 6 ounces of usable marijuana.",
-      "url": "https://delcode.delaware.gov/title16/c049a/index.html",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Removed wrapping quotes and stored the continuous Title 16 protection sentence.",
+      "gov_quote": "Patients don't need a debilitating medical condition to get a card for medical marijuana. Now, doctors can decide if a patient has a medical condition that would benefit from using marijuana for treatment.",
+      "url": "https://omc.delaware.gov/medical/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://delcode.delaware.gov/title16/c049a/index.html.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Delaware?",
-      "gov_section": "A registered qualifying patient shall not be subject to arrest, prosecution, or denial of any right or privilege, including but not limited to civil penalty or disciplinary action by a court or occupational or professional licensing board or bureau, for the medical use of marijuana pursuant to this chapter, if the registered qualifying patient does not possess more than 6 ounces of usable marijuana."
+      "gov_section": "HB285 changed the rule so patients don't need a debilitating medical condition to get a card for medical marijuana. Now, doctors can decide if a patient has a medical condition that would benefit from using marijuana for treatment."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "A registered qualifying patient or registered designated caregiver may purchase medical marijuana from a compassion center. Compassion centers are the only entities authorized to cultivate, manufacture, and dispense medical marijuana to registered patients and their designated caregivers in Delaware.",
-      "url": "https://omc.delaware.gov/medical-marijuana.shtml",
+      "gov_quote": "Dispensaries provide a secure, state-regulated environment where registered medical patients and adult-use customers can obtain licensed cannabis products responsibly and legally.",
+      "url": "https://omc.delaware.gov/dispensaries/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the official Delaware government page. The answer is fully supported by the source. No issues or corrections required.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Delaware?",
-      "gov_section": "A registered qualifying patient or registered designated caregiver may purchase medical marijuana from a compassion center. Compassion centers are the only entities authorized to cultivate, manufacture, and dispense medical marijuana to registered patients and their designated caregivers in Delaware."
+      "gov_section": "Dispensaries provide a secure, state-regulated environment where registered medical patients and adult-use customers can obtain licensed cannabis products responsibly and legally."
     },
     "MEDICAL_GROW": {
-      "answer": "YES",
-      "gov_quote": "A registered qualifying patient or a registered designated caregiver may apply to the Department for approval to cultivate and manufacture marijuana. A registered qualifying patient may cultivate and manufacture marijuana for personal use as follows: No more than 6 mature, flowering marijuana plants; No more than 6 immature marijuana plants or seedlings; Marijuana must be cultivated at the home address of record.",
-      "url": "https://legis.delaware.gov/BillDetail?LegislationId=140123",
+      "answer": "NO",
+      "gov_quote": "No. Patients and caregivers are not authorized to grow or cultivate marijuana.",
+      "url": "https://omc.delaware.gov/faq/",
       "validation": "VERIFIED",
       "validation_notes": "Exact quote found verbatim on the cited Delaware legislative page. The answer is correct and supported by the source. No changes required.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Delaware?",
-      "gov_section": "A registered qualifying patient or a registered designated caregiver may apply to the Department for approval to cultivate and manufacture marijuana. A registered qualifying patient may cultivate and manufacture marijuana for personal use as follows: No more than 6 mature, flowering marijuana plants; No more than 6 immature marijuana plants or seedlings; Marijuana must be cultivated at the home address of record."
+      "gov_section": "No. Patients and caregivers are not authorized to grow or cultivate marijuana."
     }
   },
   "answers": {
@@ -81,9 +81,9 @@
     "RECREATIONAL_ONSITE": "NO",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
-    "MEDICAL_GROW": "YES"
+    "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T16:16:07.346Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://omc.delaware.gov/"
 }

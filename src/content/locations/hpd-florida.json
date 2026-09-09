@@ -3,9 +3,8 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "",
-      "url": "https://www.floridahealth.gov/programs-and-services/office-of-medical-marijuana-use/index.html",
-      "validation": "VERIFIED",
+      "gov_quote": "Recreational cannabis is illegal in Florida.",
+      "validation": "DERIVED_NO",
       "validation_notes": "The quoted penalty statement is not present verbatim on the cited Florida Department of Health webpage. The page does not provide detailed penalty information for non-medical cannabis possession. The answer and summary are accurate regarding the legal status, but the gov_quote field has been cleared to comply with requirements for exact government quotes.",
       "question": "Is it legal for adults to possess cannabis in the state of Florida?"
     },
@@ -35,21 +34,21 @@
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "a qualified patient and the qualified patient\u2019s caregiver may purchase from a medical marijuana treatment center for the patient\u2019s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana",
+      "gov_quote": "a qualified patient and the qualified patient’s caregiver may purchase from a medical marijuana treatment center for the patient’s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana",
       "url": "https://www.flsenate.gov/Laws/Statutes/2025/381.986",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced outdated 'legal representative' wording with the live 2025 statute sentence.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.flsenate.gov/Laws/Statutes/2025/381.986.",
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Florida?",
-      "gov_section": "a qualified patient and the qualified patient\u2019s caregiver may purchase from a medical marijuana treatment center for the patient\u2019s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana"
+      "gov_section": "a qualified patient and the qualified patient’s caregiver may purchase from a medical marijuana treatment center for the patient’s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana"
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "a qualified patient and the qualified patient\u2019s caregiver may purchase from a medical marijuana treatment center for the patient\u2019s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana",
+      "gov_quote": "a qualified patient and the qualified patient’s caregiver may purchase from a medical marijuana treatment center for the patient’s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana",
       "url": "https://www.flsenate.gov/Laws/Statutes/2023/381.986",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced reconstructed purchase sentence with the continuous statute clause on the cited 2023 page.",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.flsenate.gov/Laws/Statutes/2023/381.986.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Florida?",
-      "gov_section": "a qualified patient and the qualified patient\u2019s caregiver may purchase from a medical marijuana treatment center for the patient\u2019s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana"
+      "gov_section": "a qualified patient and the qualified patient’s caregiver may purchase from a medical marijuana treatment center for the patient’s medical use a marijuana delivery device and up to the amount of marijuana authorized in the physician certification, but may not possess more than a 70-day supply of marijuana"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
@@ -71,8 +70,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T13:40:49.142Z",
   "primaryGovUrl": "https://knowthefactsmmj.com/",
   "sourceNotes": "knowthefactsmmj.com is the site of the Florida Department of Health's Office of Medical Marijuana Use, confirmed by a link from the floridahealth.gov medical marijuana page, checked 2026-08-31. That is why it is acceptable as a citation, and why it is also this state's primaryGovUrl, despite not being a .gov host."
 }

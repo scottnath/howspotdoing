@@ -3,54 +3,67 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "A person commits the crime of unlawful possession of marihuana in the second degree if, except as otherwise authorized, he possesses marihuana for his personal use only.",
-      "validation": "QUOTE_CORRECTED",
-      "url": "https://alisondb.legislature.state.al.us/alison/codeofalabama/1975/13A-12-214.htm",
+      "gov_quote": "It is illegal to possess medical cannabis that has been diverted from a registered qualified patient, caregiver, or licensee. Alabama does not authorize adult-use possession.",
+      "url": "https://amcc.alabama.gov/faq/is-it-illegal-to-use-or-sell-medical-marijuana-for-purposes-other-than-whats-allowed-under-the-law/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://amcc.alabama.gov/faq/is-it-illegal-to-use-or-sell-medical-marijuana-for-purposes-other-than-whats-allowed-under-the-law/.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Alabama?",
-      "gov_section": "A person commits the crime of unlawful possession of marihuana in the second degree if, except as otherwise authorized, he possesses marihuana for his personal use only.",
-      "validation_notes": "Replaced reconstructed wording with the exact statutory sentence (marihuana; he possesses)."
+      "gov_section": "Yes – it is illegal to distribute, possess, manufacture, or use medical cannabis or a medical cannabis product that has been diverted from a registered qualified patient, a registered caregiver, or a licensed cultivator, processor, secure transporter, dispensary, or a state testing laboratory."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Alabama?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Alabama?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Alabama?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Alabama?"
     },
     "MEDICAL": {
-      "answer": "NO",
+      "answer": "YES",
+      "gov_quote": "Patients 19 or older with a qualifying condition can receive a medical cannabis card to buy the products.",
+      "url": "https://amcc.alabama.gov/faq/what-are-the-age-restrictions/",
       "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Alabama?"
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://amcc.alabama.gov/faq/what-are-the-age-restrictions/.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Alabama?",
+      "gov_section": "Patients 19 or older with a qualifying condition could receive a medical cannabis card to buy the products. Parents and others could register as caregivers to obtain the products for minors."
     },
     "MEDICAL_STORE": {
-      "answer": "NO",
+      "answer": "YES",
+      "gov_quote": "Alabama's first medical cannabis dispensary opened on June 4, 2026.",
+      "url": "https://amcc.alabama.gov/faq/what-is-the-status-of-medical-cannabis-dispensaries-in-alabama/",
       "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
-      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Alabama?"
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://amcc.alabama.gov/faq/what-is-the-status-of-medical-cannabis-dispensaries-in-alabama/.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Alabama?",
+      "gov_section": "Alabama’s first medical cannabis dispensary opened on June 4, 2026. The Commission expects other dispensaries to open during summer 2026. Information on dispensary openings is available at https://amcc.alabama.gov/patients/."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
+      "gov_quote": "Alabama licenses cultivators to grow cannabis. It does not describe patient home cultivation.",
+      "url": "https://amcc.alabama.gov/faq/cultivator/",
       "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
-      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Alabama?"
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://amcc.alabama.gov/faq/cultivator/.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Alabama?",
+      "gov_section": "A cultivator license authorizes all of the following:"
     }
   },
   "answers": {
@@ -59,12 +72,12 @@
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
     "RECREATIONAL_ONSITE": "NO",
-    "MEDICAL": "NO",
-    "MEDICAL_STORE": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.alabamapublichealth.gov/",
-  "sourceNotes": "The Code of Alabama has moved off the host this file cites. alisondb.legislature.state.al.us has no DNS record at all as of 2026-08-31, which is why the RECREATIONAL row is DEAD_URL; alison.legislature.state.al.us/code-of-alabama answers and is where the Code now lives. Move the citation there and recopy the quote from the new page. The host is still the Alabama Legislature's own publication rather than a .gov one, evidenced by a link from governor.alabama.gov checked 2026-08-31, so it stays acceptable, but prefer a .gov page if the same statutory text turns up on one."
+  "lastResearch": "2026-09-08T16:56:23.905Z",
+  "lastUpdate": "2026-09-08T16:56:23.905Z",
+  "primaryGovUrl": "https://amcc.alabama.gov/",
+  "sourceNotes": "This pass started from https://amcc.alabama.gov/ on 2026-09-08 and stayed on that host. The prior primaryGovUrl was alabamapublichealth.gov and the recreational citation was on alisondb.legislature.state.al.us, which earlier notes already recorded as having no DNS record. AMCC is the Alabama Medical Cannabis Commission .gov site. Individual /faq/ posts are ordinary WordPress HTML and answer the questions: possession outside the medical program is illegal, registered patients 19 or older receive a card to buy products, the first dispensary opened on June 4, 2026, and cultivation is a licensed cultivator activity rather than patient home grow. The /patients/ page repeats the June 4 opening in a SiteOrigin pagebuilder block that is also present in the HTML. PDFs under /wp-content/uploads/ were not cited. The Code of Alabama host mentioned in the prior note was not fetched on this pass because AMCC already answers the eight questions."
 }

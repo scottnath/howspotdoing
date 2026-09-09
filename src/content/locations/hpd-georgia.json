@@ -3,57 +3,67 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "Possession of any other form of marijuana by anyone not authorized to possess it remains a violation of state and federal law.",
-      "url": "https://dph.georgia.gov/low-thc-oil-faq-law-enforcement",
+      "gov_quote": "Adult-use marijuana is not legal in Georgia. Possession by anyone who is not a registered patient remains a crime.",
+      "url": "https://www.gmcc.ga.gov/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Georgia Department of Public Health page. The answer that adult cannabis possession is not legal in Georgia is accurate and fully supported by the source. No discrepancies or updates affecting the legal status were found.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.gmcc.ga.gov/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Georgia?",
-      "gov_section": "Possession of any other form of marijuana by anyone not authorized to possess it remains a violation of state and federal law."
+      "gov_section": "No. The law does not make the sale, or possession, of all types of marijuana legal in Georgia. Possession of any form of marijuana by an unauthorized person is, and remains, a violation of state and federal law."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Georgia?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Georgia?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Georgia?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "QUOTE_CORRECTED",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Georgia?"
     },
     "MEDICAL": {
-      "answer": "NO",
-      "gov_quote": "The law does not legalize the possession of any types of marijuana in Georgia except 20 fluid ounces of Low THC Oil for persons with a valid Low THC Oil card.",
-      "url": "https://dph.georgia.gov/low-thc-oil-registry/law-enforcement",
+      "answer": "YES",
+      "gov_quote": "Registered patients and caregivers may possess up to 12,000 milligrams of THC in regulated medical cannabis products.",
+      "url": "https://www.gmcc.ga.gov/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Georgia Department of Public Health website. The answer and summary are accurate and match the legal status as described by the state. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.gmcc.ga.gov/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Georgia?",
-      "gov_section": "The law does not legalize the possession of any types of marijuana in Georgia except 20 fluid ounces of Low THC Oil for persons with a valid Low THC Oil card."
+      "gov_section": "Georgia law only authorizes the legal possession of up to 12,000 milligrams of tetrahydrocannabinol (\"THC\") by a registered patient or caregiver with a valid Medical Cannabis Registry Card."
     },
     "MEDICAL_STORE": {
-      "answer": "NO",
+      "answer": "YES",
+      "gov_quote": "Registered patients may buy laboratory-tested cannabis products at a Commission-licensed dispensary or a licensed independent pharmacy.",
+      "url": "https://www.gmcc.ga.gov/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
-      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Georgia?"
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.gmcc.ga.gov/faqs.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Georgia?",
+      "gov_section": "Registered patients with an active Medical Cannabis Patient Registry Card can lawfully purchase safe, laboratory tested cannabis products at a dispensary licensed by the Commission, or at an independent pharmacy licensed by the Georgia Board of Pharmacy."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
+      "gov_quote": "Georgia does not legalize home grow. Registered patients may not grow or possess marijuana in plant or leaf form.",
+      "url": "https://www.gmcc.ga.gov/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
-      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Georgia?"
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://www.gmcc.ga.gov/faqs.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Georgia?",
+      "gov_section": "it does not legalize the growing, sale, or possession of marijuana in plant or leaf form by registered patients."
     }
   },
   "answers": {
@@ -62,11 +72,12 @@
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
     "RECREATIONAL_ONSITE": "NO",
-    "MEDICAL": "NO",
-    "MEDICAL_STORE": "NO",
+    "MEDICAL": "YES",
+    "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://dph.georgia.gov/low-thc-oil-registry"
+  "lastResearch": "2026-09-08T16:55:24.098Z",
+  "lastUpdate": "2026-09-08T16:55:24.098Z",
+  "primaryGovUrl": "https://www.gmcc.ga.gov/home",
+  "sourceNotes": "This pass started from https://www.gmcc.ga.gov/home on 2026-09-08 and stayed on gmcc.ga.gov. The FAQ answers all cited questions. Recreational possession stays illegal. Effective July 1, 2026 the FAQ describes a comprehensive medical cannabis market: registered patients may possess up to 12,000 milligrams of THC, buy oils, tinctures, patches, ingestibles, and flower for vaporization at licensed dispensaries, and still may not home-grow or smoke. The FAQ no longer uses the old low-THC-oil-only wording that had kept MEDICAL at NO. History and Purpose still quotes the 2019 Hope Act findings about low THC oil and opposition to recreational use; those are background, not the current possession rule. dph.georgia.gov citations from the prior pass were replaced because that host is not the requested source. gmcc.ga.gov answered 200 to a browser-headed fetch and the excerpts are in the HTML, so these rows do not need a browser."
 }

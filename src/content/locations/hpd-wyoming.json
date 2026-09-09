@@ -3,52 +3,58 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "Any person who has in his possession marijuana in any combination of forms and amounts set forth in this paragraph shall be subject to a civil penalty of not more than one hundred dollars ($100.00). For purposes of this paragraph, the amounts of marijuana are as follows: (A) For marijuana in plant form, three (3) ounces or less; (B) For products composed of marijuana that are: (I) In solid form, including edible products, ointments and tinctures, sixteen (16) ounces or less; (II) In liquid form, seventy\u2011two (72) ounces or less; (III) In a form that has undergone a process to concentrate one (1) or more active cannabinoids to increase the marijuana\u2019s potency, including in powder, crystalline, pill or capsule form, thirty (30) grams or less.",
-      "url": "https://www.wyoleg.gov/Legislation/2025/HB0191",
+      "gov_quote": "It is unlawful in Wyoming to possess a controlled substance, including marijuana, except under a valid prescription.",
+      "url": "https://www.wyoleg.gov/Legislation/2025/SF0074",
       "validation": "VERIFIED",
-      "validation_notes": "Exact statutory quote found verbatim in Wyoming House Bill 191 (2025) at the cited URL. The answer and summary accurately reflect the law: cannabis possession is not legal but is decriminalized for small amounts as of July 1, 2025. No corrections required.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.wyoleg.gov/Legislation/2025/SF0074.",
+      "requires_browser": true,
       "question": "Is it legal for adults to possess cannabis in the state of Wyoming?",
-      "gov_section": "Any person who has in his possession marijuana in any combination of forms and amounts set forth in this paragraph shall be subject to a civil penalty of not more than one hundred dollars ($100.00). For purposes of this paragraph, the amounts of marijuana are as follows: (A) For marijuana in plant form, three (3) ounces or less; (B) For products composed of marijuana that are: (I) In solid form, including edible products, ointments and tinctures, sixteen (16) ounces or less; (II) In liquid form, seventy\u2011two (72) ounces or less; (III) In a form that has undergone a process to concentrate one (1) or more active cannabinoids to increase the marijuana\u2019s potency, including in powder, crystalline, pill or capsule form, thirty (30) grams or less."
+      "gov_section": "it is unlawful for any person knowingly or intentionally to possess a controlled substance unless the substance was obtained directly from, or pursuant to a valid prescription or order of a practitioner while acting in the course of his professional practice"
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Wyoming?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Wyoming?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Wyoming?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Wyoming?"
     },
     "MEDICAL": {
       "answer": "NO",
+      "gov_quote": "Wyoming practitioners may not prescribe marijuana. There is no medical cannabis program.",
+      "url": "https://www.wyoleg.gov/Legislation/2025/SF0074",
       "validation": "VERIFIED",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Wyoming?"
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.wyoleg.gov/Legislation/2025/SF0074.",
+      "requires_browser": true,
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Wyoming?",
+      "gov_section": "no practitioner shall dispense or prescribe marihuana, tetrahydrocannabinol, or synthetic equivalents of marihuana or tetrahydrocannabinol."
     },
     "MEDICAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent MEDICAL, which is NO.",
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Wyoming?"
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent MEDICAL, which is NO.",
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Wyoming?"
     }
   },
@@ -62,7 +68,8 @@
     "MEDICAL_STORE": "NO",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://health.wyo.gov/"
+  "lastResearch": "2026-09-09T01:07:54.265Z",
+  "lastUpdate": "2026-09-09T01:07:54.265Z",
+  "primaryGovUrl": "https://www.wyoleg.gov",
+  "sourceNotes": "This pass started from https://www.wyoleg.gov on 2026-09-08 and stayed on wyoleg.gov. The prior primaryGovUrl was health.wyo.gov. The stored recreational citation was 2025 HB0191, which the House did not consider for introduction on 2025-02-03. That bill would have replaced criminal possession of small amounts with a civil fine; it is not law. Current W.S. 35-7-1031(c) appears in 2025 SF0074, enrolled as Chapter 123, signed on 2025-03-06, and effective 2025-07-01: possession of a controlled substance remains unlawful, and no practitioner may prescribe marijuana except an FDA-approved drug such as dronabinol. The 2026 HB0166 proposal to reschedule marijuana also was not introduced. Statute PDFs under /statutes/compress/ were not cited. The legislation pages are an Angular app; fetch returns a shell, so these rows require a browser."
 }

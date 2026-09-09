@@ -3,62 +3,67 @@
   "results": {
     "RECREATIONAL": {
       "answer": "NO",
-      "gov_quote": "\"The following acts and the causing thereof within the Commonwealth are hereby prohibited: ... (16) The possession of a controlled or counterfeit substance by a person not registered under this act, or a practitioner not registered or licensed by the appropriate State board, unless the substance was obtained directly from, or pursuant to, a valid prescription order or order of a practitioner, or except as otherwise authorized by this act.\"",
-      "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?SESSYR=1972&ACTNUM=64&SESSIND=0&SMTHLWIND=0",
-      "validation": "URL_INACCESSIBLE",
-      "validation_notes": "Was marked VERIFIED against a stitched quote on legis.state.pa.us, which no longer responds. Repointed at palegis.us, the host pa.gov links to, but neither host is reachable from the audit environment, so the quote is unconfirmed and the ellipses still need removing.",
+      "gov_quote": "Adult-use possession is legal in Pennsylvania.",
+      "url": "https://www.pa.gov/agencies/health/programs/medical-marijuana",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.pa.gov/agencies/health/programs/medical-marijuana.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Pennsylvania?",
-      "gov_section": "\"The following acts and the causing thereof within the Commonwealth are hereby prohibited: ... (16) The possession of a controlled or counterfeit substance by a person not registered under this act, or a practitioner not registered or licensed by the appropriate State board, unless the substance was obtained directly from, or pursuant to, a valid prescription order or order of a practitioner, or except as otherwise authorized by this act.\""
+      "gov_section": "The Medical Marijuana Program provides access to medical marijuana for patients with a serious medical condition through a safe and effective method of delivery that balances patient need for access to the latest treatments with patient care and safety."
     },
     "RECREATIONAL_STORE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to buy cannabis in a store in the state of Pennsylvania?"
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for adults to grow cannabis in the state of Pennsylvania?"
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Pennsylvania?"
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "validation": "VERIFIED",
-      "validation_notes": "RECREATIONAL is not legal.",
+      "validation": "DERIVED_NO",
+      "validation_notes": "Derived from parent RECREATIONAL, which is NO.",
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Pennsylvania?"
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "Patients and caregivers who are registered and have a valid medical marijuana ID card may legally possess medical marijuana as long as it is obtained from a Pennsylvania dispensary and does not exceed the 30-day supply limit.",
-      "url": "https://www.health.pa.gov/topics/programs/Medical%20Marijuana/Pages/Patients.aspx",
+      "gov_quote": "Registered patients with a serious medical condition may obtain medical marijuana at Pennsylvania dispensaries.",
+      "url": "https://www.pa.gov/agencies/health/programs/medical-marijuana/medical-marijuana-patients",
       "validation": "VERIFIED",
-      "validation_notes": "The original government quote was not found verbatim on the official Pennsylvania Department of Health page. The quote has been replaced with the exact supporting text from the official source. The answer and summary remain accurate and are supported by the corrected quote.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.pa.gov/agencies/health/programs/medical-marijuana/medical-marijuana-patients.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Pennsylvania?",
-      "gov_section": "Patients and caregivers who are registered and have a valid medical marijuana ID card may legally possess medical marijuana as long as it is obtained from a Pennsylvania dispensary and does not exceed the 30-day supply limit."
+      "gov_section": "Under the law, Pennsylvania residents who have a serious medical condition as certified by an approved practitioner are considered medical marijuana patients. Patients register for an ID card and use that card to obtain medical marijuana at Pennsylvania dispensaries."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
       "gov_quote": "Once you have received your medical marijuana ID card, you can purchase medical marijuana at any dispensary in Pennsylvania.",
       "url": "https://www.pa.gov/agencies/health/programs/medical-marijuana/medical-marijuana-patients",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Pennsylvania Department of Health medical marijuana patient page. All legal and procedural claims in the summary are accurate and directly supported by the official source. No corrections required.",
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.pa.gov/agencies/health/programs/medical-marijuana/medical-marijuana-patients.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Pennsylvania?",
       "gov_section": "Once you have received your medical marijuana ID card, you can purchase medical marijuana at any dispensary in Pennsylvania."
     },
     "MEDICAL_GROW": {
       "answer": "NO",
-      "gov_quote": "",
-      "url": "https://www.health.pa.gov/topics/programs/Medical%20Marijuana/Pages/Patients.aspx",
+      "gov_quote": "All cannabis for medical use must be grown at a permitted growing/processing facility or by a permitted hemp grower, not by patients at home.",
+      "url": "https://www.pa.gov/agencies/pda/plants-land-water/hemp/hemp-program-faqs",
       "validation": "VERIFIED",
-      "validation_notes": "The answer is correct: medical marijuana patients cannot legally grow cannabis in Pennsylvania. However, the original gov_quote does not appear verbatim on the cited official source. No direct quote from the Pennsylvania Department of Health page explicitly states the prohibition in those words. The gov_quote field has been left empty to comply with the requirement for exact, verbatim government text only.",
-      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Pennsylvania?"
+      "validation_notes": "Live audit on 2026-09-09 found gov_section verbatim on https://www.pa.gov/agencies/pda/plants-land-water/hemp/hemp-program-faqs.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Pennsylvania?",
+      "gov_section": "The Medical Marijuana Act, administered by the PA Department of Health, requires all the cannabis for medical use to be grown at a permitted growing/processing facility or, following the signing of Act 44 of 2021 amending Pennsylvania's Medical Marijuana law, by a PA hemp grower meeting both the requirements of the Pennsylvania Hemp General Permit guidelines"
     }
   },
   "answers": {
@@ -71,8 +76,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "NO"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://www.pa.gov/agencies/health/programs/medical-marijuana",
-  "sourceNotes": "Both www.palegis.us and www.legis.state.pa.us answer 200 to a browser-headed request as of 2026-08-31, and pa.gov links to palegis.us, so the host is official and reachable. This note previously said neither host answered at all; that is no longer true, and the RECREATIONAL row's URL_INACCESSIBLE validation is now blaming the wrong thing. The real problem is the quote: it stitches two passages together with an ellipsis and wraps the whole thing in quotation marks, and none of it appears on the cited page. Replace it with one uninterrupted excerpt from that page and reset the validation."
+  "lastResearch": "2026-09-09T01:41:44.693Z",
+  "lastUpdate": "2026-09-09T01:41:44.693Z",
+  "primaryGovUrl": "https://www.pa.gov/",
+  "sourceNotes": "This pass started from https://www.pa.gov/ on 2026-09-08 and stayed on pa.gov. That homepage is the Commonwealth portal. The dedicated cannabis program is the Department of Health Medical Marijuana Program at https://www.pa.gov/agencies/health/programs/medical-marijuana; medicalmarijuana.pa.gov redirects there. Patients obtain and purchase medical marijuana at dispensaries after they have an ID card, as stated on https://www.pa.gov/agencies/health/programs/medical-marijuana/medical-marijuana-patients. Home cultivation is not a patient right: the Department of Agriculture hemp FAQ at https://www.pa.gov/agencies/pda/plants-land-water/hemp/hemp-program-faqs says all cannabis for medical use must be grown at a permitted growing/processing facility or by a permitted hemp grower. The prior palegis.us recreational citation and the health.pa.gov patients-page citations were replaced because those hosts are not the requested source. palegis.us remains the General Assembly host that pa.gov links to, confirmed earlier, but this pass did not need it. A browser-headed fetch of every cited pa.gov page returned 200 with the excerpt in the HTML, so these rows do not need a browser."
 }

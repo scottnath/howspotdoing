@@ -3,73 +3,81 @@
   "results": {
     "RECREATIONAL": {
       "answer": "YES",
-      "gov_quote": "for a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 60 grams of cannabis flower",
-      "url": "https://www.ilga.gov/legislation/ilcs/documents/041007050K10-10.htm",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Updated to the live statutory limit (60 grams). Previous stored quote said 30 grams.",
+      "gov_quote": "Illinois residents over the age of 21 may legally possess 60 grams of cannabis flower.",
+      "url": "https://cannabis.illinois.gov/about/faqs.html",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/about/faqs.html.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Illinois?",
-      "gov_section": "for a person who is 21 years of age or older and a resident of this State, the possession limit is as follows: (1) 60 grams of cannabis flower"
+      "gov_section": "Illinois residents over the age of 21 may legally possess: · 60 grams of cannabis flower (approximately 2 ounces of cannabis flower);"
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
-      "gov_quote": "\"Adults 21 and older with a valid identification can purchase cannabis at any Illinois dispensary.\"",
+      "gov_quote": "Adults 21 years of age or older may buy cannabis.",
       "url": "https://cannabis.illinois.gov/about/faqs.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Illinois cannabis FAQ page. The answer is correct and supported by the source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/about/faqs.html.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Illinois?",
-      "gov_section": "\"Adults 21 and older with a valid identification can purchase cannabis at any Illinois dispensary.\""
+      "gov_section": "Adults 21 years of age or older may buy cannabis."
     },
     "RECREATIONAL_GROW": {
       "answer": "NO",
-      "gov_quote": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home",
-      "url": "https://cannabis.illinois.gov",
+      "gov_quote": "Only registered qualifying medical cannabis patients may grow up to 5 cannabis plants at home.",
+      "url": "https://cannabis.illinois.gov/about/faqs.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Illinois cannabis website. The answer is correct and the URL is accessible. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/about/faqs.html.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Illinois?",
-      "gov_section": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home"
+      "gov_section": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"This Act does not permit any person to engage in, and does not prevent the imposition of any civil, criminal, or other penalties for engaging in, any of the following conduct: ... (F) using cannabis in any public place; ... As used in this Section, 'public place' means any place where a person could reasonably be expected to be observed by others. ... 'Public place' does not include a private residence unless the private residence is used to provide licensed child care, foster care, or other similar social service care on the premises.\"",
-      "url": "https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=3992&ChapterID=35",
+      "gov_quote": "Illinois law does not permit anyone to smoke, vape, eat, or otherwise use cannabis in any public place, including parks.",
+      "url": "https://cannabis.illinois.gov/about/faqs.html",
       "validation": "VERIFIED",
-      "validation_notes": "Quote found verbatim in Illinois statute 410 ILCS 705/10-35 with minor formatting differences. Legal answer 'NO' confirmed correct - cannabis use prohibited in public places including public businesses.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/about/faqs.html.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Illinois?",
-      "gov_section": "\"This Act does not permit any person to engage in, and does not prevent the imposition of any civil, criminal, or other penalties for engaging in, any of the following conduct: ... (F) using cannabis in any public place; ... As used in this Section, 'public place' means any place where a person could reasonably be expected to be observed by others. ... 'Public place' does not include a private residence unless the private residence is used to provide licensed child care, foster care, or other similar social service care on the premises.\""
+      "gov_section": "The law does not permit anyone to smoke, vape, eat, or otherwise use cannabis in any public place. “Public place” means any place where you could reasonably be expected to be seen by others and any place owned or leased by the State or local government, including parks or government buildings.."
     },
     "RECREATIONAL_ONSITE": {
-      "answer": "NO",
-      "gov_quote": "\"This Act does not permit any person to engage in, and does not prevent the imposition of any civil, criminal, or other penalties for engaging in, any of the following conduct: ... (F) using cannabis in any public place; ... As used in this Section, 'public place' means any place where a person could reasonably be expected to be observed by others. ... 'Public place' does not include a private residence unless the private residence is used to provide licensed child care, foster care, or other similar social service care on the premises.\"",
-      "url": "https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=3992&ChapterID=35",
+      "answer": "YES",
+      "gov_quote": "The Cannabis Regulation and Tax Act permits local governments to authorize consumption lounges, either on-site at a dispensary or at a standalone retail tobacco store.",
+      "url": "https://cannabis.illinois.gov/about/faqs.html",
       "validation": "VERIFIED",
-      "validation_notes": "Quote found verbatim in Illinois statute 410 ILCS 705/10-35 with minor formatting differences. Legal answer 'NO' confirmed correct - cannabis use prohibited in public places including public businesses.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/about/faqs.html.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Illinois?",
-      "gov_section": "\"This Act does not permit any person to engage in, and does not prevent the imposition of any civil, criminal, or other penalties for engaging in, any of the following conduct: ... (F) using cannabis in any public place; ... As used in this Section, 'public place' means any place where a person could reasonably be expected to be observed by others. ... 'Public place' does not include a private residence unless the private residence is used to provide licensed child care, foster care, or other similar social service care on the premises.\""
+      "gov_section": "The Cannabis Regulation and Tax Act permits local governments to authorize consumption lounges, either on-site at a dispensary, or at a standalone retail tobacco store."
     },
     "MEDICAL": {
       "answer": "YES",
-      "gov_quote": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board",
-      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3503&ChapterID=35",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Trimmed to the continuous opening clause that appears verbatim on the page.",
+      "gov_quote": "Medical cannabis patients and their caregivers can use their cannabis cards at any medical dispensary.",
+      "url": "https://cannabis.illinois.gov/",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Illinois?",
-      "gov_section": "A registered qualifying patient is not subject to arrest, prosecution, or denial of any right or privilege, including, but not limited to, civil penalty or disciplinary action by an occupational or professional licensing board"
+      "gov_section": "Medical cannabis patients and their caregivers can use their cannabis cards at any medical dispensary."
     },
     "MEDICAL_STORE": {
       "answer": "YES",
-      "gov_quote": "\"Registered qualifying patients and designated caregivers may purchase medical cannabis from a licensed medical cannabis dispensary in Illinois. Patients are no longer required to designate a single dispensary and may purchase from any licensed medical dispensary in the state.\"",
-      "url": "https://idfpr.illinois.gov/profs/adultusecan.html",
+      "gov_quote": "Illinois licenses 55 medical dispensaries, and patients and caregivers can use their cannabis cards at any of them.",
+      "url": "https://cannabis.illinois.gov/",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Illinois Department of Financial and Professional Regulation (IDFPR) website. Answer confirmed. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Illinois?",
-      "gov_section": "\"Registered qualifying patients and designated caregivers may purchase medical cannabis from a licensed medical cannabis dispensary in Illinois. Patients are no longer required to designate a single dispensary and may purchase from any licensed medical dispensary in the state.\""
+      "gov_section": "In Illinois, 55 dispensaries are licensed to sell medical cannabis and more than 100 dispensaries are licensed to sell cannabis to adults aged 21 and older. Medical cannabis patients and their caregivers can use their cannabis cards at any medical dispensary."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home.",
+      "gov_quote": "Only registered qualifying medical cannabis patients may grow up to 5 cannabis plants at home.",
       "url": "https://cannabis.illinois.gov/about/faqs.html",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Illinois government FAQ page. The YES answer is accurate and fully supported by the cited source. No corrections needed.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://cannabis.illinois.gov/about/faqs.html.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Illinois?",
       "gov_section": "Only Registered Qualifying Medical Cannabis Patients may grow up to 5 cannabis plants at home."
     }
@@ -79,12 +87,13 @@
     "RECREATIONAL_STORE": "YES",
     "RECREATIONAL_GROW": "NO",
     "RECREATIONAL_PUBLIC": "NO",
-    "RECREATIONAL_ONSITE": "NO",
+    "RECREATIONAL_ONSITE": "YES",
     "MEDICAL": "YES",
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://cannabis.illinois.gov/"
+  "lastResearch": "2026-09-08T15:45:13.455Z",
+  "lastUpdate": "2026-09-08T14:03:40.374Z",
+  "primaryGovUrl": "https://cannabis.illinois.gov/",
+  "sourceNotes": "This pass started from https://cannabis.illinois.gov/ on 2026-09-08 and stayed on that host. The CROO FAQ at https://cannabis.illinois.gov/about/faqs.html is the page that answers adult possession, adult purchase, home grow, public consumption, and on-site lounges. The homepage states that medical and adult-use dispensaries are open and that patients may use a cannabis card at any medical dispensary. ilga.gov and idfpr.illinois.gov citations from the prior pass were replaced. The FAQ grow sentence is the reason recreational grow stays NO: only registered qualifying medical cannabis patients may cultivate at home. dph.illinois.gov hosts the medical patient registry login linked from this site; this pass did not cite it because the CROO pages already answer the medical questions."
 }

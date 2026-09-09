@@ -4,74 +4,82 @@
     "RECREATIONAL": {
       "answer": "YES",
       "gov_quote": "As of January 1, 2021, adults 21 and over may possess and use up to one ounce of marijuana with no criminal penalties.",
-      "url": "https://revenuefiles.mt.gov/news/2024/special-message-on-initiative-190-on-adult-use-marijuana",
+      "url": "https://revenue.mt.gov/card/cannabis/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Montana Code Annotated page. Answer and summary confirmed accurate. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for adults to possess cannabis in the state of Montana?",
       "gov_section": "As of January 1, 2021, adults 21 and over may possess and use up to one ounce of marijuana with no criminal penalties."
     },
     "RECREATIONAL_STORE": {
       "answer": "YES",
       "gov_quote": "As of January 1, 2022, medical and adult use marijuana is legal to purchase in the state of Montana by individuals 21 and over.",
-      "url": "https://mtrevenue.gov/cannabis/",
+      "url": "https://revenue.mt.gov/card/cannabis/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Montana Department of Revenue cannabis FAQ page. The answer is correct and supported by the source. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for adults to buy cannabis in a store in the state of Montana?",
       "gov_section": "As of January 1, 2022, medical and adult use marijuana is legal to purchase in the state of Montana by individuals 21 and over."
     },
     "RECREATIONAL_GROW": {
       "answer": "YES",
-      "gov_quote": "possessing, planting, or cultivating up to two mature marijuana plants and two seedlings, or four mature marijuana plants and four seedlings for a registered cardholder",
-      "url": "https://leg.mt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0060/0160-0120-0010-0060.html",
-      "validation": "QUOTE_CORRECTED",
-      "validation_notes": "Replaced ellipsized reconstruction with the continuous MCA cultivation clause.",
+      "gov_quote": "Adults may cultivate up to two mature marijuana plants and two seedlings for private use in a private residence.",
+      "url": "https://revenue.mt.gov/card/cannabis/faqs",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for adults to grow cannabis in the state of Montana?",
-      "gov_section": "possessing, planting, or cultivating up to two mature marijuana plants and two seedlings, or four mature marijuana plants and four seedlings for a registered cardholder"
+      "gov_section": "Adults may cultivate up to two mature marijuana plants and two seedlings for private use in a private residence, subject to certain restrictions."
     },
     "RECREATIONAL_PUBLIC": {
       "answer": "NO",
-      "gov_quote": "\"Public consumption of marijuana and marijuana products remains prohibited in the state of Montana.\"",
-      "url": "https://mtrevenue.gov/cannabis/",
+      "gov_quote": "Public use is prohibited, including in parks, on sidewalks, and at hotels.",
+      "url": "https://revenue.mt.gov/ResponsibilityMatters/2026/cannabis-checklist",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Montana Department of Revenue cannabis page. The answer is correct and supported by the cited source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/ResponsibilityMatters/2026/cannabis-checklist.",
+      "requires_browser": false,
       "question": "Is it legal to consume cannabis in parks, on sidewalks, or similar outdoor public spaces in the state of Montana?",
-      "gov_section": "\"Public consumption of marijuana and marijuana products remains prohibited in the state of Montana.\""
+      "gov_section": "Private property only — no public use (parks, sidewalks, hotels, etc.)."
     },
     "RECREATIONAL_ONSITE": {
       "answer": "NO",
-      "gov_quote": "\"Public consumption of marijuana and marijuana products remains prohibited in the state of Montana.\"",
-      "url": "https://mtrevenue.gov/cannabis/",
+      "gov_quote": "Marijuana consumption remains prohibited in public and in certain other locations.",
+      "url": "https://revenue.mt.gov/card/cannabis/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Montana Department of Revenue cannabis page. The answer is correct and supported by the cited source. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for public businesses such as cafes, bars, or conference centers to allow on-site cannabis consumption in the state of Montana?",
-      "gov_section": "\"Public consumption of marijuana and marijuana products remains prohibited in the state of Montana.\""
+      "gov_section": "However, marijuana consumption and possession (including medical marijuana) remains prohibited in public and certain other locations."
     },
     "MEDICAL": {
+      "answer": "YES",
+      "gov_quote": "Registered cardholders may possess up to one ounce of usable marijuana.",
+      "url": "https://revenue.mt.gov/card/cannabis/education/know-before-you-go",
+      "validation": "VERIFIED",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/education/know-before-you-go.",
+      "requires_browser": false,
+      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Montana?",
+      "gov_section": "a registered cardholder or eligible adult consumer may possess and/or transport 1 ounce or less of their personal, usable marijuana."
+    },
+    "MEDICAL_STORE": {
       "answer": "YES",
       "gov_quote": "Registered cardholders are eligible to purchase marijuana at any licensed dispensary in Montana.",
       "url": "https://revenue.mt.gov/card/cannabis/cardholder-information",
       "validation": "VERIFIED",
-      "validation_notes": "The legal answer is correct and supported by the official Montana government website, which confirms that registered medical marijuana patients may possess up to 1 ounce of usable marijuana. However, the provided government quote does not appear verbatim on the cited page. The information is present in substance, but not in the exact quoted form required for legal citation.",
-      "question": "Is it legal for medical marijuana patients to possess cannabis in the state of Montana?",
-      "gov_section": "Registered cardholders are eligible to purchase marijuana at any licensed dispensary in Montana."
-    },
-    "MEDICAL_STORE": {
-      "answer": "YES",
-      "gov_quote": "Registered cardholders may purchase marijuana and marijuana products from a licensed dispensary or provider.",
-      "url": "https://mtrevenue.gov/cannabis/cardholders/",
-      "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the Montana government website at https://mtrevenue.gov/cannabis/cardholders/. The answer is confirmed as correct. No changes made.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/cardholder-information.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to buy cannabis in a store in the state of Montana?",
-      "gov_section": "Registered cardholders may purchase marijuana and marijuana products from a licensed dispensary or provider."
+      "gov_section": "Registered cardholders are eligible to purchase marijuana at any licensed dispensary in Montana."
     },
     "MEDICAL_GROW": {
       "answer": "YES",
-      "gov_quote": "\"A registered cardholder who has not named a provider may possess up to four mature marijuana plants, four seedlings, and the amount of usable marijuana allowed by the department by rule.\"",
-      "url": "https://leg.mt.gov/bills/mca/title_0160/chapter_0120/part_0050/section_0150/0160-0120-0050-0150.html",
+      "gov_quote": "Medical marijuana cardholders may cultivate up to four mature plants and four seedlings.",
+      "url": "https://revenue.mt.gov/card/cannabis/faqs",
       "validation": "VERIFIED",
-      "validation_notes": "Exact quote found verbatim on the official Montana government legal code page. The answer is accurate and fully supported by the statute. No changes required.",
+      "validation_notes": "Live audit on 2026-09-08 found gov_section verbatim on https://revenue.mt.gov/card/cannabis/faqs.",
+      "requires_browser": false,
       "question": "Is it legal for medical marijuana patients to grow cannabis in the state of Montana?",
-      "gov_section": "\"A registered cardholder who has not named a provider may possess up to four mature marijuana plants, four seedlings, and the amount of usable marijuana allowed by the department by rule.\""
+      "gov_section": "Medical marijuana cardholders may cultivate up to four mature plants and four seedlings"
     }
   },
   "answers": {
@@ -84,7 +92,8 @@
     "MEDICAL_STORE": "YES",
     "MEDICAL_GROW": "YES"
   },
-  "lastResearch": "2026-01-13T06:45:00.000Z",
-  "lastUpdate": "2026-01-13T06:45:00.000Z",
-  "primaryGovUrl": "https://mtrevenue.gov/cannabis/"
+  "lastResearch": "2026-09-08T16:38:23.844Z",
+  "lastUpdate": "2026-09-08T16:38:23.844Z",
+  "primaryGovUrl": "https://revenue.mt.gov/card/cannabis/",
+  "sourceNotes": "The official cannabis homepage moved from mtrevenue.gov/cannabis/ to https://revenue.mt.gov/card/cannabis/, walked on 2026-09-08. This host is the Department of Revenue Cannabis and Alcohol Regulation Division. The FAQ at /card/cannabis/faqs answers adult possession, adult purchase, adult and medical home cultivation, and the public-consumption ban. Cardholder Information answers medical dispensary purchase. Know Before You Go answers cardholder possession limits. The 2026 visitor checklist at /ResponsibilityMatters/2026/cannabis-checklist names parks, sidewalks, and hotels as public use. Know Before You Grow restates adult and cardholder plant counts and that a caregiver may cultivate for a cardholder. The old mtrevenue.gov/cannabis/cardholders/ path is a 404. Citations that had been on revenuefiles.mt.gov and leg.mt.gov were replaced because those hosts are not the requested source and this host already answers the questions. Fetch with browser headers returns 200 and the excerpts are in the HTML, so these rows do not need a browser."
 }
