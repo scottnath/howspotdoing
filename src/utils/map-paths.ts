@@ -27,10 +27,18 @@ let cache: Map<string, StatePath> | undefined;
 export const statePaths = (): Map<string, StatePath> => {
   if (cache) return cache;
   const require = createRequire(import.meta.url);
-  const topo = require('us-atlas/states-10m.json') as Topology<{ states: GeometryCollection }>;
-  const projection = geoAlbersUsa().scale(1300).translate([MAP_W / 2, MAP_H / 2]);
+  const topo = require('us-atlas/states-10m.json') as Topology<{
+    states: GeometryCollection;
+  }>;
+  const projection = geoAlbersUsa()
+    .scale(1300)
+    .translate([MAP_W / 2, MAP_H / 2]);
   const path = geoPath(projection);
-  const feats = (feature(topo, topo.objects.states) as unknown as { features: Feature<Geometry>[] }).features;
+  const feats = (
+    feature(topo, topo.objects.states) as unknown as {
+      features: Feature<Geometry>[];
+    }
+  ).features;
   cache = new Map();
   for (const f of feats) {
     const d = path(f);

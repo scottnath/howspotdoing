@@ -21,7 +21,9 @@ export async function getStaticPaths() {
 
 const { location } = Astro.params;
 // Extract slug from path (handles both "new-york" and "united-states/new-york")
-const slug = (location?.includes('/') ? location.split('/').pop() : location) as string;
+const slug = (
+  location?.includes('/') ? location.split('/').pop() : location
+) as string;
 const content = await getEntry('locations', `hpd-${slug}`);
 if (!content) throw new Error(`No location for slug ${slug}`);
 
@@ -35,7 +37,10 @@ const next = all[(i + 1) % all.length];
 
 const { location: name, legality } = content.data;
 const host = content.data.primaryGovUrl
-  ? content.data.primaryGovUrl.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0]
+  ? content.data.primaryGovUrl
+      .replace(/^https?:\/\//, '')
+      .replace(/^www\./, '')
+      .split('/')[0]
   : 'official .gov sources';
 const title = `How's Pot Doing in ${name}?`;
 const description = `Cannabis is ${legality}% legal in ${name}. Verified on ${host}.`;

@@ -9,7 +9,11 @@ const { segments, rows, label } = Astro.props;
 ---
 
 <div class="bar" role="img" aria-label={label}>
-  {segments.map((s) => <span style={`width:${s.width}%;background:${s.color}`} />)}
+  {
+    segments.map((s) => (
+      <span style={`width:${s.width}%;background:${s.color}`} />
+    ))
+  }
 </div>
 <dl class="rows">
   {

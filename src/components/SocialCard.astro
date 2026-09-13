@@ -23,7 +23,13 @@ const stateSize = location.length > 10 ? 76 : 92;
 ---
 
 <div class="card" style={`--band:${bandHex}`}>
-  <svg class="frame" viewBox="0 0 1200 630" width="1200" height="630" aria-hidden="true">
+  <svg
+    class="frame"
+    viewBox="0 0 1200 630"
+    width="1200"
+    height="630"
+    aria-hidden="true"
+  >
     <rect x="34" y="34" width="1132" height="562" rx="28" fill="#fbfaf6"></rect>
     <rect
       x="17"
@@ -41,7 +47,13 @@ const stateSize = location.length > 10 ? 76 : 92;
   {
     site ? (
       <div class="mid">
-        <svg class="leaf" viewBox="0 0 100 100" width="260" height="260" aria-hidden="true">
+        <svg
+          class="leaf"
+          viewBox="0 0 100 100"
+          width="260"
+          height="260"
+          aria-hidden="true"
+        >
           <path
             d="M35 24a15 15 0 1 1 30 0c0 9 -15 9 -15 20"
             fill="none"
@@ -66,7 +78,12 @@ const stateSize = location.length > 10 ? 76 : 92;
               stroke-width="2.5"
               stroke-linejoin="round"
             />
-            <path d="M50 62v14" stroke="#000" stroke-width="3.5" stroke-linecap="round" />
+            <path
+              d="M50 62v14"
+              stroke="#000"
+              stroke-width="3.5"
+              stroke-linecap="round"
+            />
           </g>
         </svg>
         <p class="ask">Is pot legal where you are?</p>
@@ -141,8 +158,9 @@ const stateSize = location.length > 10 ? 76 : 92;
   .leaf {
     display: block;
     overflow: visible;
-    filter: drop-shadow(2px 2px 0 #000) drop-shadow(1px 1px 0 #000) drop-shadow(1px 1px 0 #000)
-      drop-shadow(1px 1px 0 #000) drop-shadow(1px 1px 0 #000);
+    filter: drop-shadow(2px 2px 0 #000) drop-shadow(1px 1px 0 #000)
+      drop-shadow(1px 1px 0 #000) drop-shadow(1px 1px 0 #000)
+      drop-shadow(1px 1px 0 #000);
   }
   .ask {
     font-size: 64px;

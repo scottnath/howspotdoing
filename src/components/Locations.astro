@@ -7,27 +7,52 @@ import { markText } from '../utils/marks';
 import { slugOf } from '../utils/states';
 
 const locations = (await getCollection('locations')).sort(
-  (a, b) => b.data.legality - a.data.legality || a.data.location.localeCompare(b.data.location)
+  (a, b) =>
+    b.data.legality - a.data.legality ||
+    a.data.location.localeCompare(b.data.location)
 );
 
 const cells = (a: (typeof locations)[number]['data']['answers']) => [
-  { value: a.RECREATIONAL, label: `Legal to have: ${markText(a.RECREATIONAL)}` },
-  { value: a.RECREATIONAL_STORE, label: `Buy in store: ${markText(a.RECREATIONAL_STORE)}` },
-  { value: a.RECREATIONAL_GROW, label: `Grow at home: ${markText(a.RECREATIONAL_GROW)}` },
-  { value: a.MEDICAL, label: `Legal to have (medical): ${markText(a.MEDICAL)}` },
-  { value: a.MEDICAL_STORE, label: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}` },
-  { value: a.MEDICAL_GROW, label: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}` },
+  {
+    value: a.RECREATIONAL,
+    label: `Legal to have: ${markText(a.RECREATIONAL)}`,
+  },
+  {
+    value: a.RECREATIONAL_STORE,
+    label: `Buy in store: ${markText(a.RECREATIONAL_STORE)}`,
+  },
+  {
+    value: a.RECREATIONAL_GROW,
+    label: `Grow at home: ${markText(a.RECREATIONAL_GROW)}`,
+  },
+  {
+    value: a.MEDICAL,
+    label: `Legal to have (medical): ${markText(a.MEDICAL)}`,
+  },
+  {
+    value: a.MEDICAL_STORE,
+    label: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}`,
+  },
+  {
+    value: a.MEDICAL_GROW,
+    label: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}`,
+  },
 ];
 ---
 
 <div class="top">
   <h1>Cannabis legality by state</h1>
   <form class="tools" role="search" onsubmit="return false">
-  <input type="search" placeholder="Find a state" aria-label="Find a state" autocomplete="off" />
-  <div class="seg" role="group" aria-label="Sort">
-    <button type="button" data-sort="score" aria-pressed="true">Score</button>
-    <button type="button" data-sort="name" aria-pressed="false">A–Z</button>
-  </div>
+    <input
+      type="search"
+      placeholder="Find a state"
+      aria-label="Find a state"
+      autocomplete="off"
+    />
+    <div class="seg" role="group" aria-label="Sort">
+      <button type="button" data-sort="score" aria-pressed="true">Score</button>
+      <button type="button" data-sort="name" aria-pressed="false">A–Z</button>
+    </div>
   </form>
 </div>
 
@@ -84,8 +109,8 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
 </div>
 
 <p class="note">
-  Tap a state for the full report and .gov sources. <span class="dot"></span> = legal from a future
-  date
+  Tap a state for the full report and .gov sources. <span class="dot"></span> = legal
+  from a future date
 </p>
 
 <style>
@@ -171,7 +196,9 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
     align-items: center;
   }
   .groups {
-    grid-template-columns: minmax(0, 1fr) calc(26px * 3 + 8px) 10px calc(26px * 3 + 8px);
+    grid-template-columns: minmax(0, 1fr) calc(26px * 3 + 8px) 10px calc(
+        26px * 3 + 8px
+      );
   }
   .grp {
     font-size: 10px;
@@ -217,9 +244,10 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
     white-space: nowrap;
   }
   @media (max-width: 767px) {
+    /* let the last rotated label run into the page gutter without causing horizontal scroll */
     .cols {
-      padding-right: 22px;
-      margin-right: -22px;
+      padding-right: var(--page-pad);
+      margin-right: calc(-1 * var(--page-pad));
     }
   }
 
@@ -326,7 +354,9 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
       --cols: minmax(0, 1fr) repeat(3, 52px) 20px repeat(3, 52px);
     }
     .groups {
-      grid-template-columns: minmax(0, 1fr) calc(52px * 3 + 8px) 20px calc(52px * 3 + 8px);
+      grid-template-columns: minmax(0, 1fr) calc(52px * 3 + 8px) 20px calc(
+          52px * 3 + 8px
+        );
     }
     .col {
       height: auto;
@@ -362,7 +392,9 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
       --cols: minmax(0, 1fr) repeat(3, 64px) 24px repeat(3, 64px);
     }
     .groups {
-      grid-template-columns: minmax(0, 1fr) calc(64px * 3 + 8px) 24px calc(64px * 3 + 8px);
+      grid-template-columns: minmax(0, 1fr) calc(64px * 3 + 8px) 24px calc(
+          64px * 3 + 8px
+        );
     }
     .row {
       min-height: 48px;
@@ -377,8 +409,11 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
   const empty = document.querySelector<HTMLElement>('.empty');
   if (tools && rows && empty) {
     const input = tools.querySelector('input') as HTMLInputElement;
-    const buttons = Array.from(tools.querySelectorAll<HTMLButtonElement>('button[data-sort]'));
-    const all = () => Array.from(rows.querySelectorAll<HTMLAnchorElement>('a.row'));
+    const buttons = Array.from(
+      tools.querySelectorAll<HTMLButtonElement>('button[data-sort]')
+    );
+    const all = () =>
+      Array.from(rows.querySelectorAll<HTMLAnchorElement>('a.row'));
 
     const sort = (by: string) => {
       const sorted = all().sort((a, b) =>
@@ -388,7 +423,9 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
             a.dataset.name!.localeCompare(b.dataset.name!)
       );
       sorted.forEach((r) => rows.appendChild(r));
-      buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.sort === by)));
+      buttons.forEach((b) =>
+        b.setAttribute('aria-pressed', String(b.dataset.sort === by))
+      );
       try {
         localStorage.setItem(KEY, by);
       } catch {
@@ -405,10 +442,14 @@ const cells = (a: (typeof locations)[number]['data']['answers']) => [
         if (hit) shown++;
       });
       empty.hidden = shown > 0;
-      empty.textContent = shown ? '' : `No state matches "${input.value.trim()}"`;
+      empty.textContent = shown
+        ? ''
+        : `No state matches "${input.value.trim()}"`;
     };
 
-    buttons.forEach((b) => b.addEventListener('click', () => sort(b.dataset.sort!)));
+    buttons.forEach((b) =>
+      b.addEventListener('click', () => sort(b.dataset.sort!))
+    );
     input.addEventListener('input', filter);
 
     let saved: string | null = null;

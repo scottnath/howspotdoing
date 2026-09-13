@@ -22,9 +22,23 @@ export const BAND_KEYS: BandKey[] = ['100', '80', '50', '30', '0'];
 /** Maps a legality score (0–100) to its band. Scoring itself lives in content.config.ts. */
 export const band = (score: number) => {
   const key: BandKey =
-    score >= 100 ? '100' : score >= 80 ? '80' : score >= 50 ? '50' : score >= 30 ? '30' : '0';
-  return { key, label: LABELS[key], color: `var(--band-${key})`, hex: HEX[key] };
+    score >= 100
+      ? '100'
+      : score >= 80
+        ? '80'
+        : score >= 50
+          ? '50'
+          : score >= 30
+            ? '30'
+            : '0';
+  return {
+    key,
+    label: LABELS[key],
+    color: `var(--band-${key})`,
+    hex: HEX[key],
+  };
 };
 
 /** Text color that passes on that band fill */
-export const onBand = (score: number) => (score >= 100 || score < 30 ? '#fff' : '#111');
+export const onBand = (score: number) =>
+  score >= 100 || score < 30 ? '#fff' : '#111';

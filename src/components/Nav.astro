@@ -14,7 +14,10 @@ const items: { key: Current; href: string; label: string }[] = [
 <nav aria-label="Site">
   {
     items.map((item) => (
-      <a href={item.href} aria-current={item.key === current ? 'page' : undefined}>
+      <a
+        href={item.href}
+        aria-current={item.key === current ? 'page' : undefined}
+      >
         {item.label}
       </a>
     ))

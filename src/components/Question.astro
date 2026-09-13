@@ -3,19 +3,44 @@ import Mark from '@components/Mark.astro';
 const { report } = Astro.props;
 let urlVisible = '';
 if (report.url) {
-  urlVisible = report.url.replace('https://', '').replace('http://', '').replace('www.', '').split('/')[0];
+  urlVisible = report.url
+    .replace('https://', '')
+    .replace('http://', '')
+    .replace('www.', '')
+    .split('/')[0];
 }
-const answerText = report.answer == null || report.answer === '' ? 'NO' : String(report.answer);
+const answerText =
+  report.answer == null || report.answer === '' ? 'NO' : String(report.answer);
 ---
 
-<section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="q">
-  {/* spec 04: YES is a green check; every other answer (NO, N/A, a date…) is a red cross — the text says which */}
-  <Mark value={report.answer === 'YES' ? 'YES' : 'NO'} size={40} label={answerText} decorative />
+<section
+  itemscope
+  itemprop="mainEntity"
+  itemtype="https://schema.org/Question"
+  class="q"
+>
+  {
+    /* spec 04: YES is a green check; every other answer (NO, N/A, a date…) is a red cross — the text says which */
+  }
+  <Mark
+    value={report.answer === 'YES' ? 'YES' : 'NO'}
+    size={40}
+    label={answerText}
+    decorative
+  />
   <div>
     <h3 itemprop="name">{report.question}</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <div
+      itemscope
+      itemprop="acceptedAnswer"
+      itemtype="https://schema.org/Answer"
+    >
       <p class="a" itemprop="text">{answerText}</p>
-      <div itemprop="answerExplanation" itemscope itemtype="https://schema.org/WebContent">
+      <div
+        itemprop="answerExplanation"
+        itemscope
+        itemtype="https://schema.org/WebContent"
+      >
         {
           report.gov_quote && (
             <blockquote itemprop="text">

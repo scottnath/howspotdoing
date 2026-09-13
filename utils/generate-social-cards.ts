@@ -86,8 +86,8 @@ async function generateSocialCards(): Promise<void> {
   }
 
   // Get all location files
-  const locationFiles = readdirSync(contentPath).filter((file) =>
-    file.startsWith('hpd-') && file.endsWith('.json')
+  const locationFiles = readdirSync(contentPath).filter(
+    (file) => file.startsWith('hpd-') && file.endsWith('.json')
   );
 
   // 'site' renders the site-wide card (public/social-cards/site.png)

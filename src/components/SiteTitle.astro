@@ -7,10 +7,8 @@ export interface Props {
 const { title = "How's Pot Doing", href = '/', size = 'header' } = Astro.props;
 ---
 
-<a class:list={['site-title', size]} href={href}>{title}<svg
-    class="qm"
-    viewBox="0 0 100 100"
-    aria-hidden="true"
+<a class:list={['site-title', size]} href={href}
+  >{title}<svg class="qm" viewBox="0 0 100 100" aria-hidden="true"
     ><path
       d="M35 24a15 15 0 1 1 30 0c0 9 -15 9 -15 20"
       fill="none"
@@ -66,8 +64,10 @@ const { title = "How's Pot Doing", href = '/', size = 'header' } = Astro.props;
     margin-left: -6px;
     display: block;
     overflow: visible;
-    filter: drop-shadow(2px 2px 0 var(--title-shadow)) drop-shadow(1px 1px 0 var(--title-shadow))
-      drop-shadow(1px 1px 0 var(--title-shadow)) drop-shadow(1px 1px 0 var(--title-shadow))
+    filter: drop-shadow(2px 2px 0 var(--title-shadow))
+      drop-shadow(1px 1px 0 var(--title-shadow))
+      drop-shadow(1px 1px 0 var(--title-shadow))
+      drop-shadow(1px 1px 0 var(--title-shadow))
       drop-shadow(1px 1px 0 var(--title-shadow));
   }
   /* OG card: always light, larger, heavier stroke */

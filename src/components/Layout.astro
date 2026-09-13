@@ -53,7 +53,9 @@ const {
 // Determine the OG image URL - use social card if slug provided, otherwise default
 const ogImageUrl =
   seoConfig.baseURL +
-  (socialCardSlug ? `/social-cards/${socialCardSlug}.png` : seoConfig.image.url);
+  (socialCardSlug
+    ? `/social-cards/${socialCardSlug}.png`
+    : seoConfig.image.url);
 ---
 
 <html lang="en">
@@ -73,7 +75,9 @@ const ogImageUrl =
         image: {
           width: seoConfig.image.width,
           height: seoConfig.image.height,
-          alt: socialCardSlug ? socialCardAlt || `${title} social card` : seoConfig.image.alt || image?.alt,
+          alt: socialCardSlug
+            ? socialCardAlt || `${title} social card`
+            : seoConfig.image.alt || image?.alt,
         },
         optional: {
           siteName: seoConfig.siteName,
@@ -85,7 +89,9 @@ const ogImageUrl =
         title: ogTitle || title,
         description: description || seoConfig.description,
         image: ogImageUrl || image?.url,
-        imageAlt: socialCardSlug ? socialCardAlt || `${title} social card` : seoConfig.image.alt,
+        imageAlt: socialCardSlug
+          ? socialCardAlt || `${title} social card`
+          : seoConfig.image.alt,
       }}
     />
 

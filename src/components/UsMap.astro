@@ -21,7 +21,10 @@ const states = [...locations]
   .sort((a, b) => a.data.location.localeCompare(b.data.location))
   .map((entry) => {
     const p = paths.get(entry.data.fips);
-    if (!p) throw new Error(`UsMap: no outline for ${entry.data.location} (fips ${entry.data.fips})`);
+    if (!p)
+      throw new Error(
+        `UsMap: no outline for ${entry.data.location} (fips ${entry.data.fips})`
+      );
     const a = entry.data.answers;
     return {
       slug: slugOf(entry.id),
@@ -30,12 +33,36 @@ const states = [...locations]
       fips: entry.data.fips,
       checked: shortDate(entry.data.lastResearchISO),
       marks: [
-        { label: 'Legal', value: a.RECREATIONAL, aria: `Legal to have: ${markText(a.RECREATIONAL)}` },
-        { label: 'Store', value: a.RECREATIONAL_STORE, aria: `Buy in store: ${markText(a.RECREATIONAL_STORE)}` },
-        { label: 'Grow', value: a.RECREATIONAL_GROW, aria: `Grow at home: ${markText(a.RECREATIONAL_GROW)}` },
-        { label: 'Legal', value: a.MEDICAL, aria: `Legal to have (medical): ${markText(a.MEDICAL)}` },
-        { label: 'Store', value: a.MEDICAL_STORE, aria: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}` },
-        { label: 'Grow', value: a.MEDICAL_GROW, aria: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}` },
+        {
+          label: 'Legal',
+          value: a.RECREATIONAL,
+          aria: `Legal to have: ${markText(a.RECREATIONAL)}`,
+        },
+        {
+          label: 'Store',
+          value: a.RECREATIONAL_STORE,
+          aria: `Buy in store: ${markText(a.RECREATIONAL_STORE)}`,
+        },
+        {
+          label: 'Grow',
+          value: a.RECREATIONAL_GROW,
+          aria: `Grow at home: ${markText(a.RECREATIONAL_GROW)}`,
+        },
+        {
+          label: 'Legal',
+          value: a.MEDICAL,
+          aria: `Legal to have (medical): ${markText(a.MEDICAL)}`,
+        },
+        {
+          label: 'Store',
+          value: a.MEDICAL_STORE,
+          aria: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}`,
+        },
+        {
+          label: 'Grow',
+          value: a.MEDICAL_GROW,
+          aria: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}`,
+        },
       ],
       path: p,
     };
@@ -68,14 +95,18 @@ const label = `Map of the United States. ${states.length} states, each a link to
         </a>
       ))
     }
-    {/* hot-state overlay: a copy of the hovered/focused shape drawn last, so its ring is never clipped
-        by neighbors and the tab order (DOM order) never changes */}
+    {
+      /* hot-state overlay: a copy of the hovered/focused shape drawn last, so its ring is never clipped
+        by neighbors and the tab order (DOM order) never changes */
+    }
     <g class="hot" aria-hidden="true" data-off>
-      <use class="edge" />
-      <use class="ring" />
+      <use class="edge"></use>
+      <use class="ring"></use>
     </g>
   </svg>
-  <p class="cap" aria-live="polite" aria-atomic="true"><span class="hint">Tap a state for its report</span></p>
+  <p class="cap" aria-live="polite" aria-atomic="true">
+    <span class="hint">Tap a state for its report</span>
+  </p>
   <div class="tip" role="tooltip" aria-hidden="true"></div>
   {
     /* Pop-up contents, pre-rendered per state so the map pop-up shares Mark.astro */
@@ -312,7 +343,9 @@ const label = `Map of the United States. ${states.length} states, each a link to
     const cap = root.querySelector('.cap') as HTMLElement;
     const tip = root.querySelector('.tip') as HTMLElement;
     const touch = matchMedia('(hover: none)').matches;
-    const hint = touch ? '<span class="hint">Tap a state for its report</span>' : '';
+    const hint = touch
+      ? '<span class="hint">Tap a state for its report</span>'
+      : '';
     const W = 975;
 
     const restCap = () => {
@@ -320,7 +353,8 @@ const label = `Map of the United States. ${states.length} states, each a link to
     };
     const showCap = (a: HTMLElement) => {
       cap.innerHTML =
-        `<span class="visually-hidden">${a.dataset.name}, ${a.dataset.score}% legal.</span>` + hint;
+        `<span class="visually-hidden">${a.dataset.name}, ${a.dataset.score}% legal.</span>` +
+        hint;
     };
 
     let shown = '';
@@ -342,7 +376,8 @@ const label = `Map of the United States. ${states.length} states, each a link to
       let left = rx + o;
       let top = ry - th - o;
       if (left + tw > box.width - 4) left = rx - tw - o;
-      if (left < 4) left = Math.min(Math.max(4, rx - tw / 2), box.width - tw - 4);
+      if (left < 4)
+        left = Math.min(Math.max(4, rx - tw / 2), box.width - tw - 4);
       if (top < 4) top = ry + o;
       if (top + th > box.height - 4) top = Math.max(4, box.height - th - 4);
       tip.style.transform = `translate(${Math.round(left)}px,${Math.round(top)}px)`;

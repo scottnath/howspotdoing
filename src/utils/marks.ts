@@ -10,12 +10,22 @@ export const markKind = (v: unknown): MarkKind =>
 /** "MMM D, YYYY" — used by the map pop-up and location meta. */
 export const shortDate = (iso: string): string => {
   const d = new Date(iso);
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'UTC',
+  });
 };
 
 /** "July 1, 2027" — used in mark labels. */
 export const longDate = (iso: string): string =>
-  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+  new Date(iso).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC',
+  });
 
 /** Text for aria-labels: "YES", "NO", or "legal from July 1, 2027". */
 export const markText = (v: unknown): string =>

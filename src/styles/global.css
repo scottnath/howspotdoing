@@ -21,11 +21,11 @@
   --bg: #ffffff;
   --fg: #111111;
   --muted: #555555;
-  --line: #e6e6e1;          /* row dividers, bar tracks */
-  --card: #f4f4ef;          /* recessed panels (marks summary, about note) */
+  --line: #e6e6e1; /* row dividers, bar tracks */
+  --card: #f4f4ef; /* recessed panels (marks summary, about note) */
   --link: #004d00;
   --link-hover: #007a00;
-  --title-shadow: #000000;  /* hard shadow behind the Scripto title */
+  --title-shadow: #000000; /* hard shadow behind the Scripto title */
   --bar-inset: inset 0 0 0 1.5px rgba(0, 0, 0, 0.45); /* keeps yellow bars visible on white */
   --map-border: #ffffff;
   --map-ring: #111111;
@@ -42,10 +42,10 @@
   --band-0: #d00000;
 
   /* marks */
-  --mark-yes: #00bf00;      /* ✓ ink #000 */
-  --mark-no: #d00000;       /* ✕ ink #fff */
-  --mark-date: #fee03c;     /* '27 ink #000 */
-  --rec-rule: #00bf00;      /* underline under "Recreational" headers */
+  --mark-yes: #00bf00; /* ✓ ink #000 */
+  --mark-no: #d00000; /* ✕ ink #fff */
+  --mark-date: #fee03c; /* '27 ink #000 */
+  --rec-rule: #00bf00; /* underline under "Recreational" headers */
 
   /* type */
   --font-ui: 'Figtree', system-ui, sans-serif;
@@ -53,7 +53,7 @@
 
   /* layout */
   --page-max: 1040px;
-  --page-pad: 16px;         /* 32px from 768 */
+  --page-pad: 16px; /* 32px from 768 */
 }
 
 @media (prefers-color-scheme: dark) {

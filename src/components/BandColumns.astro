@@ -9,7 +9,9 @@ export interface Props {
 }
 const { locations } = Astro.props;
 
-const sorted = [...locations].sort((a, b) => a.data.location.localeCompare(b.data.location));
+const sorted = [...locations].sort((a, b) =>
+  a.data.location.localeCompare(b.data.location)
+);
 const columns = BAND_KEYS.map((key) => ({
   ...band(Number(key)),
   states: sorted.filter((l) => band(l.data.legality).key === key),
@@ -28,7 +30,12 @@ const columns = BAND_KEYS.map((key) => ({
           {c.states.map((l) => (
             <li>
               <a href={`/locations/${slugOf(l.id)}/`}>
-                <img src={`/flags/us-${l.data.abbr.toLowerCase()}.png`} alt="" width="20" height="13" />
+                <img
+                  src={`/flags/us-${l.data.abbr.toLowerCase()}.png`}
+                  alt=""
+                  width="20"
+                  height="13"
+                />
                 {l.data.location}
               </a>
             </li>

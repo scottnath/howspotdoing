@@ -13,7 +13,10 @@ export interface Props {
 const { location, prev, next } = Astro.props;
 const d = location.data;
 const host = d.primaryGovUrl
-  ? d.primaryGovUrl.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0]
+  ? d.primaryGovUrl
+      .replace(/^https?:\/\//, '')
+      .replace(/^www\./, '')
+      .split('/')[0]
   : '';
 const reviewed = shortDate(d.lastResearchISO);
 ---
@@ -31,7 +34,14 @@ const reviewed = shortDate(d.lastResearchISO);
       <h1 itemprop="name"><span class="in">in</span> {d.location}</h1>
       <p class="meta">
         Reviewed <time datetime={d.lastResearchISO}>{reviewed}</time>
-        {d.primaryGovUrl && (<> · Official info: <a href={d.primaryGovUrl}>{host}</a></>)}
+        {
+          d.primaryGovUrl && (
+            <>
+              {' '}
+              · Official info: <a href={d.primaryGovUrl}>{host}</a>
+            </>
+          )
+        }
       </p>
     </header>
     <StateMarks answers={d.answers} />
@@ -55,7 +65,9 @@ const reviewed = shortDate(d.lastResearchISO);
   </section>
 
   <p class="foot">
-    Quotes are from the state's own .gov pages. How the score works is on the <a href="/about/">about</a> page.
+    Quotes are from the state's own .gov pages. How the score works is on the <a
+      href="/about/">about</a
+    > page.
   </p>
 </article>
 
