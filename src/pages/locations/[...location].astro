@@ -1,15 +1,15 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import Layout from '@components/Layout.astro';
 import Location from '@components/Location.astro';
-import { seoConfig } from '@util/seoConfig';
-import { getEntry } from 'astro:content';
+import { slugOf } from '../../utils/states';
+
 export async function getStaticPaths() {
   const locations = await getCollection('locations');
 
   return locations.flatMap((entry) => {
     // Convert hpd-new-york to new-york (remove hpd- prefix)
-    const slug = entry.id.replace(/^hpd-/, '');
+    const slug = slugOf(entry.id);
     return [
       // /locations/[location]
       { params: { location: slug }, props: { entry } },
@@ -21,12 +21,32 @@ export async function getStaticPaths() {
 
 const { location } = Astro.params;
 // Extract slug from path (handles both "new-york" and "united-states/new-york")
-const slug = location?.includes('/') ? location.split('/').pop() : location;
+const slug = (location?.includes('/') ? location.split('/').pop() : location) as string;
 const content = await getEntry('locations', `hpd-${slug}`);
-const title = `${content.data.answer} - ${seoConfig.siteNickname}`;
+if (!content) throw new Error(`No location for slug ${slug}`);
+
+// prev / next: alphabetical over the whole collection, wrapping
+const all = (await getCollection('locations'))
+  .sort((a, b) => a.data.location.localeCompare(b.data.location))
+  .map((e) => ({ name: e.data.location, slug: slugOf(e.id) }));
+const i = all.findIndex((e) => e.slug === slug);
+const prev = all[(i - 1 + all.length) % all.length];
+const next = all[(i + 1) % all.length];
+
+const { location: name, legality } = content.data;
+const host = content.data.primaryGovUrl
+  ? content.data.primaryGovUrl.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0]
+  : 'official .gov sources';
+const title = `How's Pot Doing in ${name}?`;
+const description = `Cannabis is ${legality}% legal in ${name}. Verified on ${host}.`;
 ---
 
-<Layout title={title} bodyClass="location-page" socialCardSlug={slug}>
-  <Location location={content} />
+<Layout
+  title={title}
+  description={description}
+  current="locations"
+  socialCardSlug={slug}
+  socialCardAlt={`Cannabis is ${legality}% legal in ${name} — How's Pot Doing`}
+>
+  <Location location={content} prev={prev} next={next} />
 </Layout>
-

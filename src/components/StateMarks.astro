@@ -1,0 +1,100 @@
+---
+/** Recreational / Medical summary panel on the location page. */
+import Mark from '@components/Mark.astro';
+import { markText } from '../utils/marks';
+
+export interface Props {
+  answers: Record<string, string | null | undefined>;
+}
+const { answers: a } = Astro.props;
+
+const groups = [
+  {
+    title: 'Recreational',
+    kind: 'rec',
+    rows: [
+      { label: 'Legal to have', value: a.RECREATIONAL, aria: `Legal to have: ${markText(a.RECREATIONAL)}` },
+      { label: 'Buy in store', value: a.RECREATIONAL_STORE, aria: `Buy in store: ${markText(a.RECREATIONAL_STORE)}` },
+      { label: 'Grow at home', value: a.RECREATIONAL_GROW, aria: `Grow at home: ${markText(a.RECREATIONAL_GROW)}` },
+    ],
+  },
+  {
+    title: 'Medical',
+    kind: 'med',
+    rows: [
+      { label: 'Legal to have', value: a.MEDICAL, aria: `Legal to have (medical): ${markText(a.MEDICAL)}` },
+      { label: 'Buy in store', value: a.MEDICAL_STORE, aria: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}` },
+      { label: 'Grow at home', value: a.MEDICAL_GROW, aria: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}` },
+    ],
+  },
+];
+---
+
+<div class="marks">
+  {
+    groups.map((g) => (
+      <div>
+        <h3 class={g.kind}>{g.title}</h3>
+        <ul>
+          {g.rows.map((r) => (
+            <li>
+              <Mark value={r.value} label={r.aria} />
+              {r.label}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .marks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 14px;
+    border-radius: 14px;
+    background: var(--card);
+    margin-top: 20px;
+  }
+  h3 {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+  }
+  h3.rec {
+    border-bottom: 2px solid var(--rec-rule);
+  }
+  h3.med {
+    border-bottom: 2px solid var(--fg);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  @media (min-width: 1024px) {
+    .marks {
+      gap: 20px;
+      padding: 18px 20px;
+      border-radius: 16px;
+      margin-top: 34px;
+    }
+    li {
+      min-height: 34px;
+    }
+  }
+</style>

@@ -1,81 +1,97 @@
 ---
+import Mark from '@components/Mark.astro';
 const { report } = Astro.props;
 let urlVisible = '';
 if (report.url) {
   urlVisible = report.url.replace('https://', '').replace('http://', '').replace('www.', '').split('/')[0];
 }
+const answerText = report.answer == null || report.answer === '' ? 'NO' : String(report.answer);
 ---
 
-<section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="question">
-  <h2 itemprop="name">{report.question}</h2>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-    <p itemprop="text">{report.answer}</p>
-    <div
-      itemprop="answerExplanation"
-      itemscope
-      itemtype="https://schema.org/WebContent"
-    >
-      {
-        report.gov_quote && (
-          <blockquote itemprop="text">
-            "{report.gov_quote}" -{' '}
-            <cite itemprop="citation">
-              <a href={report.url}>{urlVisible}</a>
-            </cite>
-          </blockquote>
-        )
-      }
+<section itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="q">
+  {/* spec 04: YES is a green check; every other answer (NO, N/A, a date…) is a red cross — the text says which */}
+  <Mark value={report.answer === 'YES' ? 'YES' : 'NO'} size={40} label={answerText} decorative />
+  <div>
+    <h3 itemprop="name">{report.question}</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="a" itemprop="text">{answerText}</p>
+      <div itemprop="answerExplanation" itemscope itemtype="https://schema.org/WebContent">
+        {
+          report.gov_quote && (
+            <blockquote itemprop="text">
+              “{report.gov_quote}”{' '}
+              <cite itemprop="citation">
+                — <a href={report.url}>{urlVisible}</a>
+              </cite>
+            </blockquote>
+          )
+        }
+      </div>
     </div>
   </div>
 </section>
 
 <style>
-  :root {
-    --question-margin-bottom: .5rem;
-    --question-font-size: 1.2rem;
-    --question-padding: .1rem;
+  .q {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 0 14px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
   }
-  @media (min-width: 600px) {
-    :root {
-      --question-margin-bottom: 1rem;
-      --question-font-size: 1.5rem;
-      --question-padding: .5rem;
-    }
+  .q :global(.mark svg) {
+    width: 22px;
+    height: 22px;
   }
-  @media (min-width: 900px) {
-    :root {
-      --question-margin-bottom: 1.5rem;
-      --question-font-size: 1.8rem;
-      --question-padding: 1rem;
-    }
+  .q > div {
+    display: flex;
+    flex-direction: column;
   }
-  [itemtype="https://schema.org/Question"] {
-    margin-bottom: var(--question-margin-bottom);
-    border: 1px solid #ccc;
-    padding: var(--question-padding);
-    border-radius: 0.5em;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    >[itemprop="name"] {
-      text-wrap-style: balance;
-      text-align: center;
-      font-size: var(--question-font-size);
-    }
+  /* visual order: answer, question, quote — DOM order keeps h3 first for the microdata + outline */
+  .a {
+    order: 0;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
   }
-  [itemprop="acceptedAnswer"]>[itemprop="text"] {
-    font-size: calc(var(--answer-size) + .3rem);
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
+  h3 {
+    order: 1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+    text-wrap: pretty;
+    letter-spacing: 0;
+  }
+  [itemprop='acceptedAnswer'] {
+    display: contents;
+  }
+  [itemprop='answerExplanation'] {
+    order: 2;
   }
   blockquote {
-    color: #666;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--muted);
     font-style: italic;
-    margin: .5rem 0;
-    font-size: .9rem;
-    cite {
-      white-space: nowrap;
-      overflow: hidden;
-      display: block;;
+  }
+  cite {
+    font-style: normal;
+    white-space: nowrap;
+  }
+  cite a {
+    font-weight: 600;
+    color: var(--link);
+  }
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 18px;
+    }
+    blockquote {
+      font-size: 16px;
     }
   }
 </style>
