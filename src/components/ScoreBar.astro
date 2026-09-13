@@ -1,0 +1,76 @@
+---
+/** Segmented 0–100 score bar with a legend; used twice on the about page. */
+export interface Props {
+  segments: { width: number; color: string }[];
+  rows: { points: string; label: string }[];
+  label: string;
+}
+const { segments, rows, label } = Astro.props;
+---
+
+<div class="bar" role="img" aria-label={label}>
+  {segments.map((s) => <span style={`width:${s.width}%;background:${s.color}`} />)}
+</div>
+<dl class="rows">
+  {
+    rows.map((r, i) => (
+      <>
+        <dt>
+          <i style={`background:${segments[i].color}`} />
+          {r.points}
+        </dt>
+        <dd>{r.label}</dd>
+      </>
+    ))
+  }
+</dl>
+
+<style>
+  .bar {
+    display: flex;
+    height: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--line);
+    margin: 18px 0 12px;
+  }
+  .bar span {
+    display: block;
+    box-shadow: var(--bar-inset);
+    box-sizing: border-box;
+  }
+  .bar span + span {
+    border-left: 2px solid var(--bg);
+  }
+  .rows {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 8px 14px;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+  }
+  dt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+  }
+  dt i {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    box-shadow: var(--bar-inset);
+    flex: none;
+  }
+  dd {
+    margin: 0;
+  }
+  @media (min-width: 1024px) {
+    .rows {
+      font-size: 16px;
+    }
+  }
+</style>

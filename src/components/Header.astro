@@ -15,10 +15,12 @@ const { current } = Astro.props;
 <style>
   .site-header {
     --title-size: 38px;
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 16px var(--page-pad) 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 16px;
   }
   .site-header :global(nav) {
     margin: 10px 0 18px;
