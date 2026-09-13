@@ -1,56 +1,85 @@
 ---
 export interface Props {
   title?: string;
-  location?: string;
+  href?: string;
+  size?: 'header' | 'hero' | 'og';
 }
-const { title, location } = Astro.props;
-const siteTitle = 'How\'s Pot Doing';
-let titleText = siteTitle;
-if (title) {
-  titleText = title.replace('?', '');
-}
+const { title = "How's Pot Doing", href = '/', size = 'header' } = Astro.props;
 ---
 
-<span class="logo-title">
-  <span class="title logo-stroke">
-    {location ? (
-        <span class="text-style">How&apos;s Pot Doing in <span class="loc text-style">{location}<span class="qm">?</span></span></span>
-    ) : (
-      <span class="page text-style">{titleText}<span class="qm">?</span></span>
-    )}
-  </span>
-</span>
+<a class:list={['site-title', size]} href={href}>{title}<svg
+    class="qm"
+    viewBox="0 0 100 100"
+    aria-hidden="true"
+    ><path
+      d="M35 24a15 15 0 1 1 30 0c0 9 -15 9 -15 20"
+      fill="none"
+      stroke="#000"
+      stroke-width="16"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path><path
+      d="M35 24a15 15 0 1 1 30 0c0 9 -15 9 -15 20"
+      fill="none"
+      stroke="#fee03c"
+      stroke-width="11"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path><g
+      transform="translate(50 87.5) scale(0.7) translate(-50 -62)"
+      ><path
+        d="M50 62 Q57.0 39.5 50.0 12.0 Q43.0 39.5 50 62ZM50 62 Q46.0 40.7 28.4 21.4 Q34.5 46.8 50 62ZM50 62 Q65.5 46.8 71.6 21.4 Q54.0 40.7 50 62ZM50 62 Q39.1 47.7 18.9 40.2 Q32.8 56.7 50 62ZM50 62 Q67.2 56.7 81.1 40.2 Q60.9 47.7 50 62ZM50 62 Q38.8 55.5 23.4 57.3 Q37.3 64.3 50 62ZM50 62 Q62.7 64.3 76.6 57.3 Q61.2 55.5 50 62Z"
+        fill="#fee03c"
+        stroke="#000"
+        stroke-width="2.5"
+        stroke-linejoin="round"></path><path
+        d="M50 62v14"
+        stroke="#000"
+        stroke-width="3.5"
+        stroke-linecap="round"></path></g
+    ></svg
+  ><span class="visually-hidden">?</span></a
+>
 
 <style>
-.text-style {
-  font-family: 'Scripto', cursive;
-  color: var(--the-yellow);
-  font-size: var(--logo-title-size);
-  font-weight: 500;
-}
-.logo-title {
-  margin: 0 0 24px 0;
-  text-align: center;
-  opacity: 0.9;
-  .span {
-    font-family: 'Scripto', cursive;
-  }
-  .loc {
+  .site-title {
+    display: inline-flex;
+    align-items: center;
     white-space: nowrap;
+    text-decoration: none;
+    font: 400 var(--title-size, 38px) / 1 var(--font-title);
+    color: var(--yellow);
+    -webkit-text-stroke: 1.5px #000;
+    paint-order: stroke fill;
+    text-shadow:
+      2px 2px 0 var(--title-shadow),
+      3px 3px 0 var(--title-shadow),
+      4px 4px 0 var(--title-shadow),
+      5px 5px 0 var(--title-shadow),
+      6px 6px 0 var(--title-shadow);
+    padding-right: 10px;
   }
-}
-  .qm {
-    display: inline-block;
-    width: var(--logo-size);
-    height: var(--logo-size);
-    background-image: url('/hows-pot-doing.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 1.2em;
-    color: transparent;
-    vertical-align: middle;
-    text-indent: 999em;
-    margin: -.6rem 0 0 1px;
+  .site-title:hover {
+    color: var(--yellow);
+  }
+  .site-title .qm {
+    width: calc(var(--title-size, 38px) - 2px);
+    height: calc(var(--title-size, 38px) - 2px);
+    margin-left: -6px;
+    display: block;
+    overflow: visible;
+    filter: drop-shadow(2px 2px 0 var(--title-shadow)) drop-shadow(1px 1px 0 var(--title-shadow))
+      drop-shadow(1px 1px 0 var(--title-shadow)) drop-shadow(1px 1px 0 var(--title-shadow))
+      drop-shadow(1px 1px 0 var(--title-shadow));
+  }
+  /* OG card: always light, larger, heavier stroke */
+  .site-title.og {
+    --title-size: 76px;
+    --title-shadow: #000;
+    -webkit-text-stroke: 2px #000;
+    padding-right: 0;
+  }
+  .site-title.og .qm {
+    width: 74px;
+    height: 74px;
+    margin-left: -4px;
   }
 </style>
