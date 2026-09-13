@@ -1,0 +1,117 @@
+---
+/** The "Cannabis is …" lists: one column per band that has states. */
+import type { CollectionEntry } from 'astro:content';
+import { BAND_KEYS, band } from '../utils/band';
+import { slugOf } from '../utils/states';
+
+export interface Props {
+  locations: CollectionEntry<'locations'>[];
+}
+const { locations } = Astro.props;
+
+const sorted = [...locations].sort((a, b) => a.data.location.localeCompare(b.data.location));
+const columns = BAND_KEYS.map((key) => ({
+  ...band(Number(key)),
+  states: sorted.filter((l) => band(l.data.legality).key === key),
+})).filter((c) => c.states.length > 0);
+---
+
+<div class="columns">
+  {
+    columns.map((c) => (
+      <div class="band">
+        <div class="head" style={`border-top:4px solid ${c.color}`}>
+          <div class="pct">{c.label}</div>
+          <div class="word">legal</div>
+        </div>
+        <ul class="states">
+          {c.states.map((l) => (
+            <li>
+              <a href={`/locations/${slugOf(l.id)}/`}>
+                <img src={`/flags/us-${l.data.abbr.toLowerCase()}.png`} alt="" width="20" height="13" />
+                {l.data.location}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .columns {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .head {
+    padding-top: 10px;
+    margin-bottom: 12px;
+  }
+  .pct {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+  .word {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .states {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .states a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px 5px 6px;
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    color: var(--fg);
+    text-decoration: none;
+    line-height: 1;
+  }
+  .states a:hover {
+    border-color: var(--fg);
+    color: var(--fg);
+  }
+  .states img {
+    width: 20px;
+    height: 13px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+  @media (min-width: 768px) {
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  @media (min-width: 1024px) {
+    .columns {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 28px;
+    }
+    .pct {
+      font-size: 34px;
+    }
+    .states a {
+      padding: 7px 11px 7px 8px;
+      font-size: 14px;
+    }
+  }
+</style>

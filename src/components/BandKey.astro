@@ -1,0 +1,39 @@
+---
+import { BAND_KEYS, band } from '../utils/band';
+const bands = BAND_KEYS.map((k) => band(Number(k)));
+---
+
+<ul class="key" aria-label="Map key">
+  {
+    bands.map((b) => (
+      <li>
+        <span class="sw" style={`background:${b.color}`} />
+        {b.label}
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .key {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .sw {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex: none;
+  }
+</style>
