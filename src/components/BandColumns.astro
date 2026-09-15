@@ -3,6 +3,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { BAND_KEYS, band } from '../utils/band';
 import { slugOf } from '../utils/states';
+import '../styles/state-flags.css';
 
 export interface Props {
   locations: CollectionEntry<'locations'>[];
@@ -21,7 +22,7 @@ const columns = BAND_KEYS.map((key) => ({
 <div class="columns">
   {
     columns.map((c) => (
-      <div class="band">
+      <div class="band" data-band={c.key}>
         <div class="head" style={`border-top:4px solid ${c.color}`}>
           <div class="pct">{c.label}</div>
           <div class="word">legal</div>
@@ -29,13 +30,10 @@ const columns = BAND_KEYS.map((key) => ({
         <ul class="states">
           {c.states.map((l) => (
             <li>
-              <a href={`/locations/${slugOf(l.id)}/`}>
-                <img
-                  src={`/flags/us-${l.data.abbr.toLowerCase()}.png`}
-                  alt=""
-                  width="20"
-                  height="13"
-                />
+              <a
+                href={`/locations/${slugOf(l.id)}/`}
+                data-abbr={l.data.abbr.toLowerCase()}
+              >
                 {l.data.location}
               </a>
             </li>
@@ -95,12 +93,19 @@ const columns = BAND_KEYS.map((key) => ({
     border-color: var(--fg);
     color: var(--fg);
   }
-  .states img {
+  .states a::before {
+    content: '';
     width: 20px;
     height: 13px;
+    flex: none;
     border-radius: 2px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .band[data-band='0'] a::before {
+    transform: rotate(180deg);
   }
   @media (min-width: 768px) {
     .columns {
