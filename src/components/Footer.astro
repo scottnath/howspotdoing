@@ -1,13 +1,31 @@
----
-import Nav from '@components/Nav.astro';
----
-<footer id="global-footer">
-  <Nav />
+<footer>
+  <nav aria-label="Site">
+    <a href="/">home</a>
+    <a href="/about/">about</a>
+    <a href="/locations/">locations</a>
+  </nav>
 </footer>
 
 <style>
-  #global-footer {
-    padding: 2rem 1rem;
-    text-align: center;
+  footer {
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 0 var(--page-pad);
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    font-size: 14px;
+  }
+  a {
+    color: var(--muted);
+    padding: 8px 0;
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--muted);
+    text-decoration: underline;
   }
 </style>

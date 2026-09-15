@@ -30,7 +30,6 @@
   "description": "",
   "dependencies": {
     "@astrojs/partytown": "^2.1.4",
-    "@colinaut/action-table": "^2.4.22",
     "@youdotcom-oss/sdk": "^0.10.21",
     "astro": "^5.16.8",
     "astro-seo": "^0.8.4",
@@ -38,13 +37,18 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
+    "@types/d3-geo": "^3.1.1",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
     "eslint": "^9.39.2",
     "eslint-plugin-astro": "^1.5.0",
     "globals": "^17.0.0",
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
     "puppeteer": "^24.35.0",
+    "topojson-client": "^3.1.0",
     "tsx": "^4.21.0",
-    "typescript-eslint": "^8.52.0"
+    "typescript-eslint": "^8.52.0",
+    "us-atlas": "^3.0.1"
   }
 }

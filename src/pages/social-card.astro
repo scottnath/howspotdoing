@@ -2,45 +2,49 @@
 import { getEntry } from 'astro:content';
 import SocialCardComponent from '@components/SocialCard.astro';
 
-// Server-render this page to read query params
-// This file is deleted before production builds
+// Server-render this page to read query params.
+// This file is removed before production builds (see the `build` script).
 export const prerender = false;
 
-// Get the location slug from query parameter
+// ?location=<slug> renders a state card; ?location=site renders the site-wide card
 const locationParam = Astro.url.searchParams.get('location');
 const slug = locationParam || 'california';
-const locationId = `hpd-${slug}`;
+const site = slug === 'site';
 
-// Get the location data
-const locationEntry = await getEntry('locations', locationId);
-
-if (!locationEntry) {
-  return new Response('Location not found', { status: 404 });
+let location = '';
+let legality = 100;
+if (!site) {
+  const locationEntry = await getEntry('locations', `hpd-${slug}`);
+  if (!locationEntry) {
+    return new Response('Location not found', { status: 404 });
+  }
+  location = locationEntry.data.location;
+  legality = locationEntry.data.legality;
 }
-
-const { answer, location, title, legality } = locationEntry.data;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1200, height=630" />
-    <title>Social Card - {location}</title>
+    <title>Social Card - {site ? 'site' : location}</title>
     <style>
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
-      html, body {
+      html,
+      body {
         width: 1200px;
         height: 630px;
         overflow: hidden;
+        background: #fbfaf6;
       }
     </style>
   </head>
   <body>
-    <SocialCardComponent answer={answer} location={location} title={title} legality={legality} />
+    <SocialCardComponent location={location} legality={legality} site={site} />
   </body>
 </html>

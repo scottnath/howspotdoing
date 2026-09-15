@@ -1,0 +1,50 @@
+---
+import { band, onBand } from '../utils/band';
+export interface Props {
+  score: number;
+  size: number;
+  class?: string;
+}
+const { score, size, class: className } = Astro.props;
+---
+
+<span
+  class:list={['badge', className]}
+  style={`--size:${size}px; --band:${band(score).color}; --on:${onBand(score)}`}
+  aria-label={`${score}% legal`}
+  role="img"
+>
+  <span class="pct">{score}%</span>
+  <span class="word">LEGAL</span>
+</span>
+
+<style>
+  .badge {
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background: var(--band);
+    color: var(--on);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    box-shadow:
+      0 0 0 calc(var(--size) * 0.03) var(--bg),
+      0 0 0 calc(var(--size) * 0.05) var(--band);
+  }
+  .pct {
+    font-size: calc(var(--size) * 0.35);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+  .word {
+    font-size: calc(var(--size) * 0.17);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+  }
+</style>

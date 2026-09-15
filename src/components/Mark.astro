@@ -1,0 +1,93 @@
+---
+import { markKind } from '../utils/marks';
+/**
+ * The ✓ / ✕ / 'YY circle. A value of YES is a green check, a date string
+ * (e.g. 2027-07-01) is a yellow 'YY, anything else is a red cross.
+ */
+export interface Props {
+  value: string | null | undefined;
+  size?: 18 | 24 | 26 | 40;
+  label: string;
+  /** Set when the label is redundant with adjacent text (mark becomes decorative). */
+  decorative?: boolean;
+  class?: string;
+}
+const {
+  value,
+  size = 24,
+  label,
+  decorative = false,
+  class: className,
+} = Astro.props;
+
+const kind = markKind(value);
+const yy = kind === 'date' ? `'${(value as string).slice(2, 4)}` : '';
+---
+
+<span
+  class:list={['mark', kind, className]}
+  style={`--mark-size:${size}px`}
+  title={label}
+  role={decorative ? undefined : 'img'}
+  aria-label={decorative ? undefined : label}
+  aria-hidden={decorative ? 'true' : undefined}
+>
+  {
+    kind === 'yes' && (
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M3 8.5l3 3 7-7" />
+      </svg>
+    )
+  }
+  {
+    kind === 'no' && (
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M4 4l8 8M12 4l-8 8" />
+      </svg>
+    )
+  }
+  {kind === 'date' && <b>{yy}</b>}
+</span>
+
+<style>
+  .mark {
+    width: var(--mark-size, 24px);
+    height: var(--mark-size, 24px);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    vertical-align: middle;
+  }
+  .mark svg {
+    width: 58%;
+    height: 58%;
+    fill: none;
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .yes {
+    background: var(--mark-yes);
+  }
+  .yes svg {
+    stroke: #000;
+  }
+  .no {
+    background: var(--mark-no);
+  }
+  .no svg {
+    stroke: #fff;
+  }
+  .date {
+    background: var(--mark-date);
+  }
+  .date b {
+    font-size: calc(var(--mark-size, 24px) * 0.375);
+    font-weight: 800;
+    color: #000;
+    line-height: 1;
+    font-family: var(--font-ui);
+  }
+</style>

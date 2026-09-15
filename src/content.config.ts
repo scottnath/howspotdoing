@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { STATES } from './utils/states';
 
 // Answer can be YES, NO, N/A, MULTIPLE, FUTURE_DATE, MIXED, MULTI-STATE,
 // a date string, empty string, null, or other text
@@ -110,11 +111,16 @@ const locationsCollection = defineCollection({
           month: 'long',
           day: 'numeric',
         });
+      const state = STATES[data.location];
       return {
         ...data,
         title: `How's Pot Doing in ${data.location}?`,
         legality,
         answer: `Cannabis is ${legality}% Legal in ${data.location}`,
+        abbr: state?.abbr ?? '',
+        fips: state?.fips ?? '',
+        lastResearchISO: data.lastResearch,
+        lastUpdateISO: data.lastUpdate,
         lastResearch: formatDate(data.lastResearch),
         lastUpdate: formatDate(data.lastUpdate),
       };

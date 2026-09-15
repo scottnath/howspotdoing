@@ -1,0 +1,201 @@
+/* State chip flags: /flags/us-{abbr}.png */
+
+.states a[data-abbr='ak']::before {
+  background-image: url('/flags/us-ak.png');
+}
+
+.states a[data-abbr='al']::before {
+  background-image: url('/flags/us-al.png');
+}
+
+.states a[data-abbr='ar']::before {
+  background-image: url('/flags/us-ar.png');
+}
+
+.states a[data-abbr='az']::before {
+  background-image: url('/flags/us-az.png');
+}
+
+.states a[data-abbr='ca']::before {
+  background-image: url('/flags/us-ca.png');
+}
+
+.states a[data-abbr='co']::before {
+  background-image: url('/flags/us-co.png');
+}
+
+.states a[data-abbr='ct']::before {
+  background-image: url('/flags/us-ct.png');
+}
+
+.states a[data-abbr='de']::before {
+  background-image: url('/flags/us-de.png');
+}
+
+.states a[data-abbr='fl']::before {
+  background-image: url('/flags/us-fl.png');
+}
+
+.states a[data-abbr='ga']::before {
+  background-image: url('/flags/us-ga.png');
+}
+
+.states a[data-abbr='hi']::before {
+  background-image: url('/flags/us-hi.png');
+}
+
+.states a[data-abbr='ia']::before {
+  background-image: url('/flags/us-ia.png');
+}
+
+.states a[data-abbr='id']::before {
+  background-image: url('/flags/us-id.png');
+}
+
+.states a[data-abbr='il']::before {
+  background-image: url('/flags/us-il.png');
+}
+
+.states a[data-abbr='in']::before {
+  background-image: url('/flags/us-in.png');
+}
+
+.states a[data-abbr='ks']::before {
+  background-image: url('/flags/us-ks.png');
+}
+
+.states a[data-abbr='ky']::before {
+  background-image: url('/flags/us-ky.png');
+}
+
+.states a[data-abbr='la']::before {
+  background-image: url('/flags/us-la.png');
+}
+
+.states a[data-abbr='ma']::before {
+  background-image: url('/flags/us-ma.png');
+}
+
+.states a[data-abbr='md']::before {
+  background-image: url('/flags/us-md.png');
+}
+
+.states a[data-abbr='me']::before {
+  background-image: url('/flags/us-me.png');
+}
+
+.states a[data-abbr='mi']::before {
+  background-image: url('/flags/us-mi.png');
+}
+
+.states a[data-abbr='mn']::before {
+  background-image: url('/flags/us-mn.png');
+}
+
+.states a[data-abbr='mo']::before {
+  background-image: url('/flags/us-mo.png');
+}
+
+.states a[data-abbr='ms']::before {
+  background-image: url('/flags/us-ms.png');
+}
+
+.states a[data-abbr='mt']::before {
+  background-image: url('/flags/us-mt.png');
+}
+
+.states a[data-abbr='nc']::before {
+  background-image: url('/flags/us-nc.png');
+}
+
+.states a[data-abbr='nd']::before {
+  background-image: url('/flags/us-nd.png');
+}
+
+.states a[data-abbr='ne']::before {
+  background-image: url('/flags/us-ne.png');
+}
+
+.states a[data-abbr='nh']::before {
+  background-image: url('/flags/us-nh.png');
+}
+
+.states a[data-abbr='nj']::before {
+  background-image: url('/flags/us-nj.png');
+}
+
+.states a[data-abbr='nm']::before {
+  background-image: url('/flags/us-nm.png');
+}
+
+.states a[data-abbr='nv']::before {
+  background-image: url('/flags/us-nv.png');
+}
+
+.states a[data-abbr='ny']::before {
+  background-image: url('/flags/us-ny.png');
+}
+
+.states a[data-abbr='oh']::before {
+  background-image: url('/flags/us-oh.png');
+}
+
+.states a[data-abbr='ok']::before {
+  background-image: url('/flags/us-ok.png');
+}
+
+.states a[data-abbr='or']::before {
+  background-image: url('/flags/us-or.png');
+}
+
+.states a[data-abbr='pa']::before {
+  background-image: url('/flags/us-pa.png');
+}
+
+.states a[data-abbr='ri']::before {
+  background-image: url('/flags/us-ri.png');
+}
+
+.states a[data-abbr='sc']::before {
+  background-image: url('/flags/us-sc.png');
+}
+
+.states a[data-abbr='sd']::before {
+  background-image: url('/flags/us-sd.png');
+}
+
+.states a[data-abbr='tn']::before {
+  background-image: url('/flags/us-tn.png');
+}
+
+.states a[data-abbr='tx']::before {
+  background-image: url('/flags/us-tx.png');
+}
+
+.states a[data-abbr='ut']::before {
+  background-image: url('/flags/us-ut.png');
+}
+
+.states a[data-abbr='va']::before {
+  background-image: url('/flags/us-va.png');
+}
+
+.states a[data-abbr='vt']::before {
+  background-image: url('/flags/us-vt.png');
+}
+
+.states a[data-abbr='wa']::before {
+  background-image: url('/flags/us-wa.png');
+}
+
+.states a[data-abbr='wi']::before {
+  background-image: url('/flags/us-wi.png');
+}
+
+.states a[data-abbr='wv']::before {
+  background-image: url('/flags/us-wv.png');
+}
+
+.states a[data-abbr='wy']::before {
+  background-image: url('/flags/us-wy.png');
+}

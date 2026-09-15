@@ -1,96 +1,180 @@
 ---
-export interface Props {
-  answer: string;
-  location: string;
-  title: string;
-  legality: number;
-}
+/**
+ * 1200×630 OG card: band-colored frame with a perforated cream panel, the
+ * Scripto title, a 290px Badge and "in {State}". Always light. Pass `site`
+ * for the site-wide card (leaf mark + "Is pot legal where you are?").
+ */
 import '@styles/global.css';
-const { answer: _answer, location, title, legality } = Astro.props;
-const question = title.split('?')[0];
 import SiteTitle from '@components/SiteTitle.astro';
-import Answer from '@components/Answer.astro';
+import Badge from '@components/Badge.astro';
+import { band } from '../utils/band';
+
+export interface Props {
+  location?: string;
+  legality?: number;
+  site?: boolean;
+}
+const { location = '', legality = 100, site = false } = Astro.props;
+
+const bandHex = band(legality).hex;
+const perimeter = 2 * (1166 + 596) - 8 * 40 + 2 * Math.PI * 40;
+const gap = (perimeter / Math.round(perimeter / 32)).toFixed(3);
+const stateSize = location.length > 10 ? 76 : 92;
 ---
 
-<div class="social-card">
-  <p class="question"><SiteTitle title={question} /></p>
-  <p class="answer serif-stroke"><Answer legality={legality} location={location} /></p>
-  <p class="sitename">HowsPotDoing.com</p>
+<div class="card" style={`--band:${bandHex}`}>
+  <svg
+    class="frame"
+    viewBox="0 0 1200 630"
+    width="1200"
+    height="630"
+    aria-hidden="true"
+  >
+    <rect x="34" y="34" width="1132" height="562" rx="28" fill="#fbfaf6"></rect>
+    <rect
+      x="17"
+      y="17"
+      width="1166"
+      height="596"
+      rx="40"
+      fill="none"
+      stroke="#fbfaf6"
+      stroke-width="12"
+      stroke-linecap="round"
+      stroke-dasharray={`0 ${gap}`}></rect>
+  </svg>
+  <SiteTitle size="og" />
+  {
+    site ? (
+      <div class="mid">
+        <svg
+          class="leaf"
+          viewBox="0 0 100 100"
+          width="260"
+          height="260"
+          aria-hidden="true"
+        >
+          <path
+            d="M35 24a15 15 0 1 1 30 0c0 9 -15 9 -15 20"
+            fill="none"
+            stroke="#000"
+            stroke-width="16"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M35 24a15 15 0 1 1 30 0c0 9 -15 9 -15 20"
+            fill="none"
+            stroke="#fee03c"
+            stroke-width="11"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <g transform="translate(50 87.5) scale(0.7) translate(-50 -62)">
+            <path
+              d="M50 62 Q57.0 39.5 50.0 12.0 Q43.0 39.5 50 62ZM50 62 Q46.0 40.7 28.4 21.4 Q34.5 46.8 50 62ZM50 62 Q65.5 46.8 71.6 21.4 Q54.0 40.7 50 62ZM50 62 Q39.1 47.7 18.9 40.2 Q32.8 56.7 50 62ZM50 62 Q67.2 56.7 81.1 40.2 Q60.9 47.7 50 62ZM50 62 Q38.8 55.5 23.4 57.3 Q37.3 64.3 50 62ZM50 62 Q62.7 64.3 76.6 57.3 Q61.2 55.5 50 62Z"
+              fill="#fee03c"
+              stroke="#000"
+              stroke-width="2.5"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M50 62v14"
+              stroke="#000"
+              stroke-width="3.5"
+              stroke-linecap="round"
+            />
+          </g>
+        </svg>
+        <p class="ask">Is pot legal where you are?</p>
+      </div>
+    ) : (
+      <div class="mid">
+        <Badge score={legality} size={290} />
+        <p class="state" style={`--state-size:${stateSize}px`}>
+          <span class="in">in</span>
+          <span class="name">{location}</span>
+        </p>
+      </div>
+    )
+  }
+  <p class="url">HowsPotDoing.com</p>
 </div>
 
-<style scoped>
-  :root {
-    --logo-title-size: 4rem;
-    --logo-size: 4rem;
-    --answer-size: 6rem;
-  }
-  .social-card {
+<style>
+  .card {
+    /* always light */
+    --bg: #fbfaf6;
+    --title-shadow: #000;
     width: 1200px;
     height: 630px;
-    background: linear-gradient(180deg, #f3f6f3 0%, #4cf14c 70%, #02c102 100%);
-    padding: 20px;
     box-sizing: border-box;
-    color: var(--the-yellow);
     position: relative;
-
-    .logo-title {
-      font-size: 4rem;
-      text-align: center;
-      display: block;
-    }
-  }
-
-  .site-name {
-    color: #006100;
-    font-size: 3rem;
-    font-weight: bold;
-    margin: .5em 0;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--band);
+    color: #111;
+    font-family: var(--font-ui);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 90px 56px;
     text-align: center;
   }
-
-  .answer {
-    margin: 0;
-    text-align: center;
-    text-wrap: balance;
-    line-height: 1.2;
-    /* Vertical centering */
+  .frame {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: calc(100% - 80px);
-    /* Dark outline for contrast + drop shadow for depth */
-    span {
-      display: inline-block;
-    }
+    inset: 0;
+    z-index: -1;
+    display: block;
   }
-  .sitename {
-    /*
-    font-size: 2.5em;
-    font-stretch: 100%;
-    font-weight: bold; */
-
-    /* --outline-stroke-color: var(--the-green);
-    margin: 0; */
-    text-align: center;
-    position: absolute;
-    top: auto;
-    bottom: 1em;
-    width: 100%;
-    text-align: center;
-    font-family: 'Scripto', cursive;
-    font-size: 2.5rem;
-    paint-order: stroke fill;
-    -webkit-text-stroke: 2px var(--the-yellow);
-    color: var(--the-green);
-    margin: 0;
-    letter-spacing: 0.1em;
-    /* span {
-      font-family: 'TikTok Sans', sans-serif;
-      display: inline;
-    } */
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
-
-
+  .card :global(.site-title) {
+    padding-right: 12px;
+  }
+  .mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .state {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    color: #111;
+    white-space: nowrap;
+  }
+  .in {
+    font-size: 36px;
+    font-weight: 600;
+    color: #555;
+  }
+  .name {
+    font-size: var(--state-size, 92px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .leaf {
+    display: block;
+    overflow: visible;
+    filter: drop-shadow(2px 2px 0 #000) drop-shadow(1px 1px 0 #000)
+      drop-shadow(1px 1px 0 #000) drop-shadow(1px 1px 0 #000)
+      drop-shadow(1px 1px 0 #000);
+  }
+  .ask {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #111;
+    white-space: nowrap;
+  }
+  .url {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: #555;
   }
 </style>

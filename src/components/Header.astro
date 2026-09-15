@@ -1,6 +1,48 @@
 ---
-import Nav from '@components/Nav.astro';
+import Nav, { type Current } from '@components/Nav.astro';
+import SiteTitle from '@components/SiteTitle.astro';
+export interface Props {
+  current?: Current;
+}
+const { current } = Astro.props;
 ---
-<header id="global-header">
-  <Nav />
+
+<header class="site-header">
+  <SiteTitle size="header" />
+  <Nav current={current} />
 </header>
+
+<style>
+  .site-header {
+    --title-size: 38px;
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 16px var(--page-pad) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-header :global(nav) {
+    margin: 10px 0 18px;
+  }
+  @media (min-width: 768px) {
+    .site-header {
+      --title-size: 40px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      margin-bottom: 22px;
+    }
+    .site-header :global(nav) {
+      margin: 0;
+    }
+  }
+  @media (min-width: 1024px) {
+    .site-header {
+      --title-size: 44px;
+      padding-top: 24px;
+      margin-bottom: 28px;
+    }
+  }
+</style>

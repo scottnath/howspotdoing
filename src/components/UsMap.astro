@@ -1,0 +1,442 @@
+---
+/**
+ * Interactive US map. Paths are generated at build time (us-atlas + d3-geo);
+ * the client gets inline SVG, one <a> per state in alphabetical order, and a
+ * small vanilla script for hover / focus / pop-up. Works without JS.
+ */
+import type { CollectionEntry } from 'astro:content';
+import Mark from '@components/Mark.astro';
+import { band } from '../utils/band';
+import { markText, shortDate } from '../utils/marks';
+import { slugOf } from '../utils/states';
+import { statePaths, MAP_W, MAP_H } from '../utils/map-paths';
+
+export interface Props {
+  locations: CollectionEntry<'locations'>[];
+}
+const { locations } = Astro.props;
+
+const paths = statePaths();
+const states = [...locations]
+  .sort((a, b) => a.data.location.localeCompare(b.data.location))
+  .map((entry) => {
+    const p = paths.get(entry.data.fips);
+    if (!p)
+      throw new Error(
+        `UsMap: no outline for ${entry.data.location} (fips ${entry.data.fips})`
+      );
+    const a = entry.data.answers;
+    return {
+      slug: slugOf(entry.id),
+      name: entry.data.location,
+      score: entry.data.legality,
+      fips: entry.data.fips,
+      checked: shortDate(entry.data.lastResearchISO),
+      marks: [
+        {
+          label: 'Legal',
+          value: a.RECREATIONAL,
+          aria: `Legal to have: ${markText(a.RECREATIONAL)}`,
+        },
+        {
+          label: 'Store',
+          value: a.RECREATIONAL_STORE,
+          aria: `Buy in store: ${markText(a.RECREATIONAL_STORE)}`,
+        },
+        {
+          label: 'Grow',
+          value: a.RECREATIONAL_GROW,
+          aria: `Grow at home: ${markText(a.RECREATIONAL_GROW)}`,
+        },
+        {
+          label: 'Legal',
+          value: a.MEDICAL,
+          aria: `Legal to have (medical): ${markText(a.MEDICAL)}`,
+        },
+        {
+          label: 'Store',
+          value: a.MEDICAL_STORE,
+          aria: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}`,
+        },
+        {
+          label: 'Grow',
+          value: a.MEDICAL_GROW,
+          aria: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}`,
+        },
+      ],
+      path: p,
+    };
+  });
+const label = `Map of the United States. ${states.length} states, each a link to its cannabis legality report. Colors show the legality score.`;
+---
+
+<div class="usmap">
+  <a class="skip" href="#after-map">Skip map · go to the state lists</a>
+  <svg viewBox={`0 0 ${MAP_W} ${MAP_H}`} role="group" aria-label={label}>
+    {
+      states.map((s) => (
+        <a
+          href={`/locations/${s.slug}/`}
+          aria-label={`${s.name}, ${s.score}% legal. Open report.`}
+          data-fips={s.fips}
+          data-score={s.score}
+          data-name={s.name}
+          data-cx={s.path.cx}
+          data-cy={s.path.cy}
+          data-bh={s.path.bh}
+        >
+          <path
+            id={`s-${s.fips}`}
+            class="shape"
+            d={s.path.d}
+            aria-hidden="true"
+            style={`fill:${band(s.score).color}`}
+          />
+        </a>
+      ))
+    }
+    {
+      /* hot-state overlay: a copy of the hovered/focused shape drawn last, so its ring is never clipped
+        by neighbors and the tab order (DOM order) never changes */
+    }
+    <g class="hot" aria-hidden="true" data-off>
+      <use class="edge"></use>
+      <use class="ring"></use>
+    </g>
+  </svg>
+  <p class="cap" aria-live="polite" aria-atomic="true">
+    <span class="hint">Tap a state for its report</span>
+  </p>
+  <div class="tip" role="tooltip" aria-hidden="true"></div>
+  {
+    /* Pop-up contents, pre-rendered per state so the map pop-up shares Mark.astro */
+    states.map((s) => (
+      <div class="tipdata" data-tip={s.fips} hidden aria-hidden="true">
+        <div class="h">
+          <span class="sw" style={`background:${band(s.score).color}`} />
+          {s.name}
+          <span class="pct">{s.score}% legal</span>
+        </div>
+        <div class="g">
+          <div>
+            <div class="k rec">Recreational</div>
+            {s.marks.slice(0, 3).map((m) => (
+              <div class="r">
+                <Mark value={m.value} size={18} label={m.aria} decorative />
+                {m.label}
+              </div>
+            ))}
+          </div>
+          <div>
+            <div class="k med">Medical</div>
+            {s.marks.slice(3).map((m) => (
+              <div class="r">
+                <Mark value={m.value} size={18} label={m.aria} decorative />
+                {m.label}
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="f">
+          <span>
+            Checked <b>{s.checked}</b>
+          </span>
+          <span>Click for report</span>
+        </div>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .usmap {
+    position: relative;
+  }
+  .skip {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    padding: 8px 12px;
+    background: #111;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    z-index: 3;
+  }
+  /* off-screen until focused (the -200% translate of the prototype relied on a clipping iframe) */
+  .skip:not(:focus) {
+    transform: translateY(-200%);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .skip:focus {
+    outline: 3px solid var(--yellow);
+    outline-offset: 2px;
+  }
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 975 / 610;
+    overflow: visible;
+  }
+  svg a {
+    outline: none;
+    stroke: var(--map-border);
+    stroke-width: 1.5;
+  }
+  path.shape {
+    cursor: pointer;
+    transition: filter 0.15s;
+  }
+  /* no-JS / fallback ring on the state itself */
+  a.is-hot .shape,
+  a:focus-visible .shape {
+    stroke: var(--map-ring);
+    stroke-width: 3.5;
+    filter: brightness(1.08);
+  }
+  /* JS overlay ring (drawn last) */
+  .hot {
+    pointer-events: none;
+  }
+  .hot[data-off] {
+    display: none;
+  }
+  .hot .ring {
+    stroke: var(--map-ring);
+    stroke-width: 3.5;
+    filter: brightness(1.08);
+  }
+  .hot .edge {
+    display: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    .hot .edge {
+      display: inline;
+      stroke: #000;
+      stroke-width: 7;
+    }
+  }
+  .cap {
+    min-height: 24px;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--fg);
+  }
+  .cap .hint {
+    font-weight: 400;
+    opacity: 0.75;
+  }
+  @media (hover: hover) {
+    .cap .hint {
+      display: none;
+    }
+  }
+
+  /* pop-up: information only, never interactive */
+  .tip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 230px;
+    padding: 10px 12px 9px;
+    box-sizing: border-box;
+    background: var(--bg);
+    color: var(--fg);
+    border: 2px solid var(--map-ring);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    transition: opacity 0.12s;
+    z-index: 2;
+    pointer-events: none;
+    user-select: none;
+  }
+  .tip.on {
+    opacity: 1;
+  }
+  @media (prefers-color-scheme: dark) {
+    .tip {
+      background: var(--card);
+    }
+  }
+  .tip :global(.h) {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .tip :global(.h .sw) {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex: none;
+  }
+  .tip :global(.h .pct) {
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  .tip :global(.g) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 12px;
+    margin-top: 9px;
+    padding-top: 8px;
+    border-top: 1px solid var(--line);
+  }
+  .tip :global(.k) {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+  }
+  .tip :global(.k.rec) {
+    border-bottom: 2px solid var(--rec-rule);
+  }
+  .tip :global(.k.med) {
+    border-bottom: 2px solid var(--fg);
+  }
+  .tip :global(.r) {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 3px 0;
+  }
+  .tip :global(.f) {
+    margin-top: 8px;
+    padding-top: 7px;
+    border-top: 1px solid var(--line);
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .tip :global(.f b) {
+    color: var(--fg);
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  const init = (root: HTMLElement) => {
+    const svg = root.querySelector('svg') as SVGSVGElement;
+    const cap = root.querySelector('.cap') as HTMLElement;
+    const tip = root.querySelector('.tip') as HTMLElement;
+    const touch = matchMedia('(hover: none)').matches;
+    const hint = touch
+      ? '<span class="hint">Tap a state for its report</span>'
+      : '';
+    const W = 975;
+
+    const restCap = () => {
+      cap.innerHTML = hint;
+    };
+    const showCap = (a: HTMLElement) => {
+      cap.innerHTML =
+        `<span class="visually-hidden">${a.dataset.name}, ${a.dataset.score}% legal.</span>` +
+        hint;
+    };
+
+    let shown = '';
+    const renderTip = (fips: string) => {
+      if (shown === fips) return;
+      const t = root.querySelector<HTMLElement>(`.tipdata[data-tip="${fips}"]`);
+      if (!t) return;
+      tip.replaceChildren(...Array.from(t.children, (c) => c.cloneNode(true)));
+      shown = fips;
+    };
+    /** x/y are viewport px; positions the pop-up inside the .usmap box. */
+    const placeTip = (x: number, y: number) => {
+      const box = root.getBoundingClientRect();
+      const tw = tip.offsetWidth;
+      const th = tip.offsetHeight;
+      const o = 14;
+      const rx = x - box.left;
+      const ry = y - box.top;
+      let left = rx + o;
+      let top = ry - th - o;
+      if (left + tw > box.width - 4) left = rx - tw - o;
+      if (left < 4)
+        left = Math.min(Math.max(4, rx - tw / 2), box.width - tw - 4);
+      if (top < 4) top = ry + o;
+      if (top + th > box.height - 4) top = Math.max(4, box.height - th - 4);
+      tip.style.transform = `translate(${Math.round(left)}px,${Math.round(top)}px)`;
+    };
+    const openTip = (a: HTMLElement, x: number, y: number) => {
+      renderTip(a.dataset.fips || '');
+      tip.classList.add('on');
+      placeTip(x, y);
+    };
+    const closeTip = () => tip.classList.remove('on');
+
+    /** Viewport px above the state's centroid. */
+    const anchor = (a: HTMLElement): [number, number] => {
+      const b = svg.getBoundingClientRect();
+      const k = b.width / W;
+      const cx = Number(a.dataset.cx);
+      const cy = Number(a.dataset.cy);
+      const bh = Number(a.dataset.bh);
+      return [b.left + cx * k, b.top + (cy - bh * 0.15) * k];
+    };
+
+    const overlay = svg.querySelector('.hot') as SVGGElement;
+    const uses = overlay.querySelectorAll('use');
+    /** Draw a copy of the state on top so the ring is never clipped by neighbors. */
+    const raise = (a: HTMLElement) => {
+      uses.forEach((u) => u.setAttribute('href', `#s-${a.dataset.fips}`));
+      overlay.removeAttribute('data-off');
+    };
+    const hot = (a: HTMLElement, x: number, y: number) => {
+      a.classList.add('is-hot');
+      raise(a);
+      showCap(a);
+      if (!touch) openTip(a, x, y);
+    };
+    const cold = (a: HTMLElement) => {
+      a.classList.remove('is-hot');
+      overlay.setAttribute('data-off', '');
+      restCap();
+      closeTip();
+    };
+
+    let raf = 0;
+    svg.querySelectorAll<HTMLElement>('a').forEach((a) => {
+      a.addEventListener('mouseenter', (e) => hot(a, e.clientX, e.clientY));
+      a.addEventListener('mousemove', (e) => {
+        if (!tip.classList.contains('on')) return;
+        cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(() => placeTip(e.clientX, e.clientY));
+      });
+      a.addEventListener('mouseleave', () => {
+        if (document.activeElement !== a) cold(a);
+      });
+      a.addEventListener('focus', () => {
+        const [x, y] = anchor(a);
+        hot(a, x, y);
+      });
+      a.addEventListener('blur', () => cold(a));
+    });
+  };
+
+  document.querySelectorAll<HTMLElement>('.usmap').forEach(init);
+</script>

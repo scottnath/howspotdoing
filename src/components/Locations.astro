@@ -1,181 +1,463 @@
 ---
+/** The state comparison list: one <a> row per state, six marks, search + sort. */
 import { getCollection } from 'astro:content';
-import '@colinaut/action-table/dist/action-table.css';
+import Mark from '@components/Mark.astro';
+import { band } from '../utils/band';
+import { markText } from '../utils/marks';
+import { slugOf } from '../utils/states';
 
-const locations = (await getCollection('locations')).sort((a, b) =>
-  a.data.location.localeCompare(b.data.location)
+const locations = (await getCollection('locations')).sort(
+  (a, b) =>
+    b.data.legality - a.data.legality ||
+    a.data.location.localeCompare(b.data.location)
 );
 
-/**
- * Convert answer to display class
- */
-const answerClass = (answer: string | null): string => {
-  switch (answer) {
-    case 'YES':
-      return 'yes';
-    case 'N/A':
-    case 'NO':
-    case null:
-    default:
-      return 'no';
-  }
-};
-
-/**
- * Get slug from entry id (remove hpd- prefix)
- */
-const getSlug = (id: string): string => id.replace(/^hpd-/, '');
+const cells = (a: (typeof locations)[number]['data']['answers']) => [
+  {
+    value: a.RECREATIONAL,
+    label: `Legal to have: ${markText(a.RECREATIONAL)}`,
+  },
+  {
+    value: a.RECREATIONAL_STORE,
+    label: `Buy in store: ${markText(a.RECREATIONAL_STORE)}`,
+  },
+  {
+    value: a.RECREATIONAL_GROW,
+    label: `Grow at home: ${markText(a.RECREATIONAL_GROW)}`,
+  },
+  {
+    value: a.MEDICAL,
+    label: `Legal to have (medical): ${markText(a.MEDICAL)}`,
+  },
+  {
+    value: a.MEDICAL_STORE,
+    label: `Buy in store (medical): ${markText(a.MEDICAL_STORE)}`,
+  },
+  {
+    value: a.MEDICAL_GROW,
+    label: `Grow at home (medical): ${markText(a.MEDICAL_GROW)}`,
+  },
+];
 ---
 
-<script
-  type="module"
-  defer
-  src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
+<div class="top">
+  <h1>Cannabis legality by state</h1>
+  <form class="tools" role="search" onsubmit="return false">
+    <input
+      type="search"
+      placeholder="Find a state"
+      aria-label="Find a state"
+      autocomplete="off"
+    />
+    <div class="seg" role="group" aria-label="Sort">
+      <button type="button" data-sort="score" aria-pressed="true">Score</button>
+      <button type="button" data-sort="name" aria-pressed="false">A–Z</button>
+    </div>
+  </form>
+</div>
 
-<action-table class="tbl" sort="legality" direction="descending" store>
-  <table>
-    <colgroup span="1"></colgroup>
-    <colgroup span="3" class="recreational-group"></colgroup>
-    <colgroup span="3" class="medical-group"></colgroup>
-    <colgroup span="2"></colgroup>
-    <thead>
-      <tr class="group-row">
-        <td></td>
-        <td colspan="3" class="group-label rec-label">Recreational</td>
-        <td colspan="3" class="group-label med-label">Medical</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <th>Location</th>
-        <th no-sort class="rec-col rec-first">Legal</th>
-        <th no-sort class="rec-col">Store</th>
-        <th no-sort class="rec-col rec-last">Grow</th>
-        <th no-sort class="med-col med-first">Legal</th>
-        <th no-sort class="med-col">Store</th>
-        <th no-sort class="med-col med-last">Grow</th>
-        <th>Legality</th>
-        <th no-sort>Report</th>
-      </tr>
-    </thead>
-    <tbody>
-      {
-        locations.map((location) => (
-          <tr>
-            <td>
-              <a href={`/locations/${getSlug(location.id)}/`}>
-                {location.data.location}
-              </a>
-            </td>
-            <td class={answerClass(location.data.answers.RECREATIONAL)}>
-              {location.data.answers.RECREATIONAL}
-            </td>
-            <td class={answerClass(location.data.answers.RECREATIONAL_STORE)}>
-              {location.data.answers.RECREATIONAL_STORE}
-            </td>
-            <td class={answerClass(location.data.answers.RECREATIONAL_GROW)}>
-              {location.data.answers.RECREATIONAL_GROW}
-            </td>
-            <td class={answerClass(location.data.answers.MEDICAL)}>
-              {location.data.answers.MEDICAL}
-            </td>
-            <td class={answerClass(location.data.answers.MEDICAL_STORE)}>
-              {location.data.answers.MEDICAL_STORE}
-            </td>
-            <td class={answerClass(location.data.answers.MEDICAL_GROW)}>
-              {location.data.answers.MEDICAL_GROW}
-            </td>
-            <td class="legality">{location.data.legality}</td>
-            <td class="report">
-              <a href={`/locations/${getSlug(location.id)}/`}>LEARN MORE</a>
-            </td>
-          </tr>
-        ))
-      }
-    </tbody>
-  </table>
-</action-table>
+<div class="grid">
+  <div class="groups">
+    <span></span>
+    <span class="grp rec">Recreational</span>
+    <span></span>
+    <span class="grp med">Medical</span>
+  </div>
+  <div class="cols">
+    <span class="state">State · legality</span>
+    <span class="col"><span>Legal</span></span>
+    <span class="col"><span>Store</span></span>
+    <span class="col"><span>Grow</span></span>
+    <span></span>
+    <span class="col"><span>Legal</span></span>
+    <span class="col"><span>Store</span></span>
+    <span class="col"><span>Grow</span></span>
+  </div>
+  <div class="rows">
+    {
+      locations.map((l) => (
+        <a
+          class="row"
+          href={`/locations/${slugOf(l.id)}/`}
+          data-name={l.data.location}
+          data-score={l.data.legality}
+          aria-label={`${l.data.location}, ${l.data.legality}% legal`}
+        >
+          <span class="who">
+            <span class="name">{l.data.location}</span>
+            <span class="score">
+              <span class="track">
+                <span
+                  class="fill"
+                  style={`width:${l.data.legality}%; background:${band(l.data.legality).color}`}
+                />
+              </span>
+              <span class="pct">{l.data.legality}%</span>
+            </span>
+          </span>
+          {cells(l.data.answers).map((c, i) => (
+            <>
+              {i === 3 && <span class="gap" />}
+              <Mark value={c.value} label={c.label} />
+            </>
+          ))}
+        </a>
+      ))
+    }
+  </div>
+  <p class="empty" hidden></p>
+</div>
+
+<p class="note">
+  Tap a state for the full report and .gov sources. <span class="dot"></span> = legal
+  from a future date
+</p>
 
 <style>
-  code {
-    font-size: 1em;
+  .top {
+    margin-bottom: 14px;
   }
-  .tbl {
+  h1 {
+    /* visually hidden on phone; shown beside the tools from 768 (per the approved mockup) */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .tools {
+    display: none;
+    gap: 8px;
+  }
+  :global(html.js) .tools {
     display: flex;
-    justify-content: center;
+  }
+  input {
+    height: 44px;
+    border: 2px solid var(--fg);
+    border-radius: 14px;
+    padding: 0 14px;
+    font: 400 16px var(--font-ui);
+    background: var(--bg);
+    color: var(--fg);
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  input:focus-visible {
+    outline: 3px solid var(--fg);
+    outline-offset: 3px;
+  }
+  .seg {
+    border: 2px solid var(--fg);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex: none;
+  }
+  .seg button {
+    height: 44px;
+    padding: 0 12px;
+    border: 0;
+    font: 600 14px var(--font-ui);
+    background: var(--bg);
+    color: var(--fg);
+    cursor: pointer;
+  }
+  .seg button + button {
+    border-left: 2px solid var(--fg);
+  }
+  .seg button[aria-pressed='true'] {
+    background: var(--fg);
+    color: var(--bg);
+  }
+  .seg button:focus-visible {
+    outline: 3px solid var(--fg);
+    outline-offset: -5px;
+    border-radius: 6px;
+  }
+  .seg button[aria-pressed='true']:focus-visible {
+    outline-color: var(--bg);
+  }
+
+  /* grid */
+  .grid {
+    --cols: minmax(0, 1fr) repeat(3, 26px) 10px repeat(3, 26px);
+  }
+  .groups,
+  .cols,
+  .row {
+    display: grid;
+    grid-template-columns: var(--cols);
+    gap: 0 4px;
     align-items: center;
   }
-  .group-row td {
-    border: none;
-    background: transparent;
-    padding: 0.25rem 0.5rem;
+  .groups {
+    grid-template-columns: minmax(0, 1fr) calc(26px * 3 + 8px) 10px calc(
+        26px * 3 + 8px
+      );
   }
-  .group-row td:empty {
-    padding: 0;
-  }
-  .group-label {
-    text-align: center;
-    font-weight: bold;
-    font-size: 0.9em;
+  .grp {
+    font-size: 10px;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    text-align: center;
+    padding-bottom: 3px;
   }
-  .rec-label {
-    background-color: #e6f3e6;
-    border-left: 3px solid #00bf00;
-    border-right: 3px solid #00bf00;
-    border-top: 3px solid #00bf00;
+  .grp.rec {
+    border-bottom: 2px solid var(--rec-rule);
   }
-  .med-label {
-    background-color: #e6e6f3;
-    border-left: 3px solid #6666ff;
-    border-right: 3px solid #6666ff;
-    border-top: 3px solid #6666ff;
+  .grp.med {
+    border-bottom: 2px solid var(--fg);
   }
-  .rec-col {
-    background-color: #e6f3e6;
+  .cols {
+    margin-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--fg);
+    align-items: end;
   }
-  .rec-first {
-    border-left: 3px solid #00bf00;
-    border-top: none;
+  .state {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    align-self: end;
   }
-  .rec-last {
-    border-right: 3px solid #00bf00;
-    border-top: none;
+  .col {
+    position: relative;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 600;
   }
-  .med-col {
-    background-color: #e6e6f3;
+  .col span {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: rotate(-58deg);
+    transform-origin: 0 100%;
+    white-space: nowrap;
   }
-  .med-first {
-    border-left: 3px solid #6666ff;
-    border-top: none;
+  @media (max-width: 767px) {
+    /* let the last rotated label run into the page gutter without causing horizontal scroll */
+    .cols {
+      padding-right: var(--page-pad);
+      margin-right: calc(-1 * var(--page-pad));
+    }
   }
-  .med-last {
-    border-right: 3px solid #6666ff;
-    border-top: none;
+
+  .row {
+    min-height: 44px;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--fg);
+    text-decoration: none;
+    box-sizing: border-box;
   }
-  .recreational-group {
-    background-color: #f5faf5;
+  .row:hover {
+    background: var(--card);
+    color: var(--fg);
   }
-  .medical-group {
-    background-color: #f5f5fa;
+  .row[hidden] {
+    display: none;
   }
-  .legality::after {
-    content: '%';
+  .row :global(.mark) {
+    justify-self: center;
   }
-  .yes {
-    background-color: #00bf00;
-    color: #000;
-    font-weight: bold;
+  .who {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
   }
-  .no {
-    background-color: #ff0000;
-    color: #fff;
-    font-weight: bold;
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
   }
-  .na {
-    background-color: #888;
-    color: #fff;
-    font-weight: bold;
+  .score {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 2px;
+    max-width: 170px;
+  }
+  .track {
+    flex: 1;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--line);
+    overflow: hidden;
+  }
+  .fill {
+    display: block;
+    height: 100%;
+    min-width: 6px;
+    border-radius: inherit;
+    box-shadow: var(--bar-inset);
+  }
+  .pct {
+    font-size: 13px;
+    font-weight: 800;
+    min-width: 36px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+  .empty {
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+    padding: 18px 0;
+  }
+  .note {
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 14px;
+  }
+  .dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--mark-date);
+    vertical-align: -2px;
+  }
+
+  @media (min-width: 768px) {
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip: auto;
+      white-space: normal;
+      font-size: 24px;
+    }
+    .tools {
+      flex: 1;
+      max-width: 420px;
+    }
+    .grid {
+      --cols: minmax(0, 1fr) repeat(3, 52px) 20px repeat(3, 52px);
+    }
+    .groups {
+      grid-template-columns: minmax(0, 1fr) calc(52px * 3 + 8px) 20px calc(
+          52px * 3 + 8px
+        );
+    }
+    .col {
+      height: auto;
+      font-size: 13px;
+      text-align: center;
+    }
+    .col span {
+      position: static;
+      transform: none;
+    }
+    .row {
+      min-height: 46px;
+    }
+    .row :global(.mark) {
+      --mark-size: 26px;
+    }
+    .name {
+      font-size: 16px;
+    }
+    .score {
+      max-width: 260px;
+    }
+    .track {
+      height: 8px;
+      border-radius: 4px;
+    }
+    .pct {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .grid {
+      --cols: minmax(0, 1fr) repeat(3, 64px) 24px repeat(3, 64px);
+    }
+    .groups {
+      grid-template-columns: minmax(0, 1fr) calc(64px * 3 + 8px) 24px calc(
+          64px * 3 + 8px
+        );
+    }
+    .row {
+      min-height: 48px;
+    }
   }
 </style>
+
+<script>
+  const KEY = 'hpd.locations.sort';
+  const tools = document.querySelector<HTMLFormElement>('.tools');
+  const rows = document.querySelector<HTMLElement>('.rows');
+  const empty = document.querySelector<HTMLElement>('.empty');
+  if (tools && rows && empty) {
+    const input = tools.querySelector('input') as HTMLInputElement;
+    const buttons = Array.from(
+      tools.querySelectorAll<HTMLButtonElement>('button[data-sort]')
+    );
+    const all = () =>
+      Array.from(rows.querySelectorAll<HTMLAnchorElement>('a.row'));
+
+    const sort = (by: string) => {
+      const sorted = all().sort((a, b) =>
+        by === 'name'
+          ? a.dataset.name!.localeCompare(b.dataset.name!)
+          : Number(b.dataset.score) - Number(a.dataset.score) ||
+            a.dataset.name!.localeCompare(b.dataset.name!)
+      );
+      sorted.forEach((r) => rows.appendChild(r));
+      buttons.forEach((b) =>
+        b.setAttribute('aria-pressed', String(b.dataset.sort === by))
+      );
+      try {
+        localStorage.setItem(KEY, by);
+      } catch {
+        /* storage unavailable */
+      }
+    };
+
+    const filter = () => {
+      const q = input.value.trim().toLowerCase();
+      let shown = 0;
+      all().forEach((r) => {
+        const hit = !q || r.dataset.name!.toLowerCase().includes(q);
+        r.hidden = !hit;
+        if (hit) shown++;
+      });
+      empty.hidden = shown > 0;
+      empty.textContent = shown
+        ? ''
+        : `No state matches "${input.value.trim()}"`;
+    };
+
+    buttons.forEach((b) =>
+      b.addEventListener('click', () => sort(b.dataset.sort!))
+    );
+    input.addEventListener('input', filter);
+
+    let saved: string | null = null;
+    try {
+      saved = localStorage.getItem(KEY);
+    } catch {
+      /* storage unavailable */
+    }
+    if (saved === 'name') sort('name');
+  }
+</script>

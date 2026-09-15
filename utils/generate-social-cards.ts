@@ -12,7 +12,7 @@ const OUTPUT_FOLDER = 'public/social-cards';
 // Use a unique port to avoid conflicts with existing dev servers
 const PORT = 4399;
 const BASE_URL = `http://localhost:${PORT}`;
-const SCREENSHOT_DELAY = 1000;
+const SCREENSHOT_DELAY = 250;
 const SERVER_READY_TIMEOUT = 30000;
 
 async function delay(ms: number): Promise<void> {
@@ -86,12 +86,13 @@ async function generateSocialCards(): Promise<void> {
   }
 
   // Get all location files
-  const locationFiles = readdirSync(contentPath).filter((file) =>
-    file.startsWith('hpd-') && file.endsWith('.json')
+  const locationFiles = readdirSync(contentPath).filter(
+    (file) => file.startsWith('hpd-') && file.endsWith('.json')
   );
 
-  const slugs = locationFiles.map(extractSlug);
-  console.log(`Found ${slugs.length} locations to process`);
+  // 'site' renders the site-wide card (public/social-cards/site.png)
+  const slugs = ['site', ...locationFiles.map(extractSlug)];
+  console.log(`Found ${slugs.length - 1} locations to process (+ site card)`);
 
   const browser = await puppeteer.launch({
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -114,6 +115,8 @@ async function generateSocialCards(): Promise<void> {
       });
 
       await page.goto(url, { waitUntil: 'networkidle0' });
+      // fonts (Scripto, Figtree) must be loaded before capture
+      await page.evaluate(() => document.fonts.ready);
       await delay(SCREENSHOT_DELAY);
 
       await page.screenshot({

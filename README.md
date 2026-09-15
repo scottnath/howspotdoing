@@ -86,7 +86,7 @@ Every state answers the same eight questions:
 | `MEDICAL_GROW`        | Is it legal for medical marijuana patients to grow cannabis?                                                        |
 
 Location pages render all eight. The comparison table on `/locations` shows the six
-that affect the score.
+that affect the level of legality you're dealing with as it equates to alcohol.
 
 Legality scoring:
 

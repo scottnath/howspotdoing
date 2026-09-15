@@ -4,6 +4,7 @@ import '@styles/global.css';
 import { SEO } from 'astro-seo';
 import Header from '@components/Header.astro';
 import Footer from '@components/Footer.astro';
+import type { Current } from '@components/Nav.astro';
 
 // Helper imports
 import { seoConfig } from '@util/seoConfig';
@@ -28,10 +29,14 @@ export interface Props {
   /** Whether or not to disable indexing */
   disableIndexing?: boolean;
 
-  bodyClass?: string;
+  /** Which nav item is current. */
+  current?: Current;
 
   /** Location slug for social card image (e.g., "california") */
   socialCardSlug?: string;
+
+  /** Alt text for the social card image. */
+  socialCardAlt?: string;
 }
 
 const {
@@ -40,14 +45,17 @@ const {
   description,
   image,
   disableIndexing = false,
-  bodyClass = '',
+  current,
   socialCardSlug,
+  socialCardAlt,
 } = Astro.props as Props;
 
 // Determine the OG image URL - use social card if slug provided, otherwise default
-const ogImageUrl = socialCardSlug
-  ? `/social-cards/${socialCardSlug}.png`
-  : seoConfig.image.url;
+const ogImageUrl =
+  seoConfig.baseURL +
+  (socialCardSlug
+    ? `/social-cards/${socialCardSlug}.png`
+    : seoConfig.image.url);
 ---
 
 <html lang="en">
@@ -55,7 +63,7 @@ const ogImageUrl = socialCardSlug
     <!-- SEO. -->
     <SEO
       title={title.replace('"', '')}
-      description={seoConfig.description || description}
+      description={description || seoConfig.description}
       noindex={disableIndexing}
       nofollow={disableIndexing}
       openGraph={{
@@ -65,17 +73,25 @@ const ogImageUrl = socialCardSlug
           image: ogImageUrl || image?.url,
         },
         image: {
-          width: socialCardSlug ? 1200 : seoConfig.image.width,
-          height: socialCardSlug ? 628 : seoConfig.image.height,
-          alt: socialCardSlug ? `${title} social card` : (seoConfig.image.alt || image?.alt),
+          width: seoConfig.image.width,
+          height: seoConfig.image.height,
+          alt: socialCardSlug
+            ? socialCardAlt || `${title} social card`
+            : seoConfig.image.alt || image?.alt,
         },
         optional: {
           siteName: seoConfig.siteName,
-          description: seoConfig.description || description,
+          description: description || seoConfig.description,
         },
       }}
       twitter={{
         card: seoConfig.twitter.card,
+        title: ogTitle || title,
+        description: description || seoConfig.description,
+        image: ogImageUrl || image?.url,
+        imageAlt: socialCardSlug
+          ? socialCardAlt || `${title} social card`
+          : seoConfig.image.alt,
       }}
     />
 
@@ -181,16 +197,14 @@ const ogImageUrl = socialCardSlug
       data-domain="howspotdoing.com"
       src="https://plausible.io/js/script.outbound-links.js"></script>
   </head>
-  <body class={bodyClass}>
-    <Header />
+  <body>
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
+    <Header current={current} />
     <main>
       <slot />
     </main>
     <Footer />
-
-    <script>
-      // This is a hack to get vite-plugin-pwa to generate a sw.js file.
-      // Do not remove this script tag.
-    </script>
   </body>
 </html>

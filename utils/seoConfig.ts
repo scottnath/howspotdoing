@@ -7,14 +7,14 @@ export const seoConfig = {
     "Official sources, clear score: How's Pot Doing rates cannabis legality by state (0-100) using .gov websites about recreation and medical cannabis access.", // Change this to be your website's description.
   type: 'website',
   image: {
-    url: '/hows-pot-doing.png', // Change this to your website's thumbnail.
-    alt: "How's Pot Doing logo", // Change this to your website's thumbnail description.
-    width: 500,
-    height: 500,
+    url: '/social-cards/site.png',
+    alt: "Is pot legal where you are? — How's Pot Doing",
+    width: 1200,
+    height: 630,
   },
   siteName: "How's Pot Doing?",
   siteNickname: "How's Pot Doing.com",
   twitter: {
-    card: 'Twitter is a hellhole.',
+    card: 'summary_large_image' as const,
   },
 };

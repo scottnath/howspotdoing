@@ -1,67 +1,95 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '@components/Layout.astro';
-import SiteTitle from '@components/SiteTitle.astro';
+import UsMap from '@components/UsMap.astro';
+import BandKey from '@components/BandKey.astro';
+import BandColumns from '@components/BandColumns.astro';
 
 const locations = (await getCollection('locations')).sort((a, b) =>
   a.data.location.localeCompare(b.data.location)
 );
-
-const getSlug = (id: string): string => id.replace(/^hpd-/, '');
-
-const legal100 = locations.filter((loc) => loc.data.legality === 100);
-const legal80 = locations.filter((loc) => loc.data.legality >= 80 && loc.data.legality < 100);
-const legal30 = locations.filter((loc) => loc.data.legality >= 30 && loc.data.legality < 80);
 ---
 
-<Layout title="How's Pot Doing in...">
-  <h1 itemprop="name"><SiteTitle title="How's Pot Doing" /></h1>
-  <p>Check cannabis legality by state using official government sources. We score recreational and medical access plus buying and home grow so you see what's allowed.</p>
-  <section>
-    <dl>
-      <dt>Cannabis is 100% legal in...</dt>
-      {legal100.map((loc) => (
-        <dd><a href={`/locations/${getSlug(loc.id)}/`}>{loc.data.location}</a></dd>
-      ))}
-    </dl>
-    <dl>
-      <dt>Cannabis is at least 80% legal in...</dt>
-      {legal80.map((loc) => (
-        <dd><a href={`/locations/${getSlug(loc.id)}/`}>{loc.data.location}</a></dd>
-      ))}
-    </dl>
-    <dl>
-      <dt>Cannabis is at least 30% legal in...</dt>
-      {legal30.map((loc) => (
-        <dd><a href={`/locations/${getSlug(loc.id)}/`}>{loc.data.location}</a></dd>
-      ))}
-    </dl>
+<Layout title="How's Pot Doing?" current="home">
+  <div class="hero">
+    <div class="intro">
+      <h1>Is pot legal where you are?</h1>
+      <p class="lede">
+        Check cannabis legality by state using official government sources. We
+        score recreational and medical access plus buying and home grow so you
+        see what's allowed.
+      </p>
+    </div>
+    <div class="map">
+      <UsMap locations={locations} />
+      <BandKey />
+    </div>
+  </div>
+  <section class="bands">
+    <h2 id="after-map" tabindex="-1">Cannabis is …</h2>
+    <BandColumns locations={locations} />
   </section>
 </Layout>
 
 <style>
-  section {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  h1 {
+    font-size: 26px;
+    margin: 0 0 10px;
   }
-  dl {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 0.5rem;
-    margin: 0;
-    text-align: left;
+  .lede {
+    margin: 0 0 16px;
+    color: var(--fg);
   }
-  dt {
-    grid-column: 1 / -1;
-    font-weight: bold;
-    font-size: 1.25rem;
+  .map :global(.key) {
+    margin: 6px 0 22px;
   }
-  dd {
-    margin: 0;
+  .bands {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 2px solid var(--fg);
   }
-  dd a {
-    display: block;
-    padding: 0.25rem 0 0;
+  .bands h2 {
+    font-size: 18px;
+    margin: 0 0 18px;
+  }
+  .bands h2:focus {
+    outline: none;
+  }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 40px;
+      align-items: start;
+    }
+    .intro {
+      order: 2;
+    }
+    .map {
+      order: 1;
+    }
+    h1 {
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+    .lede {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .map :global(.key) {
+      margin: 8px 0 0;
+    }
+    .bands {
+      margin-top: 36px;
+      padding-top: 36px;
+    }
+    .bands h2 {
+      font-size: 20px;
+    }
   }
 </style>

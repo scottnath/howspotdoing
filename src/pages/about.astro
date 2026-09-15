@@ -1,142 +1,158 @@
 ---
 import Layout from '@components/Layout.astro';
-import SiteTitle from '@components/SiteTitle.astro';
+import ScoreBar from '@components/ScoreBar.astro';
 ---
 
-<Layout title="About - How's Pot Doing?">
-  <h1 itemprop="name"><SiteTitle title="About How's Pot Doing?" /></h1>
+<Layout title="About — How's Pot Doing?" current="about">
   <article class="about">
+    <h1>About How's Pot Doing</h1>
     <h2>How the Legality of cannabis is calculated</h2>
 
-    <p>We confirm legality on government sites, specifically `.gov` sites. We find the most plain language quote to determine legality. Then we calculate the percentage of legal gray area you're risking in that location.</p>
-    <p>It's 80% legal for recreational, but only 30% when medical cannabis is the only option. Store purchase and home cultivation each add 10 points if
-    allowed.</p>
-
-    <div class="scoring">
-      <div class="score-item rec">
-        <span class="points">80%</span>
-        <span class="label">Recreational legal</span>
-      </div>
-      <div class="score-item bonus">
-        <span class="points">+10%</span>
-        <span class="label">Can buy in stores</span>
-      </div>
-      <div class="score-item bonus">
-        <span class="points">+10%</span>
-        <span class="label">Can grow at home</span>
-      </div>
-    </div>
-
-    <p class="divider">— or if recreational isn't legal —</p>
-
-    <div class="scoring med-only">
-      <div class="score-item med">
-        <span class="points">30%</span>
-        <span class="label">Medical only</span>
-      </div>
-      <div class="score-item bonus">
-        <span class="points">+10%</span>
-        <span class="label">Patients can buy</span>
-      </div>
-      <div class="score-item bonus">
-        <span class="points">+10%</span>
-        <span class="label">Patients can grow</span>
-      </div>
-    </div>
-
-    <p class="note">
-      <strong>100%</strong> = full recreational access<br />
-      <strong>50%</strong> = best medical-only<br />
-      <strong>0%</strong> = fully illegal
+    <p>
+      We confirm legality on government sites, specifically <code>.gov</code> sites.
+      We find the most plain language quote to determine legality. Then we calculate
+      the percentage of legal gray area you're risking in that location.
     </p>
+    <p>
+      It's 80% legal for recreational, but only 30% when medical cannabis is the
+      only option. Store purchase and home cultivation each add 10 points if
+      allowed.
+    </p>
+
+    <ScoreBar
+      label="80% for recreational legal, plus 10% for stores, plus 10% for home grow"
+      segments={[
+        { width: 80, color: '#2fae2f' },
+        { width: 10, color: '#1f9a1f' },
+        { width: 10, color: '#007a00' },
+      ]}
+      rows={[
+        { points: '80%', label: 'Recreational legal' },
+        { points: '+10%', label: 'Can buy in stores' },
+        { points: '+10%', label: 'Can grow at home' },
+      ]}
+    />
+
+    <p class="or">— or if recreational isn't legal —</p>
+
+    <ScoreBar
+      label="30% for medical only, plus 10% for patient stores, plus 10% for patient home grow"
+      segments={[
+        { width: 30, color: '#fee03c' },
+        { width: 10, color: '#f0d21e' },
+        { width: 10, color: '#e5c400' },
+      ]}
+      rows={[
+        { points: '30%', label: 'Medical only' },
+        { points: '+10%', label: 'Patients can buy' },
+        { points: '+10%', label: 'Patients can grow' },
+      ]}
+    />
+
+    <dl class="note">
+      <dt><i style="background:var(--band-100)"></i>100%</dt>
+      <dd>= full recreational access</dd>
+      <dt><i style="background:var(--band-50)"></i>50%</dt>
+      <dd>= best medical-only</dd>
+      <dt><i style="background:var(--band-0)"></i>0%</dt>
+      <dd>= fully illegal</dd>
+    </dl>
+
     <h2>State X allows low-THC products, why is it a NO?</h2>
-    <p>When states only allow low-THC cannabis, usually for medical use, they're still blocking it's true theraputic use. These laws are used to quell momentum, not to serve the public interest.</p>
+    <p>
+      When states only allow low-THC cannabis, usually for medical use, they're
+      still blocking it's true theraputic use. These laws are used to quell
+      momentum, not to serve the public interest.
+    </p>
   </article>
 </Layout>
 
 <style>
   .about {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 1.5rem 1rem;
-    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
   }
-
   h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-wrap-style: balance;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
   }
-
-  p {
-    margin: 0.75rem 0;
+  h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 10px;
   }
-
-  .scoring {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin: 1rem 0;
+  h2 + p + p {
+    margin-top: 10px;
   }
-
-  .score-item {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
+  h2:nth-of-type(2) {
+    margin-top: 36px;
   }
-
-  .points {
-    font-weight: bold;
-    font-size: 1.1rem;
-    min-width: 50px;
+  code {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: 0.9em;
+    padding: 1px 5px;
+    border-radius: 5px;
+    background: var(--card);
   }
-
-  .label {
-    text-align: left;
+  .or {
+    color: var(--muted);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 22px;
   }
-
-  .rec {
-    background: #d4edda;
-  }
-
-  .rec .points {
-    color: #00bf00;
-  }
-
-  .med {
-    background: #e6e6f3;
-  }
-
-  .med .points {
-    color: #6666ff;
-  }
-
-  .bonus {
-    background: #f5f5f5;
-    margin-left: 1rem;
-  }
-
-  .divider {
-    color: #888;
-    font-size: 0.9rem;
-    margin: 1.25rem 0;
-  }
-
   .note {
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 8px 14px;
+    align-items: center;
+    font-size: 15px;
+    color: var(--muted);
+    margin: 24px 0 0;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: var(--card);
   }
-
-  .back-link {
-    margin-top: 1.5rem;
+  .note dt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    color: var(--fg);
   }
-
-  .back-link a {
-    color: #00bf00;
-    text-decoration: none;
-    font-weight: bold;
+  .note dt i {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex: none;
+  }
+  .note dt:nth-of-type(2) i {
+    box-shadow: var(--bar-inset);
+  }
+  .note dd {
+    margin: 0;
+  }
+  @media (min-width: 1024px) {
+    .about {
+      max-width: 640px;
+      margin: 0 auto;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+    h1 {
+      font-size: 44px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    .or {
+      font-size: 15px;
+    }
+    .note {
+      font-size: 16px;
+    }
   }
 </style>

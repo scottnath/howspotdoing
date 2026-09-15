@@ -1,35 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
-
-:root {
-  --the-yellow: #fee03c;
-  --the-green: #004d00;
-  --the-red: #d00000;
-  --logo-size: 2.5rem;
-  --logo-title-size: 2.3rem;
-  --outline-stroke-size: .1em;
-  --outline-stroke-color: var(--the-yellow);
-  --large-stroke-size: 1px;
-  --medium-stroke-size: 2px;
-  --medium-stroke-color: var(--the-green);
-  --underline-color: var(--the-green);
-  font-size: 16px;
-  --text-size: 1rem;
-  --answer-size: 1.5rem;
-}
-@media (min-width: 600px) {
-  :root {
-    --logo-title-size: 2.7rem;
-    --logo-size: 2.9rem;
-    --answer-size: 2rem;
-  }
-}
-@media (min-width: 900px) {
-  :root {
-    --logo-title-size: 3rem;
-    --logo-size: 3rem;
-    --answer-size: 2.4rem;
-  }
-}
 @font-face {
   font-family: 'Scripto';
   src: url('/Scripto-2OR2v.ttf') format('truetype');
@@ -37,137 +5,128 @@
   font-style: normal;
   font-display: swap;
 }
-* {
-  font-family: "TikTok Sans", sans-serif;
-  font-variation-settings: "slnt" 0;
-  font-optical-sizing: auto;
+/* Figtree (variable, latin subset) self-hosted; covers 400/600/800 */
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/figtree-latin.woff2') format('woff2');
+  font-weight: 300 900;
   font-style: normal;
-  font-size: var(--text-size);
+  font-display: swap;
 }
 
-.underline {
-  position: relative;
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -1.2rem;
-    left: -7px;
-    height: 10px;
-    width: 100%;
-    z-index: -1;
-    border: solid 8px var(--underline-color);
-    border-color: var(--underline-color) transparent transparent transparent;
-    border-radius: 100%;
-  }
-}
-.outline-stroke {
-  color: var(--outline-stroke-color);
-  paint-order: stroke fill;
-  -webkit-text-stroke: 2px #000;
-}
-.logo-stroke {
-  font-family: 'Scripto', cursive;
-  color: var(--the-yellow);
-  /* Outline stroke + 3D extrusion effect */
-  text-shadow:
-    /* Black outline/stroke */
-    calc(var(--large-stroke-size) * -1) calc(var(--large-stroke-size) * -1) 0 #000,
-    var(--large-stroke-size) calc(var(--large-stroke-size) * -1) 0 #000,
-    calc(var(--large-stroke-size) * -1) var(--large-stroke-size) 0 #000,
-    var(--large-stroke-size) var(--large-stroke-size) 0 #000,
-    0 calc(var(--large-stroke-size) * -1) 0 #000,
-    0 var(--large-stroke-size) 0 #000,
-    calc(var(--large-stroke-size) * -1) 0 0 #000,
-    var(--large-stroke-size) 0 0 #000,
-    /* 3D extrusion - stacked shadows going down-right */
-    calc(var(--large-stroke-size) + 1px) calc(var(--large-stroke-size) + 1px) 0 #2a1a00,
-    calc(var(--large-stroke-size) + 2px) calc(var(--large-stroke-size) + 2px) 0 #1a0a00,
-    calc(var(--large-stroke-size) + 3px) calc(var(--large-stroke-size) + 3px) 0 #0a0000,
-    calc(var(--large-stroke-size) + 4px) calc(var(--large-stroke-size) + 4px) 0 #000,
-    calc(var(--large-stroke-size) + 5px) calc(var(--large-stroke-size) + 5px) 0 #000,
-    calc(var(--large-stroke-size) + 6px) calc(var(--large-stroke-size) + 6px) 0 #000;
-  paint-order: stroke fill;
-  -webkit-text-stroke: 2px #000;
+:root {
+  color-scheme: light dark;
+
+  /* surfaces + ink */
+  --bg: #ffffff;
+  --fg: #111111;
+  --muted: #555555;
+  --line: #e6e6e1; /* row dividers, bar tracks */
+  --card: #f4f4ef; /* recessed panels (marks summary, about note) */
+  --link: #004d00;
+  --link-hover: #007a00;
+  --title-shadow: #000000; /* hard shadow behind the Scripto title */
+  --bar-inset: inset 0 0 0 1.5px rgba(0, 0, 0, 0.45); /* keeps yellow bars visible on white */
+  --map-border: #ffffff;
+  --map-ring: #111111;
+
+  /* brand */
+  --yellow: #fee03c;
+  --green-dark: #004d00;
+
+  /* score bands — NEVER change with scheme */
+  --band-100: #007a00;
+  --band-80: #2fae2f;
+  --band-50: #e5c400;
+  --band-30: #fee03c;
+  --band-0: #d00000;
+
+  /* marks */
+  --mark-yes: #00bf00; /* ✓ ink #000 */
+  --mark-no: #d00000; /* ✕ ink #fff */
+  --mark-date: #fee03c; /* '27 ink #000 */
+  --rec-rule: #00bf00; /* underline under "Recreational" headers */
+
+  /* type */
+  --font-ui: 'Figtree', system-ui, sans-serif;
+  --font-title: 'Scripto', cursive;
+
+  /* layout */
+  --page-max: 1040px;
+  --page-pad: 16px; /* 32px from 768 */
 }
 
-.serif-stroke {
-  text-shadow:
-    /* Dark green outline/stroke */
-    calc(var(--medium-stroke-size) * -1) calc(var(--medium-stroke-size) * -1) 0 var(--medium-stroke-color),
-    var(--medium-stroke-size) calc(var(--medium-stroke-size) * -1) 0 var(--medium-stroke-color),
-    calc(var(--medium-stroke-size) * -1) var(--medium-stroke-size) 0 var(--medium-stroke-color),
-    var(--medium-stroke-size) var(--medium-stroke-size) 0 var(--medium-stroke-color),
-    0 calc(var(--medium-stroke-size) * -1) 0 var(--medium-stroke-color),
-    0 var(--medium-stroke-size) 0 var(--medium-stroke-color),
-    calc(var(--medium-stroke-size) * -1) 0 0 var(--medium-stroke-color),
-    var(--medium-stroke-size) 0 0 var(--medium-stroke-color),
-    /* Soft drop shadow for depth */
-    calc(var(--medium-stroke-size) * 2) calc(var(--medium-stroke-size) * 2) calc(var(--medium-stroke-size) * 4) rgba(0, 0, 0, 0.5),
-    calc(var(--medium-stroke-size) * 3) calc(var(--medium-stroke-size) * 3) calc(var(--medium-stroke-size) * 8) rgba(0, 0, 0, 0.3);
-}
-
-
-#global-header {
-  text-align: center;
-
-  a {
-    text-decoration: none;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131513;
+    --fg: #f2f2ec;
+    --muted: #a3aaa3;
+    --line: #2a2e2a;
+    --card: #1c1f1c;
+    --link: #7fdc7f;
+    --link-hover: #a8eca8;
+    --title-shadow: #004d00;
+    --bar-inset: none;
+    --map-border: #000000;
+    --map-ring: #ffffff;
   }
 }
 
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font: 400 16px/1.45 var(--font-ui);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+a {
+  color: var(--link);
+}
+a:hover {
+  color: var(--link-hover);
+}
+a:focus-visible {
+  outline: 3px solid var(--fg);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  font-weight: 800;
+}
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
 main {
-  text-align: center;
+  max-width: var(--page-max);
   margin: 0 auto;
+  padding: 0 var(--page-pad) 40px;
 }
-
-
-.location-page {
-  #global-header-title {
-    display: none;
-  }
-}
-
-
 @media (min-width: 768px) {
-  main {
-    max-width: 100%;
+  :root {
+    --page-pad: 32px;
   }
 }
-@media (min-width: 900px) {
-  main {
-    max-width: 95%;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
   }
 }
-@media (min-width: 1200px) {
-  main {
-    max-width: 85%;
-  }
-}
-
-
-.emoji-background-text {
-  display:block;
-  margin:auto;
-  font-size:7vw;
-  line-height:1;
-  font-family:monospace;
-  font-weight:bold;
-
-  background-image: url("data:image/svg+xml,<svg width='150px' height='150px' xmlns='http://www.w3.org/2000/svg'><text x='0' y='130px' font-size='130px' clip-path='url(%23emojiClipPath)'>👻</text></svg>");
-
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position-x: 20%;
-  /* -webkit-background-clip: text;
-  background-clip: text;
-  color:rgb(0,0,0,0.3); */
-  /* animation: bg 6s infinite alternate; */
-}
-
-@keyframes bg{
-  0%{background-position-x:-20%;}
-  100%{background-position-x:115%;}
-}
-
-
-
