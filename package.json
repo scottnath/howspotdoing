@@ -29,7 +29,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@astrojs/partytown": "^2.1.4",
     "@youdotcom-oss/sdk": "^0.10.21",
     "astro": "^5.16.8",
     "astro-seo": "^0.8.4",
